@@ -1,0 +1,16 @@
+ideas = {
+
+	country = {
+        ### 初始民族精神 ###
+        #伦敦股殇余瘟
+        CHI_Aftermath_of_the_stock_market_crash_1 = {
+			on_add = { log = "[GetLogRoot]: add idea CHI_Aftermath_of_the_stock_market_crash_1" }
+			picture = 1
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.65
+                production_speed_buildings_factor = -0.25
+			}
+		}
+    }
+}
