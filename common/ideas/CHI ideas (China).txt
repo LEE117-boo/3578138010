@@ -5,7 +5,7 @@ ideas = {
         #伦敦股殇余瘟
         CHI_Aftermath_of_the_stock_market_crash_1 = {
 			on_add = { log = "[GetLogRoot]: add idea CHI_Aftermath_of_the_stock_market_crash_1" }
-			picture = 1
+			picture = stock_market_crash
 			allowed = { always = no }
 			modifier = {
 				consumer_goods_factor = 0.65
