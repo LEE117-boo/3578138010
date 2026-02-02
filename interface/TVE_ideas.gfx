@@ -31,4 +31,19 @@ spriteTypes = {
 		name = "GFX_idea_slow_school"
 		texturefile = "gfx/interface/ideas/CHI/slow_school.png"
 	}
+	#袁帅武威扬望
+	spriteType = {
+		name = "GFX_idea_Yuan_pride"
+		texturefile = "gfx/interface/ideas/CHI/Yuan_pride.png"
+	}
+	#刀枪鸣北洋军
+	spriteType = {
+		name = "GFX_idea_Beiyang_army"
+		texturefile = "gfx/interface/ideas/CHI/Beiyang_army.png"
+	}
+	#佃农家经济依
+	spriteType = {
+		name = "GFX_idea_farmer_eco"
+		texturefile = "gfx/interface/ideas/CHI/farmer_eco.png"
+	}
 }
