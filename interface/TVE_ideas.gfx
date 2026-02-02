@@ -16,4 +16,9 @@ spriteTypes = {
 		name = "GFX_idea_Year_of_Career_Success"
 		texturefile = "gfx/interface/ideas/CHI/Year_of_Career_Success.png"
 	}
+	#超级大总统制
+	spriteType = {
+		name = "GFX_idea_super_president"
+		texturefile = "gfx/interface/ideas/CHI/super_president.png"
+	}
 }
