@@ -191,6 +191,7 @@ if = {
 add_ideas = {
 	### 初始民族精神 ###
 	CHI_Aftermath_of_the_stock_market_crash_1 #伦敦股殇余瘟
+	CHI_Difficult_Industrialization_1 #工业化堪为艰
 }
 
 save_global_event_target_as = WTT_current_china_leader
