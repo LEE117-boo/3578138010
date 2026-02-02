@@ -21,4 +21,14 @@ spriteTypes = {
 		name = "GFX_idea_super_president"
 		texturefile = "gfx/interface/ideas/CHI/super_president.png"
 	}
+	#民族主义崛起
+	spriteType = {
+		name = "GFX_idea_Rise_of_nationalism"
+		texturefile = "gfx/interface/ideas/CHI/Rise_of_nationalism.png"
+	}
+	#府学啄玉徐缓
+	spriteType = {
+		name = "GFX_idea_slow_school"
+		texturefile = "gfx/interface/ideas/CHI/slow_school.png"
+	}
 }

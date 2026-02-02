@@ -194,6 +194,8 @@ add_ideas = {
 	CHI_Difficult_Industrialization_1 #工业化堪为艰
 	CHI_Year_of_Career_Success #正值事业之年
 	CHI_super_president #超级大总统制
+	CHI_Rise_of_nationalism #民族主义崛起
+	CHI_slow_school #府学啄玉徐缓
 }
 
 save_global_event_target_as = WTT_current_china_leader
