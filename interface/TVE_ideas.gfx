@@ -1,10 +1,19 @@
 spriteTypes = {
 	#中国民族精神
-	
+
 	#伦敦股殇余瘟
 	spriteType = {
 		name = "GFX_idea_stock_market_crash"
 		texturefile = "gfx/interface/ideas/CHI/stock_market_crash.png"
 	}
-	
+	#工业化堪为艰
+	spriteType = {
+		name = "GFX_idea_Difficult_Industrialization"
+		texturefile = "gfx/interface/ideas/CHI/Difficult_Industrialization.png"
+	}
+	#正值事业之年
+	spriteType = {
+		name = "GFX_idea_Year_of_Career_Success"
+		texturefile = "gfx/interface/ideas/CHI/Year_of_Career_Success.png"
+	}
 }

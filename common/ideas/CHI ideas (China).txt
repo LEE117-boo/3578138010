@@ -19,7 +19,7 @@ ideas = {
         #工业化堪为艰
         CHI_Difficult_Industrialization_1 = {
             on_add = { log = "[GetLogRoot]: add idea CHI_Difficult_Industrialization_1" }
-			picture = stock_market_crash
+			picture = Difficult_Industrialization
 			allowed = { always = no }
 			modifier = {
 				line_change_production_efficiency_factor = -0.2
@@ -32,7 +32,7 @@ ideas = {
 		        production_speed_arms_factory_factor = -0.2
                 production_speed_infrastructure_factor = -0.15
                 production_speed_dockyard_factor = -0.2
-                
+                #设施建设速度-0.5
 			} 
             equipment_bonus = {
                 artillery_equipment = {
@@ -55,12 +55,33 @@ ideas = {
                     build_cost_ic = 0.5
                     instant = yes
                 }
-
+                ship_hull_carrier = {
+                    build_cost_ic = 0.2
+                    instant = yes
+                }
+                ship_hull_cruiser = {
+                    build_cost_ic = 0.2
+                    instant = yes
+                }
                 ship_hull_heavy = {
                     build_cost_ic = 0.2
                     instant = yes
                 }
             }
         }
+        #正值事业之年
+        CHI_Year_of_Career_Success = {
+			on_add = { log = "[GetLogRoot]: add idea CHI_Year_of_Career_Success" }
+			picture = Year_of_Career_Success
+			allowed = { always = no }
+			modifier = {
+				political_power_factor = 0.1
+                political_power_gain = 0.2
+                stability_factor = 0.05
+                war_support_factor = 0.05
+                Authoritarianism_drift = 0.02
+                compliance_gain = 0.01
+			}
+		}
     }
 }
