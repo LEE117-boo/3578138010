@@ -197,6 +197,20 @@ save_global_event_target_as = WTT_current_china_leader
 
 set_convoys = 40
 
+set_politics = {
+	ruling_party = Authoritarianism
+	last_election = "1932.9.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	Authoritarianism = 51
+	progressivism = 2
+	liberalism = 3
+	Conservatism = 44
+}
+
 add_opinion_modifier = { target = PRC modifier = hostile_status }
 
 ### VARIANTS ###
