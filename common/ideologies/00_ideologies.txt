@@ -437,6 +437,9 @@ ideologies = {
 			Theocracy = {
 				can_be_randomly_selected = no
 			}
+			Yuanism = {
+				can_be_randomly_selected = no
+			}
 
 		}
 
