@@ -13,12 +13,15 @@ state = {
 
 	history = {
 
-		owner = USA
+		owner = NEV
+		add_core_of = NEV
+		add_core_of = CSA
 		add_core_of = USA
-
 		buildings = {
 			infrastructure = 2
-
+			victory_points = {
+				4799 5 # Las Vegas
+			}
 			# Hoover Dam
 			4799 = { dam_mountain = 1 }
 
@@ -27,7 +30,7 @@ state = {
 	}
 
 	provinces = {
-		1862 4521 4607 4736 4816 7756 7827 7879 10422 10591 12134 12399 12425 
+		1862 4521 4607 4736 4816 7756 7827 7879 10422 10591 12134 12399 12425 4799
 	}
 
 	local_supplies = 0.0 
