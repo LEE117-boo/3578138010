@@ -662,7 +662,6 @@ RUS_script = {
 				}
 				set_demilitarized_zone = yes
 				CHI = {
-					leave_faction = Asia_group
 					remove_ideas = asia_united_supporter
 					remove_ideas = Establishment_politics
 					remove_ideas = great_economy_low_3
@@ -708,7 +707,6 @@ RUS_script = {
 			JAP = {
 				end_puppet = VLA
 				end_puppet = FER
-				leave_faction = Asia_group
 				set_country_flag = Second_japan_russia_war_Start_japan
 			}
 			REF = {
