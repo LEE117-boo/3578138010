@@ -1,5 +1,5 @@
-capital = 1066
-load_oob = ENT_1936
+load_focus_tree = generic_focus
+
 set_research_slots = 3
 
 # Starting tech
@@ -7,8 +7,6 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
-#领导人
-recruit_character = ENT_Ungern_Sternberg
 
 if = {
 	limit = {
@@ -27,6 +25,7 @@ if = {
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SOV_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			aa_lmg = 1
@@ -43,6 +42,7 @@ if = {
 			bba_early_transport_plane = 1
 		}
 	else = {
+		set_air_oob = "SOV_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			fighter1 = 1
@@ -148,6 +148,11 @@ set_politics = {
 set_popularities = {
 	tttt = 100
 }
+create_country_leader = {
+	name = ENQIN
+	picture = GFX_MON_ENQIN
+	ideology = chai_kai_shek
+}
 
-
+load_oob = ENT_1936
 
