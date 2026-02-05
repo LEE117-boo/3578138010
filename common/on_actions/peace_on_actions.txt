@@ -358,8 +358,21 @@ on_actions = {
 					971 = {
 						add_core_of = BUL
 					}
-					GAL = {
-						transfer_state = 80
+					if = {
+						limit = {
+							country_exists = GAL
+						}
+						GAL = {
+							transfer_state = 80
+						}
+					}
+					else_if = {
+						limit = {
+							NOT = { country_exists = GAL }
+						}
+						AUS = {
+							transfer_state = 80
+						}
 					}
 					SOV = {
 						transfer_state = 766

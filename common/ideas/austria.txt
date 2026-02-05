@@ -36,6 +36,139 @@ ideas = {
         	drift_defence_factor = 0.25
 		}	
 	}
+	Habsburg_ARMY = {
+		name = Habsburg_ARMY
+		allowed = {
+			always = no
+			tag = AUS
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		picture = aus_Habsburg_glory
+		modifier = {
+			army_speed_factor = -0.1
+			army_org = -0.3
+			supply_consumption_factor = 0.25
+			defence = -0.4
+			army_org_regain = -0.15
+			command_power_gain = -0.2
+		}	
+	}
+	Nationalist_forces = {
+		name = Nationalist_forces
+		allowed = {
+			always = no
+			tag = AUS
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		picture = aus_Habsburg_glory
+		modifier = {
+			stability_factor = -0.1
+			conscription = -0.2
+		}	
+	}
+	ethnic_unrest = {
+		name = ethnic_unrest
+		allowed = {
+			always = no
+			tag = AUS
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		picture = aus_Habsburg_glory
+		modifier = {
+			stability_factor = -0.1
+			conscription = -0.1
+		}	
+	}
+	Combat_separatism = {
+		name = Combat_separatism
+		allowed = {
+			always = no
+			tag = AUS
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		picture = aus_Habsburg_glory
+		modifier = {
+			stability_factor = 0.1
+			conscription = -0.1
+		}	
+	}
+	Failed_federalisation = {
+		name = Failed_federalisation
+		allowed = {
+			always = no
+			tag = AUS
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		picture = aus_Habsburg_glory
+		modifier = {
+			recruitable_population = -0.1
+			political_power_gain = -0.3
+			stability_factor = -0.2
+			war_support_factor = -0.1
+		}	
+	}
+	Federal_Constitution = {
+		name = Federal_Constitution
+		allowed = {
+			always = no
+			tag = AUS
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		picture = aus_Habsburg_glory
+		modifier = {
+			recruitable_population = -0.1
+			political_power_gain = -0.2
+			war_support_factor = -0.1
+		}	
+	}
+	National_Unity = {
+		name = National_Unity
+		allowed = {
+			always = no
+			tag = AUS
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		picture = aus_Habsburg_glory
+		modifier = {
+			recruitable_population = -0.1
+			political_power_gain = 0.3
+		}	
+	}
 	Habsburg_glory_two = {
 		name = Habsburg_glory
 		allowed = {
@@ -77,12 +210,10 @@ ideas = {
 		removal_cost = -1
 		picture = generic_disjointed_gov
 		modifier = {
-			stability_factor = -0.25
-			war_support_factor = -0.25
-			political_power_cost = 0.75
-			trade_opinion_factor = -0.50
-			army_speed_factor = -0.50
-			experience_gain_factor = -0.45
+			stability_factor = -0.15
+			war_support_factor = -0.1
+			political_power_cost = 0.3
+			experience_gain_factor = -0.15
 			encryption = -15
 		}	
 	}
