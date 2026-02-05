@@ -1,0 +1,52 @@
+add_namespace = AUS_TVE
+country_event = {
+	id = AUS_TVE.1
+	title = AUS_TV.1.t
+	desc = AUS_TVE.1.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = AUS_TVE.1.a
+		
+		#country_event = {
+			#id = AUS_TVE.2
+			#hours = 24
+		#}
+	}
+}
+country_event = {
+	id = AUS_TVE.2
+	title = AUS_TV.2.t
+	desc = AUS_TVE.2.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = AUS_TVE.2.a
+		
+		#country_event = {
+			#id = AUS_TVE.2
+			#hours = 24
+		#}
+	}
+}
+country_event = {
+	id = AUS_TVE.3
+	title = AUS_TV.3.t
+	desc = AUS_TVE.3.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = AUS_TVE.3.a
+		
+		#country_event = {
+			#id = AUS_TVE.2
+			#hours = 24
+		#}
+	}
+}
