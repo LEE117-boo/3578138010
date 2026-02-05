@@ -8,6 +8,9 @@ state={
 	history={
 		owner = TAN
 		add_core_of = TAN
+		buildings = {
+			infrastructure = 2
+		}
 		add_core_of = SOV
 	}
 
