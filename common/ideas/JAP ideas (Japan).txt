@@ -1,0 +1,17 @@
+ideas = {
+
+	country = {
+        ### 初始民族精神 ###
+        #万世一系
+        JAP_Unbroken_line_through_ages = {
+			on_add = { log = "[GetLogRoot]: add idea JAP_Unbroken_line_through_ages" }
+			picture = Unbroken_line_through_ages
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+				custom_modifier_tooltip = JAP_Unbroken_line_through_ages_tooltip
+			}
+		}
+    }
+}
