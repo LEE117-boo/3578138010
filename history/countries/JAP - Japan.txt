@@ -17,6 +17,10 @@ add_ideas = {
 
 	#初始民族精神
 	JAP_Unbroken_line_through_ages #万世一系
+	JAP_Chaotic_Cabinet #混乱的内阁
+	JAP_Confused_road #迷茫前路
+	JAP_Aftermath_of_Republican_Revolution #共和革命的余波
+	JAP_winner_of_RussoJapanese_War #日俄战争的胜利者
 
 }
 # Setup Reisstance and Compliance
