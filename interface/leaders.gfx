@@ -9,6 +9,11 @@ spriteTypes = {
 		name = "GFX_ENT_Ungern_Sternberg_large"
 		texturefile = "gfx/leaders/ENT/ENT_Ungern_Sternberg.dds"
 	}
+	#美利坚联盟国
+	spriteType = {
+		name = "GFX_CSA_Charles_Coughlin_large"
+		texturefile = "gfx/leaders/CSA/CSA_Charles_Coughlin.png"
+	}
 
 
 

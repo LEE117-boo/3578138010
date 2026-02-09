@@ -88,6 +88,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Chauvinism.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_Confederate"
+		texturefile = "gfx/interface/ideologies/Confederate.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_XiLin"
 		texturefile = "gfx/interface/ideologies/XiLin.dds"
 	}

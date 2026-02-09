@@ -1,32 +1,16 @@
 characters={
-	#TVE
-	#CSA_William_Henry_Davis_Murray={
-	#	name=CSA_William_Henry_Davis_Murray
-	#	portraits={
-	#		civilian={
-	#			large=GFX_CSA_William_Henry_Davis_Murray
-	#		}
-	#	}
-	#	country_leader={
-	#		ideology=Jacksonian_Democracy
-	#		traits={  }
-	#		expire="1947.1.1.1"
-	#		id=-1
-	#	}
-	#}
-
-	CSA_chaersi_kaofuln = {
-		name= CSA_chaersi_kaofuln 
+	#领导人
+	#查尔斯·考夫林
+	CSA_Charles_Coughlin = {
+		name= CSA_Charles_Coughlin
 		portraits={
 			civilian={
-				large=GFX_CSA_William_Henry_Davis_Murray
+				large=GFX_CSA_Charles_Coughlin_large
 			}
 		}
 		country_leader={
-			ideology= nazism_small
+			ideology= Confederate
 			traits= { CSA_lianbang_shenfu  }
-			expire="1947.1.1.1"
-			id=-1
 		}
 	}
 

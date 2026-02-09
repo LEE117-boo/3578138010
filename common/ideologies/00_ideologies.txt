@@ -504,6 +504,9 @@ ideologies = {
 			Chauvinism = {
 				can_be_randomly_selected = no
 			}
+			Confederate = {
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
