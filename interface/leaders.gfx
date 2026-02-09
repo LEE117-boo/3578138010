@@ -14,6 +14,11 @@ spriteTypes = {
 		name = "GFX_CSA_Charles_Coughlin_large"
 		texturefile = "gfx/leaders/CSA/CSA_Charles_Coughlin.png"
 	}
+	#伊拉克
+	spriteType = {
+		name = "GFX_IRQ_Bakr_Sidqi_large"
+		texturefile = "gfx/leaders/IRQ/IRQ_Bakr_Sidqi.png"
+	}
 
 
 

@@ -46,4 +46,11 @@ spriteTypes = {
 		name = "GFX_idea_farmer_eco"
 		texturefile = "gfx/interface/ideas/CHI/farmer_eco.png"
 	}
+
+	#伊拉克民族精神
+	#堪堪起步的民族国家
+	spriteType = {
+		name = "GFX_idea_start_national_country"
+		texturefile = "gfx/interface/ideas/IRQ/start_national_country.png"
+	}
 }
