@@ -17,9 +17,7 @@ state = {
 		add_core_of = SIL
 		add_core_of = PRE
 
-		victory_points = {
-			11467 5 # Gleiwitz
-		}
+		
 		victory_points = {
 			9511 3 # Oppeln
 		}
@@ -31,7 +29,7 @@ state = {
 	}
 
 	provinces = {
-		479 6512 9457 9511 11467 
+		6512 9457 9511
 	}
 
 	local_supplies = 4.0 

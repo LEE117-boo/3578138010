@@ -9,6 +9,7 @@ state = {
 	history = {
 
 		owner = DSB
+		add_core_of = BRE
 		add_core_of = DSB
 		add_core_of = GER
 		add_core_of = PRE
@@ -16,12 +17,10 @@ state = {
 
 
 		victory_points = {
-			3522 5 # Magdeburg
+			3522 20 # Magdeburg
 		}
 
-		victory_points = {
-			9496 1 # Seelow
-		}
+		
 
 		buildings = {
 			infrastructure = 4
@@ -46,7 +45,7 @@ state = {
 	}
 
 	provinces = {
-		375 478 3367 3499 3522 6487 9428 9456 9496 9560 11219 11359 11415 11444 11505 
+		375 3367 3499 3522 6487 9428 9456 9560 11219 11359 11444 11505 
 	}
 
 	local_supplies = 0.0 

@@ -543,6 +543,36 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_welcome_bg"
+		texturefile = "gfx/interface/Playerccccc/normal/welcomebg.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_welcome_close"
+		texturefile = "gfx/interface/Playerccccc/normal/close.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_welcome_botton"
+		texturefile = "gfx/interface/Playerccccc/normal/welcome_botton.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_KARII"
+		texturefile = "gfx/interface/Playerccccc/normal/KARII.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nothing"
+		texturefile = "gfx/interface/Playerccccc/normal/nothing.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_POLWELCOME"
+		texturefile = "gfx/interface/Playerccccc/POL/pol2.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_Social_extremism_picture"
 		texturefile = "gfx/interface/Playerccccc/DSB/Social_extremism_picture.dds"
 	}

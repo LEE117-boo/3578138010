@@ -377,3 +377,16 @@ HDD= "countries/Huodidao.txt"
 TEX = "countries/Texas.txt"
 SCF = "countries/South_California.txt"
 NMX = "countries/New_mex.txt"
+NEV = "countries/Nevada.txt"
+UTA = "countries/utah.txt"
+ARI = "countries/Arizona.txt"
+COO = "countries/Colorado.txt"
+IDA = "countries/Idaho.txt"
+
+
+
+#德国内战新tag
+RAY = "countries/RED_Bavaria.txt"
+BRE = "countries/Brandenburg.txt"
+SPT = "countries/Spartakusbund.txt"
+FRE = "countries/Freikorps.txt"

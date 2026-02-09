@@ -9,7 +9,8 @@ state = {
 
 	history = {
 
-		owner = CSA
+		owner =COO
+		add_core_of = COO
 		add_core_of = CSA
 		add_claim_by = USA
 

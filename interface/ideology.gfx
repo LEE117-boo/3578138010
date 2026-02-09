@@ -72,6 +72,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Theocracy.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_Yuanism"
+		texturefile = "gfx/interface/ideologies/Yuanism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_Jacksonian_Democracy"
 		texturefile = "gfx/interface/ideologies/Jacksonian_Democracy.dds"
 	}

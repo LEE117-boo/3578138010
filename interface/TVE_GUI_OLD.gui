@@ -172,40 +172,88 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "braltic_war_gui"
-		position = { x = 100 y = 100 }
-		size = { width = 1500 height= 1500 }
+		position = { x = -400 y = -200 }
+		orientation = center
+		size = { width = 770 height= 500 }
 		fade_time = 7000
 		fade_type = linear
-
+		lipping = no
 		background = {
 			name = Background
-			quadTextureSprite = "GFX_DSB_The_Baltic_War_GUI_bg"
+			quadTextureSprite = "GFX_welcome_bg"
 		}
 		buttonType = {
 			name ="jieshao_icon"
-			quadTextureSprite = "GFX_closebutton"
-			position = { x = 35 y = 44 }
+			quadTextureSprite = "GFX_welcome_close"
+			position = { x = 705 y = 18 }
 		}
+		buttonType = {
+			name ="jieshao_welcome_botton1"
+			quadTextureSprite = "GFX_welcome_botton"
+			position = { x = 38.5 y = 12 }
+			scale = 0.91
+		}
+		buttonType = {
+			name ="jieshao_welcome_botton2"
+			quadTextureSprite = "GFX_welcome_botton"
+			position = { x = 350 y = 12 }
+			scale = 0.91
+		}
+
 
 		instantTextBoxType = {
 			name = "TVE_DSB_JIESHAO_title"
-			position = { x = 890 y = 60 }
-			borderSize = {x = 0 y = 0 }
-			font = "hoi_24header"
-			text = ""
-			maxWidth = 410
-			maxHeight = 200
-		}
-
-		instantTextBoxType = {
-			name = "TVE_DSB_JIESHAO_description"
-			position = { x = 800 y = 125 }
+			position = { x = 480 y = 95 }
 			borderSize = {x = -100 y = 0 }
-			font = "hoi_18mbs"
-			text = "[TVE_description_loc]"
+			font = "hoi_24header"
+			text = "TVE_DSB_JIESHAO_title"
 			maxWidth = 750
 			maxHeight = 250
+			
 		}
+		instantTextBoxType = {
+			name = "TVE_DSB_JIESHAO_desc"
+			position = { x = 380 y = 115 }
+			borderSize = {x = 0 y = 0 }
+			font = "hoi4_typewriter16"
+			buttontext = "BLACK"
+			text = "TVE_DSB_JIESHAO_desc"
+			maxWidth = 360
+			maxHeight = 310
+			scrollbarType = standardtext_slider
+			
+		}
+		instantTextBoxType = {
+			name = "TVE_DSB_page2"
+			position = { x = 480 y = 95 }
+			borderSize = {x = -100 y = 0 }
+			font = "hoi_24header"
+			text = "TVE_DSB_rule_text"
+			maxWidth = 750
+			maxHeight = 250
+			
+		}
+		instantTextBoxType = {
+			name = "TVE_DSB_countries_title"
+			position = { x = 230 y = 30 }
+			borderSize = {x = -100 y = 0 }
+			font = "hoi_30header"
+			text = "TVE_DSB_countries_title"
+			maxWidth = 750
+			maxHeight = 250
+			
+		}
+		instantTextBoxType = {
+			name = "TVE_DSB_rule_title"
+			position = { x = 500 y = 30 }
+			borderSize = {x = -100 y = 0 }
+			font = "hoi_30header"
+			text = "TVE_DSB_rule_title"
+			maxWidth = 750
+			maxHeight = 250
+			
+		}
+
 
 		instantTextBoxType = {
 			name = "TVE_DSB_JIESHAO_tip"
@@ -224,6 +272,13 @@ guiTypes = {
 			text = "[TVE_country_content_loc]"
 			maxWidth = 410
 			maxHeight = 200
+		}
+		iconType = {
+			name = "welcome_icon"
+			spriteType = "GFX_nothing"
+			position = { x = 50 y = 87 }		
+			alwaystransparent = yes
+			scale = 0.6
 		}
 	}
 }

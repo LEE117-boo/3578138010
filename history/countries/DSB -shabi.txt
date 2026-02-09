@@ -1,4 +1,4 @@
-captial = 763
+captial = 1049
 
 set_research_slots = 3
 

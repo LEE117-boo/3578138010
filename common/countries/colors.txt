@@ -500,8 +500,8 @@ ISR = {
 	color_ui = rgb { 152  130  191 }
 }
 CSA = {
-	color = rgb { 174 150 146 }
-	color_ui = rgb { 174 150 146 }
+	color = rgb { 88 93 96 }
+	color_ui = rgb { 88 93 96 }
 }
 D01 = {
 	color = rgb { 122 179 97 }
@@ -704,8 +704,8 @@ D50 = {
 	color_ui = rgb { 255 138 61 }
 }
 BAY = {
-	color = rgb { 233  231  246 }
-	color_ui = rgb { 233  231  246 }
+	color = rgb { 68 177 255 }
+	color_ui = rgb { 68 177 255 }
 }
 MEK = {
 	color = rgb { 186 245 86 }
@@ -720,8 +720,8 @@ SAX = {
 	color_ui = rgb { 102 102 0 }
 }
 HAN = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 0 0 }
+	color = rgb { 255 216 0 }
+	color_ui = rgb { 255 216 0 }
 }
 WUR = {
 	color = rgb { 255 204 153 }
@@ -1145,24 +1145,59 @@ KUR = {
 }
 
 TEX = {
-	color = rgb { 174 150 146 }
-	color_ui = rgb { 174 150 146 }
+	color = rgb { 88 93 96 }
+	color_ui = rgb { 88 93 96 }
 }
 
 NMX = {
-	color = rgb { 174 150 146 }
-	color_ui = rgb { 174 150 146 }
+	color = rgb { 88 93 96 }
+	color_ui = rgb { 88 93 96 }
 }
 
 SCF = {
-	color = rgb { 174 150 146 }
-	color_ui = rgb { 174 150 146 }
+	color = rgb { 109 115 119 }
+	color_ui = rgb { 88 93 96 }
+}
+NEV = {
+	color = rgb { 109 115 119 }
+	color_ui = rgb { 109 115 119 }
 }
 ZAK = {
 	color = rgb { 0 123 255 }
 	color_ui = rgb { 0 123 255 }
 }
+UTA = {
+	color = rgb { 109 115 119 }
+	color_ui = rgb { 109 115 119 }
+}
+ARI = {
+	color = rgb { 109 115 119 }
+	color_ui = rgb { 109 115 119 }
+}
+COO = {
+	color = rgb { 109 115 119 }
+	color_ui = rgb { 109 115 119 }
+}
+IDA = {
+	color = rgb { 44 92 229 }
+	color_ui = rgb { 44 92 229 }
+}
 
 
+RAY = {
+	color = rgb { 178 0 0 }
+	color_ui = rgb { 178 0 0 }
+}
+BRE = {
+	color = rgb { 12 0 48 }
+	color_ui = rgb { 12 0 48 }
+}
 
-
+SPT = {
+	color = rgb { 255 46 0 }
+	color_ui = rgb { 255 46 0 }
+}
+FRE = {
+	color = rgb { 48 48 48 }
+	color_ui = rgb { 48 48 48 }
+}

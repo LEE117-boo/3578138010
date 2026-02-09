@@ -110,7 +110,6 @@ RUS_script = {
 			}
 			CSA = {
 				add_ideas = fuck_usa
-				country_event = { id = script_events.4 }
 				country_event = { id = script_events.5 }
 				country_event = { id = script_events.6 }
 				country_event = { id = script_events.7 }
@@ -296,57 +295,7 @@ RUS_script = {
 			remove_ideas = rus_polictics
 		}
 	}
-	Austro_Hungarian_national_rebellion = {
-		priority = 999
-
-		ai_will_do = {
-			factor = 114514
-		}
-
-		icon = eng_ally_imperialist_coup
-
-		allowed = {
-			original_tag = SOV
-		}
-
-		available = {
-			date > 1936.2.4
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect =  {
-			every_state = {
-				limit = {
-					is_core_of = AUS
-					NOT = {
-						state = 4
-						state = 975
-						state = 976
-						state = 152
-						state = 153
-						state = 848
-						state = 736
-						state = 852
-					}
-				}
-				set_demilitarized_zone = yes
-			}
-			764 = {
-				set_demilitarized_zone = yes
-			}
-			AUS = {
-				country_event = {
-					id = script_events.1
-					days = 15
-				}
-				remove_ideas = Irreparable_national_problems
-				news_event = { id = TVE_News.14 }
-			}
-		}
-	}
+	
 	italy_civil_war = {
 		priority = 999
 
@@ -713,7 +662,6 @@ RUS_script = {
 				}
 				set_demilitarized_zone = yes
 				CHI = {
-					leave_faction = Asia_group
 					remove_ideas = asia_united_supporter
 					remove_ideas = Establishment_politics
 					remove_ideas = great_economy_low_3
@@ -759,7 +707,6 @@ RUS_script = {
 			JAP = {
 				end_puppet = VLA
 				end_puppet = FER
-				leave_faction = Asia_group
 				set_country_flag = Second_japan_russia_war_Start_japan
 			}
 			REF = {

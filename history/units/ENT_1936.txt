@@ -25,8 +25,6 @@ units = {
 		start_equipment_factor = 1
 		start_experience_factor = 0.42
 	}	
-}
-units = {
 	division = {
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
@@ -37,16 +35,14 @@ units = {
 		start_equipment_factor = 1
 		start_experience_factor = 0.39
 	}	
-}
-units = {
 	division = {
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7819
-		division_template = "ENQIN_xiaoma"
-		start_equipment_factor = 1
-		start_experience_factor = 0.33
-	}	
+			division_name = {    # New syntax for compatibility with name lists
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 7819
+			division_template = "ENQIN_xiaoma"
+			start_equipment_factor = 1
+			start_experience_factor = 0.33
+		}	
 }

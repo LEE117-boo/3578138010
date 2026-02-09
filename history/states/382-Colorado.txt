@@ -9,7 +9,9 @@ state={
 	state_category = town
 
 	history={
-		owner = USA
+		owner = COO
+		add_core_of = COO
+		add_core_of = CSA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
