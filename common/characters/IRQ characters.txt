@@ -1,5 +1,5 @@
 characters = {
-
+	#领导人
 	#贝克尔·西德基
 	IRQ_Bakr_Sidqi = {
 		name = IRQ_Bakr_Sidqi

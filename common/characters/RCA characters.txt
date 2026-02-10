@@ -1,0 +1,44 @@
+characters = {
+	#领导人
+	#安东·邓尼金
+	RCA_Anton_Denikin = {
+		name = RCA_Anton_Denikin
+		portraits={
+			civilian={
+				large = GFX_RCA_Anton_Denikin_large
+			}
+		}
+		country_leader={
+			ideology = chai_kai_shek
+			traits={ RCA_Close_attacker }
+		}
+		field_marshal = {
+			traits = { RUS_national_officer organizer infantry_leader infantry_expert offensive_doctrine }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=100
+		}
+	}
+	#将领-元帅
+	#阿列克谢·卡列金
+	RCA_Aleksey_Karelin = {
+		name = RCA_Aleksey_Karelin
+		portraits={
+			civilian={
+				large = GFX_RCA_Aleksey_Karelin_large
+			}
+		}
+		field_marshal = {
+			traits = { RUS_national_officer organizer cavalry_officer career_officer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=100
+		}
+	}
+}

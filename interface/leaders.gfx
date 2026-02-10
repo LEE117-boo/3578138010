@@ -19,6 +19,16 @@ spriteTypes = {
 		name = "GFX_IRQ_Bakr_Sidqi_large"
 		texturefile = "gfx/leaders/IRQ/IRQ_Bakr_Sidqi.png"
 	}
+	#高加索
+	spriteType = {
+		name = "GFX_RCA_Anton_Denikin_large"
+		texturefile = "gfx/leaders/RCA/RCA_Anton_Denikin.png"
+	}
+	spriteType = {
+		name = "GFX_RCA_Aleksey_Karelin_large"
+		texturefile = "gfx/leaders/RCA/RCA_Aleksey_Karelin.dds"
+	}
+	
 
 
 
@@ -174,10 +184,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_BLR_YANG_XIELADA"
 		texturefile = "gfx/leaders/BLR/BLR_YANG_XIELADA.dds"
-	}
-	spriteType = {
-		name = "GFX_RUS_Aleksey_Maksimovich_Karelin"
-		texturefile = "gfx/leaders/RUS/RUS_Aleksey_Maksimovich_Karelin.dds"
 	}
 	spriteType = {
 		name = "GFX_ENG_Rotha_Lintorn_Orman"

@@ -1,6 +1,13 @@
+capital = 234
 load_focus_tree = generic_focus
 
 set_research_slots = 3
+
+#领导人
+recruit_character = RCA_Anton_Denikin
+#元帅
+recruit_character = RCA_Aleksey_Karelin
+
 
 # Starting tech
 set_technology = {
@@ -23,12 +30,13 @@ if = {
 }
 
 add_ideas = {
+	#初始民族精神
 	the_praisme_for_1919
 }
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "SOV_1936_air_bba"
+		set_air_oob = "RCA_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			aa_lmg = 1
@@ -45,7 +53,7 @@ if = {
 			bba_early_transport_plane = 1
 		}
 	else = {
-		set_air_oob = "SOV_1936_air_legacy"
+		set_air_oob = "RCA_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			fighter1 = 1
@@ -150,14 +158,5 @@ set_politics = {
 
 set_popularities = {
 	tttt = 100
-}
-
-create_country_leader = {
-	name = RUS_Aleksey_Maksimovich_Karelin
-	picture = GFX_RUS_Aleksey_Maksimovich_Karelin
-	ideology = chai_kai_shek
-		traits = {
-		RUS_Military_Region_Commander
-	}
 }
 
