@@ -44,6 +44,7 @@ add_ideas = {
 	IRQ_rev_new_city #“革命新城”建设热潮
 	IRQ_wavering_Shia #摇摆不定的什叶派
 	IRQ_support_ym_rev #支援也门革命
+	IRQ_rise_star_of_2_rivers #两河流域的赤色灯塔
 }
 set_politics = {
 	ruling_party = radical_socialism

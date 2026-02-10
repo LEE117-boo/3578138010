@@ -88,4 +88,9 @@ spriteTypes = {
 		name = "GFX_idea_support_ym_rev"
 		texturefile = "gfx/interface/ideas/IRQ/support_ym_rev.png"
 	}
+	#两河流域的赤色灯塔
+	spriteType = {
+		name = "GFX_idea_rise_star_of_2_rivers"
+		texturefile = "gfx/interface/ideas/IRQ/rise_star_of_2_rivers.png"
+	}
 }
