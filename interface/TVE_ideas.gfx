@@ -83,4 +83,9 @@ spriteTypes = {
 		name = "GFX_idea_wavering_Shia"
 		texturefile = "gfx/interface/ideas/IRQ/wavering_Shia.png"
 	}
+	#支援也门革命
+	spriteType = {
+		name = "GFX_idea_support_ym_rev"
+		texturefile = "gfx/interface/ideas/IRQ/support_ym_rev.png"
+	}
 }

@@ -87,6 +87,18 @@ ideas = {
 				drift_defence_factor = 0.10
 			}
 		}
+		#支援也门革命
+		IRQ_support_ym_rev = {
+			on_add = { log = "[GetLogRoot]: add idea IRQ_support_ym_rev" }
+			picture = support_ym_rev
+			allowed = { always = no }
+			modifier = {
+				send_volunteer_divisions_required = -0.5
+				war_support_factor = 0.10
+				consumer_goods_factor = 0.05
+				political_power_cost = 0.05
+			}
+		}
 		
     }
 }

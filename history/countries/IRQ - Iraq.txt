@@ -43,6 +43,7 @@ add_ideas = {
 	IRQ_discussion_of_massacre #亚述屠杀案争议
 	IRQ_rev_new_city #“革命新城”建设热潮
 	IRQ_wavering_Shia #摇摆不定的什叶派
+	IRQ_support_ym_rev #支援也门革命
 }
 set_politics = {
 	ruling_party = radical_socialism
