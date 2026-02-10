@@ -1,0 +1,35 @@
+add_namespace = POL_TVE
+country_event = {
+	id = POL_TVE.1
+	title = POL_TVE.1.t
+	desc =POL_TVE.1.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = POL_TVE.1.a
+		
+		country_event = {
+			id = POL_TVE.2
+			hours = 24
+		}
+	}
+}
+country_event = {
+	id = POL_TVE.2
+	title = POL_TVE.2.t
+	desc =POL_TVE.2.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = POL_TVE.2.a
+		
+		#country_event = {
+			#id = AUS_TVE.2
+			#hours = 24
+		#}
+	}
+}

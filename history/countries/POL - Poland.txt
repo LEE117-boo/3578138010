@@ -29,14 +29,17 @@ if = {
 	}
 }
 
-
+country_event = {
+	id = POL_TVE.1
+	hours = 12
+}
 add_ideas={
-	POL_yuanshuai_yuanze
-	POL_jiaoaode_bolanren
-	POL_haibiande_kanke
-	POL_5nian_jihua1
-	POL_zhanshu_zhengzhi
-	POL_aidao_beike
+	POL_yuanshuai_yuanze#元帅原则
+	POL_jiaoaode_bolanren#骄傲的波兰人
+	POL_haibiande_kanke#海彼岸的坎坷？
+	POL_5nian_jihua1#五年计划
+	POL_zhanshu_zhengzhi#战术政治
+	POL_aidao_beike#哀悼约瑟夫贝克
 }
 
 set_research_slots = 4
