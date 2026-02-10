@@ -53,4 +53,34 @@ spriteTypes = {
 		name = "GFX_idea_start_national_country"
 		texturefile = "gfx/interface/ideas/IRQ/start_national_country.png"
 	}
+	#国有化斗争-初步胜利
+	spriteType = {
+		name = "GFX_idea_Preliminary_nation_industry"
+		texturefile = "gfx/interface/ideas/IRQ/Preliminary_nation_industry.png"
+	}
+	#枪杆子与笔杆子的斗争
+	spriteType = {
+		name = "GFX_idea_gun_fight_pen"
+		texturefile = "gfx/interface/ideas/IRQ/gun_fight_pen.png"
+	}
+	#一轮土地改革-完全失败
+	spriteType = {
+		name = "GFX_idea_fall_land_rev"
+		texturefile = "gfx/interface/ideas/IRQ/fall_land_rev.png"
+	}
+	#亚述屠杀案争议
+	spriteType = {
+		name = "GFX_idea_discussion_of_massacre"
+		texturefile = "gfx/interface/ideas/IRQ/discussion_of_massacre.png"
+	}
+	#“革命新城”建设热潮
+	spriteType = {
+		name = "GFX_idea_rev_new_city"
+		texturefile = "gfx/interface/ideas/IRQ/rev_new_city.png"
+	}
+	#摇摆不定的什叶派
+	spriteType = {
+		name = "GFX_idea_wavering_Shia"
+		texturefile = "gfx/interface/ideas/IRQ/wavering_Shia.png"
+	}
 }

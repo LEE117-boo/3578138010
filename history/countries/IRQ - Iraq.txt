@@ -37,6 +37,12 @@ if = {
 }
 add_ideas = {
 	IRQ_start_national_country #堪堪起步的民族国家
+	IRQ_Preliminary_nation_industry #国有化斗争-初步胜利
+	IRQ_gun_fight_pen #枪杆子与笔杆子的斗争
+	IRQ_fall_land_rev #一轮土地改革-完全失败
+	IRQ_discussion_of_massacre #亚述屠杀案争议
+	IRQ_rev_new_city #“革命新城”建设热潮
+	IRQ_wavering_Shia #摇摆不定的什叶派
 }
 set_politics = {
 	ruling_party = radical_socialism
