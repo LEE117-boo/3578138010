@@ -177,7 +177,6 @@ guiTypes = {
 		size = { width = 770 height= 500 }
 		fade_time = 7000
 		fade_type = linear
-		lipping = no
 		background = {
 			name = Background
 			quadTextureSprite = "GFX_welcome_bg"
@@ -216,7 +215,6 @@ guiTypes = {
 			position = { x = 380 y = 115 }
 			borderSize = {x = 0 y = 0 }
 			font = "hoi4_typewriter16"
-			buttontext = "BLACK"
 			text = "TVE_DSB_JIESHAO_desc"
 			maxWidth = 360
 			maxHeight = 310

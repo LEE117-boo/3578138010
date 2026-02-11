@@ -2341,7 +2341,7 @@ focus_tree = {
 				    character = BEL_paul_emile_janson
 				    promote_leader = yes
 				    country_leader = {
-				        ideology = conservatism
+				        ideology = Conservatism
 				        expire = "1965.1.1.1"
 				        traits = { BEL_royal_appointee }
 				    }
@@ -4274,7 +4274,7 @@ focus = {
 			    character = BEL_hubert_pierlot
 			    promote_leader = yes
 			    country_leader = {
-			        ideology = conservatism
+			        ideology = Conservatism
 			        expire = "1965.1.1.1"
 			        traits = { BEL_determined_prime_minister }
 			    }
@@ -6588,7 +6588,7 @@ focus = {
 					character = BEL_charles_count_of_flanders_person
 					promote_leader = yes
 					country_leader = {
-						ideology = conservatism
+						ideology = Conservatism
 						expire = 1965.1.1.1
 						traits = { BEL_charles_king_of_belgians} 
 					}
@@ -6601,7 +6601,7 @@ focus = {
 					character = BEL_charles_count_of_flanders_person
 					promote_leader = yes
 					country_leader = {
-						ideology = conservatism
+						ideology = Conservatism
 						expire = 1965.1.1.1
 						traits = { BEL_royal_regent } 
 					}
@@ -6640,7 +6640,7 @@ focus = {
 				character = BEL_king_leopold_iii
 				promote_leader = yes
 				country_leader = {
-					ideology = conservatism
+					ideology = Conservatism
 					expire = 1965.1.1.1
 					traits = { BEL_leopold_unknown_sympathies } 
 				}

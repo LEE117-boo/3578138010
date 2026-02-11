@@ -442,7 +442,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = ""Ornen Class"					# torpedo boats		
+		name = "Ornen Class"					# torpedo boats		
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -459,7 +459,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Ehrensk"old Class"				# represents Ehrensk"old	and Klas Horn classes
+		name = "Ehrenskold Class"				# represents Ehrensk"old	and Klas Horn classes
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -493,7 +493,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "G"oteborg Class"	
+		name = "Goteborg Class"	
 		type = ship_hull_light_2
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -529,7 +529,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = ""Aran Class"				
+		name = "Aran Class"				
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CA_HISTORICAL
 		parent_version = 0
@@ -625,7 +625,7 @@ if = {
 			obsolete = yes
 		}
 		create_equipment_variant = {
-			name = "Sj"olejonet Class"				
+			name = "Sjolejonet Class"				
 			type = ship_hull_submarine_2
 			name_group = SWE_SS_HISTORICAL
 			parent_version = 0

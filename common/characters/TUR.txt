@@ -134,7 +134,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=conservatism
+				ideology=Conservatism
 				traits={ liberal_Liberalism_paragon }
 				expire="1965.1.1.1"
 				id=-1
@@ -195,7 +195,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=conservatism
+				ideology=Conservatism
 				expire="1965.1.1.1"
 				id=-1
 			}

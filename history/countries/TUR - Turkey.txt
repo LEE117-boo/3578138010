@@ -620,7 +620,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
 	create_equipment_variant = {
-		name = "Birinci In"onü Class"				
+		name = "Birinci Inonü Class"				
 		type = ship_hull_submarine_1
 		name_group = TUR_SS_HISTORICAL
 		parent_version = 0

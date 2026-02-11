@@ -275,11 +275,11 @@ IF = {
 		NOT = { has_dlc = "Arms Against Tyranny" }
 	}
 	create_country_leader = {
-		name = "Sveinn Bj"ornsson"
+		name = "Sveinn Bj ornsson"
 		desc = ""
 		picture = GFX_portrait_Sveinn_Bjornsson
 		expire = "1965.1.1"
-		ideology = conservatism
+		ideology = Conservatism
 		traits = {
 			#
 		}

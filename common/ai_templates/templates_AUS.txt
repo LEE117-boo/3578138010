@@ -315,10 +315,6 @@ infantry_AUS = {
 
 		upgrade_prio = {
 			base = 999
-			modifier = {
-				factor = 0
-				has_tech = vast_offensives
-			}
 		}
 
 		target_template = {
@@ -347,10 +343,6 @@ infantry_AUS = {
 
 		upgrade_prio = {
 			base = 0
-			modifier = {
-				add = 999
-				has_tech = vast_offensives
-			}
 		}
 		target_template = {
 

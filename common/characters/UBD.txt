@@ -18,7 +18,7 @@ characters = {
 			id = -1
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = Conservatism
 			traits = { GER_burggraf_und_graf_zu_dohna_schlobitten }
 			expire = "1946.1.1.1"
 			id = -1

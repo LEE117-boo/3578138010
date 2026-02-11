@@ -9270,7 +9270,7 @@ focus_tree = {
 			    character = IRQ_ahmed_barzani
 			    promote_leader = yes
 			    country_leader = {
-			        ideology = conservatism
+			        ideology = Conservatism
 			        expire = "1965.1.1.1"
 			        traits = { guerilla_warfare_expert }
 			    }

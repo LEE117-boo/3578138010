@@ -414,7 +414,7 @@ characters = {
 		}
 		### Country leader role to be added via event
 		# country_leader = {
-		# 	ideology = conservatism  
+		# 	ideology = Conservatism  
 		# 	expire = "1965.1.1.1"
 		# 	traits = { puppet_monarch }
 		# 	id = -1

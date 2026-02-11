@@ -186,7 +186,7 @@ characters={
 
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = Conservatism
 			traits = { ICE_transportation_enthusiast }
 			expire = "1965.1.1"
 			id = -1

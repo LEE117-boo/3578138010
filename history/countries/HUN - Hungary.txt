@@ -211,7 +211,7 @@ IF = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Weiss WM-10 "Olyv"
+		name = "Weiss WM-10 Olyv"
 		type = small_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x

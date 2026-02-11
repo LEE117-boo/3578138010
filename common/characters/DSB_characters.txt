@@ -720,26 +720,24 @@ characters={
 		}		
 	}
 	DSB_ernst_thalmann = {
-		instance = {
-			name = GER_ernst_thalmann
+		name = GER_ernst_thalmann
 
-			portraits = {
-				civilian = {
-					large = GFX_portrait_GER_ernst_thalmann
-					small = GFX_portrait_GER_ernst_thalmann_imprisoned
-					# GFX_portrait_GER_ernst_thalmann_small when freed
-				}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_ernst_thalmann
+				small = GFX_portrait_GER_ernst_thalmann_imprisoned
+				# GFX_portrait_GER_ernst_thalmann_small when freed
 			}
+		}
 
-			advisor = {
-				slot = political_advisor
-				idea_token = ernst_thalmann
-				allowed = {
-					original_tag = DSB
-				}
-				traits = {
-					GER_proletarian_leader 
-				}
+		advisor = {
+			slot = political_advisor
+			idea_token = ernst_thalmann
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				GER_proletarian_leader 
 			}
 		}
 	}

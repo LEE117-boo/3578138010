@@ -12474,7 +12474,7 @@ focus_tree = {
                         add_country_leader_role = {
                             promote_leader = yes
                             country_leader = {
-                                ideology = conservatism
+                                ideology = Conservatism
                             }
                         }
                     }
@@ -17385,7 +17385,7 @@ focus = {
 						character =  RAJ_freeman_freeman_thomas
 						promote_leader = yes
 						country_leader = {
-							ideology = conservatism
+							ideology = Conservatism
 							expire = 1965.1.1
 							traits = { seasoned_administrator staunch_imperialist_alt_consult } 
 						}
@@ -17396,7 +17396,7 @@ focus = {
 						character =  RAJ_freeman_freeman_thomas
 						promote_leader = yes
 						country_leader = {
-							ideology = conservatism
+							ideology = Conservatism
 							expire = 1965.1.1
 							traits = { seasoned_administrator staunch_imperialist_alt } 
 						}
@@ -17425,7 +17425,7 @@ focus = {
 						character =  RAJ_lord_linlithgow
 						promote_leader = yes
 						country_leader = {
-							ideology = conservatism
+							ideology = Conservatism
 							expire = 1965.1.1
 							traits = { aloof_authority_alt_consult } 
 						}
@@ -17439,7 +17439,7 @@ focus = {
 						character =  RAJ_lord_linlithgow
 						promote_leader = yes
 						country_leader = {
-							ideology = conservatism
+							ideology = Conservatism
 							expire = 1965.1.1
 							traits = { aloof_authority_alt belligerent_viceroy } 
 						}
@@ -17450,7 +17450,7 @@ focus = {
 						character =  RAJ_lord_linlithgow
 						promote_leader = yes
 						country_leader = {
-							ideology = conservatism
+							ideology = Conservatism
 							expire = 1965.1.1
 							traits = { aloof_authority_alt } 
 						}
@@ -18996,7 +18996,7 @@ focus = {
 						has_ideology_group = democratic
 					}
 					add_country_leader_trait = {
-						ideology = conservatism
+						ideology = Conservatism
 						trait = belligerent_viceroy
 					}
 				}
@@ -19091,7 +19091,7 @@ focus = {
 					swap_country_leader_traits = {
 						remove = staunch_imperialist_alt
 						add = staunch_imperialist_alt_consult
-						ideology = conservatism
+						ideology = Conservatism
 					}
 				}
 			}
@@ -19119,7 +19119,7 @@ focus = {
 					swap_country_leader_traits = {
 						remove = aloof_authority_alt
 						add = aloof_authority_alt_consult
-						ideology = conservatism
+						ideology = Conservatism
 					}
 				}
 			}

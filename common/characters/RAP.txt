@@ -31,7 +31,7 @@ characters = {
 			
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = Conservatism
 			traits = { cultural_preserver }
 			expire = "1947.1.1.1"
 			id = -1

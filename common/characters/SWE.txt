@@ -316,7 +316,7 @@ characters={
 			}
 		}
 		#country_leader={
-		#	ideology=conservatism
+		#	ideology=Conservatism
 		#	expire="1965.1.1.1"
 		#	traits = { SWE_minor_opposition_party_in_power SWE_rearnament_proponent } 
 		#	id=-1

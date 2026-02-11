@@ -79,7 +79,7 @@ characters={
 			NOR_char_cw_democratic = yes
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=Conservatism
 			traits  = {
 				NOR_tobacco_industrialist_leader
 			}

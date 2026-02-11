@@ -1994,7 +1994,9 @@ on_actions = {
 				FROM = {
 					if = {
 						limit = {
-							ROOT = ARM
+							ROOT = {
+								original_tag = ARM
+							}
 						}
 						TUR = {
 							transfer_state = 354

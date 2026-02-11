@@ -17,13 +17,12 @@ state = {
 		add_core_of = NEV
 		add_core_of = CSA
 		add_core_of = USA
+		victory_points = {
+			4799 5 # Las Vegas
+		}
 		buildings = {
 			infrastructure = 2
-			victory_points = {
-				4799 5 # Las Vegas
-			}
-			# Hoover Dam
-			4799 = { dam_mountain = 1 }
+			
 
 		}
 		

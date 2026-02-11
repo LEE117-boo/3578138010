@@ -3322,7 +3322,7 @@ focus_tree = {
 		        		PREV.PREV = {
 		        			promote_character = {
 		        				character = CHL_carlos_ibanez 
-		        				ideology = conservatism 
+		        				ideology = Conservatism 
 		        			}
 		        		}
 		        	}

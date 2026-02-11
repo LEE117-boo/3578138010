@@ -27,9 +27,6 @@ state = {
 		victory_points = {
 			9665 3
 		}
-		provinces={
-			3703
-		}
 
 		1938.3.12 = {
 			owner = GER

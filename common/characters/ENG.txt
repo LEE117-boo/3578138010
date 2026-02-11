@@ -199,7 +199,7 @@ characters={
 		}
 
 		country_leader={ #This country leader role is copied as Non-Aligned if Churchill is sent to RAJ - Changes here should be applied in event GOE_RAJ_loyalist.11
-			ideology=conservatism
+			ideology=Conservatism
 			traits = {
 				british_bulldog
 			}

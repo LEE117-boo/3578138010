@@ -11917,7 +11917,7 @@ focus_tree = {
 				    character = HUN_mihaly_karolyi
 				    promote_leader = yes
 				    country_leader = {
-				        ideology = conservatism
+				        ideology = Conservatism
 				        expire = "1965.1.1.1"
 				        traits = { HUN_veteran_president }
 				    }

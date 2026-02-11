@@ -15,9 +15,6 @@ state={
 		victory_points = {
 			732 10
 		}
-		provinces={
-			6052 6690 704 732
-		}
 
 		buildings = {
 			infrastructure = 4
@@ -32,18 +29,6 @@ state={
                     }
                 }
             }
-		}
-		
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-		}
-
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-			}
 		}
 
 	}

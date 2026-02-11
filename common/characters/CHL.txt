@@ -1558,7 +1558,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = conservatism
+		#	ideology = Conservatism
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -1849,7 +1849,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = conservatism
+		#	ideology = Conservatism
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -1903,7 +1903,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = conservatism
+		#	ideology = Conservatism
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {

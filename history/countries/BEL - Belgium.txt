@@ -481,7 +481,7 @@ IF = {
 		    character = BEL_hubert_pierlot
 		    promote_leader = yes
 		    country_leader = {
-		        ideology = conservatism
+		        ideology = Conservatism
 		        expire = "1965.1.1.1"
 		        traits = { BEL_determined_prime_minister }
 		    }

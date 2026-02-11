@@ -677,7 +677,7 @@ if = {
 	}
 	# Heavy Cruisers #
 	create_equipment_variant = {
-		name = "V"ain"am"oinen Class"				
+		name = "Vainamoinen Class"				
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = FIN_CA_HISTORICAL
 		parent_version = 0

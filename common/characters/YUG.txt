@@ -52,7 +52,7 @@ characters={
 			id=-1
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=Conservatism
 			traits={ underage_monarch }
 			expire="1965.1.1.1"
 			id=-1
