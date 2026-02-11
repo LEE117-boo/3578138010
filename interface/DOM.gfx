@@ -1,0 +1,15 @@
+spriteTypes = {
+	
+	spriteType = { #埃克托尔·特鲁希略瓦
+		name = "GFX_idea_TVE_DOM_Hector_Trujillo"
+		texturefile = "gfx/leaders/DOM/TVE_DOM_Hector_Trujillo.dds"
+	}
+	spriteType = { #公羊的盛宴
+		name = "GFX_idea_DOM_The_Feast_of_the_Ram"
+		texturefile = "gfx/interface/ideas/DOM/TVE_DOM_The_Feast_of_the_Ram.dds"
+	}
+	spriteType = { #西班牙影响度
+		name = "GFX_idea_DOM_spanish_influence"
+		texturefile = "gfx/interface/ideas/DOM/TVE_DOM_spanish_influence.dds"
+	}
+}

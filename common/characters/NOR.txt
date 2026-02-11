@@ -13,11 +13,11 @@ characters={
 		name=NOR_johan_nygaardsvold
 		portraits={
 			civilian={
-				large=GFX_TVE_NOR_LEADERS
+				large=GFX_portrait_Johan_Nygaardsvold
 			}
 		}
 		allowed_civil_war = {
-			NOR_char_cw_Liberalism = yes
+			NOR_char_cw_democratic = yes
 		}
 		country_leader={
 			ideology=socialism
@@ -38,12 +38,12 @@ characters={
 			}
 		}
 		allowed_civil_war = {
-			NOR_char_cw_Liberalism = yes
+			NOR_char_cw_democratic = yes
 		}
 		country_leader={
 			ideology=socialism
 			traits  = {
-				NOR_Liberalism_powerhouse
+				NOR_democratic_powerhouse
 			}
 			expire="1965.1.1.1"
 			id=-1
@@ -55,7 +55,7 @@ characters={
 				NOR_AAT = yes 
 			}
 			traits  = {
-				NOR_Liberalism_powerhouse
+				NOR_democratic_powerhouse
 			}	
 			ai_will_do = {
 				factor = 1
@@ -76,7 +76,7 @@ characters={
 			}
 		}
 		allowed_civil_war = {
-			NOR_char_cw_Liberalism = yes
+			NOR_char_cw_democratic = yes
 		}
 		country_leader={
 			ideology=conservatism
@@ -147,7 +147,7 @@ characters={
 				NOR_AAT = yes
 			}
 			available = {
-				has_government = Liberalism			
+				has_government = democratic			
 			}
 			traits  = {
 				 NOR_conciliatory_socialist
@@ -178,8 +178,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = Liberalism	
-					has_government = Totalitarianism	
+					has_government = democratic	
+					has_government = communism	
 				}		
 			}
 			traits  = {
@@ -211,8 +211,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = Liberalism	
-					has_government = Totalitarianism	
+					has_government = democratic	
+					has_government = communism	
 				}		
 			}
 			traits  = {
@@ -243,8 +243,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = Liberalism	
-					has_government = Totalitarianism	
+					has_government = democratic	
+					has_government = communism	
 				}		
 				OR = {
 					has_completed_focus = NOR_compromise_with_the_nkp
@@ -502,7 +502,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=nazism_small
+			ideology=nazism
 			expire="1965.1.1.1"
 			traits = { NOR_ruthless_administrator }
 			id=-1
@@ -527,7 +527,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=gen_nazism_small
+			ideology=gen_nazism
 			expire="1965.1.1.1"
 			traits = { NOR_germanophile_officer }
 			id=-1
@@ -595,12 +595,12 @@ characters={
 				NOT = {
 					OR = {
 						has_government = fascism
-						has_government = Totalitarianism
+						has_government = communism
 					}
 				}
 			}
 			available = {
-				has_government = Authoritarianism
+				has_government = neutrality
 			}
 			traits  = {
 				 NOR_aristocratic_industrialist
@@ -625,7 +625,7 @@ characters={
 				NOR_AAT = yes
 			}
 			available = {
-				has_government = Liberalism
+				has_government = democratic
 				OR = {
 					has_completed_focus = NOR_vote_of_no_confidence
 					has_completed_focus = NOR_continue_nygaardsvold_government
@@ -738,7 +738,7 @@ characters={
 				has_country_flag = NOR_trotsky_embraced
 				NOT = { has_completed_focus = NOR_compromise_with_the_nkp } 
 				NOT = { has_government = fascism } 
-				NOT = { has_government = Authoritarianism }
+				NOT = { has_government = neutrality }
 				NOR_trotsky_not_in_sov = yes 
 				NOR_trotsky_not_in_mex = yes #Yes, I know this is bullshit but it's all for the tooltip
 			}
@@ -955,13 +955,13 @@ characters={
 			}
 			visible = {
 				OR = {
-					has_government = Liberalism
+					has_government = democratic
 					has_completed_focus = NOR_prosecute_the_nkp
 				}
 			}
 			available = { 
 				OR = {
-					has_government = Liberalism
+					has_government = democratic
 					has_completed_focus = NOR_prosecute_the_nkp
 				}
 			}
@@ -997,7 +997,7 @@ characters={
 				NOT = { 
 					OR = {
 						has_government = fascism 
-						has_government = Totalitarianism 
+						has_government = communism 
 					}
 				}				
 			}
@@ -1019,13 +1019,13 @@ characters={
 				NOT = { 
 					OR = {
 						has_government = fascism 
-						has_government = Totalitarianism 
+						has_government = communism 
 					}
 				}	 
 			}
 			available = {
 				NOT = {	has_government = fascism }
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = communism }
 			}
 			traits = {
 				army_chief_offensive_3
@@ -1320,7 +1320,7 @@ characters={
 						original_tag = NOR
 					}
 					available = {
-						has_government = Liberalism
+						has_government = democratic
 						has_war = no  
 					}
 					traits = {
@@ -1847,4 +1847,145 @@ characters={
 					factor = 1.000
 				}
 		}
-		name="Bjarne 
+		name="Bjarne Øen"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_1"
+			}
+		}
+	}
+
+	NOR_adolf_indrebo={
+		advisor={
+			slot = political_advisor
+			idea_token = NOR_adolf_indrebo
+			allowed  = {
+				original_tag = NOR
+				has_aat = no 
+			}
+			traits  = {
+				captain_of_industry 
+			}
+		}
+		name="Adolf Indrebø"
+
+		allowed_civil_war = {
+			NOR_char_cw_democratic = yes 
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+	}
+	NOR_halvdan_koht={
+		instance = { #AAT 
+			allowed = {
+				has_aat = yes 
+			}
+			name=NOR_halvdan_koht
+
+			allowed_civil_war = {
+				NOR_char_cw_labor_only = yes 
+			}
+
+			advisor = {
+				slot = political_advisor
+				idea_token = NOR_halvdan_koht
+				allowed  = {
+					original_tag = NOR
+				}
+				visible = {
+					has_government = democratic
+				}
+				available = {
+					has_government = democratic
+					OR = {
+						has_completed_focus = NOR_vote_of_no_confidence
+						has_completed_focus = NOR_continue_nygaardsvold_government
+					}
+				}
+				traits  = {
+					NOR_pacifist_diplomat 
+				}
+			}
+			portraits={
+				civilian={
+					small="GFX_portrait_NOR_halvdan_koht_small"
+				}
+			}
+		}
+		instance = { # No AAT 
+			allowed = {
+				has_aat = no 
+			}
+			name=NOR_halvdan_koht
+			advisor={
+				slot = political_advisor
+				idea_token = NOR_halvdan_koht
+				allowed  = {
+					original_tag = NOR
+				}
+				traits  = {
+					smooth_talking_charmer 
+				}
+			}
+			portraits={
+				civilian={
+					small="GFX_idea_generic_political_advisor_europe_1"
+				}
+			}
+		}
+
+	}
+	NOR_trygve_halvdan_lie={
+		instance = { #AAT 
+			allowed = {
+				has_aat = yes 
+			}
+			name=NOR_trygve_halvdan_lie
+
+			allowed_civil_war = {
+				NOR_char_cw_labor_only = yes 
+			}
+			
+			advisor={
+				slot = political_advisor
+				idea_token = NOR_trygve_halvdan_lie
+				allowed  = {
+						original_tag = NOR
+					}
+					traits  = {
+						NOR_compliant_politician 
+					}
+			}
+			portraits={
+				civilian={
+					small=GFX_portrait_NOR_trygve_halvdan_lie_small
+				}
+			}
+		}
+		instance = { # No AAT 
+			allowed = {
+				has_aat = no 
+			}
+			name=NOR_trygve_halvdan_lie
+			advisor={
+				slot = political_advisor
+				idea_token = NOR_trygve_halvdan_lie
+				allowed  = {
+						original_tag = NOR
+					}
+					traits  = {
+						popular_figurehead  
+					}
+			}
+			portraits={
+				civilian={
+					small=GFX_idea_generic_political_advisor_europe_3
+				}
+			}
+		}
+	}
+}

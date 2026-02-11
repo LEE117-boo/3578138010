@@ -1,5 +1,5 @@
 ideologies = {
-	Totalitarianism = {
+	Totalitarianism = { #极权主义
 
 		types = {
 
@@ -65,8 +65,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	radical_socialism = {
-
+	radical_socialism = { #激进社会主义
 		types = {
 			radical_socialism_small = {
 
@@ -119,7 +118,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	Avant_garde = {
+	Avant_garde = { #先锋主义
 
 		types = {
 			Avant_garde_small = {
@@ -173,7 +172,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	Progressivism = {
+	Progressivism = { #进步主义
 
 		types = {
 			Social_democracy = {
@@ -232,7 +231,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	Liberalism = {
+	Liberalism = { #自由主义
 
 		types = {
 
@@ -292,7 +291,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
 	}
 
-	Conservatism = {
+	Conservatism = { #保守主义
 
 		types = {
 			Conservatism_small = {
@@ -349,7 +348,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
 	}
 
-	Authoritarianism = {
+	Authoritarianism = { #威权主义
 
 		types = {
 
@@ -419,7 +418,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10000
 	}
 
-	tttt = {
+	tttt = { #专制主义
 
 		types = {
 
@@ -439,8 +438,10 @@ ideologies = {
 			}
 			Theocracy = {
 				can_be_randomly_selected = no
-			}	
-
+			}
+			Spain_rivera_ideologies = { #米格尔·普里莫·德里维拉的意识形态
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -483,7 +484,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10000
 	}
 
-	fascism = {
+	fascism = { #法西斯主义
 
 		types = {
 
@@ -549,7 +550,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10000
 	}
 
-	nazism = {
+	nazism = { #民族社会主义
 
 		types = {
 			nazism_small = {

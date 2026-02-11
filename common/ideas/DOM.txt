@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+		DOM_The_Feast_of_the_Ram = { #公羊的盛宴
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DOM_The_Feast_of_the_Ram"}
+			picture = GFX_idea_DOM_The_Feast_of_the_Ram
+			modifier = {
+				war_support_factor = 0.03
+				stability_factor = 0.05
+				political_power_gain = 0.1
+				
+			}
+		}
+		DOM_spanish_influence = { #西班牙影响度
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DOM_spanish_influence"}
+			picture = GFX_idea_DOM_spanish_influence
+			 modifier = {
+				army_org_factor = 0.03
+			 }
+			 targeted_modifier = {
+        		tag = SPR
+        		extra_trade_to_target_factor = 0.10
+   			 }
+		}
+	}
+}

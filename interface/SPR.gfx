@@ -1,0 +1,22 @@
+spriteTypes = { 
+	spriteType = { #米格尔·普里莫·德里维拉
+		name = "GFX_idea_SPR_Miguel_Primo_Derivella"
+		texturefile = "gfx/leaders/SPR/TVE_SPR_Miguel_Primo_Derivella.dds"
+	}
+	spriteType = { #内战的遗产
+		name = "GFX_idea_SPR_Legacy_of_the_Civil_War"
+		texturefile = "gfx/interface/ideas/SPR/SPR_Legacy_of_the_Civil_War.dds"
+	}
+	spriteType = { #西班牙军队
+		name = "GFX_idea_SPR_spanish_army"
+		texturefile = "gfx/interface/ideas/SPR/SPR_spanish_army.dds"
+	}
+	spriteType = { #空悬王座
+		name = "GFX_idea_SPR_The_hanging_throne"
+		texturefile = "gfx/interface/ideas/SPR/SPR_Republic_down.dds"
+	}
+	spriteType = { #自治难题
+		name = "GFX_idea_SPR_Autonomy_Dilemma"
+		texturefile = "gfx/interface/ideas/SPR/SPR_Autonomy_Dilemma.dds"
+	}
+}

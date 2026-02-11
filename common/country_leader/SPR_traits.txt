@@ -1,0 +1,5 @@
+leader_traits ={ 
+	SPR_dictator = { #独裁者
+		political_power_gain =  0.2
+	}
+}
