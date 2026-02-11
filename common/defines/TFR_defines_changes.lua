@@ -1,8 +1,8 @@
-	NDefines.NGame.START_DATE = "2020.1.1.1";
-	NDefines.NGame.END_DATE = "2050.1.1.1";
+	NDefines.NGame.START_DATE = "1935.1.1.12";
+	NDefines.NGame.END_DATE = "1950.1.1.1";
 	
 	NDefines.NDiplomacy.WARGOAL_JUSTIFY_TENSION_FROM_PRODUCTION = 20.0;
-	NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE = "2020.1.1.1"
+	NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE = "1935.1.1.1"
 	NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 3; -- This many divisons are required for the country to be able to send volunteers.
 	NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 7 -- 14	-- days to transfer a unit to another nation
 	
