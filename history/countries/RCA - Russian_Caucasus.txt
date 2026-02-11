@@ -1,6 +1,6 @@
 capital = 234
 load_focus_tree = generic_focus
-
+oob = "RCA_1936"
 set_research_slots = 3
 
 #领导人

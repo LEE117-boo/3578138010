@@ -1,0 +1,43 @@
+characters = {
+	#领导人
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	#米哈伊尔·季捷里赫斯
+	FEM_Mikhail_Tzeterikhs = {
+		name = FEM_Mikhail_Tzeterikhs
+		portraits={
+			civilian={
+				large = GFX_FEM_Mikhail_Tzeterikhs_large
+			}
+		}
+		country_leader={
+			ideology = chai_kai_shek
+			traits={  }
+		}
+		field_marshal = {
+			traits = { RUS_national_officer organizer infantry_leader infantry_expert offensive_doctrine }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=100
+		}
+	}
+}

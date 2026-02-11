@@ -1,9 +1,12 @@
 load_focus_tree = generic_focus
 capital = 563
 
-#oob = "ABK_1936"
+oob = "FEM_1936"
 
 set_research_slots = 3
+
+#领导人
+
 
 # Starting tech
 set_technology = {
@@ -28,7 +31,7 @@ if = {
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "SOV_1936_air_bba"
+		set_air_oob = "FEM_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			aa_lmg = 1
@@ -45,7 +48,7 @@ if = {
 			bba_early_transport_plane = 1
 		}
 	else = {
-		set_air_oob = "SOV_1936_air_legacy"
+		set_air_oob = "FEM_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			fighter1 = 1
@@ -153,12 +156,4 @@ set_popularities = {
 	fascism = 15
 	nazism = 15
 	Totalitarianism = 10
-}
-create_country_leader = {
-	name = RUS_Mikhail_Konstantinovich_Tzeterikhs
-	picture = GFX_RUS_Mikhail_Konstantinovich_Tzeterikhs
-	ideology = chai_kai_shek
-		traits = {
-		RUS_Military_Region_Commander
-	}
 }
