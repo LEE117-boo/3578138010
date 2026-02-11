@@ -1,3 +1,13 @@
 ################
 ##### SPR ######
 ################
+SPR_post_war_reconstruction = { #西班牙战后重建
+	allowed = {
+		original_tag = SPR
+	}
+} 
+SPR_our_choice = { #西班牙战后重建
+	allowed = {
+		original_tag = SPR
+	}
+} 

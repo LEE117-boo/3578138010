@@ -1,0 +1,37 @@
+SPR_post_war_reconstruction = { #西班牙战后重建
+	SPR_Suppression_of_guerrilla_operations = { #镇压游击行动
+		cost = 25
+	}
+	SPR_Invest_in_industry = { #投资工业
+		cost = 25
+	}
+	SPR_repair_port = { #维修港口
+		cost = 25
+	}
+	SPR_Strengthen_ideological_propaganda = { #加强意识形态宣传
+		cost = 25
+	}
+	SPR_Protect_peoples_livelihood = { #保障民生
+		cost = 25
+	}
+	SPR_build_infrastructure = { #修建基础设施
+		cost = 25
+	}
+	SPR_Strengthen_armaments = { #加强军备
+		cost = 25
+	}
+	SPR_Foreign_aid = { # 来自外国的援助
+		cost = 25
+	}
+}
+SPR_our_choice = {
+	SPR_Like_father_like_son = {
+
+	}
+	SPR_Order_returned_to_the_army = {
+
+	}
+	SPR_God_Fatherland_and_His_Majesty = {
+
+	}
+}

@@ -95,4 +95,8 @@ spriteTypes = {
 		name = "GFX_ideology_XiLin"
 		texturefile = "gfx/interface/ideologies/XiLin.dds"
 	}
+	spriteType = { #米格尔·普里莫·德里维拉-专制主义
+		name = "GFX_ideology_Spain_rivera_ideologies"
+		texturefile = "gfx/interface/ideologies/Spain_rivera_ideologies.dds"
+	}
 }

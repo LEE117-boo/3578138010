@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = { #富尔亨西奥·巴蒂斯塔·萨尔迪瓦
+		name = "GFX_idea_CUB_Fulgencio_Batista_Saldiva"
+		texturefile = "gfx/leaders/CUB/TVE_CUB_Fulgencio_Batista_Saldiva.dds"
+	}
+	spriteType = { #加勒比明珠
+		name = "GFX_idea_CUB_Caribbean_Pearl"
+		texturefile = "gfx/interface/ideas/CUB/TVE_CUB_Caribbean_Pearl.dds"
+	}
+	
+}
