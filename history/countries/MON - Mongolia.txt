@@ -60,7 +60,7 @@ recruit_character = MON_pai_yun_ti
 		#doctrines
 		air_superiority = 1
 		
-		mass_assault = 1
+		
 		pocket_defence = 1
 		defence_in_depth = 1
 

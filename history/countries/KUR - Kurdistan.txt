@@ -73,11 +73,11 @@ if = {
 		#doctrines
 		air_superiority = 1
 
-		mass_assault = 1
+		
 		pocket_defence = 1
 		defence_in_depth = 1
 		
-		fleet_in_being = 1
+		
 		convoy_sailing = 1
 		submarine_operations = 1
 
