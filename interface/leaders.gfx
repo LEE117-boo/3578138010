@@ -19,7 +19,7 @@ spriteTypes = {
 		name = "GFX_IRQ_Bakr_Sidqi_large"
 		texturefile = "gfx/leaders/IRQ/IRQ_Bakr_Sidqi.png"
 	}
-	#高加索
+	#南俄军区
 	spriteType = {
 		name = "GFX_RCA_Anton_Denikin_large"
 		texturefile = "gfx/leaders/RCA/RCA_Anton_Denikin.png"
@@ -27,6 +27,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_RCA_Aleksey_Karelin_large"
 		texturefile = "gfx/leaders/RCA/RCA_Aleksey_Karelin.dds"
+	}
+	#远东军区
+	spriteType = {
+		name = "GFX_FEM_Nikolai_Kosov_large"
+		texturefile = "gfx/leaders/FEM/FEM_Nikolai_Kosov.png"
 	}
 	
 
