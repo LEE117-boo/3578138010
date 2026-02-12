@@ -1514,7 +1514,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=anarchist_Totalitarianism
+			ideology=anarchist_communism
 			expire="1965.1.1.1"
 			id=-1
 		}

@@ -42,9 +42,7 @@ MEX_junfang_jieru_increase = {
 		limit = {
 			has_idea = MEX_jundui_jieru_5
 		}
-		swap_ideas = {
-			add_stability_factor = -0.05 
-		}
+		add_stability = -0.05
 	}
 	else = {
 		add_ideas = MEX_jundui_jieru_1

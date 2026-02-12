@@ -6,7 +6,6 @@ name="何意味，，，"
 
 replace_path="common/bookmarks"
 replace_path="common/characters"
-replace_path="common/ideas"
 replace_path="common/ideologies"
 replace_path="map/bulidings.txt"
 replace_path="map/strategicregions"

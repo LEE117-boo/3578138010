@@ -88,7 +88,7 @@ country_event = {
 							add_country_leader_role = {
 								character = SPR_manuel_azana
 								country_leader = {
-								 	ideology = Conservatism
+								 	ideology = Conservatism_small
 								 	traits = { figurehead_president }
 								 	expire = "1965.1.1"
 								}
@@ -98,7 +98,7 @@ country_event = {
 						ELSE = {
 							promote_character = {
 							    character = SPR_manuel_azana
-							    ideology = Conservatism
+							    ideology = Conservatism_small
 							}
 						}
 					}
@@ -2382,7 +2382,7 @@ country_event = {
 							add_country_leader_role = {
 								character = SPR_manuel_azana
 								country_leader = {
-								 	ideology = Conservatism
+								 	ideology = Conservatism_small
 								 	traits = { figurehead_president }
 								 	expire = "1965.1.1"
 								}
@@ -2392,7 +2392,7 @@ country_event = {
 						ELSE = {
 							promote_character = {
 							    character = SPR_manuel_azana
-							    ideology = Conservatism
+							    ideology = Conservatism_small
 							}
 						}
 					}
@@ -8080,7 +8080,7 @@ country_event = {
 						add_country_leader_role = {
 							character = SPR_manuel_azana
 							country_leader = {
-							 	ideology = Conservatism
+							 	ideology = Conservatism_small
 							 	traits = { figurehead_president }
 							 	expire = "1965.1.1"
 							}
@@ -8090,7 +8090,7 @@ country_event = {
 					ELSE = {
 						promote_character = {
 						    character = SPR_manuel_azana
-						    ideology = Conservatism
+						    ideology = Conservatism_small
 						}
 					}
 				}
@@ -11591,7 +11591,7 @@ country_event = {
 			add_country_leader_role = {
 				character = SPR_manuel_azana
 				country_leader = {
-				 	ideology = Conservatism
+				 	ideology = Conservatism_small
 				 	traits = { figurehead_president }
 				 	expire = "1965.1.1"
 				}
@@ -11603,7 +11603,7 @@ country_event = {
 			add_country_leader_role = {
 				character = SPR_manuel_azana
 				country_leader = {
-				 	ideology = Conservatism
+				 	ideology = Conservatism_small
 				 	traits = { }
 				 	expire = "1965.1.1"
 				}

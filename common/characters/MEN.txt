@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=anarchist_Totalitarianism
+			ideology=anarchist_communism
 			traits={ captain_of_industry }
 			expire="1946.1.1.12"
 			id=-1

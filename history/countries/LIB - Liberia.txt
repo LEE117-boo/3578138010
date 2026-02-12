@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_EDWIN_BARCLAY_DESC"
 	picture = "GFX_portrait_lib_edwin_barclay"
 	expire = "1965.1.1"
-	ideology = Conservatism
+	ideology = Conservatism_small
 	traits = {
 		#
 	}

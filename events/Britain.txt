@@ -318,7 +318,7 @@ country_event = {
 			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
 			picture = GFX_portrait_Winston_Churchill
 			expire = "1965.1.1"
-			ideology = Conservatism
+			ideology = Conservatism_small
 			traits = {
 				british_bulldog
 			}
@@ -332,7 +332,7 @@ country_event = {
 			desc = "POLITICS_EDWARD_HALIFAX_DESC"
 			picture = GFX_portrait_Lord_Edward_Halifax
 			expire = "1965.1.1"
-			ideology = Conservatism
+			ideology = Conservatism_small
 			traits = {
 				viceroy_emeritus
 				cautious_arbiter
@@ -619,10 +619,10 @@ country_event = {
 			name = ENG_Edward_VII
 			picture = GFX_ENG_Edward_VII
 			expire = "1965.1.1"
-			ideology = conservatism_small
+			ideology = Conservatism_small
 			traits = {}
 		}
-		country_event = { id =  }
+		country_event = { id = 2 }
 	}
 }
 
@@ -852,7 +852,7 @@ country_event = {
         	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 			picture = GFX_portrait_Neville_Chamberlain
         	expire = "1965.1.1"
-        	ideology = Conservatism
+        	ideology = Conservatism_small
         	traits = {
         		chamberlain_appeaser rearmer
         	}

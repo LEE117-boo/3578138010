@@ -33,7 +33,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = Conservatism_small
+			ideology = Conservatism_small_small
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1

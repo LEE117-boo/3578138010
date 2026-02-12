@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = The new_federal_election
+		id = Th_new_federal_election
 		icon = GFX_AUS_aus_lorr
 		cost = 1
 		x = 5

@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=gen_nazism_small
+			ideology=nazism_small
 			traits={ polemarch likes_turkey }
 			expire="1965.1.1.1"
 			id=-1

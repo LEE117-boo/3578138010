@@ -96,7 +96,7 @@ create_country_leader = {
 	name = "Hashim Kheir"
 	desc = ""
 	picture = GFX_portrait_Hashim_Kheir
-	ideology = Conservatism
+	ideology = Conservatism_small
 	traits = {
 		#
 	}

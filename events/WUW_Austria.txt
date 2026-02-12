@@ -8274,7 +8274,7 @@ country_event = { #Electing a new democratic leader
 		AUS_kurt_schuschnigg = {
 			add_country_leader_role = {
 				country_leader = {
-					ideology = Conservatism
+					ideology = Conservatism_small
 					expire = "1965.1.1.1"
 					id = -1
 					traits = { AUS_abolished_austrofascism }
@@ -9258,7 +9258,7 @@ country_event = { #A familiar guy wants to assume power over Austria
 			character = AUS_johann_hiedler
 			country_leader={
 				expire = "1965.1.1"
-				ideology = nazism
+				ideology = nazism_small
 				traits = {
 					dictator
 					AUS_fascist_propaganda_artist
@@ -9295,7 +9295,7 @@ country_event = { #A familiar guy wants to assume power over Austria
 			character = AUS_johann_hiedler
 			country_leader={
 				expire = "1965.1.1"
-				ideology = nazism
+				ideology = nazism_small
 				traits = {
 					dictator
 					AUS_elizabeth

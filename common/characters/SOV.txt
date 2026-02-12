@@ -59,7 +59,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = nazism_small
+			ideology = nazism_small_small
 			expire = "1953.3.1.1"
 			id = -1
 		}

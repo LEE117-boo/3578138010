@@ -234,7 +234,7 @@ country_event = {
 			desc = "POLITICS_HARRY_TRUMAN_DESC"
 			picture = GFX_portrait_Harry_S_Truman
 			expire = "1965.1.1"
-			ideology = liberalism
+			ideology = liberalism_small
 			traits = {
 				
 			}

@@ -503,7 +503,7 @@ country_event = {
 		name = DSB.27.n.a
 		set_politics = { ruling_party = Conservatism elections_allowed = no }
 		add_popularity = {
-			ideology = Conservatism
+			ideology = Conservatism_small
 			popularity = 0.35
 		}
 		remove_ideas = GER_Kurtvon_Schleicher

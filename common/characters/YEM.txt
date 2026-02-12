@@ -46,7 +46,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=gen_nazism_small
+			ideology=nazism_small
 			expire="1946.1.1.12"
 			id=-1
 		}

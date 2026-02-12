@@ -210,7 +210,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = anarchist_Totalitarianism  
+				ideology = anarchist_communism  
 				expire = "1965.1.1.1"
 				traits = { gallant_doctor }
 				id = -1
@@ -228,7 +228,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = anarchist_Totalitarianism  
+				ideology = anarchist_communism  
 				expire = "1965.1.1.1"
 				traits = { }
 				id = -1
@@ -245,7 +245,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = anarchist_Totalitarianism  
+			ideology = anarchist_communism  
 			expire = "1965.1.1.1"
 			traits = { anarcho_communist_council }
 			id = -1
@@ -414,7 +414,7 @@ characters = {
 		}
 		### Country leader role to be added via event
 		# country_leader = {
-		# 	ideology = Conservatism  
+		# 	ideology = Conservatism_small_small  
 		# 	expire = "1965.1.1.1"
 		# 	traits = { puppet_monarch }
 		# 	id = -1

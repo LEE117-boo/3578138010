@@ -459,13 +459,13 @@ focus_tree = {
 				limit = {
 					has_idea = MEX_crying_guadalupei
 				}
-				remove_idea = MEX_crying_guadalupei
+				remove_ideas = MEX_crying_guadalupei
 			}
 			if = {
 				limit = {
 					has_idea = MEX_crying_guadalupei2
 				}
-				remove_idea = MEX_crying_guadalupei2
+				remove_ideas = MEX_crying_guadalupei2
 			}
 		}
 	}
@@ -588,7 +588,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-    			ideology = Conservatism
+    			ideology = Conservatism_small
     			popularity = -0.05
 			}
 

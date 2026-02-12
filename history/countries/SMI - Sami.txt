@@ -89,7 +89,7 @@ create_country_leader = {
 	name = SMI_Liberalism_council
 	picture = GFX_portrait_SMI_sami_council
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_small
 }
 
 create_country_leader = {

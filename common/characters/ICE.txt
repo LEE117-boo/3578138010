@@ -55,7 +55,7 @@ characters={
 
 		}
 		country_leader = {
-			ideology = gen_nazism_small
+			ideology = nazism_small
 			traits = { ICE_national_romanticist }
 			expire = "1965.1.1"
 			id = -1
@@ -186,7 +186,7 @@ characters={
 
 		}
 		country_leader = {
-			ideology = Conservatism
+			ideology = Conservatism_small
 			traits = { ICE_transportation_enthusiast }
 			expire = "1965.1.1"
 			id = -1

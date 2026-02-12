@@ -42,7 +42,7 @@ IF = {
 	}
 	## This is a placeholder name until the player picks a fascist party to form
 	set_party_name = {
-		ideology = nazism
+		ideology = nazism_small
 		name = PER_ultra_nationalists
 		long_name = PER_ultra_nationalists_long
 	}

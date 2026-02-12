@@ -59,7 +59,7 @@ characters={
 		name=HOL_dirk_jan_de_geer
 		country_leader={
 			expire = "1965.1.1"
-			ideology = Conservatism
+			ideology = Conservatism_small
 			traits = {
 				defeatist
 			}
@@ -74,7 +74,7 @@ characters={
 		name=HOL_pieter_sjoerds_gerbrandy
 		country_leader={
 			expire = "1965.1.1"
-			ideology = Conservatism
+			ideology = Conservatism_small
 			traits = {
 				little_churchill
 			}

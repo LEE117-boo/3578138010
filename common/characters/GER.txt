@@ -51,7 +51,7 @@ characters = {
 		}
 		gender = female
 		#country_leader = {
-		#	ideology = nazism
+		#	ideology = nazism_small
 		#	traits = { GER_the_iron_maiden }
 		#	expire = "1965.1.1.1"
 		#	id = -1
@@ -67,7 +67,7 @@ characters = {
 			}
 		}
 		#country_leader = {
-		#	ideology = nazism
+		#	ideology = nazism_small
 		#	traits = { }
 		#	expire = "1954.1.1.1"
 		#	id = -1
@@ -174,7 +174,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = Conservatism
+			ideology = Conservatism_small
 			traits = { GER_traditionalist }
 			expire = "1965.1.1.1"
 			id = -1

@@ -94,7 +94,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology = Conservatism
+				ideology = Conservatism_small
 				expire = 1965.1.1.1
 				id = -1
 				traits={ BEL_corrupt_old_guard }
@@ -138,7 +138,7 @@ characters={
 			}
 
 #			country_leader = {
-#				ideology = Conservatism
+#				ideology = Conservatism_small
 #				expire = 1965.1.1.1
 #				id = -1
 #				traits={ BEL_royal_appointee }
@@ -1682,7 +1682,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=anarchist_Totalitarianism
+				ideology=anarchist_communism
 				expire=1965.1.1.1
 				id=-1
 			}

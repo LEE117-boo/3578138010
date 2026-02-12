@@ -191,7 +191,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Klaus_Klauser
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = nazism_small
 	traits = {
 	}
 }
@@ -201,7 +201,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = GFX_portrait_Konrad_Adenauer
 	expire = "1965.1.1"
-	ideology = Conservatism
+	ideology = Conservatism_small
 	traits = {
 	}
 }

@@ -279,7 +279,7 @@ IF = {
 		desc = ""
 		picture = GFX_portrait_Sveinn_Bjornsson
 		expire = "1965.1.1"
-		ideology = Conservatism
+		ideology = Conservatism_small
 		traits = {
 			#
 		}

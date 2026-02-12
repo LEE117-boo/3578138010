@@ -63,7 +63,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = Conservatism
+			ideology = Conservatism_small
 			traits = { silent_workhorse quartermaster_general }
 			expire = "1950.1.1.12"
 			id = -1

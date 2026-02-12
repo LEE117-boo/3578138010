@@ -86,7 +86,7 @@ create_country_leader = {
 	name = "Alfonso Daniel Castelao"
 	picture = GFX_portrait_Alfonso_Daniel_Castelao
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_small
 }
 
 create_country_leader = {

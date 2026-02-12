@@ -2122,7 +2122,7 @@ country_event = {
 		}
 		kill_country_leader = Archduke_Franz_Ferdinand_of_Austria
 		add_popularity = {
-			ideology = Conservatism
+			ideology = Conservatism_small
 			popularity = 0.35
 		}
 		create_country_leader = {

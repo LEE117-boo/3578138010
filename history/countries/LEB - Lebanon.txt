@@ -95,7 +95,7 @@ create_country_leader = {
 	name = "Pierre Gemayel"
 	desc = ""
 	picture = GFX_portrait_Pierre_Gemayel
-	ideology = nazism_ideology
+	ideology = nazism_small_ideology
 	traits = {
 		#
 	}

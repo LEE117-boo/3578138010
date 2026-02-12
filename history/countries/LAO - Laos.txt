@@ -129,7 +129,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Kou_Voragong
 	expire = "1953.3.1"
-	ideology = Conservatism
+	ideology = Conservatism_small
 	traits = {
 		
 	}
