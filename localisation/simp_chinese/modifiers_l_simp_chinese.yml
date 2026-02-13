@@ -16,8 +16,8 @@
  Progressivism_drift_tt: "$Progressivism_drift$：$RIGHT|+=2$"
  nazism_drift: "每日民族社会主义主义支持率"
  nazism_drift_tt: "$nazism_drift$：$RIGHT|+=2$"
- ttttt_drift: "每日专制主义支持率"
- ttttt_drift_tt: "$ttttt_drift$：$RIGHT|+=2$"
+ tttt_drift: "每日专制主义支持率"
+ tttt_drift_tt: "$tttt_drift$：$RIGHT|+=2$"
 
 
  Totalitarianism_acceptance: "极权主义外交接纳度"

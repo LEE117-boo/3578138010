@@ -38,6 +38,10 @@ spriteTypes = {
 		name = "GFX_BUL_boris_iii_large"
 		texturefile = "gfx/leaders/BUL/BUL_boris_iii.dds"
 	}
+	spriteType = {
+		name = "GFX_BUL_Kimon_Georgiev_large"
+		texturefile = "gfx/leaders/BUL/BUL_Kimon_Georgiev.png"
+	}
 	
 
 

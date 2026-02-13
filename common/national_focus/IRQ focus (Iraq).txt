@@ -1,0 +1,86 @@
+focus_tree = {
+	id = TVE_iraq_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 500
+			tag = IRQ
+		}
+	}
+
+	#正式讨论人道主义问题
+	focus = {
+		id = IRQ_discuss_Humanitarian_issues
+		icon = GFX_IRQ_discuss_Humanitarian_issues
+		cost = 3
+		x = 8
+		y = 0
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+			has_country_flag = IRQ_Humanitarian_issues
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { 
+
+		}
+	}
+	#向受害者公开道歉
+	focus = {
+		id = IRQ_Public_apology
+		icon = GFX_IRQ_Public_apology
+		relative_position_id = IRQ_discuss_Humanitarian_issues
+		prerequisite = { focus = IRQ_discuss_Humanitarian_issues }
+		mutually_exclusive = { focus = IRQ_Facing_Oneself }
+		x = -4
+		y = 1
+
+		cost = 3
+
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+			has_country_flag = IRQ_Humanitarian_issues
+		}
+		bypass = {
+			
+		}
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {	
+			
+		}
+	}
+	#勇于面对自我
+	focus = {
+		id = IRQ_Facing_Oneself
+		icon = GFX_IRQ_Facing_Oneself
+		relative_position_id = IRQ_discuss_Humanitarian_issues
+		prerequisite = { focus = IRQ_discuss_Humanitarian_issues }
+		mutually_exclusive = { focus = IRQ_Public_apology }
+		x = 2
+		y = 1
+
+		cost = 3
+
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+			has_country_flag = IRQ_Humanitarian_issues
+		}
+		bypass = {
+			
+		}
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {	
+			
+		}
+	}
+}

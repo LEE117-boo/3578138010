@@ -46,6 +46,9 @@ add_ideas = {
 	IRQ_support_ym_rev #支援也门革命
 	IRQ_rise_star_of_2_rivers #两河流域的赤色灯塔
 }
+#历史触发事件
+country_event = { id = iraq_history.1 days = 3 } #触发国策选择
+
 set_politics = {
 	ruling_party = radical_socialism
 	last_election = "1936.1.1"
