@@ -1,5 +1,4 @@
-﻿capital = 291 # Baghdad
-load_focus_tree = generic_focus
+﻿capital = 291 #巴格达
 oob = "IRQ_1936"
 
 #领导人
