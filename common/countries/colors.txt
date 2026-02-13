@@ -4,10 +4,6 @@ GER = {
 	color = rgb { 27 40 49 }
 	color_ui = rgb { 138 155 116 }
 }
-DSB = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
-}
 ENG = {
 	color = rgb { 157 43 45 }
 	color_ui = rgb { 255 73 121 }

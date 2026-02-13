@@ -8,12 +8,12 @@ state = {
 
 	history = {
 
-		owner = DSB
+		owner = GER
 		add_core_of = BRE
-		add_core_of = DSB
+		add_core_of = GER
 		add_core_of = GER
 		add_core_of = PRE
-		add_claim_by = DSB
+		add_claim_by = GER
 
 
 		victory_points = {

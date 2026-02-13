@@ -10,8 +10,8 @@ state = {
 
 	history = {
 
-		owner = DSB
-		add_core_of = DSB
+		owner = GER
+		add_core_of = GER
 		add_core_of = GER
 		add_core_of = PRE
 
