@@ -33,6 +33,11 @@ spriteTypes = {
 		name = "GFX_FEM_Nikolai_Kosov_large"
 		texturefile = "gfx/leaders/FEM/FEM_Nikolai_Kosov.png"
 	}
+	#保加利亚
+	spriteType = {
+		name = "GFX_BUL_boris_iii_large"
+		texturefile = "gfx/leaders/BUL/BUL_boris_iii.dds"
+	}
 	
 
 

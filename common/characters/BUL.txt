@@ -1,27 +1,4 @@
 characters = {
-
-	#######################
-	### COUNTRY LEADERS ###
-	#######################
-	BUL_boris_iii = {
-		instance = {
-			allowed = {
-				always = yes
-			}
-			name = BUL_boris_iii
-			portraits = {
-				civilian = {
-					large = GFX_TVE_BUL_LEADERS
-				}
-			}
-			country_leader = {
-				ideology = despotism
-				traits = { BUL_boris_iii_gaochaodewuzhe BUL_boris_iii_jiefangzheshahuang }
-				expire = "1965.1.1"
-				id = -1
-			}
-		}
-	}
 	#科奥塞伊万诺夫
 	BUL_Kyoseivanov = {
 		name = BUL_Kyoseivanov

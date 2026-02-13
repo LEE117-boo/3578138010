@@ -1,12 +1,14 @@
 leader_traits ={
-	
-	BUL_boris_iii_gaochaodewuzhe = {
-		stability_factor = 0.15
-		political_power_cost = -0.5
-		war_support_factor = 0.1
-	}
-	BUL_boris_iii_jiefangzheshahuang = {
-		political_power_cost = -0.02
-		stability_factor = 0.05
-	}
+	#鸡蛋上的舞者
+    BUL_egg_dancer = {
+        random = no
+        political_power_gain = 0.5
+        stability_factor = 0.10
+    }
+    #人格魅力者
+    BUL_Charismatic_person = {
+        random = no
+        stability_factor = 0.10
+        Authoritarianism_drift = 0.5
+    }
 }

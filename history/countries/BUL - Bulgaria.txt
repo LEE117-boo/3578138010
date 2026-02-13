@@ -5,44 +5,25 @@ oob = "BUL_1936"
 set_air_oob = "BUL_1936_air_bba"
 set_convoys = 5 
 
-set_party_name = {
-	ideology = Totalitarianism
-	name = BUL_Totalitarianism_party_bulgarian
-	long_name = BUL_Totalitarianism_party_bulgarian_long
-}
-set_party_name = {
-	ideology = fascism
-	name = BUL_fascism_party_bulgarian
-	long_name = BUL_fascism_party_bulgarian_long
-}
-set_party_name = {
-	ideology = Authoritarianism
-	name = BUL_Authoritarianism_party_bulgarian
-	long_name = BUL_Authoritarianism_party_bulgarian
+add_ideas = {
+	BUL_communism_bandit #赤匪肆虐
+	BUL_Military_Development_1 #军队建设状况:糟糕透顶
+	BUL_Economic_development_1 #经济建设状况:财政危机
+	BUL_Tsar_Conspiracy #沙皇的阴谋
+	BUL_Ironfisted_rule #铁腕统治
+	BUL_Treaty_of_Sofia #索菲亚条约
+	BUL_Doubleedged_sword #马其顿的双刃剑
 }
 
 load_focus_tree = generic_focus
-
+#领导人
 recruit_character = BUL_boris_iii
+recruit_character = BUL_Kimon_Georgiev #基蒙·格奥尔基耶夫
 
-	set_party_name = {
-		ideology = Liberalism
-		name = BUL_Liberalism_party_bftb
-		long_name = BUL_Liberalism_party_bftb_bulgarian_long
-	}
-	set_cosmetic_tag = BUL_Authoritarianism
-
-	add_ideas = {
-		dushezhiya
-		wuwangzhizai
-		anyingzhiren
-		nayitiaoyue
-	}
-
-	set_rule = {
-		can_not_declare_war = yes
-	}
-	country_lock_all_division_template = yes
+set_rule = {
+	can_not_declare_war = yes
+}
+country_lock_all_division_template = yes
 
 	randomize_variable = {
 		var = BUL_tsars_destination
@@ -86,12 +67,16 @@ recruit_character = BUL_boris_iii
 		modifier = BFTB_incongruous_neighbors
 	}
 
-	set_popularities = {
-		Liberalism = 10
-		fascism = 30
-		Authoritarianism = 55
-		Totalitarianism = 5
-	}
+set_popularities = {
+	Totalitarianism = 3
+	radical_socialism = 5
+	Progressivism = 5
+	Liberalism = 7
+	Conservatism = 5
+	Authoritarianism = 30
+	tttt = 40
+	fascism = 5
+}
 
 	recruit_character = BUL_georgi_dimitrov
 	recruit_character = BUL_nikola_mushanov
@@ -161,14 +146,14 @@ recruit_character = BUL_boris_iii
 	}
 	recruit_character = BUL_stefan_nedev
 
-	set_research_slots = 3
+set_research_slots = 3
 
-	set_politics = {
-		ruling_party = Authoritarianism
-		last_election = "1935.1.22"
-		election_frequency = 48
-		elections_allowed = no
-	}
+set_politics = {
+	ruling_party = tttt
+	last_election = "1935.1.22"
+	election_frequency = 48
+	elections_allowed = no
+}
 
 set_technology = {
 	infantry_weapons = 1
