@@ -43,9 +43,15 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BUL/BUL_Kimon_Georgiev.png"
 	}
 	#德意志帝国
+	#领导人
 	spriteType = {
 		name = "GFX_GER_wilhelm_ii_Progressivism_large"
 		texturefile = "gfx/leaders/GER/GER_wilhelm_ii_Progressivism.png"
+	}
+	#副手
+	spriteType = {
+		name = "GFX_GER_Hjalmar_Schacht_small"
+		texturefile = "gfx/interface/advisors/GER/GER_Hjalmar_Schacht.png"
 	}
 	
 

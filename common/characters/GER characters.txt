@@ -13,4 +13,24 @@ characters={
 			traits={ GER_Kaiser }
 		}
 	}
+
+
+
+	#副手
+	#亚尔马·沙赫特
+	GER_Hjalmar_Schacht = {
+		name = GER_Hjalmar_Schacht
+		portraits = {
+			army = {
+				small = GFX_GER_Hjalmar_Schacht_small
+			}
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = GER_Hjalmar_Schacht_sic
+			traits = { GER_Financial_Magician_sic }
+			cost = 0
+			can_be_fired = no
+		}
+	}
 }
