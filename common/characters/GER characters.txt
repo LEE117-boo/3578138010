@@ -32,5 +32,19 @@ characters={
 			cost = 0
 			can_be_fired = no
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_Hjalmar_Schacht_pol
+            allowed = {
+				original_tag = GER
+			}
+            cost = 150
+			available = {
+				not_already_hired_except_as = political_advisor
+            }
+			traits = {
+				GER_Financial_Magician
+			}
+        }
 	}
 }

@@ -9,9 +9,17 @@ leader_traits ={
     }
 
     #副手特质
-    #金融魔术师
-    GER_Financial_Magician_sic = {
+    #帝国巫师
+    GER_Imperial_Wizard_sic = {
         random = no
-        consumer_goods_factor = -0.2
+        consumer_goods_factor = -0.10
+        production_speed_buildings_factor = 0.15
+    }
+
+    #政治顾问特质
+    #金融魔术师
+    GER_Financial_Magician = {
+        random = no
+        consumer_goods_factor = -0.20
     }
 }
