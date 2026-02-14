@@ -1,0 +1,36 @@
+focus_tree = {
+	id = TVE_germany_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 500
+			tag = GER
+		}
+	}
+
+    #苟延残喘
+    focus = {
+		id = GER_clinging_to_life
+		icon = GFX_GER_clinging_to_life
+		x = 4
+		y = 0
+		
+		cost = 10
+
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+			
+		}
+		bypass = {
+			
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			
+		}
+	}
+    
+}
