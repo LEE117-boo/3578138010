@@ -43,7 +43,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Humanitarian_issues
+			
 		}
 		bypass = {
 			
@@ -60,7 +60,7 @@ focus_tree = {
 		id = IRQ_Facing_Oneself
 		icon = GFX_IRQ_Facing_Oneself
 		relative_position_id = IRQ_discuss_Humanitarian_issues
-		prerequisite = { focus = IRQ_discuss_Humanitarian_issues }
+		prerequisite = { focus = IRQ_discuss_Humanitarian_issues focus = IRQ_Baghdad_Victory_Parade }
 		mutually_exclusive = { focus = IRQ_Public_apology }
 		x = 2
 		y = 1
@@ -71,7 +71,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Humanitarian_issues
+			
 		}
 		bypass = {
 			
@@ -98,7 +98,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Humanitarian_issues
+			
 		}
 		bypass = {
 			
@@ -117,6 +117,7 @@ focus_tree = {
 		relative_position_id = IRQ_discuss_Humanitarian_issues
 		prerequisite = { focus = IRQ_Reversed_Assyrians }
 		mutually_exclusive = { focus = IRQ_Compensation_Policy }
+		mutually_exclusive = { focus = IRQ_Blood_for_blood }
 		x = -2
 		y = 3
 
@@ -126,7 +127,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Humanitarian_issues
+			
 		}
 		bypass = {
 			
@@ -145,6 +146,7 @@ focus_tree = {
 		relative_position_id = IRQ_discuss_Humanitarian_issues
 		prerequisite = { focus = IRQ_Facing_Oneself }
 		mutually_exclusive = { focus = IRQ_Bridge_ethnic_conflicts }
+		mutually_exclusive = { focus = IRQ_Blood_for_blood }
 		x = 2
 		y = 3
 
@@ -154,7 +156,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Humanitarian_issues
+			
 		}
 		bypass = {
 			
@@ -182,7 +184,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Humanitarian_issues
+			
 		}
 		bypass = {
 
@@ -209,7 +211,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Humanitarian_issues
+			
 		}
 		bypass = {
 
@@ -236,7 +238,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Humanitarian_issues
+			
 		}
 		bypass = {
 
@@ -263,7 +265,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Humanitarian_issues
+			
 		}
 		bypass = {
 
@@ -310,7 +312,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Victory_Parade
+			
 		}
 		bypass = {
 			
@@ -338,7 +340,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Victory_Parade
+			
 		}
 		bypass = {
 			
@@ -365,7 +367,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Victory_Parade
+			
 		}
 		bypass = {
 			
@@ -392,7 +394,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Victory_Parade
+			
 		}
 		bypass = {
 
@@ -410,6 +412,8 @@ focus_tree = {
 		icon = GFX_IRQ_Blood_for_blood
 		relative_position_id = IRQ_Baghdad_Victory_Parade
 		prerequisite = { focus = IRQ_Promote_unity }
+		mutually_exclusive = { focus = IRQ_Bridge_ethnic_conflicts }
+		mutually_exclusive = { focus = IRQ_Compensation_Policy }
 		x = 0
 		y = 3
 
@@ -419,7 +423,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Victory_Parade
+			
 		}
 		bypass = {
 			
@@ -447,7 +451,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Victory_Parade
+			
 		}
 		bypass = {
 
@@ -474,7 +478,7 @@ focus_tree = {
 			base = 1
 		}
 		available = {
-			has_country_flag = IRQ_Victory_Parade
+			
 		}
 		bypass = {
 			
