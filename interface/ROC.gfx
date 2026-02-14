@@ -85,4 +85,76 @@ spriteTypes = {
 		name = "GFX_ROC_YUAN_SHI_KAI"
 		texturefile = "gfx/leaders/CHI/ROC_YUAN_SHI_KAI.png"
 	}
+
+	
+	spriteType = {
+		name = "GFX_ROC_state_icon_1"
+		textureFile = "gfx/interface/modifiers_unplanned_offensive_icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_zhanghuitao"
+		textureFile = "gfx/leaders/ROC/ROC_zhanghuitao.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_taojun"
+		textureFile = "gfx/leaders/ROC/ROC_taojun.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_wanglingji"
+		textureFile = "gfx/leaders/ROC/ROC_wanglingji.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_hujingyi"
+		textureFile = "gfx/leaders/ROC/ROC_hujingyi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_handeqin"
+		textureFile = "gfx/leaders/ROC/ROC_handeqin.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_fangbenren"
+		textureFile = "gfx/leaders/ROC/ROC_fangbenren.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_luyongxiang"
+		textureFile = "gfx/leaders/ROC/ROC_luyongxiang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_zengjiwu"
+		textureFile = "gfx/leaders/ROC/ROC_zengjiwu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_yuanzuming"
+		textureFile = "gfx/leaders/ROC/ROC_yuanzuming.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_huruoyu"
+		textureFile = "gfx/leaders/ROC/ROC_huruoyu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_zhouyinren"
+		textureFile = "gfx/leaders/ROC/ROC_zhouyinren.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_lurongting"
+		textureFile = "gfx/leaders/ROC/ROC_lurongting.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROC_longjiguang"
+		textureFile = "gfx/leaders/ROC/ROC_longjiguang.dds"
+		legacy_lazy_load = no
+	}
 }
