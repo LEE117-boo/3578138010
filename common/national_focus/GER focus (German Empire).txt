@@ -15,8 +15,7 @@ focus_tree = {
 		icon = GFX_GER_clinging_to_life
 		x = 4
 		y = 0
-		
-		cost = 10
+		cost = 1
 
 		ai_will_do = { 
 			base = 1
@@ -32,5 +31,58 @@ focus_tree = {
 			
 		}
 	}
+	#最后一笔债务
+	focus = {
+		id = GER_last_debt
+		icon = GFX_GER_last_debt
+		relative_position_id = GER_clinging_to_life
+		prerequisite = { focus = GER_clinging_to_life }
+		x = 0
+		y = 1
+		cost = 1
+
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+			
+		}
+		bypass = {
+			
+		}
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+
+		}
+	}
+	#柏林阅兵
+	focus = {
+		id = GER_Berlin_military_parade
+		icon = GFX_GER_Berlin_military_parade
+		relative_position_id = GER_clinging_to_life
+		prerequisite = { focus = GER_last_debt }
+		x = 0
+		y = 2
+		cost = 1
+
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+			
+		}
+		bypass = {
+			
+		}
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = { 
+
+		}
+	}
+
     
 }
