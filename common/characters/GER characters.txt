@@ -1,0 +1,16 @@
+characters={
+	#领导人
+	#威廉二世-进步派
+	GER_wilhelm_ii_Progressivism = {
+		name = GER_wilhelm_ii
+		portraits={
+			civilian={
+				large = GFX_GER_wilhelm_ii_Progressivism_large
+			}
+		}
+		country_leader={
+			ideology = Social_democracy
+			traits={  }
+		}
+	}
+}
