@@ -113,7 +113,7 @@ if = {
 		value = 30
 	}
 	set_variable = {
-		var = pol_peasant_Totalitarianism
+		var = pol_peasant_Communism
 		value = 30
 	}
 }
@@ -369,7 +369,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 8
 
-	Totalitarianism = 20
+	Communism = 20
 
 	Authoritarianism = 22
 
@@ -382,7 +382,7 @@ set_popularities = {
 	set_popularities = {
 		Liberalism = 13
 		fascism = 7
-		Totalitarianism = 2
+		Communism = 2
 		Authoritarianism = 78
 	}
 }

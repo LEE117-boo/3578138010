@@ -19,7 +19,7 @@ JOC_communism:0"大和民国"
 JOC_neutrality:0"大和民国"
 
 #政党
-JAP_Totalitarianism_party: "日本共产党"
+JAP_Communism_party: "日本共产党"
 JAP_Liberalism_party: "帝国宪政党"
 JAP_emperor_hirohito_desc:0"裕仁出生自1900年间，不过，由于该消息被长期封锁的缘故，导致其在第二年才正式出现在公众的视野中。裕仁作为嫡长子，宫中对其宠爱至佳，再各种教育对其的影响下他也渐成为一个优秀的立宪君主。\n裕仁一生中的重要转折点来自于伊藤公爵对其进行的教育，这也使其两人成为至亲好友，在伊藤逝世后悲伤欲绝的裕仁亲王为伊藤公爵举办国葬。他在伊藤悼念会演讲中表明将延续公爵的宪政志，领导帝国走向立宪民主。\n裕仁登基后，便开始依靠宫内势力与各类政党人士交往，他开始逐渐倾向于将自己的“圣意”立于第一大党之下，在这种思想的推动了，使其开始支持了各种政党的势力，哪怕是像近卫公爵等人成立其新党和左翼运动的社会劳动党，裕仁也是对他们表示好感，对于近卫公爵更是表露出如若其政党组阁，将不留余力以支持。"
 JAP_fascism_party: "-革新同志会-"
@@ -41,7 +41,7 @@ JAP_Conservatism_party:0"无所属"
 JAP_Liberalism_party:0"帝国宪政党"
 JAP_Progressivism_party:0"农业进步党"
 JAP_fascism_party:0"-革新同志会-"
-JAP_radical_socialism_party:0"社会劳动党"
+JAP_Socialism_party:0"社会劳动党"
 JAP_communism_party:0"日本共产党"
 
 #阵营

@@ -247,8 +247,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	Totalitarianism = 12
-	radical_socialism = 11
+	Communism = 12
+	Socialism = 11
 	Progressivism = 9
 	Liberalism = 14
 	Conservatism = 13

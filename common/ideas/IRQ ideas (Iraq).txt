@@ -105,7 +105,7 @@ ideas = {
 			picture = rise_star_of_2_rivers
 			allowed = { always = no }
 			modifier = {
-				radical_socialism_drift = 0.05
+				Socialism_drift = 0.05
 				opinion_gain_monthly_same_ideology = 0.15
 				generate_wargoal_tension = -0.10
 				join_faction_tension = -0.10

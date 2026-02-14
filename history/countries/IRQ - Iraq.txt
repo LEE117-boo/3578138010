@@ -49,14 +49,14 @@ add_ideas = {
 country_event = { id = iraq_history.1 days = 3 } #触发国策选择
 
 set_politics = {
-	ruling_party = radical_socialism
+	ruling_party = Socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	radical_socialism = 33
-	Totalitarianism = 10
+	Socialism = 33
+	Communism = 10
 	Progressivism = 10
 	Liberalism = 5
 	Conservatism = 7

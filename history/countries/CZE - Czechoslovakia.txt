@@ -120,7 +120,7 @@ set_popularities = {
 	Liberalism = 65
 	Authoritarianism = 20
 	fascism = 5
-	Totalitarianism = 10
+	Communism = 10
 }
 
 if = {

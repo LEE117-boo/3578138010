@@ -150,7 +150,7 @@ characters = {
 
 				available = {
 					OR = {
-						has_government = Totalitarianism
+						has_government = Communism
 						has_completed_focus = CHL_align_the_marxists
 						has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 					}
@@ -165,7 +165,7 @@ characters = {
 				visible = {
 					#CM
 					OR = {
-						has_government = Totalitarianism
+						has_government = Communism
 						has_completed_focus = CHL_align_the_marxists
 						has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 					}
@@ -240,7 +240,7 @@ characters = {
 				available = {
 					OR = {
 						has_government = Liberalism
-						has_government = Totalitarianism
+						has_government = Communism
 					}
 					NOT = {
 						has_country_leader = {
@@ -594,7 +594,7 @@ characters = {
 
 				available = {
 					OR = {
-						has_government = Totalitarianism
+						has_government = Communism
 						has_government = Liberalism
 						has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 					}
@@ -624,7 +624,7 @@ characters = {
 				logistics_skill = 3
 				legacy_id = -1
 				visible = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 			name = CHL_marmaduke_grove
@@ -901,7 +901,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_completed_focus = CHL_address_the_mapuche_conflict
-							has_government = Totalitarianism
+							has_government = Communism
 						}
 					}
 				}
@@ -910,7 +910,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_completed_focus = CHL_address_the_mapuche_conflict
-							has_government = Totalitarianism
+							has_government = Communism
 						}
 					}
 				}
@@ -933,7 +933,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_completed_focus = CHL_address_the_mapuche_conflict
-							has_government = Totalitarianism
+							has_government = Communism
 						}
 					}
 				}
@@ -1120,7 +1120,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_completed_focus = CHL_address_the_mapuche_conflict
-							has_government = Totalitarianism
+							has_government = Communism
 							CHL_has_left_wing_government = yes
 						}
 					}
@@ -1138,7 +1138,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_completed_focus = CHL_address_the_mapuche_conflict
-							has_government = Totalitarianism
+							has_government = Communism
 							AND = {
 								has_government = fascism
 								NOT = {
@@ -1161,7 +1161,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_completed_focus = CHL_address_the_mapuche_conflict
-							has_government = Totalitarianism
+							has_government = Communism
 							# has_country_flag = Ariostazo_happened
 						}
 					}
@@ -1234,7 +1234,7 @@ characters = {
 				visible = {
 					NOT = {
 						OR = {
-							has_government = Totalitarianism
+							has_government = Communism
 							has_government = fascism
 							has_completed_focus = CHL_address_the_mapuche_conflict
 						}
@@ -1244,7 +1244,7 @@ characters = {
 				available = {
 					NOT = {
 						OR = {
-							has_government = Totalitarianism
+							has_government = Communism
 							has_government = fascism
 							has_completed_focus = CHL_address_the_mapuche_conflict
 						}
@@ -1383,7 +1383,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_completed_focus = CHL_address_the_mapuche_conflict
-							has_government = Totalitarianism
+							has_government = Communism
 							has_government = fascism
 						}
 					}
@@ -1450,7 +1450,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					has_completed_focus = CHL_align_the_marxists
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -1465,7 +1465,7 @@ characters = {
 			visible = {
 				#CM
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					has_completed_focus = CHL_align_the_marxists
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -1527,7 +1527,7 @@ characters = {
 			available = {
 				NOT = {
 					OR = {
-						has_government = Totalitarianism
+						has_government = Communism
 						has_completed_focus = CHL_address_the_mapuche_conflict
 					}
 				}
@@ -1542,7 +1542,7 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						has_government = Totalitarianism
+						has_government = Communism
 						has_completed_focus = CHL_address_the_mapuche_conflict
 					}
 				}
@@ -1575,7 +1575,7 @@ characters = {
 			legacy_id = -1 
 			visible = {
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 		}
@@ -1634,7 +1634,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_completed_focus = CHL_address_the_mapuche_conflict
-						has_government = Totalitarianism
+						has_government = Communism
 					}
 				}
 			}
@@ -1732,7 +1732,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					has_completed_focus = CHL_align_the_marxists
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -1747,7 +1747,7 @@ characters = {
 			visible = {
 				#CM
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					has_completed_focus = CHL_align_the_marxists
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -1838,7 +1838,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_completed_focus = CHL_address_the_mapuche_conflict
-						has_government = Totalitarianism
+						has_government = Communism
 					}
 				}
 			}
@@ -1892,7 +1892,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_government = fascism
-						has_government = Totalitarianism
+						has_government = Communism
 					}
 				}
 			}
@@ -2228,7 +2228,7 @@ characters = {
 					OR = {
 						has_government = fascism
 						AND = {
-							has_government = Totalitarianism
+							has_government = Communism
 							NOT = {
 								has_country_leader = {
 									ruling_only = yes
@@ -2330,7 +2330,7 @@ characters = {
 
 			visible = {
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 
@@ -2528,7 +2528,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					CHL_has_left_wing_government = yes
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -2537,7 +2537,7 @@ characters = {
 			visible = {
 				#CM
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					CHL_has_left_wing_government = yes
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -2570,14 +2570,14 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
 			}
 
 			visible = {
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					CHL_has_left_wing_government = yes
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -2610,7 +2610,7 @@ characters = {
 			visible = {
 				OR = {
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 		}
@@ -2728,7 +2728,7 @@ characters = {
 					OR = {
 						has_completed_focus = CHL_address_the_mapuche_conflict
 						has_completed_focus = CHL_denounce_the_anarchy
-						has_government = Totalitarianism
+						has_government = Communism
 					}
 				}
 			}
@@ -2785,7 +2785,7 @@ characters = {
 					OR = {
 						has_completed_focus = CHL_address_the_mapuche_conflict
 						has_completed_focus = CHL_denounce_the_anarchy
-						has_government = Totalitarianism
+						has_government = Communism
 					}
 				}
 			}
@@ -2944,7 +2944,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 		}
@@ -3295,7 +3295,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					CHL_has_left_wing_government = yes
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -3304,7 +3304,7 @@ characters = {
 			visible = {
 				#CM
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					CHL_has_left_wing_government = yes
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -3465,7 +3465,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					CHL_has_left_wing_government = yes
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -3474,7 +3474,7 @@ characters = {
 			visible = {
 				#CM
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					CHL_has_left_wing_government = yes
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -3661,7 +3661,7 @@ characters = {
 				OR = {
 					has_completed_focus = CHL_avenge_the_pacification_of_araucania
 					has_government = Liberalism
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 
@@ -3869,7 +3869,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					CHL_has_left_wing_government = yes
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -3878,7 +3878,7 @@ characters = {
 			visible = {
 				#CM
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					CHL_has_left_wing_government = yes
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -4016,7 +4016,7 @@ characters = {
 				OR = {
 					has_completed_focus = CHL_align_the_marxists
 					AND = {
-						has_government = Totalitarianism
+						has_government = Communism
 						NOT = {
 							has_country_leader = {
 								ruling_only = yes
@@ -4031,7 +4031,7 @@ characters = {
 				#CM
 				OR = {
 					has_completed_focus = CHL_align_the_marxists
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 				#NED
 				OR = {
@@ -4171,7 +4171,7 @@ characters = {
 			available = {
 				OR = {
 					CHL_has_left_wing_government = yes
-					has_government = Totalitarianism
+					has_government = Communism
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
 			}
@@ -4179,7 +4179,7 @@ characters = {
 			visible = {
 				OR = { #CM
 					CHL_has_left_wing_government = yes
-					has_government = Totalitarianism
+					has_government = Communism
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				} #END
 
@@ -4349,7 +4349,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = Totalitarianism
+					has_government = Communism
 					has_completed_focus = CHL_align_the_marxists
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				}
@@ -4357,7 +4357,7 @@ characters = {
 
 			visible = {
 				OR = { ##CM
-					has_government = Totalitarianism
+					has_government = Communism
 					has_completed_focus = CHL_align_the_marxists
 					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
 				} ##

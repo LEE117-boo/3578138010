@@ -28,7 +28,7 @@ characters = {
 				legacy_id = -1
 				visible = {
 					OR = {
-						has_government = Totalitarianism
+						has_government = Communism
 						has_government = Liberalism
 					}
 				}
@@ -130,7 +130,7 @@ characters = {
 				legacy_id = -1
 				visible = {
 					NOT = {
-						has_government = Totalitarianism
+						has_government = Communism
 					}
 				}
 			}
@@ -175,7 +175,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 		}
@@ -1260,7 +1260,7 @@ characters = {
 			}
 			cost = 100
 			available  = {
-				#has_government = Totalitarianism
+				#has_government = Communism
 				#has_completed_focus = BRA_revive_the_anl
 			}
 			traits  = {
@@ -1284,7 +1284,7 @@ characters = {
 				has_dlc = "Trial of Allegiance"
 			}
 			available  = {
-				#has_government = Totalitarianism
+				#has_government = Communism
 				#has_completed_focus = BRA_revive_the_anl
 			}
 			traits  = {
@@ -1308,7 +1308,7 @@ characters = {
 				has_dlc = "Trial of Allegiance"
 			}
 			available  = {
-				#has_government = Totalitarianism
+				#has_government = Communism
 				#has_completed_focus = BRA_revive_the_anl
 			}
 			traits  = {
@@ -1332,7 +1332,7 @@ characters = {
 				has_dlc = "Trial of Allegiance"
 			}
 			available  = {
-				#has_government = Totalitarianism
+				#has_government = Communism
 				#has_completed_focus = BRA_revive_the_anl
 			}
 			traits  = {
@@ -1356,7 +1356,7 @@ characters = {
 				has_dlc = "Trial of Allegiance"
 			}
 			available  = {
-				#has_government = Totalitarianism
+				#has_government = Communism
 				#has_completed_focus = BRA_revive_the_anl
 			}
 			traits  = {
@@ -1380,7 +1380,7 @@ characters = {
 				has_dlc = "Trial of Allegiance"
 			}
 			available  = {
-				#has_government = Totalitarianism
+				#has_government = Communism
 				#has_completed_focus = BRA_revive_the_anl
 			}
 			traits  = {
@@ -1404,7 +1404,7 @@ characters = {
 				has_dlc = "Trial of Allegiance"
 			}
 			available  = {
-				#has_government = Totalitarianism
+				#has_government = Communism
 				#has_completed_focus = BRA_revive_the_anl
 			}
 			traits  = {
@@ -1430,7 +1430,7 @@ characters = {
 				has_dlc = "Trial of Allegiance"
 			}
 			available  = {
-				#has_government = Totalitarianism
+				#has_government = Communism
 				#has_completed_focus = BRA_revive_the_anl
 			}
 			traits  = {
@@ -1454,7 +1454,7 @@ characters = {
 				has_dlc = "Trial of Allegiance"
 			}
 			available  = {
-				#has_government = Totalitarianism
+				#has_government = Communism
 				#has_completed_focus = BRA_revive_the_anl
 			}
 			traits  = {
@@ -1479,7 +1479,7 @@ characters = {
 				has_dlc = "Trial of Allegiance"
 			}
 			available  = {
-				#has_government = Totalitarianism
+				#has_government = Communism
 				#has_completed_focus = BRA_revive_the_anl
 			}
 			traits  = {

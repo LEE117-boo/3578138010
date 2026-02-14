@@ -293,7 +293,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 93
 	fascism = 4
-	Totalitarianism = 3
+	Communism = 3
 }
 
 set_convoys = 150

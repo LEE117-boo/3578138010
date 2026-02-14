@@ -4,9 +4,9 @@
 ####
 #You don't want Russian party names? Just remove these lines
 set_party_name = {
-	ideology = Totalitarianism
-	long_name = SOV_Totalitarianism_party_russian_long
-	name = SOV_Totalitarianism_party_russian
+	ideology = Communism
+	long_name = SOV_Communism_party_russian_long
+	name = SOV_Communism_party_russian
 }
 set_party_name = {
 	ideology = fascism
@@ -422,7 +422,7 @@ set_variable = { SOV_propaganda_treacherous_enemy_cost = SOV_propaganda_cost } #
 set_variable = { SOV_propaganda_do_not_blab_cost = SOV_propaganda_cost } # ID = 16
 set_variable = { SOV_propaganda_sweep_scum_out_cost = SOV_propaganda_cost } # ID = 17
 set_variable = { SOV_propaganda_knowledge_cost = SOV_propaganda_cost } # ID = 18
-set_variable = { SOV_propaganda_builders_of_Totalitarianism_cost = SOV_propaganda_cost } # ID = 19
+set_variable = { SOV_propaganda_builders_of_Communism_cost = SOV_propaganda_cost } # ID = 19
 set_variable = { SOV_propaganda_glory_to_partisans_cost = SOV_propaganda_cost } # ID = 20
 set_variable = { SOV_propaganda_death_to_invaders_cost = SOV_propaganda_cost } # ID = 21
 set_variable = { SOV_propaganda_stalin_cost = SOV_propaganda_cost } # ID = 22
@@ -641,7 +641,7 @@ set_variable = { SOV_the_red_army_max_command_power_mult = 0 } # -> Depoliticize
 
 
 #THE POLITBURO SPIRIT VARS
-set_variable = { SOV_the_politburo_Totalitarianism_drift = 0.05 }
+set_variable = { SOV_the_politburo_Communism_drift = 0.05 }
 
 set_variable = { SOV_the_politburo_defensive_war_stability_factor = 0 } # -> Socialism in One Country
 set_variable = { SOV_the_politburo_drift_defence_factor = 0 } # -> Socialism in One Country
@@ -1195,7 +1195,7 @@ set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
 	add_to_variable = { SOV_the_red_army_cavalry_attack_factor = 0.05 }
 
 	#THE POLITBURO NS
-	add_to_variable = { SOV_the_politburo_Totalitarianism_drift = 0.05 }
+	add_to_variable = { SOV_the_politburo_Communism_drift = 0.05 }
 	add_to_variable = { SOV_the_politburo_drift_defence_factor = 0.05 } 
 	add_to_variable = { SOV_the_politburo_defensive_war_stability_factor = 0.25 }
 	add_to_variable = { SOV_the_politburo_political_power_factor = 0.05 }
@@ -1309,8 +1309,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	Totalitarianism = 0
-	radical_socialism = 0
+	Communism = 0
+	Socialism = 0
 	Progressivism = 50
 	Liberalism = 27
 	Conservatism = 15

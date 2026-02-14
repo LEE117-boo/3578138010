@@ -538,7 +538,7 @@ ideas = {
 			available = {
 				NOT = { is_in_faction_with = SOV }
 				NOT = { has_war_together_with = SOV }
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 
 			allowed = {
@@ -652,7 +652,7 @@ ideas = {
 			picture = anti_soviet_pact
 
 			modifier = {
-				Totalitarianism_drift = -0.1
+				Communism_drift = -0.1
 			}
 		}
 
@@ -662,15 +662,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 
 			removal_cost = -1
 
-			picture = generic_Totalitarianism_drift_bonus
+			picture = generic_Communism_drift_bonus
 
 			modifier = {
-				Totalitarianism_drift = 0.12
+				Communism_drift = 0.12
 				weekly_manpower = 50
 			}
 		}
@@ -682,15 +682,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 
 			removal_cost = -1
 
-			picture = generic_Totalitarianism_drift_bonus
+			picture = generic_Communism_drift_bonus
 
 			modifier = {
-				Totalitarianism_drift = 0.05
+				Communism_drift = 0.05
 				stability_factor = -0.05
 			}
 		}
@@ -758,7 +758,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 
 			removal_cost = -1
@@ -766,7 +766,7 @@ ideas = {
 			picture = anti_soviet_pact
 
 			modifier = {
-				Totalitarianism_drift = -0.1
+				Communism_drift = -0.1
 			}
 		}
 
@@ -779,7 +779,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = { 
 					OR = {
-						has_government = Totalitarianism 
+						has_government = Communism 
 						has_government = fascism 
 					}
 				}
@@ -790,7 +790,7 @@ ideas = {
 			picture = anti_soviet_pact
 
 			modifier = {
-				Totalitarianism_drift = -0.1
+				Communism_drift = -0.1
 				fascism_drift = -0.05
 			}
 		}
@@ -803,7 +803,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = { 
 					OR = {
-						has_government = Totalitarianism 
+						has_government = Communism 
 						has_government = fascism 
 					}
 				}
@@ -814,7 +814,7 @@ ideas = {
 			picture = anti_soviet_pact
 
 			modifier = {
-				Totalitarianism_drift = -0.1
+				Communism_drift = -0.1
 				drift_defence_factor = 0.15
 				political_power_factor = 0.1
 			}
@@ -828,7 +828,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = { 
 					OR = {
-						has_government = Totalitarianism 
+						has_government = Communism 
 						has_government = fascism 
 					}
 				}
@@ -879,7 +879,7 @@ ideas = {
 			picture = ger_the_great_red_menace
 
 			modifier = {
-				Totalitarianism_drift = -0.02
+				Communism_drift = -0.02
 				Liberalism_drift = 0.02
 			}
 		}
@@ -1081,7 +1081,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 
 			removal_cost = -1
@@ -1100,7 +1100,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 
 			removal_cost = -1
@@ -2710,7 +2710,7 @@ ideas = {
 
 			modifier = {
 				weekly_manpower = 1000
-				Totalitarianism_drift = 0.05
+				Communism_drift = 0.05
 				stability_factor = -0.05
 			}
 		}
@@ -2726,10 +2726,10 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_Totalitarianism_drift_bonus
+			picture = generic_Communism_drift_bonus
 
 			modifier = {
-				Totalitarianism_drift = 0.03
+				Communism_drift = 0.03
 				stability_factor = -0.03
 			}
 		}
@@ -2740,7 +2740,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 
 			removal_cost = -1
@@ -2748,7 +2748,7 @@ ideas = {
 			picture = anti_soviet_pact
 
 			modifier = {
-				Totalitarianism_drift = -0.1
+				Communism_drift = -0.1
 				stability_factor = 0.05
 			}
 		}
@@ -3131,7 +3131,7 @@ ideas = {
 				OR = {
 					has_government = Liberalism
 					has_government = Authoritarianism
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 
@@ -3155,7 +3155,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = Liberalism
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 
@@ -3803,18 +3803,18 @@ ideas = {
 			}
 		}
 
-		GER_boosting_Totalitarianism_in_country_ns = {
-			name = GER_boosting_Totalitarianism_in_country
+		GER_boosting_Communism_in_country_ns = {
+			name = GER_boosting_Communism_in_country
 			allowed = { always = no }
 
 			allowed_civil_war = { always = no }
 
 			removal_cost = -1
 
-			picture = generic_Totalitarianism_drift_bonus
+			picture = generic_Communism_drift_bonus
 
 			modifier = {
-				Totalitarianism_drift = 0.05
+				Communism_drift = 0.05
 			}
 		}
 
@@ -3836,12 +3836,12 @@ ideas = {
 		GER_communist_influence = {
 			name = GER_communist_influence
 
-			picture = generic_Totalitarianism_drift_bonus
+			picture = generic_Communism_drift_bonus
 
 			removal_cost = -1
 
 			cancel = {
-				Totalitarianism > 0.4
+				Communism > 0.4
 			}
 
 			on_remove = {
@@ -3857,7 +3857,7 @@ ideas = {
 			}
 
 			modifier = {
-				Totalitarianism_drift = 0.1
+				Communism_drift = 0.1
 				custom_modifier_tooltip = GER_communist_influence_tt
 			}
 		}
@@ -3973,7 +3973,7 @@ ideas = {
 
 			cancel = {
 				NOT = { is_subject_of = GER }
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 
 			modifier = {
@@ -3996,7 +3996,7 @@ ideas = {
 					is_subject_of = GER
 				}
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 

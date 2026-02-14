@@ -35,7 +35,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				Totalitarianism_drift = 0.1
+				Communism_drift = 0.1
 				Progressivism_drift = 0.1
 				stability_factor = -0.20
 			}

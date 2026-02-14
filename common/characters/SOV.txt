@@ -933,7 +933,7 @@ characters = {
 			visible = {
 				has_global_flag = lokot_autonomy_has_been_established_flag
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 				NOT = {
 					has_global_flag = lokot_autonomy_has_been_crushed_flag
@@ -960,7 +960,7 @@ characters = {
 			visible = {
 				has_global_flag = lokot_autonomy_has_been_established_flag
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 				NOT = {
 					has_global_flag = lokot_autonomy_has_been_crushed_flag
@@ -2164,7 +2164,7 @@ characters = {
 				SOV_advisor_is_aligned_right = yes 
 				SOV_advisor_is_aligned_centre = yes 
 			}
-			has_government = Totalitarianism
+			has_government = Communism
 		}
 
 		advisor = {
@@ -2209,7 +2209,7 @@ characters = {
 				SOV_advisor_is_aligned_right = yes 
 				SOV_advisor_is_aligned_centre = yes 
 			}
-			has_government = Totalitarianism
+			has_government = Communism
 		}
 
 		advisor = {
@@ -2257,7 +2257,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 
 		advisor = {
@@ -2290,7 +2290,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 
 		advisor = {
@@ -2340,7 +2340,7 @@ characters = {
 					}
 				}
 			}
-			has_government = Totalitarianism
+			has_government = Communism
 		}
 
 		advisor = {
@@ -2391,7 +2391,7 @@ characters = {
 					}
 				}
 			}
-			has_government = Totalitarianism
+			has_government = Communism
 		}
 
 		advisor = {
@@ -2427,7 +2427,7 @@ characters = {
 			}
 			allowed_civil_war = {
 				original_tag = SOV
-				has_government = Totalitarianism
+				has_government = Communism
 				NOT = { tag = SOV }
 			}
 			name = SOV_lavrenty_beriya
@@ -2480,7 +2480,7 @@ characters = {
 			allowed_civil_war = {
 				original_tag = SOV
 				NOT = { tag = SOV }
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 			name = SOV_lavrenty_beriya
 			portraits = {
@@ -2537,7 +2537,7 @@ characters = {
 				SOV_advisor_is_aligned_right = yes 
 				SOV_advisor_is_aligned_centre = yes 
 			}
-			has_government = Totalitarianism
+			has_government = Communism
 		}
 
 		advisor = {
@@ -2578,7 +2578,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-			has_government = Totalitarianism
+			has_government = Communism
 		}
 
 		advisor = {
@@ -2612,7 +2612,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-			has_government = Totalitarianism
+			has_government = Communism
 		}
 
 		advisor = {
@@ -2652,11 +2652,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 		}
@@ -2738,11 +2738,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 		}
@@ -2800,11 +2800,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 		}
@@ -2871,7 +2871,7 @@ characters = {
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 		}
@@ -2936,7 +2936,7 @@ characters = {
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 		}
@@ -2992,11 +2992,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 		}
@@ -3059,7 +3059,7 @@ characters = {
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 
@@ -3122,7 +3122,7 @@ characters = {
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 		}
@@ -3175,11 +3175,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 		}
@@ -3224,7 +3224,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-			has_government = Totalitarianism
+			has_government = Communism
 		}
 
 		advisor = {
@@ -3273,11 +3273,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 		}
@@ -3339,11 +3339,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 		}
@@ -3407,7 +3407,7 @@ characters = {
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 		}

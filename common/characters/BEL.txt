@@ -678,7 +678,7 @@ characters={
 			corps_commander = {
 			visible = {
 				NOT = { 
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 				traits = { career_officer urban_assault_specialist }
@@ -860,7 +860,7 @@ characters={
 			corps_commander = {
 				visible = {
 					NOT = { 
-						has_government = Totalitarianism 
+						has_government = Communism 
 						has_government = fascism
 						has_government = Authoritarianism 
 					}

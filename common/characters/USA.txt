@@ -163,7 +163,7 @@ characters={
 			}
 			do_effect  = {
 				NOT  = {
-					has_government  = Totalitarianism
+					has_government  = Communism
 				}
 			}
 			ai_will_do  = {
@@ -1446,7 +1446,7 @@ characters={
 			}
 		}
 		allowed_civil_war = {
-			has_government = Totalitarianism
+			has_government = Communism
 		}
 	}
 
@@ -1494,7 +1494,7 @@ characters={
 			}
 		}
 		allowed_civil_war  = {
-			has_government  = Totalitarianism
+			has_government  = Communism
 		}
 	}
 
@@ -1542,7 +1542,7 @@ characters={
 			}
 		}
 		allowed_civil_war  = {
-			has_government  = Totalitarianism
+			has_government  = Communism
 		}
 	}
 
@@ -1582,7 +1582,7 @@ characters={
 		}
 		allowed_civil_war  = {
 			NOT  = {
-				has_government  = Totalitarianism
+				has_government  = Communism
 			}
 		}
 	}
@@ -1623,7 +1623,7 @@ characters={
 		}
 		allowed_civil_war  = {
 			NOT  = {
-				has_government  = Totalitarianism
+				has_government  = Communism
 			}
 		}
 	}

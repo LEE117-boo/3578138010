@@ -75,6 +75,6 @@ set_politics = {
 set_popularities = {
 	Liberalism = 50
 	fascism = 8
-	Totalitarianism = 15
+	Communism = 15
 	Authoritarianism = 27
 }

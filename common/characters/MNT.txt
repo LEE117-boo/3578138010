@@ -26,7 +26,7 @@ characters = {
 			legacy_id = 0
 			visible = {
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 		}
@@ -56,7 +56,7 @@ characters = {
 			logistics_skill = 3
 			legacy_id = 0
 			visible = {
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 		}
 	}
@@ -86,7 +86,7 @@ characters = {
 			legacy_id = 0
 			visible = {
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 		}

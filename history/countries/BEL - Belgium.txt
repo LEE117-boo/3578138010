@@ -594,7 +594,7 @@ set_politics = {
 set_popularities = {
 	Conservatism = 83
 	fascism = 11
-	Totalitarianism = 6
+	Communism = 6
 }
 
 1939.1.1 = {
@@ -607,7 +607,7 @@ set_popularities = {
 	set_popularities = {
 		Liberalism = 87
 		fascism = 8
-		Totalitarianism = 5
+		Communism = 5
 	}
 }
 

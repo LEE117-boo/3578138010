@@ -52,7 +52,7 @@ IF = {
 
 ### VARIABLES FOR POPULARITY ###
 set_variable = { PER_Conservatism_popularity = 20 }
-set_variable = { PER_radical_socialism_popularity = 5 }
+set_variable = { PER_Socialism_popularity = 5 }
 set_variable = { PER_tttt_popularity = 60 }
 set_variable = { PER_nazism_popularity = 15 }
 
@@ -106,7 +106,7 @@ set_variable = { PER_opposition_research_speed_factor = 0 }
 set_variable = { PER_opposition_stability_factor = -0.1 }
 set_variable = { PER_opposition_conscription_factor = -0.05 }
 set_variable = { PER_opposition_nazism_drift = 0.02 }
-set_variable = { PER_opposition_radical_socialism_drift = 0.02 }
+set_variable = { PER_opposition_Socialism_drift = 0.02 }
 set_variable = { PER_opposition_Conservatism_drift = 0.02 }
 set_variable = { PER_army_core_defence_factor = 0 }
 set_variable = { PER_army_core_attack_factor = 0 }
@@ -350,6 +350,6 @@ set_politics = {
 set_popularities = {
 	Conservatism = PER_Conservatism_popularity
 	nazism = PER_nazism_popularity
-	radical_socialism = PER_radical_socialism_popularity
+	Socialism = PER_Socialism_popularity
 	tttt = PER_tttt_popularity
 }

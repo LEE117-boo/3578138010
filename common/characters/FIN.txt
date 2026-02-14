@@ -116,7 +116,7 @@ characters = {
 				original_tag = FIN
 			}
 			available = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 			traits = {
 				army_chief_defensive_3
@@ -145,7 +145,7 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 			visible = {
-				NOT = { has_government = Totalitarianism}
+				NOT = { has_government = Communism}
 			}
 		}
 		advisor = {
@@ -157,7 +157,7 @@ characters = {
 				original_tag = FIN
 			}
 			available = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}			
 			traits = {
 				military_theorist
@@ -217,7 +217,7 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 			visible = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 		}
 	}
@@ -239,7 +239,7 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 			visible = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 		}
 	}
@@ -261,7 +261,7 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 			visible = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 		}
 	}
@@ -283,7 +283,7 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 			visible = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 		}
 	}
@@ -306,7 +306,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				has_completed_focus = FIN_patriotic_peoples_movement
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 		}
 	}
@@ -329,7 +329,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				has_completed_focus = FIN_arm_the_lotta_svard
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 		}
 	}
@@ -352,7 +352,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				has_completed_focus = FIN_union_of_finnish_brothers_in_arms
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 		}
 	}
@@ -475,7 +475,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				has_completed_focus = FIN_military_promotions
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 		}
 	}
@@ -585,7 +585,7 @@ characters = {
 			logistics_skill = 3
 			legacy_id = -1
 			visible = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 				if = {
 					limit = {
 						has_character_flag = FIN_anti_fascist_character_flag
@@ -601,7 +601,7 @@ characters = {
 				original_tag = FIN
 			}
 			available = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 				if = {
 					limit = {
 						has_character_flag = FIN_anti_fascist_character_flag
@@ -641,7 +641,7 @@ characters = {
 					has_completed_focus = FIN_confederated_finno_russian_republics
 				}
 				has_completed_focus = FIN_the_second_finnish_civil_war #So the character is available once the Civil War starts
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 		}
 	}
@@ -668,7 +668,7 @@ characters = {
 					has_completed_focus = FIN_confederated_finno_russian_republics
 				}
 				has_completed_focus = FIN_the_second_finnish_civil_war #So the character is available once the Civil War starts
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 		}
 	}
@@ -695,7 +695,7 @@ characters = {
 					has_completed_focus = FIN_confederated_finno_russian_republics
 				}
 				has_completed_focus = FIN_the_second_finnish_civil_war #So the character is available once the Civil War starts
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 		}
 		advisor = {			
@@ -705,7 +705,7 @@ characters = {
 				original_tag = FIN
 			}
 			available = {
-				has_government = Totalitarianism
+				has_government = Communism
 				OR = {
 					has_completed_focus = FIN_approach_the_soviets
 					has_completed_focus = FIN_confederated_finno_russian_republics
@@ -874,7 +874,7 @@ characters = {
 				original_tag = FIN
 			}
 			available = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 			traits = {
 				army_chief_drill_2
@@ -900,7 +900,7 @@ characters = {
 				original_tag = FIN
 			}
 			available = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 			traits = {
 				army_chief_offensive_2
@@ -1055,7 +1055,7 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 			visible = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 		}
 
@@ -1067,7 +1067,7 @@ characters = {
 				original_tag = FIN
 			}
 			available = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 			traits = {
 				army_regrouping_3
@@ -1166,7 +1166,7 @@ characters = {
 				original_tag = FIN
 			}
 			available = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 			traits = {
 				army_concealment_2
@@ -1193,7 +1193,7 @@ characters = {
 				original_tag = FIN
 			}
 			available = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 			traits = {
 				army_logistics_2
@@ -1245,7 +1245,7 @@ characters = {
 			}
 			available = {
 				has_completed_focus = FIN_finnish_radio_intelligence
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 			traits = {
 				army_radio_intelligence_2
@@ -1357,14 +1357,14 @@ characters = {
 						has_dlc = "Arms Against Tyranny"
 					}
 					NOT = {
-						has_government = Totalitarianism
+						has_government = Communism
 						has_government = Liberalism
 						has_completed_focus = FIN_suomalainen_sosialismi
 					}
 				}
 				else = {
 					NOT = {
-						has_government = Totalitarianism
+						has_government = Communism
 						has_government = Liberalism
 					}
 				}
@@ -1389,7 +1389,7 @@ characters = {
 				original_tag = FIN
 			}
 			available = {
-				NOT = { has_government = Totalitarianism }
+				NOT = { has_government = Communism }
 			}
 			traits = {
 				smooth_talking_charmer 
@@ -1412,7 +1412,7 @@ characters = {
 			}
 			available = {
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 					has_government = fascism
 				}
 			}

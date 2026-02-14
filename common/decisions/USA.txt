@@ -2866,7 +2866,7 @@ USA_intervention_mandate = {
 					OR = {
 						has_added_tension_amount > 30
 						has_government = fascism
-						has_government = Totalitarianism
+						has_government = Communism
 					}
 					NOT = { is_in_faction_with = USA }
 				}
@@ -3108,7 +3108,7 @@ operations = {
 					overlord = {
 						OR = {
 							has_government = fascism
-							has_government = Totalitarianism
+							has_government = Communism
 						}
 					}
 				}

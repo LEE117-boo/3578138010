@@ -50,7 +50,7 @@ leader_traits = {
 	minzu_jiaoxiangyue = {
 		random = no
 
-		radical_socialism_drift = 0.05
+		Socialism_drift = 0.05
 		party_popularity_stability_factor = 0.2
 
 		ai_will_do = {
@@ -87,7 +87,7 @@ leader_traits = {
 	bihua_sanjie1 = {
 		random = no
 
-		radical_socialism_drift = 0.05
+		Socialism_drift = 0.05
 		improve_relations_maintain_cost_factor = -0.5
 		communism_acceptance = 25	
 
@@ -99,7 +99,7 @@ leader_traits = {
 	bihua_sanjie2 = {
 		random = no
 
-		radical_socialism_drift = 0.05
+		Socialism_drift = 0.05
 		conscription_factor = 0.1
 		war_support_factor = 0.1
 
@@ -111,7 +111,7 @@ leader_traits = {
 	zuoyi_gonghui_lingxiu = {
 		random = no
 
-		radical_socialism_drift = 0.05
+		Socialism_drift = 0.05
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		production_factory_efficiency_gain_factor  = 0.1
@@ -124,7 +124,7 @@ leader_traits = {
 	junfang_zuoyi_zhengzhijia = {
 		random = no
 
-		radical_socialism_drift = 0.05
+		Socialism_drift = 0.05
 		research_speed_factor = 0.05
 		training_time_army_factor = -0.1
 
@@ -170,7 +170,7 @@ leader_traits = {
 	geming_jingjixue = {
 		random = no
 
-		radical_socialism_drift = 0.05
+		Socialism_drift = 0.05
 		consumer_goods_factor = -0.1
 		production_speed_buildings_factor = 0.05
 

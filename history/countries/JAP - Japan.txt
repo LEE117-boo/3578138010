@@ -270,7 +270,7 @@ set_popularities = {
 	Progressivism = 10
 	Conservatism = 20
 	fascism = 13
-	radical_socialism = 7
+	Socialism = 7
 }
 
 set_country_flag = STNG

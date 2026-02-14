@@ -152,7 +152,7 @@ set_popularities = {
 	tttt = 60
 	fascism = 15
 	nazism = 15
-	Totalitarianism = 10
+	Communism = 10
 }
 add_ideas = {
 	mahehuowocaonimabi

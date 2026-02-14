@@ -651,7 +651,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					has_government = Totalitarianism
+					has_government = Communism
 				}
 			}
 			traits = {
@@ -757,7 +757,7 @@ characters={
 				has_dlc = "Gotterdammerung"
 			}
 			available = {
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 			traits = {
 				GER_inflexible_communist_organizer 
@@ -780,7 +780,7 @@ characters={
 				original_tag = DSB
 			}
 			available = {
-				has_government = Totalitarianism
+				has_government = Communism
 			}
 			traits = {
 				GER_seasoned_socialist_resistance_fighter

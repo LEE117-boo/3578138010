@@ -68,8 +68,8 @@ country_lock_all_division_template = yes
 	}
 
 set_popularities = {
-	Totalitarianism = 3
-	radical_socialism = 5
+	Communism = 3
+	Socialism = 5
 	Progressivism = 5
 	Liberalism = 7
 	Conservatism = 5

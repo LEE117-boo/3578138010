@@ -618,7 +618,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 15
 	fascism = 19
-	Totalitarianism = 1
+	Communism = 1
 	Authoritarianism = 65
 }
 add_stability = -0.1
@@ -637,7 +637,7 @@ country_event = { id = AAT_finland_political.02 days = 426 }
 	set_popularities = {
 		Liberalism = 4
 		fascism = 15
-		Totalitarianism = 1
+		Communism = 1
 		Authoritarianism = 80
 	}
 }

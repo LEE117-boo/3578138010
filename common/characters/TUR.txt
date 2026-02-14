@@ -1753,7 +1753,7 @@ characters={
 			available = {
 				OR = {
 					has_government = fascism 
-					has_government = Totalitarianism 
+					has_government = Communism 
 					has_completed_focus = TUR_pivot_to_the_past 
 					has_country_leader = {
 						character = TUR_adnan_menderes
@@ -2561,7 +2561,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = Totalitarianism 
+					has_government = Communism 
 					SWE_refuge_for_revolutionaries_trigger = yes
 					CHL_hub_of_the_revolution_trigger = yes
 				}

@@ -126,7 +126,7 @@ characters={
 				logistics_skill = 2
 				visible = {  
 					OR = {
-						has_country_flag = has_swayed_bose_to_Totalitarianism
+						has_country_flag = has_swayed_bose_to_Communism
 						ROOT = { 
 							has_completed_focus = RAJ_forward_bloc 
 							NOT = { has_country_flag = has_arrested_bose }
@@ -142,7 +142,7 @@ characters={
 				}
 				available = {
 					OR = {
-						has_country_flag = has_swayed_bose_to_Totalitarianism
+						has_country_flag = has_swayed_bose_to_Communism
 						ROOT = { 
 							has_completed_focus = RAJ_forward_bloc 
 							NOT = { has_country_flag = has_arrested_bose }
@@ -152,7 +152,7 @@ characters={
 
 				visible = {
 					OR = {
-						has_country_flag = has_swayed_bose_to_Totalitarianism
+						has_country_flag = has_swayed_bose_to_Communism
 						AND = {
 							has_completed_focus = RAJ_forward_bloc 
 							NOT = { has_country_flag = has_arrested_bose }
@@ -1694,7 +1694,7 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = Totalitarianism 
+					has_government = Communism 
 				}
 			}
 			ai_will_do = {

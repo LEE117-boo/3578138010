@@ -559,7 +559,7 @@ set_popularities = {
 	liberalism = 38
 	progressivism = 9
 	fascism = 2
-	radical_socialism = 1
+	Socialism = 1
 }
 
 

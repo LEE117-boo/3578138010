@@ -10,9 +10,9 @@ defined_text = { # Country
     text = {
         trigger = {
             original_tag = DSB
-            has_government = Totalitarianism
+            has_government = Communism
         }
-        localization_key = DSB_attack_sov_Totalitarianism
+        localization_key = DSB_attack_sov_Communism
     }
     text = {
         localization_key = DSB_attack_sov_what

@@ -210,7 +210,7 @@ set_popularities = {
 			Authoritarianism = 70
 			Liberalism = 25
 			fascism = 0
-			Totalitarianism = 5
+			Communism = 5
 		}
 
 		add_political_power = 600

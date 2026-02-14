@@ -291,7 +291,7 @@ set_politics = {
 
 set_popularities = {
 	Progressivism = 98
-	radical_socialism = 2
+	Socialism = 2
 }
 
 set_convoys = 100
@@ -306,7 +306,7 @@ set_convoys = 100
 
 	set_popularities = {
 		Conservatism = 99
-		radical_socialism = 1
+		Socialism = 1
 	}
 
 	set_convoys = 100

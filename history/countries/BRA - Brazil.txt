@@ -84,7 +84,7 @@ IF = {
 	set_variable = { BRA_weak_government_command_power_factor = -0.4}
 
 	set_variable = { BRA_coup_stability_factor = -0.05 }
-	set_variable = { BRA_coup_Totalitarianism_factor = 0.05 }
+	set_variable = { BRA_coup_Communism_factor = 0.05 }
 	set_variable = { BRA_coup_Liberalism_factor = 0 }
 	set_variable = { BRA_coup_fascism_factor = 0 }
 	set_variable = { BRA_coup_Authoritarianism_factor = 0 }
@@ -92,7 +92,7 @@ IF = {
 	# Estado Novo Modifier
 	set_variable = { BRA_estado_novo_stability_factor = 0.1 }
 	set_variable = { BRA_estado_novo_fascism_factor = 0 }
-	set_variable = { BRA_estado_novo_Totalitarianism_factor = 0 }
+	set_variable = { BRA_estado_novo_Communism_factor = 0 }
 	set_variable = { BRA_estado_novo_Liberalism_factor = 0 }
 	set_variable = { BRA_estado_novo_fascism_factor = 0 }
 	set_variable = { BRA_estado_novo_Authoritarianism_factor = 0.2 }
@@ -111,7 +111,7 @@ IF = {
 	# Estado Moderno Modifier
 	set_variable = { BRA_estado_moderno_stability_factor = 0 }
 	set_variable = { BRA_estado_moderno_Authoritarianism_factor = 0 }
-	set_variable = { BRA_estado_moderno_Totalitarianism_factor = 0 }
+	set_variable = { BRA_estado_moderno_Communism_factor = 0 }
 	set_variable = { BRA_estado_moderno_Liberalism_factor = 0 }
 	set_variable = { BRA_estado_moderno_fascism_factor = 0.2 }
 	set_variable = { BRA_estado_moderno_production_speed_buildings_factor = 0 }
@@ -137,7 +137,7 @@ IF = {
 		Conservatism = 50
 		Authoritarianism = 25
 		fascism = 15
-		Totalitarianism = 10
+		Communism = 10
 	}
 
 	set_party_name = {
@@ -226,7 +226,7 @@ IF = {
 		Liberalism = 50
 		Authoritarianism = 25
 		fascism = 15
-		Totalitarianism = 10
+		Communism = 10
 	}
 }
 ###############################################################################

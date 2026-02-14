@@ -114,7 +114,7 @@ country_event = {
 			transfer_state = 909
 			transfer_state = 58
 			set_cosmetic_tag = SHL_RED
-			set_politics = { ruling_party = radical_socialism }
+			set_politics = { ruling_party = Socialism }
 		}
 	}
 }

@@ -344,7 +344,7 @@ set_popularities = {
 	Conservatism = 23
 	liberalism = 15
 	fascism = 5
-	radical_socialism = 4
+	Socialism = 4
 	tttt = 1
 }
 

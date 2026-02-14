@@ -49,7 +49,7 @@ create_country_leader = {
 ###################
 
 #Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#TUR_Totalitarianism
+#TUR_Communism
 #TUR_Liberalism
 #TUR_fascism
 #TUR_Authoritarianism

@@ -9,7 +9,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = radical_socialism_small
+			ideology = socialism_small
 			traits={  }
 		}
 		country_leader={
@@ -390,7 +390,7 @@ characters = {
 			idea_token = IRQ_husain_al_rahhal
 
 			traits  = {
-				#Totalitarianism drift, something related to opinions, possibly a small research boost, stability malus, editor of As-Sahifah
+				#Communism drift, something related to opinions, possibly a small research boost, stability malus, editor of As-Sahifah
 				IRQ_as_sahifah_editor
 			}
 			allowed = { 

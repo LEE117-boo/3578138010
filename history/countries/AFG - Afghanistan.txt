@@ -288,7 +288,7 @@ IF = {
 	
 	set_popularities = {
 		nazism = 15
-		radical_socialism = 10
+		Socialism = 10
 		tttt = 75
 	}
 
@@ -426,7 +426,7 @@ IF = {
 	}
 	set_popularities = {
 		nazism = 20
-		radical_socialism = 10
+		Socialism = 10
 		tttt = 70
 	}
 }

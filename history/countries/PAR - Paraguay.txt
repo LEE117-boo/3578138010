@@ -57,7 +57,7 @@ IF = {
 	}
 	set_popularities = {
 		Conservatism = 55
-		Totalitarianism = 30
+		Communism = 30
 		Authoritarianism = 10
 		fascism = 5
 	}
@@ -116,14 +116,14 @@ IF = {
 	ELSE = {
 
 		set_politics = {
-			ruling_party = Totalitarianism
+			ruling_party = Communism
 			last_election = "1936.1.1"
 			election_frequency = 48
 			elections_allowed = yes
 		}
 		set_popularities = {
 			Liberalism = 25
-			Totalitarianism = 75
+			Communism = 75
 		}
 
 		recruit_character = PAR_rafael_franco
@@ -254,7 +254,7 @@ set_country_flag = monroe_doctrine
 	}
 
 	set_politics = {
-		ruling_party = Totalitarianism
+		ruling_party = Communism
 		last_election = "1938.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -262,7 +262,7 @@ set_country_flag = monroe_doctrine
 
 	set_popularities = {
 		Liberalism = 20
-		Totalitarianism = 30
+		Communism = 30
 		Authoritarianism = 50
 	}
 	

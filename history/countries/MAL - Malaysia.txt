@@ -123,7 +123,7 @@ set_politics = {
 }
 set_popularities = {
 	Conservatism = 33
-	Totalitarianism = 33
+	Communism = 33
 	Authoritarianism = 34
 }
 

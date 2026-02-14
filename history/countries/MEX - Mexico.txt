@@ -85,7 +85,7 @@ set_politics = {
 
 set_popularities = {
 	nazism = 23
-	radical_socialism = 25
+	Socialism = 25
 	Progressivism = 30
 	Conservatism = 12
 	fascism = 2

@@ -89,7 +89,7 @@ set_popularities = {
 	tttt = 60
 	Conservatism = 30
 	nazism = 6
-	radical_socialism = 4 
+	Socialism = 4 
 }
 
 recruit_character = PAL_harold_macmichael

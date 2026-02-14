@@ -148,7 +148,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 60
 	Progressivism = 30
-	Totalitarianism = 10
+	Communism = 10
 }
 recruit_character = ENG_George_Lansbury
 

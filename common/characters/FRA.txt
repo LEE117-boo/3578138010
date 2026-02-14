@@ -167,7 +167,7 @@ characters={
 			}
 			do_effect  = {
 				not  = {
-					has_government  = Totalitarianism 
+					has_government  = Communism 
 				}
 			}
 			on_add  = {
@@ -1459,7 +1459,7 @@ characters={
 			}
 			available  = {
 				not  = {
-					has_government  = Totalitarianism 
+					has_government  = Communism 
 				}
 			}
 			cost  = 150.000
