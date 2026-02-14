@@ -1,0 +1,344 @@
+focus_tree = {
+	id = CSA_TVE_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CSA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 30 y = 2000 }
+
+		#allow_branch = {
+		#	not = {
+		#		has_country_flag = SOV_gaoerchake_panluan_flag
+		#	}
+		#}
+
+	focus = {
+		id = CSA_1_1
+		icon = GFX_CSA_1_1
+		cost = 3
+		x = 9
+		y = 0
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_2
+		icon = GFX_CSA_1_2
+		cost = 3
+		x = 0
+		y = 1
+		relative_position_id = CSA_1_1
+		prerequisite = { focus = CSA_1_1 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_3
+		icon = GFX_CSA_1_3
+		cost = 3
+		x = 0
+		y = 3
+		relative_position_id = CSA_1_2
+		prerequisite = { focus = CSA_1_2 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_4
+		icon = GFX_CSA_1_4
+		cost = 3
+		x = 0
+		y = 4
+		relative_position_id = CSA_1_3
+		prerequisite = { focus = CSA_1_3 }
+		prerequisite = { focus = CSA_1_left_4 }
+		prerequisite = { focus = CSA_1_left_7 }
+		prerequisite = { focus = CSA_1_right_10 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_left_1
+		icon = GFX_CSA_1_left_1
+		cost = 3
+		x = -4
+		y = 1
+		relative_position_id = CSA_1_2
+		prerequisite = { focus = CSA_1_2 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_left_2
+		icon = GFX_CSA_1_left_2
+		cost = 3
+		x = 1
+		y = 1
+		relative_position_id = CSA_1_left_1
+		prerequisite = { focus = CSA_1_left_1 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_left_3
+		icon = GFX_CSA_1_left_3
+		cost = 3
+		x = 0
+		y = 1
+		relative_position_id = CSA_1_left_2
+		prerequisite = { focus = CSA_1_left_2 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_left_4
+		icon = GFX_CSA_1_left_4
+		cost = 3
+		x = 0
+		y = 1
+		relative_position_id = CSA_1_left_3
+		prerequisite = { focus = CSA_1_left_3 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_left_5
+		icon = GFX_CSA_1_left_5
+		cost = 3
+		x = -2	
+		y = 1
+		relative_position_id = CSA_1_left_1
+		prerequisite = { focus = CSA_1_left_1 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_left_6
+		icon = GFX_CSA_1_left_6
+		cost = 3
+		x = 0
+		y = 2
+		relative_position_id = CSA_1_left_5
+		prerequisite = { focus = CSA_1_left_5 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_left_7
+		icon = GFX_CSA_1_left_7
+		cost = 3
+		x = 0
+		y = 1
+		relative_position_id = CSA_1_left_6
+		prerequisite = { focus = CSA_1_left_6 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_right_1
+		icon = GFX_CSA_1_right_1
+		cost = 3
+		x = 3
+		y = 1
+		relative_position_id = CSA_1_2
+		prerequisite = { focus = CSA_1_2 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_right_2
+		icon = GFX_CSA_1_right_2
+		cost = 3
+		x = 0
+		y = 2
+		relative_position_id = CSA_1_right_1
+		prerequisite = { focus = CSA_1_right_1 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_right_3
+		icon = GFX_CSA_1_right_3
+		cost = 3
+		x = 0
+		y = 1
+		relative_position_id = CSA_1_right_2
+		prerequisite = { focus = CSA_1_right_2 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_right_4
+		icon = GFX_CSA_1_right_4
+		cost = 3
+		x = 0
+		y = 1
+		relative_position_id = CSA_1_right_3
+		prerequisite = { focus = CSA_1_right_3 }
+		mutually_exclusive = { focus = CSA_1_right_9 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_right_5
+		icon = GFX_CSA_1_right_5
+		cost = 3
+		x = 3
+		y = 1
+		relative_position_id = CSA_1_right_1
+		prerequisite = { focus = CSA_1_right_1 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_right_6
+		icon = GFX_CSA_1_right_6
+		cost = 3
+		x = 0
+		y = 2
+		relative_position_id = CSA_1_right_5
+		prerequisite = { focus = CSA_1_right_2 }
+		prerequisite = { focus = CSA_1_right_5 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_right_7
+		icon = GFX_CSA_1_right_7
+		cost = 3
+		x = 6
+		y = 1
+		relative_position_id = CSA_1_right_1
+		prerequisite = { focus = CSA_1_right_1 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_right_8
+		icon = GFX_CSA_1_right_8
+		cost = 3
+		x = 0
+		y = 1
+		relative_position_id = CSA_1_right_7
+		prerequisite = { focus = CSA_1_right_7 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_right_9
+		icon = GFX_CSA_1_right_9
+		cost = 3
+		x = 3
+		y = 1
+		relative_position_id = CSA_1_right_6
+		prerequisite = { focus = CSA_1_right_6 }
+		prerequisite = { focus = CSA_1_right_8 }
+		mutually_exclusive = { focus = CSA_1_right_4 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = CSA_1_right_10
+		icon = GFX_CSA_1_right_10
+		cost = 3
+		x = 2
+		y = 1
+		relative_position_id = CSA_1_right_4
+		prerequisite = { focus = CSA_1_right_4 focus = CSA_1_right_9 }
+		available = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+}
