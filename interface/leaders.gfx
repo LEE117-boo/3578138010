@@ -48,11 +48,27 @@ spriteTypes = {
 		name = "GFX_GER_wilhelm_ii_Progressivism_large"
 		texturefile = "gfx/leaders/GER/GER_wilhelm_ii_Progressivism.png"
 	}
-	#副手
+	#顾问
 	spriteType = {
 		name = "GFX_GER_Hjalmar_Schacht_small"
 		texturefile = "gfx/interface/advisors/GER/GER_Hjalmar_Schacht.png"
 	}
+	#波兰
+	#领导人
+	spriteType = {
+		name = "GFX_POL_Jozef_Pilsudski_large"
+		texturefile = "gfx/leaders/POL/POL_Jozef_Pilsudski.png"
+	}
+	spriteType = {
+		name = "GFX_POL_Walery_Slawek_large"
+		texturefile = "gfx/leaders/POL/POL_Walery_Slawek.png"
+	}
+	#顾问
+	spriteType = {
+		name = "GFX_POL_Walery_Slawek_small"
+		texturefile = "gfx/interface/advisors/POL/POL_Walery_Slawek.png"
+	}
+
 	
 
 
