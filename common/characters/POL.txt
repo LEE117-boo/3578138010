@@ -1,22 +1,4 @@
-characters = {
-	POL_Józef_Klemens_Piłsudski = {
-		name="what"
-		
-		portraits = {
-			civilian = {
-				large="GFX_POL_Józef_ Klemens_Piłsudski"
-			}
-		}
-		country_leader = {
-			ideology = chai_kai_shek
-			desc=POL_lingxiu_desc
-			traits = { 
-				POL_yuanshuai_weidazhiren
-			}
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
+
 	POL_anna_andersson = {
 		name="Anastasia Romanov"
 		portraits = {

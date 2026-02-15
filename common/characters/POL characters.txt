@@ -1,0 +1,62 @@
+characters = {
+	#领导人
+	#约瑟夫·毕苏斯基
+	POL_Jozef_Pilsudski = {
+		name = POL_Jozef_Pilsudski
+		portraits = {
+			civilian = {
+				large = GFX_POL_Jozef_Pilsudski_large
+			}
+		}
+		country_leader = {
+			ideology = chai_kai_shek
+			traits = { POL_the_greatest_marshal }
+		}
+	}
+
+
+	#副手
+	#瓦莱雷·斯瓦韦克
+	POL_Walery_Slawek = {
+		name = POL_Walery_Slawek
+		portraits = {
+			civilian = {
+				large = GFX_POL_Walery_Slawek_large
+			}
+			army = {
+				small = GFX_POL_Walery_Slawek_small
+			}
+		}
+		country_leader = {
+			ideology = Social_democracy
+			traits = { POL_the_greatest_marshal }
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = POL_Walery_Slawek_sic
+			traits = { POL_marshal_shadow_sic }
+			cost = 0
+			can_be_fired = no
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = POL_Walery_Slawek_pol
+            allowed = {
+				original_tag = GER
+			}
+            cost = 150
+			available = {
+				not_already_hired_except_as = political_advisor
+				NOT = { 
+					has_country_leader = {
+						ruling_only = yes 
+						character = POL_Walery_Slawek
+					}
+				}
+            }
+			traits = {
+				POL_Sanacja_politician
+			}
+        }
+	}
+}
