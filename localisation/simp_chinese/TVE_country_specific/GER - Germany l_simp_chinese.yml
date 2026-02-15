@@ -5,8 +5,8 @@
  GER_Progressivism_ADJ: "德国"
  GER_Progressivism_DEF: "德国"
 
- GER_Communism_party: "地下抵抗运动"
- GER_Communism_party_long: "地下抵抗运动"
+ GER_Communism_party: "§R非法§!"
+ GER_Communism_party_long: "§R地下抵抗运动（非法）§!"
  GER_Socialism_party: "德意志社会民主党"
  GER_Socialism_party_long: "德意志社会民主党"
  GER_Progressivism_party: "德意志民主党-左翼"
@@ -17,8 +17,8 @@
  GER_Conservatism_party_long: "德意志天主教中央党"
  GER_Authoritarianism_party: "第三联合指挥部"
  GER_Authoritarianism_party_long: "第三联合指挥部"
- GER_tttt_party: "新人民党"
- GER_tttt_party_long: "新人民党"
+ GER_tttt_party: "§R非法§!"
+ GER_tttt_party_long: "§R新人民党（非法）§!"
  GER_nazism_party: "德意志国家工人党"
  GER_nazism_party_long: "德意志国家工人党"
 
