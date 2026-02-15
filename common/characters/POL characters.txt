@@ -42,7 +42,7 @@ characters = {
 			slot = political_advisor
 			idea_token = POL_Walery_Slawek_pol
             allowed = {
-				original_tag = GER
+				original_tag = POL
 			}
             cost = 150
 			available = {

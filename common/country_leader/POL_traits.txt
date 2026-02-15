@@ -19,7 +19,6 @@ leader_traits ={
 	#元帅的阴影
 	POL_marshal_shadow_sic ={
 		random = no
-		subversive_activites_upkeep = 0.25
 		drift_defence_factor = 0.25
 		justify_war_goal_time = 0.15
 	}
