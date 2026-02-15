@@ -44,4 +44,11 @@ leader_traits ={
 		mobilization_laws_cost_factor = -0.20
 		political_advisor_cost_factor = -0.15
 	}
+	#副元帅画家
+	POL_Marshal_Painter = {
+		random = no
+		political_power_gain = 0.10
+		war_support_factor = 0.15
+	}
+
 }
