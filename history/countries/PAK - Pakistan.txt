@@ -146,7 +146,7 @@ create_country_leader = {
 	
 	picture = "GFX_Portrait_RAJ_Political_Leader_Generic_2"
 	expire = "1960.1.1"
-	ideology = centrism
+	ideology = authoritarianism_small
 	traits = {
 		
 	}
@@ -169,7 +169,7 @@ create_country_leader = {
 	
 	picture = "GFX_Portrait_RAJ_Political_Leader_Generic_2"
 	expire = "1960.1.1"
-	ideology = marxism
+	ideology = communism_small
 	traits = {
 		
 	}

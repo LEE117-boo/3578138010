@@ -10,7 +10,7 @@ characters={
 		}
 		country_leader={
 			desc = BUL_boris_iii_desc
-			ideology= despotism
+			ideology= authoritarianism_small
 			traits= { BUL_egg_dancer BUL_Charismatic_person }
 		}
 	}

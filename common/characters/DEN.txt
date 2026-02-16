@@ -88,7 +88,7 @@ characters={
 				}
 			}
 			country_leader = {
-				ideology = oligarchism
+				ideology = authoritarianism_small
 				traits = { DEN_rightwing_populist}
 				expire = "1965.1.1.1"
 				id = -1
@@ -164,7 +164,7 @@ characters={
 				}
 			}
 			country_leader = {
-				ideology = moderatism
+				ideology = authoritarianism_small
 				expire = "1965.1.1.1"
 				id=-1
 			}
@@ -183,7 +183,7 @@ characters={
 				}
 			}
 			country_leader = {
-				ideology = oligarchism
+				ideology = authoritarianism_small
 				traits = { DEN_rightwing_populist}
 				expire = "1965.1.1.1"
 				id = -1
@@ -242,7 +242,7 @@ characters={
 				}
 			}
 			country_leader = {
-				ideology = moderatism
+				ideology = authoritarianism_small
 				expire = "1965.1.1.1"
 				id=-1
 			}
@@ -261,7 +261,7 @@ characters={
 				}
 			}
 			country_leader = {
-				ideology = oligarchism
+				ideology = authoritarianism_small
 				traits = { DEN_rightwing_populist}
 				expire = "1965.1.1.1"
 				id = -1
@@ -328,7 +328,7 @@ characters={
 				}
 			}
 			country_leader = {
-				ideology = moderatism
+				ideology = authoritarianism_small
 				expire = "1965.1.1.1"
 				id=-1
 			}
@@ -343,7 +343,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = { DEN_the_king }
 			expire = "1965.1.1.1"
 			id = -1
@@ -358,7 +358,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = authoritarianism_small
 			traits = { DEN_freedom_council_traits }
 			expire = "1965.1.1.1"
 			id = -1
@@ -380,7 +380,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=leninism
+				ideology=communism_small
 				traits = { DEN_kommunist }
 				expire="1965.1.1.1"
 				id=-1
@@ -441,7 +441,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=leninism
+				ideology=communism_small
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -1299,7 +1299,7 @@ characters={
 			} 
 		}
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	traits = { DEN_the_king }
 		#	expire = "1965.1.1.1"
 		#	id = -1
@@ -2163,7 +2163,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = { DEN_fascist_militarist }
 			expire = "1965.1.1.1"
 			id = -1

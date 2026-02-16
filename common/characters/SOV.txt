@@ -24,7 +24,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = communism_small
 			traits = { stalin_heart_of_steel }
 			expire = "1953.3.1.1"
 			id = -1
@@ -38,7 +38,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = chai_kai_shek
+			ideology = tttt_small
 			expire = "1953.3.1.1"
 			id = -1
 		}
@@ -82,7 +82,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1953.3.1.1"
 			id = -1
 		}
@@ -98,7 +98,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -114,7 +114,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1953.3.1.1"
 			id = -1
 		}
@@ -131,7 +131,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -184,7 +184,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -3983,7 +3983,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = fascism_ideology
+				ideology = fascism_small
 				traits = { fascist_orchestrator }
 				expire = "1953.3.1.1"
 				id = -1
@@ -4054,7 +4054,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = Social_democracy
+			ideology = progressivism_small
 			
 			expire = "1953.3.1.1"
 			id = -1

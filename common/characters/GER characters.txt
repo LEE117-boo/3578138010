@@ -9,7 +9,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = Social_democracy
+			ideology = progressivism_small
 			traits={ GER_Kaiser }
 		}
 	}

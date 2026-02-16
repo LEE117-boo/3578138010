@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_small
 			traits={ fortification_engineer }
 			expire="1953.1.1.12"
 			id=-1
@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_small
 			expire="1943.1.1.12"
 			id=-1
 		}
@@ -47,7 +47,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=moderatism
+			ideology=authoritarianism_small
 			traits={ compassionate_gentleman }
 			expire="1948.1.1.12"
 			id=-1

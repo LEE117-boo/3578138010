@@ -13,7 +13,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = oligarchism
+			ideology = authoritarianism_small
 			traits = { pro_allied_governor_general }
 			expire = "1959.1.1.1"
 			id = -1
@@ -53,7 +53,7 @@ characters = {
 		}
 
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	traits = { manikongo_of_kongo }
 		#	expire = "1969.1.1.1"
 		#	id = -1
@@ -89,7 +89,7 @@ characters = {
 		}
 
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	traits = { nyim_of_kuba }
 		#	expire = "1969.1.1.1"
 		#	id = -1
@@ -125,7 +125,7 @@ characters = {
 		}
 
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	traits = { ma_loango }
 		#	expire = "1969.1.1.1"
 		#	id = -1
@@ -161,7 +161,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = marxism
+			ideology = communism_small
 			traits = { COG_trade_unionist }
 			expire = "1978.1.1.1"
 			id = -1
@@ -621,7 +621,7 @@ characters = {
 		}
 
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	traits = { the_rwandan_collaborstionist_king }
 		#	expire = "1969.1.1.1"
 		#	id = -1

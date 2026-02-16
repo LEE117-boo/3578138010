@@ -11,7 +11,7 @@ characters={
 		}
 
 		country_leader = {
-			ideology = marxism
+			ideology = communism_small
 			traits = {  }
 			expire = "1965.1.1.1"
 			id = -1
@@ -30,7 +30,7 @@ characters={
 		}
 
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = {  }
 			expire = "1965.1.1.1"
 			id = -1
@@ -49,7 +49,7 @@ characters={
 		}
 
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = { experienced_insurgent }
 			expire = "1965.1.1.1"
 			id = -1

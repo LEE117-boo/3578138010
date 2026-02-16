@@ -10,7 +10,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=despotism
+				ideology=authoritarianism_small
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=oligarchism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			traits = { IRQ_nationalist }
 			id=-1
@@ -62,7 +62,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=communism_small
 			expire="1944.1.1.12"
 			id=-1
 		}
@@ -75,7 +75,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_small
 			expire="1949.1.1.12"
 			id=-1
 		}
@@ -910,7 +910,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_small
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -1360,7 +1360,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = {AFG_general_secretary}

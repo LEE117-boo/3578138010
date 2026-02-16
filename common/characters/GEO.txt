@@ -24,7 +24,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = communism_small
 			expire = "1953.3.1"
 			id = -1
 			traits = { staunch_stalinist }
@@ -43,7 +43,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1957.1.1"
 			id = -1
 			traits = { the_sacred_king }
@@ -59,7 +59,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_small
 			expire = "1960.1.1"
 			id = -1
 			traits = { georgian_irredentist_writer }
@@ -131,7 +131,7 @@ characters = {
 			}
 		}
 		#country_leader = {
-		#	ideology = stalinism
+		#	ideology = communism_small
 		#	expire = "1953.3.1"
 		#	id = -1
 		#	traits = { }

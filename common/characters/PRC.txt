@@ -21,7 +21,7 @@ characters={
 			legacy_id=-1
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_small
 			traits={ cornered_fox }
 			expire="1965.1.1.1"
 			id=-1
@@ -158,7 +158,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_small
 			traits={ financial_expert armaments_organizer }
 			expire="1956.1.1.12"
 			id=-1
@@ -172,7 +172,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=oligarchism
+			ideology=authoritarianism_small
 			traits={ financial_expert }
 			expire="1949.1.1.12"
 			id=-1

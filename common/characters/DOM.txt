@@ -9,7 +9,7 @@ characters={
     
     country_leader = {
         desc = DOM_Hector_Trujillo_desc
-        ideology = chai_kai_shek
+        ideology = tttt_small
         traits = {
             
         }

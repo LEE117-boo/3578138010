@@ -79,7 +79,7 @@ create_country_leader = {
 	name = "Ramón Ormazábal Tife"
 	picture = GFX_portrait_Ramon_Ormazabal_Tife
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = communism_small
 }
 
 create_country_leader = {

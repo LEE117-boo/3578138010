@@ -15,7 +15,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = { CRO_poglavnik_trait }
 			expire = "1965.1.1.1"
 			id = -1
@@ -52,7 +52,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = centrism
+			ideology = authoritarianism_small
 			traits = { }
 			expire = "1965.1.1.1"
 			id = -1
@@ -79,7 +79,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = { }
 			expire = "1965.1.1.1"
 			id = -1
@@ -98,7 +98,7 @@ characters = {
 		}
 
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	traits = { ban_of_croatia_slavonia }
 		#	expire = "1965.1.1.1"
 		#	id = -1

@@ -88,7 +88,7 @@ create_country_leader = {
 	name = "Itzhak Gaster"
 	desc = ""
 	picture = GFX_portrait_Itzhak_Gaster
-	ideology = fascism_ideology
+	ideology = fascism_small
 	traits = {
 		#
 	}
@@ -98,7 +98,7 @@ create_country_leader = {
 	name = "Rudolf Szabó"
 	desc = ""
 	picture = GFX_portrait_Rudolf_Szabo
-	ideology = despotism
+	ideology = authoritarianism_small
 	traits = {
 		#
 	}
@@ -108,7 +108,7 @@ create_country_leader = {
 	name = "Shmuel Mikunis"
 	desc = ""
 	picture = GFX_portrait_Shmuel_Mikunis
-	ideology = leninism
+	ideology = communism_small
 	traits = {
 		#
 	}

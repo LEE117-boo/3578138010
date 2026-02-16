@@ -102,7 +102,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Mir_Jafar_Baghirov
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = communism_small
 	traits = {
 		
 	}
@@ -124,7 +124,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Gara_Garabeyov
 	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = authoritarianism_small
 	traits = {
 		
 	}

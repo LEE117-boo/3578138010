@@ -9,7 +9,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = chai_kai_shek
+			ideology = tttt_small
 			traits = { POL_the_greatest_marshal }
 		}
 		field_marshal = {
@@ -33,7 +33,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = Social_democracy
+			ideology = progressivism_small
 			traits = { POL_marshal_friend }
 		}
 		advisor = {
@@ -76,7 +76,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = { POL_Proud_General }
 		}
 		advisor = {

@@ -20,13 +20,13 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = oligarchism
+				ideology = authoritarianism_small
 				traits = { fascist_sympathies anti_communist }
 				expire = "1965.1.1.1"
 				id = 500
 			}
 			country_leader = {
-				ideology = fascism_ideology
+				ideology = fascism_small
 				traits = { anti_communist }
 				expire = "1965.1.1.1"
 				id = 503
@@ -47,12 +47,12 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = oligarchism
+				ideology = authoritarianism_small
 				expire = "1965.1.1.1"
 				id = 500
 			}
 			country_leader = {
-				ideology = fascism_ideology
+				ideology = fascism_small
 				expire = "1965.1.1.1"
 				id = 500
 			}
@@ -76,7 +76,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = oligarchism
+				ideology = authoritarianism_small
 				traits = { fascist_sympathies anti_communist HUN_the_regent }
 				expire = "1965.1.1.1"
 				id = 500
@@ -167,7 +167,7 @@ characters = {
 			}
 			
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { HUN_the_habsburg_prince }
 				expire = "1965.1.1.1"
 				id = -1
@@ -193,7 +193,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { HUN_the_habsburg_prince }
 				expire = "1965.1.1.1"
 				id = -1
@@ -241,7 +241,7 @@ characters = {
 		}
 
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	traits = { HUN_the_old_warden }
 		#	expire = "1965.1.1.1"
 		#	id = -1
@@ -277,7 +277,7 @@ characters = {
 		}
 
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	traits = { dislikes_germany HUN_popular_aviator }
 		#	expire = "1965.1.1.1"
 		#	id = -1
@@ -381,7 +381,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = stalinism
+				ideology = communism_small
 				traits = { }
 				expire = "1965.1.1.1"
 				id = -1
@@ -406,7 +406,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = stalinism
+				ideology = communism_small
 				traits = { HUN_ardent_stalinist }
 				expire = "1965.1.1.1"
 				id = -1
@@ -426,7 +426,7 @@ characters = {
 		}
 
 		#country_leader = {
-		#	ideology = marxism
+		#	ideology = communism_small
 		#	traits = { HUN_the_hungarian_lenin }
 		#	expire = "1965.1.1.1"
 		#	id = -1
@@ -587,7 +587,7 @@ characters = {
 			}
 
 			#country_leader = {
-			#	ideology = despotism
+			#	ideology = authoritarianism_small
 			#	traits = { HUN_duke_and_king_of_mecklenburg }
 			#	expire = "1965.1.1"
 			#}
@@ -604,7 +604,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = falangism
+			ideology = fascism_small
 			expire = "1948.1.1.12"
 			id = -1
 		}
@@ -3998,7 +3998,7 @@ characters = {
 
 			# Can become leader after the focus wuw_HUN_the_march_on_budapest
 			#country_leader = {
-			#	ideology = despotism
+			#	ideology = authoritarianism_small
 			#	traits = { HUN_popular_among_paramilitaries }
 			#	expire = "1965.1.1.1"
 			#	id = -1

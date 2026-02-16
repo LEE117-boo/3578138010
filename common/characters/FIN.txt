@@ -18,7 +18,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = moderatism #National Coalition Party
+			ideology = authoritarianism_small #National Coalition Party
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { member_of_the_suojeluskunta conservative_nationalist personal_agenda_svinhufvud }
@@ -33,7 +33,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = centrism #Agrarian League
+			ideology = authoritarianism_small #Agrarian League
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { anti_communist backed_by_political_coalition personal_agenda_kallio }
@@ -52,7 +52,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = moderatism #National Coalition Party
+			ideology = authoritarianism_small #National Coalition Party
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { paasikivi_doctrine personal_agenda_paasikivi }
@@ -95,7 +95,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = oligarchism # no party
+			ideology = authoritarianism_small # no party
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { sotamarsalkka personal_agenda_mannerheim }
@@ -1508,7 +1508,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = centrism #National Progressive Party
+			ideology = authoritarianism_small #National Progressive Party
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { white_liberal_leader personal_agenda_ryti }

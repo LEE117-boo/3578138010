@@ -122,7 +122,7 @@ country_event = {
 			create_country_leader = {
 				name = ITA_Gaetano_Rapagnetta
 				picture = GFX_ITA_Gaetano_Rapagnetta
-				ideology = fascism_ideology
+				ideology = fascism_small
 			}
 			country_event = {
 				id = script_events.3
@@ -1274,7 +1274,7 @@ country_event = {
 				name = IRE_William_Thomas_Cosgrave
 				picture = GFX_IRE_William_Thomas_Cosgrave
 				expire = "1965.1.1"
-				ideology = chai_kai_shek
+				ideology = tttt_small
 				traits = {
 				}
 			}
@@ -1447,7 +1447,7 @@ country_event = {
 			name = Subhash_Chandra_Bose_TVE
 			picture = GFX_Subhash_Chandra_Bose_TVE
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = {
 			}
 		}
@@ -1573,7 +1573,7 @@ country_event = {
 				name = Subhash_Chandra_Bose_TVE
 				picture = GFX_Subhash_Chandra_Bose_TVE
 				expire = "1965.1.1"
-				ideology = fascism_ideology
+				ideology = fascism_small
 				traits = {
 				}
 			}

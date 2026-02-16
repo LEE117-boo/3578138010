@@ -13,7 +13,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = oligarchism
+			ideology = authoritarianism_small
 			traits = {  }
 			expire = "1969.1.1.1"
 			id = -1

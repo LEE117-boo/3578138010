@@ -12,7 +12,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -74,7 +74,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=authoritarianism_small
 			traits={ financial_expert }
 			expire="1947.1.1.12"
 			id=-1

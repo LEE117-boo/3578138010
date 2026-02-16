@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits={ generallissimo }
 			expire="1965.1.1.1"
 			id=-1
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits={ generallissimo }
 			expire="1965.1.1.1"
 			id=-1
@@ -69,7 +69,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1
@@ -159,7 +159,7 @@ characters={
 			}
 		}
 		country_leader = { #Gets his role through an event
-			ideology = marxism
+			ideology = communism_small
 			traits = { GER_pragmatic_socialist }
 			expire = "1965.1.1.1"
 		}
@@ -303,7 +303,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = rexism
+			ideology = fascism_small
 			traits = { }
 			expire = "1954.1.1.1"
 			id = -1

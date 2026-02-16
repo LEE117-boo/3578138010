@@ -290,7 +290,7 @@ IF = {
 		desc = ""
 		picture = GFX_portrait_Johannes_Valurson
 		expire = "1965.1.1"
-		ideology = fascism_ideology
+		ideology = fascism_small
 		traits = {
 			#
 		}
@@ -301,7 +301,7 @@ IF = {
 		desc = ""
 		picture = GFX_portrait_Haraldur_Gudmunsson
 		expire = "1965.1.1"
-		ideology = centrism
+		ideology = authoritarianism_small
 		traits = {
 			#
 		}
@@ -312,7 +312,7 @@ IF = {
 		desc = ""
 		picture = GFX_portrait_Einar_Olgeirsson
 		expire = "1965.1.1"
-		ideology = marxism
+		ideology = communism_small
 		traits = {
 			#
 		}

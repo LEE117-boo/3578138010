@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_small
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1
@@ -123,7 +123,7 @@ characters={
 		}
 
 		country_leader={ #This country leader role is copied as Non-Aligned if Churchill is sent to RAJ - Changes here should be applied in event GOE_RAJ_loyalist.11
-			ideology = chai_kai_shek
+			ideology = tttt_small
 			traits = {
 				british_bulldog
 			}
@@ -267,7 +267,7 @@ characters={
 		}
 		
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_small
 			traits={ champion_of_peace_1 economic_reformer }
 			expire="1965.1.1.1"
 			id=-1
@@ -320,7 +320,7 @@ characters={
 		}
 		
 		country_leader={
-			ideology=leninism
+			ideology=communism_small
 			traits={ staunch_stalinist }
 			expire="1965.1.1.1"
 			id=-1
@@ -351,7 +351,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=authoritarianism_small
 			traits={ quartermaster_general compassionate_gentleman }
 			expire="1945.1.1.12"
 			id=-1

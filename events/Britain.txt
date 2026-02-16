@@ -694,7 +694,7 @@ country_event = {
 			desc = "POLITICS_EDWARD_EDWARD_DESC"
 			picture = GFX_portrait_Edward_VIII
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = {
 				inexperienced_imperialist				
 			}

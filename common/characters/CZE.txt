@@ -49,7 +49,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology=oligarchism
+			ideology=authoritarianism_small
 			traits={ eager_collaborator captain_of_industry }
 			expire="1942.1.1.12"
 			id=-1
@@ -64,7 +64,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { duke_of_teschen_king_of_bohemia }
@@ -97,7 +97,7 @@ characters = {
 		}
 		
 		country_leader={
-			ideology=stalinism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -301,7 +301,7 @@ characters = {
 
 	### NAVY CHIEFS ###
 
-	# Klement Gottwald up there (Communist Country Leader -> Stalinism)
+	# Klement Gottwald up there (Communist Country Leader -> communism_small)
 
 	CZE_antonin_hasal={
 		name=CZE_antonin_hasal

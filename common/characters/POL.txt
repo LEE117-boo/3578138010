@@ -7,7 +7,7 @@
 			}
 		}
 		country_leader = {
-			ideology=despotism
+			ideology=authoritarianism_small
 			traits = { the_last_romanov_maybe }
 			expire="1965.1.1.1"
 			id=-1
@@ -22,7 +22,7 @@
 			}
 		}
 		country_leader = {
-			ideology=despotism
+			ideology=authoritarianism_small
 			traits = { patriot_king }
 			expire="1965.1.1.1"
 			id=-1
@@ -37,7 +37,7 @@
 			}
 		}
 		country_leader = {
-			ideology=despotism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = { royal_legitimist }
@@ -52,7 +52,7 @@
 			}
 		}
 		country_leader = {
-			ideology=despotism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -80,7 +80,7 @@
 			legacy_id=-1
 		}
 		country_leader = {
-			ideology=oligarchism
+			ideology=authoritarianism_small
 			traits = { polish_legionary }
 		}
 	}
@@ -107,7 +107,7 @@
 			legacy_id=-1
 		}
 		country_leader = {
-			ideology=oligarchism
+			ideology=authoritarianism_small
 			traits = { polish_legionary }
 			expire="1965.1.1.1"
 			id=-1
@@ -136,7 +136,7 @@
 			legacy_id=-1
 		}
 		country_leader = {
-			ideology=oligarchism
+			ideology=authoritarianism_small
 			traits = { patriotic_guerilla }
 			expire="1965.1.1.1"
 			id=-1
@@ -196,7 +196,7 @@
 		}
 		
 		country_leader = {
-			ideology=oligarchism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -242,7 +242,7 @@
 		}
 		gender = female 
 		country_leader = {
-			ideology=marxism
+			ideology=communism_small
 			traits = { leftist_independent }
 			expire="1965.1.1.1"
 			id=-1
@@ -257,7 +257,7 @@
 			}
 		}
 		country_leader = {
-			ideology=leninism
+			ideology=communism_small
 			traits = { soviet_thaw }
 			expire="1965.1.1.1"
 			id=-1
@@ -320,7 +320,7 @@
 			}
 		}
 		country_leader = {
-			ideology=gen_nazism
+			ideology=fascism_small
 			expire="1965.1.1.1"
 			traits = { POL_cossack_king }
 			id=-1
@@ -388,7 +388,7 @@
 		}
 		
 		country_leader = {
-			ideology=fascism_ideology
+			ideology=fascism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = { father_of_polish_nationalism }
@@ -403,7 +403,7 @@
 			}
 		}
 		country_leader = {
-			ideology=falangism
+			ideology=fascism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = { unruly_falangist }
@@ -429,7 +429,7 @@
 			skill = 1
 		}
 		country_leader = {
-			ideology=despotism
+			ideology=authoritarianism_small
 			traits = { he_who_bears_the_throne }
 			expire="1966.1.1.1"
 		}

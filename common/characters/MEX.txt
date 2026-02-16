@@ -9,7 +9,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= Social_democracy
+			ideology= progressivism_small
 			desc = MEX_afangsuo_leiyesi_desc
 			traits={ 
 				president_bug_writer 
@@ -78,7 +78,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= fascism_ideology
+			ideology= fascism_small
 			traits={ 
 				#president_bug_writer 
 			}
@@ -513,7 +513,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=falangism
+			ideology=fascism_small
 			traits={ fascist_militia_leader }
 			expire="1965.1.1.1"
 			id=-1
@@ -536,7 +536,7 @@ characters={
 		name=MEX_dionisio_encina
 		portraits={
 			civilian={
-				large="GFX_Portrait_MEX_Dionisio_Encina" #Can become country leader later (Communism -> Stalinism)
+				large="GFX_Portrait_MEX_Dionisio_Encina" #Can become country leader later (Communism -> communism_small)
 			}
 		}
 	}
@@ -586,7 +586,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=leninism
+			ideology=communism_small
 			traits={ devoted_trotskyist }
 			expire="1965.1.1.1"
 			id=-1
@@ -597,7 +597,7 @@ characters={
 		name=MEX_valentin_campa
 		portraits={
 			civilian={
-				large=GFX_portrait_MEX_valentin_campa #Can become country leader later (Communism -> Leninism)
+				large=GFX_portrait_MEX_valentin_campa #Can become country leader later (Communism -> communism_small)
 			}
 		}
 	}
@@ -606,7 +606,7 @@ characters={
 		name=MEX_francisco_mugica
 		portraits={
 			civilian={
-				large="GFX_portrait_MEX_francisco_mugica" #Can become country leader (Non-aligned -> Moderatism) (Democratic -> Socialism) (Communism -> Marxism)
+				large="GFX_portrait_MEX_francisco_mugica" #Can become country leader (Non-aligned -> Moderatism) (Democratic -> Socialism) (Communism -> communism_small)
 			}
 		}
 	}
@@ -641,7 +641,7 @@ characters={
 			legacy_id=712
 		}
 		country_leader={
-			ideology=moderatism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			id=-1
 		}

@@ -117,7 +117,7 @@ create_country_leader = {
 	name = "Farouk Muhammad Ali"
 	desc = ""
 	picture = "GFX_portrait_egy_faud_i"
-	ideology = despotism
+	ideology = authoritarianism_small
 	traits = {
 		#
 	}
@@ -127,7 +127,7 @@ create_country_leader = {
 	name = "Hosni al-Arabi"
 	desc = ""
 	picture = GFX_portrait_Hosni_al_Arabi
-	ideology = leninism
+	ideology = communism_small
 	traits = {
 		#
 	}

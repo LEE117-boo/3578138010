@@ -206,7 +206,7 @@ characters = {
 			}
 		}
 		#country_leader = { #Gets his role through an event
-		#	ideology = marxism
+		#	ideology = communism_small
 		#	traits = { GER_pragmatic_socialist }
 		#	expire = "1965.1.1.1"
 		#}
@@ -223,7 +223,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = communism_small
 			traits = { staunch_stalinist }
 			expire = "1965.1.1.1"
 			id = -1

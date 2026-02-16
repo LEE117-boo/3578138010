@@ -335,7 +335,7 @@ create_country_leader = {
 	name = TVE_YUG_LEADERS
 	picture = GFX_TVE_YUG_LEADERS
 	expire = "1965.1.1"
-	ideology = chai_kai_shek
+	ideology = tttt_small
 }
 
 1939.1.1 = {

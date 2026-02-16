@@ -13,7 +13,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = { the_soldier_king }
 			expire = "1946.1.1.1"
 			id = -1

@@ -24,7 +24,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_small
 			traits = { marxist_academic }
 			expire = "1951.1.1.12"
 			id = -1
@@ -56,7 +56,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = { LUX_grand_duchess_of_luxembourg }
 			expire = "1964.1.1.12"
 			id = -1

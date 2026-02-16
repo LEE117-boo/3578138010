@@ -67,7 +67,7 @@ characters={
 					small = "GFX_idea_RAJ_subhas_chanda_bose" #small="GFX_idea_generic_political_advisor_india_1"
 				}
 				civilian = {
-					large = "GFX_RAJ_subhas_chandra_bose" #Can become country leader (Communism -> Stalinism) (Fascism -> Nazism)
+					large = "GFX_RAJ_subhas_chandra_bose" #Can become country leader (Communism -> communism_small) (Fascism -> Nazism)
 				}
 			}
 			advisor = {
@@ -112,7 +112,7 @@ characters={
 					small = GFX_portrait_RAJ_subhas_chandra_bose_military_small #small="GFX_idea_generic_political_advisor_india_1"
 				}
 				civilian ={
-					large = GFX_portrait_RAJ_subhas_chandra_bose #Can become country leader (Communism -> Stalinism) (Fascism -> Nazism) (Neutrality -> Centrism)
+					large = GFX_portrait_RAJ_subhas_chandra_bose #Can become country leader (Communism -> communism_small) (Fascism -> Nazism) (Neutrality -> Centrism)
 					small = GFX_portrait_RAJ_subhas_chandra_bose_civilian_small
 				}
 			}
@@ -193,7 +193,7 @@ characters={
 			}
 			
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -224,7 +224,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=falangism
+				ideology=fascism_small
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -240,7 +240,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=fascism_ideology
+				ideology=fascism_small
 				expire="1965.1.1.1"
 				id=-1
 				traits = { hindu_nationalist }
@@ -259,7 +259,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = {
@@ -277,7 +277,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = {
@@ -2012,7 +2012,7 @@ characters={
 			}
 		}
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	traits = { RAJ_heir_of_the_empire }
 		#	expire = "1965.1.1.1"
 		#	id = -1
@@ -2036,7 +2036,7 @@ characters={
 			}
 
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { RAJ_GOE_patron_of_education }
 				expire = "1965.1.1.1"
 				id = -1
@@ -2097,7 +2097,7 @@ characters={
 			}
 
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { RAJ_GOE_visionary_maharaja }
 				expire = "1965.1.1.1"
 				id = -1
@@ -2158,7 +2158,7 @@ characters={
 			}
 
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { RAJ_GOE_baluchistans_soverign }
 				expire = "1965.1.1.1"
 				id = -1
@@ -2219,7 +2219,7 @@ characters={
 			}
 
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { RAJ_GOE_the_bengal_advocate }
 				expire = "1965.1.1.1"
 				id = -1
@@ -2280,7 +2280,7 @@ characters={
 			}
 
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { RAJ_GOE_the_reformer_maharaja }
 				expire = "1965.1.1.1"
 				id = -1
@@ -2337,7 +2337,7 @@ characters={
 			}
 
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { RAJ_GOE_guardian_of_the_hills }
 				expire = "1965.1.1.1"
 				id = -1
@@ -2398,7 +2398,7 @@ characters={
 			}
 
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { RAJ_GOE_financial_strategist }
 				expire = "1965.1.1.1"
 				id = -1
@@ -2459,7 +2459,7 @@ characters={
 			}
 
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { RAJ_GOE_financial_strategist }
 				expire = "1965.1.1.1"
 				id = -1
@@ -2520,7 +2520,7 @@ characters={
 			}
 
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { RAJ_GOE_scholar_king }
 				expire = "1965.1.1.1"
 				id = -1

@@ -114,7 +114,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				expire = "1965.1.1.1"
 				id = -1
 				traits = { AUS_under_german_pressure }
@@ -158,7 +158,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -181,7 +181,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { anti_communist }
@@ -265,7 +265,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = moderatism
+			ideology = authoritarianism_small
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { popular_figurehead2 }
@@ -520,7 +520,7 @@ characters = {
 			}
 		}
 		country_leader = { 
-			ideology = leninism
+			ideology = communism_small
 			expire = "1965.1.1.1"
 			id = -1
 		} 

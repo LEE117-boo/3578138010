@@ -278,7 +278,7 @@ create_country_leader = {
 	name = JAP_emperor_hirohito
 	picture = GFX_JAP_Hirohito
 	desc = JAP_emperor_hirohito_desc
-	ideology = despotism
+	ideology = authoritarianism_small
 	traits={ emperor_showa }
 	expire="1989.1.1.1"
 }
@@ -294,7 +294,7 @@ create_country_leader = {
 create_country_leader = {
 	name = JAP_emperor_hirohito
 	picture = GFX_JAP_Hirohito
-	ideology = Social_democracy
+	ideology = progressivism_small
 	traits={ emperor_showa }
 	expire="1989.1.1.1"
 }
@@ -302,7 +302,7 @@ create_country_leader = {
 create_country_leader = {
 	name = JAP_emperor_hirohito
 	picture = GFX_JAP_Hirohito
-	ideology = chai_kai_shek
+	ideology = tttt_small
 	traits={ emperor_showa }
 	expire="1989.1.1.1"
 }
@@ -310,7 +310,7 @@ create_country_leader = {
 create_country_leader = {
 	name = JAP_emperor_hirohito
 	picture = GFX_JAP_Hirohito
-	ideology = fascism_ideology
+	ideology = fascism_small
 	traits={ emperor_showa }
 	expire="1989.1.1.1"
 }
