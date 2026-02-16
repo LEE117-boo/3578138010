@@ -1,0 +1,42 @@
+bookmarks = {
+	bookmark = {
+		name = "Asia_bookmark_title"
+		desc = "Asia_bookmark_desc"
+		date = 1935.1.1.12
+		picture = "GFX_bookmark_aisa_TVE"
+		default_country = "CHI"
+	
+		"CHI" = {
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Authoritarianism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"JAP" = {
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Authoritarianism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"IRQ" = {
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Socialism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+			
+		}
+		
+	}
+}

@@ -1,89 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "TVE_bookmark_title"
-		desc = "TVE_bookmark_desc"
+		name = "America_bookmark_title"
+		desc = "America_bookmark_desc"
 		date = 1935.1.1.12
-		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		picture = "GFX_bookmark_american_TVE"
+		default_country = "USA"
 		default = yes
-		"FRA"={
-			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"AUS"={
-			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		"USA"={
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"CHI"={
-			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"POL"={
-			history = "POL_GATHERING_STORM_DESC"
-			ideology = Conservatism
-			ideas = {
-				POL_yuanshuai_yuanze
-				POL_jiaoaode_bolanren
-				POL_haibiande_kanke
-			}
-			focuses = {
-			}
-		}
-		"SPM"={
-			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"SOV"={
-			history = "SOV_desc"
-			ideology = Conservatism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"GER"={
-			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"GRE"={
-			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"TUR"={
-			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
+			ideology = Progressivism
 			ideas = {
 			}
 			focuses = {
@@ -91,13 +16,21 @@ bookmarks = {
 		}
 		"CSA"={
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
+			ideology = fascism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		"JAP"={
+		"MEX"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Progressivism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"BRA"={
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
 			ideology = Conservatism
 			ideas = {
@@ -105,7 +38,24 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"ENG"={
+		"COL"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		"BOL"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Authoritarianism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CHL"={
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
 			ideology = Conservatism
 			ideas = {
@@ -113,5 +63,14 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"ARG"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+	
 	}
 }
