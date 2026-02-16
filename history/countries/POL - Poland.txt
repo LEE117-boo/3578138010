@@ -35,9 +35,11 @@ country_event = {
 }
 #领导人
 recruit_character = POL_Jozef_Pilsudski #约瑟夫·毕苏斯基
+recruit_character = POL_Walery_Slawek #瓦莱雷·斯瓦韦克
+recruit_character = POL_Edward_Rydz_Smigly #爱德华·雷兹-希米格维
 
 #副手
-recruit_character = POL_Walery_Slawek #瓦莱雷·斯瓦韦克
+
 
 
 add_ideas={
@@ -174,7 +176,6 @@ recruit_character = POL_stanislaw_mikolajczyk
 recruit_character = POL_wincenty_witos
 recruit_character = POL_wladyslaw_raczkiewicz
 recruit_character = POL_boleslaw_piasecki
-recruit_character = POL_edward_rydzsmigly
 recruit_character = POL_wladyslaw_bortnowski
 recruit_character = POL_stanislaw_kopanski
 recruit_character = POL_marian_kukiel

@@ -12,10 +12,15 @@ characters = {
 			ideology = chai_kai_shek
 			traits = { POL_the_greatest_marshal }
 		}
+		field_marshal = {
+			traits = { old_guard brilliant_strategist war_hero politically_connected }
+			skill=6
+			attack_skill=6
+			defense_skill=7
+			planning_skill=8
+			logistics_skill=6
+		}
 	}
-
-
-	#副手
 	#瓦莱雷·斯瓦韦克
 	POL_Walery_Slawek = {
 		name = POL_Walery_Slawek
@@ -29,7 +34,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = Social_democracy
-			traits = { POL_the_greatest_marshal }
+			traits = { POL_marshal_friend }
 		}
 		advisor = {
 			slot = second_in_command
@@ -42,7 +47,7 @@ characters = {
 			slot = political_advisor
 			idea_token = POL_Walery_Slawek_pol
             allowed = {
-				original_tag = GER
+				original_tag = POL
 			}
             cost = 150
 			available = {
@@ -59,4 +64,53 @@ characters = {
 			}
         }
 	}
+	#爱德华·雷兹-希米格维
+	POL_Edward_Rydz_Smigly = {
+		name = POL_Edward_Rydz_Smigly
+		portraits = {
+			civilian = {
+				large = GFX_POL_Edward_Rydz_Smigly_large
+			}
+			army = {
+				small = GFX_POL_Edward_Rydz_Smigly_small
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { POL_Proud_General }
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = POL_Edward_Rydz_Smigly_pol
+            allowed = {
+				original_tag = POL
+			}
+            cost = 150
+			available = {
+				NOT = { 
+					has_country_leader = {
+						ruling_only = yes 
+						character = POL_Edward_Rydz_Smigly
+					}
+				}
+            }
+			traits = {
+				POL_Marshal_Painter
+			}
+        }
+		field_marshal = {
+			traits = { skilled_staffer old_guard thorough_planner politically_connected }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+
+
+	}
+
+
+	#副手
+	
 }

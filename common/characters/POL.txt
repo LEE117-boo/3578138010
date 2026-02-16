@@ -410,47 +410,6 @@
 		}
 	}
 
-	POL_edward_rydzsmigly = {
-		name=POL_edward_rydz_smigly
-		portraits = {
-			army = {
-				large="GFX_portrait_POL_edward_rydz_smigly"
-				small = "GFX_idea_POL_edward_rydz_smigly"
-			}
-			civilian = {
-				large="GFX_portrait_POL_edward_rydz_smigly"
-			}
-		}
-		advisor = {
-			cost = 100
-			slot = theorist
-			idea_token = POL_edward_rydz_smigly
-			ledger = army
-			allowed = {
-				original_tag = POL
-			}
-			available = {
-				has_completed_focus = POL_the_sanation_right
-			}
-			traits = {
-				sanation_militarist
-			}
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		
-		field_marshal = {
-			traits = { old_guard POL_sanation_right_leader thorough_planner politically_connected }
-			skill=4
-			attack_skill=4
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=3
-			legacy_id=-1
-		}
-	}
-
 	POL_wojtek = {
 		name = POL_wojtek
 		portraits = {

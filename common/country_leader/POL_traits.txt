@@ -14,12 +14,20 @@ leader_traits ={
 		stability_factor = 0.10
 		custom_modifier_tooltip = POL_marshal_friend_desc	
 	}
+	#骄傲的将军
+	POL_Proud_General = {
+		random = no
+		army_attack_factor = 0.05
+		army_defence_factor = 0.05
+		stability_factor = -0.05
+		ai_focus_aggressive_factor = 0.20
+		custom_modifier_tooltip = POL_Proud_General_desc
+	}
 
 	#副手特质
 	#元帅的阴影
 	POL_marshal_shadow_sic ={
 		random = no
-		subversive_activites_upkeep = 0.25
 		drift_defence_factor = 0.25
 		justify_war_goal_time = 0.15
 	}
@@ -36,4 +44,11 @@ leader_traits ={
 		mobilization_laws_cost_factor = -0.20
 		political_advisor_cost_factor = -0.15
 	}
+	#副元帅画家
+	POL_Marshal_Painter = {
+		random = no
+		political_power_gain = 0.10
+		war_support_factor = 0.15
+	}
+
 }
