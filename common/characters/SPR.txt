@@ -15,5 +15,38 @@ characters={
         }
     }
 }
-
+    SPR_Serralo_Sunier = { #塞拉洛·苏涅尔
+    name =  SPR_Serralo_Sunier 
+    portraits = {
+        army = {
+            small = GFX_idea_SPR_Serralo_Sunier
+        }
+       
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = SPR_Serralo_Sunier_advisor
+        traits = {
+            JUNO_nationalizing_foreign_minister
+        }
+        cost = 0
+    }
+}   
+    SPR_Francisco_Franco = { #弗朗西斯科·佛朗哥
+    name = SPR_Francisco_Franco
+    portraits = {
+        army = {
+            small = GFX_idea_SPR_Francisco_Franco
+        }
+       
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = SPR_Francisco_Franco
+        traits = {
+            JUNO_minister_of_defense_emilio
+        }
+        cost = 0
+    }
+    }
 }

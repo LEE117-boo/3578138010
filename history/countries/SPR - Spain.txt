@@ -343,6 +343,8 @@ add_ideas = {
 		SPR_Autonomy_Dilemma #自治难题
 	}
 	recruit_character = SPR_Miguel_Primo_Derivella #米格尔·普里莫·德里维拉
+	recruit_character = SPR_Serralo_Sunier #塞拉洛·苏涅尔
+	recruit_character = SPR_Francisco_Franco #弗朗西斯科·佛朗哥
 	165 = {
 		add_dynamic_modifier = { modifier = autonomous_state }
 	}

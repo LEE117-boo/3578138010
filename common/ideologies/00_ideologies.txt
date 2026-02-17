@@ -420,8 +420,11 @@ ideologies = {
 			Spain_rivera_ideologies = { #米格尔·普里莫·德里维拉的意识形态
 				can_be_randomly_selected = no
 			}
-			Military_dictatorship = { #军官独裁制
+			colonial_government_ideologies = { #殖民政府
 				can_be_randomly_selected = no
+			}
+			Military_dictatorship = { #军官独裁制
+				
 			}
 		}
 

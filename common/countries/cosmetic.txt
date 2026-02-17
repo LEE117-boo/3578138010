@@ -146,3 +146,29 @@ YUG_BOS = {
 	color = rgb { 72 73 126 }
 	color_ui = rgb { 94 95 164 }
 }
+
+
+SPR_puppet_CUB = {
+	color = rgb { 213 164 15 }
+	color_ui = rgb { 213 164 15 }
+}
+SPR_puppet_DOM = {
+	color = rgb { 213 164 15 }
+	color_ui = rgb { 213 164 15 }
+}
+SPR_puppet_EQG = {
+	color = rgb { 213 164 15 }
+	color_ui = rgb { 213 164 15 }
+}
+SPR_puppet_MOR = {
+	color = rgb { 213 164 15 }
+	color_ui = rgb { 213 164 15 }
+}
+SPR_puppet_VEN = {
+	color = rgb { 213 164 15 }
+	color_ui = rgb { 213 164 15 }
+}
+SPR_puppet_PHI = {
+	color = rgb { 213 164 15 }
+	color_ui = rgb { 213 164 15 }
+}

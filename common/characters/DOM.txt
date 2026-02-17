@@ -11,7 +11,7 @@ characters={
         desc = DOM_Hector_Trujillo_desc
         ideology = tttt_small
         traits = {
-            
+            DOM_Black_person
         }
     }
 }

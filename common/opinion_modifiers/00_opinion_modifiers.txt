@@ -1168,5 +1168,10 @@ opinion_modifiers = {
 		value = 10
 		months = 50	
 	}
+
 	
+	###
+	DOM_spanish_influence = {
+		value = 30
+	}
 }

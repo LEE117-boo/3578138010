@@ -3,6 +3,14 @@ spriteTypes = {
 		name = "GFX_idea_SPR_Miguel_Primo_Derivella"
 		texturefile = "gfx/leaders/SPR/TVE_SPR_Miguel_Primo_Derivella.dds"
 	}
+	spriteType = { #塞拉洛·苏涅尔
+		name = "GFX_idea_SPR_Serralo_Sunier"
+		texturefile = "gfx/interface/ideas/SPR/SPR_Serralo_Sunier.dds"
+	}
+	spriteType = { #弗朗西斯科·佛朗哥
+		name = "GFX_idea_SPR_Francisco_Franco"
+		texturefile = "gfx/interface/ideas/SPR/SPR_Francisco_Franco.dds"
+	}
 	spriteType = { #内战的遗产
 		name = "GFX_idea_SPR_Legacy_of_the_Civil_War"
 		texturefile = "gfx/interface/ideas/SPR/SPR_Legacy_of_the_Civil_War.dds"
