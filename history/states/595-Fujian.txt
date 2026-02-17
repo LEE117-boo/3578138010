@@ -23,9 +23,44 @@ state= {
 			}
 		}
 		victory_points = { 
-			4196 25
+			13462 25
 		}
-
+		victory_points = { 
+			13458 5
+		}
+		victory_points = { 
+			4196 5
+		}
+		victory_points = { 
+			13457 1
+		}
+		victory_points = { 
+			13459 5
+		}
+		victory_points = { 
+			13456 1
+		}
+		victory_points = { 
+			13460 5
+		}
+		victory_points = { 
+			13461 5
+		}
+		victory_points = { 
+			13462 5
+		}
+		victory_points = { 
+			13466 5
+		}
+		victory_points = { 
+			13465 5
+		}
+		victory_points = { 
+			13464 5
+		}
+		victory_points = { 
+			13463 5
+		}
 		1938.10.25 = {		
 			JAP = {
 				set_province_controller = 4196
