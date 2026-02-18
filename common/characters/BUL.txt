@@ -54,7 +54,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = stalinism
+				ideology = communism_small
 				traits = { the_hero_of_the_leipzig_trials }
 				expire = "1965.1.1"
 				id = -1
@@ -71,7 +71,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = leninism
+				ideology = communism_small
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -106,7 +106,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = fascism_ideology
+				ideology = fascism_small
 				traits = { hardened_officer }
 				expire = "1966.1.1.1"
 				id = -1
@@ -143,7 +143,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = fascism_ideology
+				ideology = fascism_small
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -1435,7 +1435,7 @@ characters = {
 			}
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = moderatism
+				ideology = authoritarianism_small
 				traits = {
 					incompetent_leader
 				}
@@ -2116,7 +2116,7 @@ characters = {
 		}
 		country_leader = {
 				expire = "1965.1.1"
-				ideology = centrism
+				ideology = authoritarianism_small
 				traits = {
 					political_manipulator 
 				}

@@ -105,7 +105,7 @@ create_country_leader = {
 	name = "Idris Senussi"
 	desc = ""
 	picture = GFX_portrait_Idris_Senussi
-	ideology = despotism
+	ideology = authoritarianism_small
 	traits = {
 		#
 	}
@@ -115,7 +115,7 @@ create_country_leader = {
 	name = "Hassan as-Senussi"
 	desc = ""
 	picture = GFX_portrait_Hassan_as_Senussi
-	ideology = leninism
+	ideology = communism_small
 	traits = {
 		#
 	}

@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1965.1.1.1"
 			traits = { king_of_kings }
 			id = -1
@@ -71,7 +71,7 @@ characters = {
 				has_government = fascism
 			}
 			country_leader = {
-				ideology = fascism_ideology 
+				ideology = fascism_small 
 				expire = "1965.1.1.1"
 				traits = { crowned_adder }
 				id = -1
@@ -105,7 +105,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = fascism_ideology 
+				ideology = fascism_small 
 				expire = "1965.1.1.1"
 				traits = { }
 				id = -1
@@ -126,7 +126,7 @@ characters = {
 		}
 		### Country leader role to be added via event
 		# country_leader = {
-		# 	ideology = fascism_ideology 
+		# 	ideology = fascism_small 
 		# 	expire = "1965.1.1.1"
 		# 	traits = { tainted_ras }
 		# 	id = -1
@@ -170,7 +170,7 @@ characters = {
 
 		### Country leader role to be added via event
 		# country_leader = {
-		# 	ideology = fascism_ideology 
+		# 	ideology = fascism_small 
 		# 	expire = "1965.1.1.1"
 		# 	traits = { tainted_ras }
 		# 	id = -1
@@ -262,7 +262,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = stalinism
+			ideology = communism_small
 			expire = "1965.1.1.1"
 			traits = { revolutionary_council }
 			id = -1
@@ -1721,7 +1721,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=communism_small
 			expire="1942.1.1.12"
 			id=-1
 		}
@@ -1734,7 +1734,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_small
 			traits={ captain_of_industry }
 			expire="1942.1.1.12"
 			id=-1

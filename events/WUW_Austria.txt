@@ -5394,7 +5394,7 @@ country_event = { #FROM installs a Habsburg on our throne :(
 					    character = HUN_joseph_august_von_habsburg
 					    promote_leader = yes
 					    country_leader = {
-					        ideology = despotism
+					        ideology = authoritarianism_small
 					        expire = "1965.1.1.1"
 					        traits = { HUN_the_old_warden }
 					    }
@@ -8265,7 +8265,7 @@ country_event = { #Electing a new democratic leader
 
 			AUS_kurt_schuschnigg = {
 				remove_country_leader_role = {
-					ideology = despotism
+					ideology = authoritarianism_small
 				}
 				
 			}
@@ -8401,7 +8401,7 @@ country_event = { #Otto wants to be a field marshal
 			character =  AUS_alois_of_liechtenstein # optional if inside character scope
 			promote_leader = yes
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				expire = "1965.1.1.1"
 				id = -1
 				traits = { AUS_king_of_liechtenstein }

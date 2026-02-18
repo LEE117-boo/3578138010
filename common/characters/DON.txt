@@ -9,12 +9,12 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1970.1.1.1"
 			traits = { cossack_ataman } 
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_small
 			expire = "1970.1.1.1"
 			traits = { cossack_ataman } 
 		}

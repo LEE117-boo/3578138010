@@ -238,7 +238,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "relations_tab_button"
-				quadTextureSprite = "GFX_battle_log_tab_TVE"
+				quadTextureSprite = "GFX_tab_intel_ledger"
 				position = { x=15 y=70 }
 				buttonText = "DIPLOMACY_RELATIONS_TAB"
 				font = "hoi_18mbs"
@@ -246,7 +246,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "info_tab_button"
-				quadTextureSprite = "GFX_battle_log_tab_TVE"
+				quadTextureSprite = "GFX_tab_intel_ledger"
 				position = { x=275 y= 70 }
 				buttonText = "DIPLOMACY_INFO_TAB"
 				font = "hoi_18mbs"
@@ -345,7 +345,7 @@ guiTypes = {
 					buttonType = {
 						name = "show_national_goal_button"
 						position = { x = 103 y = 7 }
-						spriteType = "GFX_diplo_goal_button"
+						quadTextureSprite = "GFX_diplo_goal_button"
 						clicksound = click_default
 					}
 
@@ -476,7 +476,7 @@ guiTypes = {
 						name = "national_spirit_ideas_grid"
 						position = { x = -5 y = 2 }
 						size = { width = 360 height = 68 }
-						slotsize = { width = 60 height = 60 }
+						slotsize = { width = 70 height = 60 }
 						max_slots = { x = 6 y = 1 }
 						format = "UPPER_LEFT"
 					}

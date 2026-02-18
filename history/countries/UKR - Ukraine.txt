@@ -97,7 +97,7 @@ set_popularities = {
 create_country_leader = {
 	name = UKR_BIDE_LIULA
 	picture = GFX_UKR_BIDE_LIULA
-	ideology = Social_democracy
+	ideology = progressivism_small
 }
 
 

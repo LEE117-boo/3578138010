@@ -160,7 +160,7 @@ add_ideas = {
 create_country_leader = {
 	name = RUS_Mikhail_Gordeevich_Drozdovsky
 	picture = GFX_RUS_Mikhail_Gordeevich_Drozdovsky
-	ideology = chai_kai_shek
+	ideology = tttt_small
 		traits = {
 		RUS_Military_Region_Commander
 	}

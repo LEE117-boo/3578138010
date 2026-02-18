@@ -8,7 +8,7 @@ characters={
     }
     
     country_leader = {
-        ideology = chai_kai_shek
+        ideology = tttt_small
         traits = {
             
         }

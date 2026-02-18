@@ -8778,7 +8778,7 @@ focus_tree = {
 					desc = "POLITICS_MICHAEL_I_DESC"
 					picture = GFX_portrait_Michał_II
 					expire = "1965.1.1"
-					ideology = despotism
+					ideology = authoritarianism_small
 					traits = {
 					}
 				}
@@ -12200,7 +12200,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 2.5
 		}
-		available = { has_country_leader_ideology = falangism }
+		available = { has_country_leader_ideology = fascism_small }
 
 		available_if_capitulated = yes
 
@@ -12258,7 +12258,7 @@ focus_tree = {
 		available = {
 			has_global_flag = scw_over
 			is_subject = no 
-			has_country_leader_ideology = falangism
+			has_country_leader_ideology = fascism_small
 		}
 		
 		bypass = {
@@ -12331,7 +12331,7 @@ focus_tree = {
 		
 		available = {
 			is_subject = no 
-			has_country_leader_ideology = falangism
+			has_country_leader_ideology = fascism_small
 			OR = {
 				HOL = {
 					fascism > 0.2
@@ -12398,7 +12398,7 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no 
-			has_country_leader_ideology = falangism
+			has_country_leader_ideology = fascism_small
 		}
 
 		available_if_capitulated = no
@@ -12513,7 +12513,7 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no 
-			has_country_leader_ideology = falangism
+			has_country_leader_ideology = fascism_small
 		}
 
 		available_if_capitulated = no

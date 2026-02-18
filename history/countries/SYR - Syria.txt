@@ -96,7 +96,7 @@ create_country_leader = {
 	name = "Antun Saadeh"
 	desc = ""
 	picture = GFX_portrait_Antun_Saadeh
-	ideology = fascism_ideology
+	ideology = fascism_small
 	traits = {
 		#
 	}
@@ -106,7 +106,7 @@ create_country_leader = {
 	name = "Khalid Bakdash"
 	desc = ""
 	picture = GFX_portrait_Khalid_Bakdash
-	ideology = leninism
+	ideology = communism_small
 	traits = {
 		#
 	}

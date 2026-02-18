@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=oligarchism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=authoritarianism_small
 			expire="1928.1.1.1" #dead at game start
 			id=-1
 			traits = {  }
@@ -36,7 +36,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = {
@@ -54,7 +54,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = { devoted_marxist }
@@ -92,7 +92,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=stalinism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -169,7 +169,7 @@ characters={
 			}
 
 			country_leader={
-				ideology=fascism_ideology
+				ideology=fascism_small
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -204,7 +204,7 @@ characters={
 			}
 
 			country_leader={
-				ideology=fascism_ideology
+				ideology=fascism_small
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -323,7 +323,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=oligarchism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = {  }

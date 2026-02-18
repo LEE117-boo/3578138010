@@ -7,11 +7,25 @@ ideas = {
 				war_support_factor = 0.03
 				stability_factor = 0.05
 				political_power_gain = 0.1
-				
 			}
+
 		}
 		DOM_spanish_influence = { #西班牙影响度
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DOM_spanish_influence"}
+			on_remove = {
+				DOM = {
+					remove_opinion_modifier = {
+					target = SPR
+					modifier = DOM_spanish_influence 
+				}
+				}
+				SPR = {
+					remove_opinion_modifier = {
+					target = DOM
+					modifier = DOM_spanish_influence 
+				}
+				}
+			}
 			picture = GFX_idea_DOM_spanish_influence
 			 modifier = {
 				army_org_factor = 0.03
@@ -20,6 +34,7 @@ ideas = {
         		tag = SPR
         		extra_trade_to_target_factor = 0.10
    			 }
+			 
 		}
 	}
 }

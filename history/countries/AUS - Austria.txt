@@ -1,14 +1,16 @@
 ﻿capital = 1059 # Vienna
 
 set_oob = "AUS_ww_1936"
-
-set_cosmetic_tag = HUN_EMPIRE_neutrality
+set_variable = { aus_economy = 20000 }
+set_cosmetic_tag = AUS_EMPIRE_neutrality_TVE
 
 load_focus_tree = austria_TVE_FOCUS
 add_manpower = 500000
 recruit_character = Archduke_Franz_Ferdinand_of_Austria
 recruit_character = AUS_kurt_schuschnigg
-
+create_faction = AUS_HUN_FAC
+add_to_faction = AUS
+add_to_faction = HUN
 add_ideas = {
 	Habsburg_glory
 	Irreparable_national_problems
@@ -16,7 +18,11 @@ add_ideas = {
 	Nationalist_forces 
 	Failed_federalisation
 }
-
+set_autonomy = {
+	target = HUN
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
 
 set_variable = {
 	AUS_CIVIL_WAR_VAR = 0

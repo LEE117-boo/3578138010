@@ -185,7 +185,7 @@ set_popularities = {
 create_country_leader = {
 	name = BLR_YANG_XIELADA
 	picture = GFX_BLR_YANG_XIELADA
-	ideology = chai_kai_shek
+	ideology = tttt_small
 }
 
 

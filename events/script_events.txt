@@ -122,7 +122,7 @@ country_event = {
 			create_country_leader = {
 				name = ITA_Gaetano_Rapagnetta
 				picture = GFX_ITA_Gaetano_Rapagnetta
-				ideology = fascism_ideology
+				ideology = fascism_small
 			}
 			country_event = {
 				id = script_events.3
@@ -133,198 +133,8 @@ country_event = {
 		dismantle_faction = ITALY_KINGDOM
 	}  
 }
-#邓楠遮起义
-country_event = {
-	id = script_events.3
-	title = script_events.3.t
-	desc = script_events.3.desc 
-	picture = GFX_report_event_SOV_national_academy_of_sciences
-	is_triggered_only = yes
-	fire_only_once = yes
-	option = {
-		name = script_events.3.a 
-		ai_chance = {
-			base = 100
-		}
-		news_event = { id = TVE_News.18 }
-		ITA = {
-			transfer_state = 39
-			transfer_state = 850
-			add_timed_idea = {
-				idea = fuck_you_kingdom
-				days = 100
-			}
-				division_template = {
-					name = "Kazachya Kavaleryskaya Diviziya"
-					division_names_group = SOV_CAV_02
-					template_counter = 05
 
-					regiments = {
-						infantry = { x = 0 y = 0 }
-						infantry = { x = 0 y = 1 }
-						infantry = { x = 1 y = 0 }
-						infantry = { x = 1 y = 1 }
-						mot_artillery_brigade = { x = 2 y = 0 }
-						light_armor = { x = 3 y = 0 }
-					}
-					support = {
-						engineer = { x = 0 y = 0 }
-						artillery = { x = 0 y = 1 }
-						recon = { x = 0 y = 2 }
-					}
-				}
-				850 = {
-					#Cossack Cavalry
-					create_unit = { 
-						division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"10ya Tersko-Stavropolskaya Kazachya Kav. Div\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"12ya Kubanskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
 
-					#Cossack Infantry
-					create_unit = {
-						division = "name = \"13ya Donskaya Kazachya Div.\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
-					}
-					#Cossack Cavalry
-					create_unit = { 
-						division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"10ya Tersko-Stavropolskaya Kazachya Kav. Div\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"12ya Kubanskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-
-					#Cossack Infantry
-					create_unit = {
-						division = "name = \"13ya Donskaya Kazachya Div.\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"10ya Tersko-Stavropolskaya Kazachya Kav. Div\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"12ya Kubanskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-
-					#Cossack Infantry
-					create_unit = {
-						division = "name = \"13ya Donskaya Kazachya Div.\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
-					}
-					#Cossack Cavalry
-					create_unit = { 
-						division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"10ya Tersko-Stavropolskaya Kazachya Kav. Div\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"12ya Kubanskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-
-					#Cossack Infantry
-					create_unit = {
-						division = "name = \"13ya Donskaya Kazachya Div.\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
-					}
-				}
-				39 = {
-					#Cossack Cavalry
-					create_unit = { 
-						division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"10ya Tersko-Stavropolskaya Kazachya Kav. Div\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"12ya Kubanskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-
-					#Cossack Infantry
-					create_unit = {
-						division = "name = \"13ya Donskaya Kazachya Div.\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
-					}
-					#Cossack Cavalry
-					create_unit = { 
-						division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"10ya Tersko-Stavropolskaya Kazachya Kav. Div\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"12ya Kubanskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-
-					#Cossack Infantry
-					create_unit = {
-						division = "name = \"13ya Donskaya Kazachya Div.\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
-					}
-					#Cossack Cavalry
-					create_unit = { 
-						division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"10ya Tersko-Stavropolskaya Kazachya Kav. Div\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-					create_unit = { 
-						division = "name = \"12ya Kubanskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
-					}
-
-					#Cossack Infantry
-					create_unit = {
-						division = "name = \"13ya Donskaya Kazachya Div.\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
-					}
-				}
-			declare_war_on = {
-				target = SPM
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = TOS
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = PAP
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = TTS
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = LBV
-				type = annex_everything
-			}
-		}
-	}  
-}
 #奥匈帝国民族叛乱国家单位创建脚本
 country_event = {
 	id = script_events.4
@@ -1274,7 +1084,7 @@ country_event = {
 				name = IRE_William_Thomas_Cosgrave
 				picture = GFX_IRE_William_Thomas_Cosgrave
 				expire = "1965.1.1"
-				ideology = chai_kai_shek
+				ideology = tttt_small
 				traits = {
 				}
 			}
@@ -1447,7 +1257,7 @@ country_event = {
 			name = Subhash_Chandra_Bose_TVE
 			picture = GFX_Subhash_Chandra_Bose_TVE
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = {
 			}
 		}
@@ -1573,7 +1383,7 @@ country_event = {
 				name = Subhash_Chandra_Bose_TVE
 				picture = GFX_Subhash_Chandra_Bose_TVE
 				expire = "1965.1.1"
-				ideology = fascism_ideology
+				ideology = fascism_small
 				traits = {
 				}
 			}
@@ -2725,17 +2535,7 @@ news_event = {
 	}
 }
 #奥匈帝国占领南德意志
-news_event = {
-	id = TVE_News.35
-	title = TVE_News.35.t
-	desc = TVE_News.35.d
-	picture = GFX_Aus_Occupation_South_Gremany
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = TVE_News.35.a
-	}
-}
+
 #英德同盟
 news_event = {
 	id = TVE_News.36

@@ -11,7 +11,7 @@ characters = {
 			
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = { non_aligned_council_trait }
 			expire = "1980.1.1.1"
 			id = -1
@@ -23,13 +23,13 @@ characters = {
 			id = -1
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_small
 			traits = { communist_council_trait }
 			expire = "1980.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = falangism
+			ideology = fascism_small
 			traits = { fascist_council_trait }
 			expire = "1980.1.1.1"
 			id = -1

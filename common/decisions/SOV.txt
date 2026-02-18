@@ -287,7 +287,7 @@ RUS_script = {
 				name = RUS_Anton_Ivanovich_Denikin
 				picture = GFX_RUS_Anton_Ivanovich_Denikin
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = {
 				}
 			}

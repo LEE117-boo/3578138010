@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_small
 			expire = "1950.1.1.1"
 			id = -1
 		}
@@ -25,7 +25,7 @@ characters={
 			id = -1
 		}
 		country_leader = { #Finnish content AAT
-			ideology = fascism_ideology
+			ideology = fascism_small
 			expire = "1940.1.1.1"
 			id = -1
 			traits = { grandpa_vainamoinen }
@@ -43,7 +43,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = authoritarianism_small
 			expire = "1950.1.1.1"
 			id = -1
 			traits = { tribal_warrior } #Finnish content AAT

@@ -191,7 +191,7 @@ characters = {
 
 			# This should be gettable later
 			#country_leader = {
-			#	ideology = stalinism
+			#	ideology = communism_small
 			#	traits = { staunch_stalinist }
 			#	expire = "1965.1.1.1"
 			#	id = -1
@@ -210,7 +210,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = marxism
+				ideology = communism_small
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -374,7 +374,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
+			ideology = authoritarianism_small
 			traits = { captain_of_industry }
 			expire = "1947.1.1.12"
 			id = -1
@@ -1485,7 +1485,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_small
 			expire = "1965.1.1.1"
 			id = -1
 			traits  = {
@@ -1549,7 +1549,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = authoritarianism_small
 			expire = "1965.1.1.1"
 			id = -1
 			traits  = {
@@ -1668,7 +1668,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = falangism
+		#	ideology = fascism_small
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -1773,7 +1773,7 @@ characters = {
 
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = anti_revisionism
+		#	ideology = communism_small
 		#	traits = { JUNO_devoted_trotskyist }
 		#	expire = "1965.1.1.1"
 		#	id = -1
@@ -1943,7 +1943,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -2026,7 +2026,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -2104,7 +2104,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -2183,7 +2183,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarianism_small
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {

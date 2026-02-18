@@ -2357,7 +2357,7 @@ country_event = {
 			add_country_leader_role = {
 				country_leader = {
 					expire = "1965.1.1"
-					ideology = despotism
+					ideology = authoritarianism_small
 					traits = {
 						american_caesar
 					}
@@ -2368,7 +2368,7 @@ country_event = {
 			add_country_leader_role = {
 				country_leader = {
 					expire = "1965.1.1"
-					ideology = rexism
+					ideology = fascism_small
 					traits = {
 						american_caesar
 					}
@@ -2460,7 +2460,7 @@ country_event = {
 			character = USA_charles_lindbergh
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = fascism_ideology
+				ideology = fascism_small
 				traits = {
 					famous_aviator
 				}

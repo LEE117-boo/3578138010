@@ -30,7 +30,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits={  }
 			expire="1947.1.1.1"
 			id=-1
@@ -165,7 +165,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = { il_duce }
 			expire = "1965.1.1.1"
 			id = -1
@@ -194,7 +194,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = { the_grand_council }
 			expire = "1965.1.1.1"
 			id = -1
@@ -275,7 +275,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = { the_soldier_king }
 			expire = "1965.1.1.1"
 			id = -1
@@ -3313,7 +3313,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = marxism
+			ideology = communism_small
 			traits = { conservative_communist }
 			expire = "1965.1.1.1"
 			id = -1
@@ -3377,7 +3377,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = stalinism
+			ideology = communism_small
 			traits = { staunch_anti_fascist }
 			expire = "1965.1.1.1"
 			id = -1

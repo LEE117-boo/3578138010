@@ -74,7 +74,7 @@ create_country_leader = {
 	name = TVE_BOS_LEADERS
 	picture = GFX_TVE_BOS_LEADERS
 	expire = "1965.1.1"
-	ideology = chai_kai_shek
+	ideology = tttt_small
 }
 
 set_politics = {

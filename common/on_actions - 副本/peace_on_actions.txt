@@ -436,7 +436,7 @@ on_actions = {
 							create_country_leader = {
 								name = Adolph_Friedrich
 								picture = GFX_Adolph_Friedrich
-								ideology = chai_kai_shek
+								ideology = tttt_small
 							}
 							set_politics = { ruling_party = tttt elections_allowed = no }
 							transfer_state = 808

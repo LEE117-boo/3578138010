@@ -12,7 +12,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = { sultan_of_sokoto }
 			expire = "1988.1.1.1"
 			id = -1

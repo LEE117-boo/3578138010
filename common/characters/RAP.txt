@@ -13,7 +13,7 @@ characters = {
 			
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = { rapa_nui_ariki }
 			expire = "2017.1.1.1"
 			id = -1

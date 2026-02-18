@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = communism_small
 			traits = { burmese_way_to_socialism_trait }
 			expire = "1965.1.1.1"
 			id = -1
@@ -36,7 +36,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = { mon_dynasty_descendant }
 			expire = "1965.1.1.1"
 			id = -1
@@ -66,7 +66,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = { konbuang_dynasty_descendant }
 			expire = "1956.1.1.1"
 			id = -1

@@ -113,7 +113,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			traits = { NOR_temperate_miners_unionist }
 			id=-1
@@ -135,7 +135,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			traits = { NOR_conciliatory_socialist }
 			id=-1
@@ -269,7 +269,7 @@ characters={
 			NOR_char_cw_loyalist = yes
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1965.1.1.1"
 			traits = { NOR_shrewd_regent }
 			id = -1
@@ -308,7 +308,7 @@ characters={
 			NOR_char_cw_loyalist = yes
 		}		
 		country_leader={
-			ideology=despotism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			traits = { NOR_queen_of_norway }
 			id=-1
@@ -329,7 +329,7 @@ characters={
 			NOR_char_cw_loyalist = yes
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -372,7 +372,7 @@ characters={
 		}
 
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -424,7 +424,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_small
 			expire="1965.1.1.1"
 			traits = { NOR_fascist_lackey }
 			id=-1
@@ -527,7 +527,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=gen_nazism
+			ideology=fascism_small
 			expire="1965.1.1.1"
 			traits = { NOR_germanophile_officer }
 			id=-1

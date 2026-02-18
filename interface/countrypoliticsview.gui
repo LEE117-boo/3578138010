@@ -438,9 +438,11 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "national_spirit_container"
-				position = { x = 105 y = 20 }
-				size = { width = 360 height = 80 }
+				position = { x = 60 y = 20 }
+				size = { width = 410 height = 80 }
 				horizontalScrollbar = "nat_spirit_bottom_slider_pol"
+				clipping = yes
+				horizontalScrollbar = "bottom_horizontal_slider"
 				
 				background = {
 					name = "Background"
@@ -449,9 +451,9 @@ guiTypes = {
 				
 				gridboxtype = {
 					name = "spirit_grid"
-					position = { x = 0 y = -4 }
+					position = { x = 0 y = -5 }
 					size = { width = 355 height = 100%% }
-					slotsize = { width = 60 height = 68 }
+					slotsize = { width = 70 height = 68 }
 					max_slots = { x = 6 y = 1 }
 					format = "UPPER_LEFT"
 				}

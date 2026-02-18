@@ -3719,7 +3719,7 @@ focus_tree = {
 			modifier = {
 				factor = 100
 				has_completed_focus = POR_join_the_comintern
-				SPD = { has_completed_focus = SPR_against_trotskyism_and_stalinism }
+				SPD = { has_completed_focus = SPR_against_trotskyism_and_communism_small }
 			}
 		}
 
@@ -6237,12 +6237,12 @@ focus_tree = {
 						}
 						BRA_getulio_vargas = {
 							remove_country_leader_role = {
-								ideology = despotism
+								ideology = authoritarianism_small
 							}
 							add_country_leader_role = {
 								country_leader = {
 									expire = "1954.8.24"
-									ideology = fascism_ideology
+									ideology = fascism_small
 									traits = {
 										anti_communist
 									}
@@ -6399,7 +6399,7 @@ focus_tree = {
 				desc = "POLITICS_DOM_DUARTE_NUNO_DESC"
 				picture = GFX_portrait_Dom_Duarte_Nuno
 				expire = "1976.12.24"
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { 
 					constitutional_monarch_minor
 				}

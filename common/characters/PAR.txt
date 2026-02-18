@@ -13,7 +13,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = marxism
+				ideology = communism_small
 				traits = { JUNO_revolutionary_feberista_hero }
 				expire = "1965.1.1.1"
 				id = -1
@@ -47,7 +47,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = marxism
+				ideology = communism_small
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -79,7 +79,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = rexism
+			ideology = fascism_small
 			traits = { tenacious_negotiator }
 			expire = "1942.1.1.12"
 			id = -1
@@ -95,7 +95,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = moderatism
+			ideology = authoritarianism_small
 			traits = { quartermaster_general armaments_organizer }
 			expire = "1950.1.1.12"
 			id = -1
@@ -115,7 +115,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = { fascist_sympathies reluctant_veteran }
 				expire = "1950.1.1.12"
 				id = -1
@@ -148,7 +148,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = {  }
 				expire = "1950.1.1.12"
 				id = -1
@@ -1074,7 +1074,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = rexism
+				ideology = fascism_small
 				traits = { JUNO_red_banner_leader }
 				expire = "1965.1.1.1"
 				id = -1

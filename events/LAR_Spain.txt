@@ -134,7 +134,7 @@ country_event = {
 					desc = "POLITICS_JOSE_SANJURJO_DESC"
 					picture = "GFX_portrait_SPA_jose_sanjurjo"
 					expire = "1965.1.1"
-					ideology = despotism
+					ideology = authoritarianism_small
 					traits = {
 						the_lion_of_the_rif
 					}
@@ -2345,7 +2345,7 @@ country_event = {
 						desc = "POLITICS_JOSE_SANJURJO_DESC"
 						picture = "GFX_portrait_SPA_jose_sanjurjo"
 						expire = "1965.1.1"
-						ideology = despotism
+						ideology = authoritarianism_small
 						traits = {
 							the_lion_of_the_rif
 						}
@@ -9273,7 +9273,7 @@ country_event = {
 				desc = "POLITICS_JAVIER_I_DESC"
 				picture = "GFX_portrait_SPA_xavier_of_bourbon_parma"
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = {
 					the_sacred_king
 				}
@@ -9289,7 +9289,7 @@ country_event = {
 				desc = "POLITICS_ALFONSO_XIII_DESC"
 				picture = "GFX_portrait_SPA_alfonso_xiii"
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = {
 					disgraced_monarch
 				}
@@ -9305,7 +9305,7 @@ country_event = {
 				desc = "POLITICS_JAIME_IV_DESC"
 				picture = "GFX_portrait_fra_infante_jaime"
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = {
 					the_legitimist
 				}
@@ -11031,7 +11031,7 @@ country_event = {
 					desc = "POLITICS_JAIME_IV_DESC"
 					picture = "GFX_portrait_fra_infante_jaime"
 					expire = "1965.1.1"
-					ideology = despotism
+					ideology = authoritarianism_small
 					traits = {
 						
 					}
@@ -11056,7 +11056,7 @@ country_event = {
 					desc = "POLITICS_JAIME_IV_DESC"
 					picture = "GFX_portrait_fra_infante_jaime"
 					expire = "1965.1.1"
-					ideology = despotism
+					ideology = authoritarianism_small
 					traits = {
 						
 					}
@@ -11083,7 +11083,7 @@ country_event = {
 				desc = "POLITICS_MILITARY_JUNTA_DESC"
 				picture = "GFX_portrait_SPA_military_junta"
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = {
 					divided_interests
 				}
@@ -11103,7 +11103,7 @@ country_event = {
 				desc = "POLITICS_MILITARY_JUNTA_DESC"
 				picture = "GFX_portrait_SPA_military_junta"
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = authoritarianism_small
 				traits = {
 					divided_interests
 				}

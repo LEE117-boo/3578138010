@@ -11,7 +11,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=authoritarianism_small
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -72,7 +72,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=communism_small
 			traits={ smooth_talking_charmer armaments_organizer }
 			expire="1956.1.1.12"
 			id=-1
@@ -86,7 +86,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=rexism
+			ideology=fascism_small
 			traits={ economist silent_workhorse }
 			expire="1955.1.1.12"
 			id=-1

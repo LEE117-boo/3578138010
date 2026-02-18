@@ -9,10 +9,7 @@ on_actions = {
 						has_completed_focus = aus_difficult_walk
 					}
 					ROOT = {
-						OR = {
-							original_tag = DSB
-							original_tag = GER
-						}
+						original_tag = GER
 					}
 				}
 				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
@@ -97,7 +94,7 @@ on_actions = {
 						}
 					
 					}
-					DSB = {
+					GER = {
 						transfer_state = 763
 						transfer_state = 1017
 						transfer_state = 5

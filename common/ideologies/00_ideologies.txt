@@ -2,17 +2,7 @@ ideologies = {
 	Communism = { #共产主义
 
 		types = {
-
-			marxism = {
-			}
-
-			leninism = {
-			}
-
-			stalinism = {
-			}
-
-			anti_revisionism = {
+			communism_small = {
 			}
 
 			anarchist_communism = {
@@ -121,7 +111,13 @@ ideologies = {
 	Progressivism = { #进步主义
 
 		types = {
+			progressivism_small = {
+			}
 			Social_democracy = {
+				can_be_randomly_selected = no
+			}
+			New_constitutionalism = {
+				can_be_randomly_selected = no
 			}
 			Georgism = {
 				can_be_randomly_selected = no
@@ -347,21 +343,7 @@ ideologies = {
 	Authoritarianism = { #威权主义
 
 		types = {
-
-			despotism  = {
-			}
-
-			oligarchism  = {
-			}
-
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-
-			moderatism = {
-			}
-
-			centrism = {
+			authoritarianism_small = {
 			}
 
 			Manstein_ideologies = {
@@ -418,7 +400,7 @@ ideologies = {
 
 		types = {
 
-			chai_kai_shek ={
+			tttt_small ={
 			}
 			Wilhelm_II_ideologies = {
 				can_be_randomly_selected = no
@@ -438,8 +420,11 @@ ideologies = {
 			Spain_rivera_ideologies = { #米格尔·普里莫·德里维拉的意识形态
 				can_be_randomly_selected = no
 			}
-			Military_dictatorship = { #军官独裁制
+			colonial_government_ideologies = { #殖民政府
 				can_be_randomly_selected = no
+			}
+			Military_dictatorship = { #军官独裁制
+				
 			}
 		}
 
@@ -486,17 +471,7 @@ ideologies = {
 	fascism = { #法西斯主义
 
 		types = {
-
-			gen_nazism = {
-			}
-
-			fascism_ideology = {
-			}
-
-			falangism = {
-			}
-
-			rexism = {
+			fascism_small = {
 			}
 			works_on_constitution = {
 				can_be_randomly_selected = no

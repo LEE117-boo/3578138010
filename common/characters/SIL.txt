@@ -28,7 +28,7 @@ characters = {
 			
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarianism_small
 			traits = { SIL_prince_of_pless_trait }
 			expire = "1984.1.1.1"
 			id = -1

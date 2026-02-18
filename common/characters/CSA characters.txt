@@ -37,7 +37,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= despotism
+			ideology= authoritarianism_small
 			traits={  }
 			expire="1947.1.1.1"
 			id=-1

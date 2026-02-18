@@ -29,7 +29,7 @@ recruit_character = TAN_sodmon_balchor
 create_country_leader = {
 	name = TAN_LEADER
 	picture = GFX_TVE_TAN_LEADERS
-	ideology = chai_kai_shek
+	ideology = tttt_small
 }
 
 add_ideas = {

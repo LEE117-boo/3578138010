@@ -47,7 +47,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = chai_kai_shek
+			ideology = tttt_small
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1
@@ -61,7 +61,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = chai_kai_shek
+			ideology = tttt_small
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1
@@ -75,7 +75,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = chai_kai_shek
+			ideology = tttt_small
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1
@@ -89,7 +89,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = chai_kai_shek
+			ideology = tttt_small
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1
@@ -119,7 +119,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=authoritarianism_small
 			traits={ editor eager_collaborator }
 			expire="1949.1.1.12"
 			id=-1
@@ -179,7 +179,7 @@ characters={
 		}
 		
 		country_leader={
-			ideology=stalinism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -194,7 +194,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_small
 			expire="1965.1.1.1"
 		}
 	}
@@ -1219,7 +1219,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_small
 			traits = { fascist_corporatist }
 			expire = "1949.1.1.12"
 			id = -1
@@ -1280,7 +1280,7 @@ characters={
 			}
 		}
 		#country_leader = {
-		#	ideology = fascism_ideology
+		#	ideology = fascism_small
 		#	traits = {  }
 		#	expire = "1949.1.1.12"
 		#	id = -1
@@ -1376,7 +1376,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = authoritarianism_small
 			traits = { editor monarchist_media_mogul }
 			expire = "1949.1.1.12"
 			id = -1

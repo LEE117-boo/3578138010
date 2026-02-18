@@ -18,7 +18,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=despotism
+				ideology=authoritarianism_small
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -33,7 +33,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=despotism
+				ideology=authoritarianism_small
 				expire="1965.1.1.1"
 				id=-1
 				traits = {
@@ -131,7 +131,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=despotism
+				ideology=authoritarianism_small
 				expire="1965.1.1.1"
 				id=-1
 				traits = {
@@ -190,7 +190,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=despotism
+				ideology=authoritarianism_small
 				expire="1965.1.1.1"
 				id=-1
 				traits = {
@@ -258,7 +258,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = {
@@ -275,7 +275,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = {
@@ -292,7 +292,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_small
 			expire="1965.1.1.1"
 			id=-1
 			traits = {
@@ -1559,7 +1559,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=rexism
+			ideology=fascism_small
 			traits={ dealbroker national_integralist }
 			expire="1948.1.1.12"
 			id=-1

@@ -24,6 +24,12 @@ defined_text = {
         }
         localization_key = "TVE_title_loc_FRA"
     }
+    text = {
+		trigger = {
+            tag = SPR
+        }
+        localization_key = "TVE_title_loc_SPR"
+    }
 }
 defined_text = {
     name = TVE_desc_loc
@@ -50,6 +56,12 @@ defined_text = {
             tag = POL
         }
         localization_key = "TVE_desc_loc_POL"
+    }
+     text = {
+		trigger = {
+            tag = SPR
+        }
+        localization_key = "TVE_desc_loc_SPR"
     }
 }
 defined_text = {
