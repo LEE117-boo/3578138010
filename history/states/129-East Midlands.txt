@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = BRC
+		add_core_of = BRC
 		victory_points = {
 			6237 10 #Nottingham
 		}

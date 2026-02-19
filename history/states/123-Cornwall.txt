@@ -6,7 +6,8 @@ state= {
 	state_category = city
 
 	history= {
-		owner = ENG
+		owner = BRC
+		add_core_of = BRC
 		victory_points = { 540 10 }
 		victory_points = { 6526 1 }
 		buildings = {

@@ -7,7 +7,14 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
-
+add_ideas = {
+	red_write_blue
+	Across_the_ocean
+	Corruption_and_welfare
+	5years_plan
+	#red_amary
+	The_Big_Three
+}
 if = {
 	limit = {
 		NOT = {

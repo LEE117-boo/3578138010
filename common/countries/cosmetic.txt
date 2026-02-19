@@ -6,13 +6,10 @@ HUN_EMPIRE_neutrality_TVE = {
 	color = rgb { 209 199 199 }
 	color_ui = rgb { 209 199 199 }
 }
-<<<<<<< HEAD
 HUN_INDE_TVE = {
 	color = rgb { 100 188 0 }
 	color_ui = rgb { 100 188 0 }
 }
-=======
->>>>>>> d306f886cf3073ae54890c7c0a65440d1cc88919
 SIL_POL = {
 	color = rgb { 165 87 146 }
 	color_ui = rgb { 165 87 146 }

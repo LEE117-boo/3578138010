@@ -99,4 +99,7 @@ spriteTypes = {
 		name = "GFX_WLS_SCO_FUCK_UK"
 		texturefile = "gfx/event_pictures/TVE_NEWS/ENG_CIVIL_WAR/WLS_SCO_FUCK_UK.dds"
 	}
+	
+	
+
 }
