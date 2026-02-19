@@ -3,7 +3,6 @@ tags={
 	"Alternative History"
 }
 name="何意味，，，"
-
 replace_path="common/bookmarks"
 replace_path="common/characters"
 replace_path="common/ideologies"
