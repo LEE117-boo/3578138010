@@ -478,6 +478,8 @@ guiTypes = {
 						size = { width = 360 height = 68 }
 						slotsize = { width = 70 height = 60 }
 						max_slots = { x = 6 y = 1 }
+						max_slots_horizontal = 100
+						add_horizontal = yes
 						format = "UPPER_LEFT"
 					}
 					gridboxtype = {
@@ -485,7 +487,8 @@ guiTypes = {
 						position = { x = 10 y = 2 }
 						size = { width = 500 height = 68 }
 						slotsize = { width = 60 height = 34 }
-						max_slots_horizontal = 10
+						max_slots_horizontal = 100
+						add_horizontal = yes
 						format = "UPPER_LEFT"
 					}
 				}
