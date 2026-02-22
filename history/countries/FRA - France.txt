@@ -241,37 +241,49 @@ if = {
 set_convoys = 300
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = Authoritarianism
 	last_election = "1932.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	Communism = 12
-	Socialism = 11
-	Progressivism = 9
-	Liberalism = 14
-	Conservatism = 13
-	Authoritarianism = 8
-	tttt = 5
-	fascism = 15
-	nazism = 13
+	Communism = 7
+	Socialism = 5
+	Progressivism = 6
+	Liberalism = 4
+	Democracy = 7
+	Conservatism = 8
+	Authoritarianism = 34
+	tttt = 18
+	fascism = 7
+	nazism = 4
+}
+
+set_party_name = {
+	ideology = Communism
+	long_name = FRA_FCP_ban_long
+	name = FRA_red_ban
+}
+set_party_name = {
+	ideology = Socialism
+	long_name = FRA_FCP_ban_long
+	name = FRA_red_ban
+}
+set_party_name = {
+	ideology = Progressivism
+	long_name = FRA_SG_ban_long
+	name = FRA_red_ban
 }
 
 set_country_flag = FRA_Daudet_ZongLi
 set_cosmetic_tag = FRA_KING
 
 add_ideas = {
-	1870_Heritage
-	FRA_France_with_exposed_white_bones
-	FRA_Vast_ecclesiastical_power
-	A_torn_society
-	FRA_Poor_road_construction
-	FRA_Economic_downturn
-	FRA_The_Detrimental_Effects_of_the_Aboriginal_Ordinance_Local
-	FRA_Chauvinism_is_unstoppable
-	FRA_Agricultural_protection_policy
-	FRA_Decadent_World_Army
+	FRA_idea_startup_1
+	FRA_idea_startup_2
+	FRA_idea_startup_3
+	FRA_idea_startup_4
+	FRA_idea_startup_5_1
 }
 
 add_timed_idea = {
