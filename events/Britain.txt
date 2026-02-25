@@ -58,6 +58,24 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = britain.114514
+	title = britain.114514.t
+	desc = britain.114514.d
+	picture = GFX_report_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.114514.a	#sounds good
+		
+	}
+	
+	option = {
+		name = britain.114514.b	#no way 
+	}
+}
+
 # USA helps
 country_event = {
 	id = britain.2
