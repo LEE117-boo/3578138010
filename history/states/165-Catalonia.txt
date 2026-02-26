@@ -9,6 +9,7 @@ state={
 	history={
 		owner = SPR
 		add_core_of = CAT
+		add_claim_by = SPR
 		victory_points = {
 			9764 30
 		}
@@ -27,7 +28,9 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = SPR
+		start_resistance = yes 
+		set_compliance = 10
+		add_resistance = 30
 	}
 
 	provinces={

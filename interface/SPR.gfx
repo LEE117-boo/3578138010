@@ -11,6 +11,7 @@ spriteTypes = {
 		name = "GFX_idea_SPR_Francisco_Franco"
 		texturefile = "gfx/interface/ideas/SPR/SPR_Francisco_Franco.dds"
 	}
+	###民族精神
 	spriteType = { #内战的遗产
 		name = "GFX_idea_SPR_Legacy_of_the_Civil_War"
 		texturefile = "gfx/interface/ideas/SPR/SPR_Legacy_of_the_Civil_War.dds"
@@ -26,5 +27,20 @@ spriteTypes = {
 	spriteType = { #自治难题
 		name = "GFX_idea_SPR_Autonomy_Dilemma"
 		texturefile = "gfx/interface/ideas/SPR/SPR_Autonomy_Dilemma.dds"
+	}
+	###民族精神配图
+	spriteType = { #西班牙军队配图
+		name = "GFX_SPR_spanish_army_Pictures"
+		texturefile = "gfx/texticons/banners/SPR/SPR_spanish_army_Pictures.dds"
+		legacy_lazy_load = no
+	}
+	###国策
+	spriteType = { #硝烟散去
+		name = "GFX_focus_SPR_The_smoke_of_battle_dissipated"
+		texturefile = "gfx/interface/goals/SPR/SPR_The_smoke_of_battle_dissipated.dds"
+	}
+	spriteType = { #硝烟散去
+		name = "GFX_focus_SPR_The_smoke_of_battle_dissipated_shine"
+		texturefile = "gfx/interface/goals/SPR/SPR_The_smoke_of_battle_dissipated.dds"
 	}
 }

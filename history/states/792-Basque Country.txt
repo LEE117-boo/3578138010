@@ -7,10 +7,12 @@ state={
 
 	history={
 		owner = SPR
+		add_claim_by = SPR
+		add_core_of = NAV
 		victory_points = {
 			740 10
 		}
-		add_core_of = NAV
+		
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 1
@@ -20,8 +22,9 @@ state={
 			}
 			air_base = 1
 		}
-		add_core_of = SPR
-
+		start_resistance = yes 
+		set_compliance = 20
+		add_resistance = 30
 	}
 
 	provinces={

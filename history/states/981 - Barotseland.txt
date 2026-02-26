@@ -12,7 +12,8 @@ state = {
 
 	history = {
 
-		owner = BOG
+		owner = MZB
+		add_claim_by = MZB
 		add_core_of = ZAM
 		add_core_of = BAR
 

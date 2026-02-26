@@ -1,5 +1,4 @@
 ﻿capital = 41 # Madrid
-load_focus_tree = generic_focus
 oob = "SPR_1936"
 
 if = {
@@ -397,4 +396,9 @@ set_popularities = {
 		Conservatism = 20
 		Progressivism = 12
 		fascism = 8
+}
+
+ROOT = { 
+	CAT = { enable_coring_at_fifty_compliance = yes }
+	NAV = { enable_coring_at_fifty_compliance = yes }
 }

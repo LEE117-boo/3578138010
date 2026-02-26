@@ -29,11 +29,14 @@ ideas = {
 			picture = GFX_idea_DOM_spanish_influence
 			 modifier = {
 				army_org_factor = 0.03
+					
 			 }
 			 targeted_modifier = {
         		tag = SPR
         		extra_trade_to_target_factor = 0.10
+				custom_modifier_tooltip = DOM_spanish_influence_tt
    			 }
+			
 			 
 		}
 	}

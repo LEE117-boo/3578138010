@@ -24,7 +24,7 @@ state={
 			}
 		}
 		add_core_of = POR
-
+		add_claim_by = SPR
 	}
 
 	provinces={
