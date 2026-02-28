@@ -11,7 +11,7 @@ add_ideas = {
 	red_write_blue
 	Across_the_ocean
 	Corruption_and_welfare
-	5years_plan
+	years5_plan
 	#red_amary
 	The_Big_Three
 }

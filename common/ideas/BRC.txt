@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		#ideas
 		red_write_blue = {
-			picture = GFX_red_write_blue
+			picture = GFX_idea_red_write_blue
 			modifier = {
 				stability_factor = 0.1
 				weekly_manpower = 300
@@ -11,14 +11,14 @@ ideas = {
 			}
 		}
 		Across_the_ocean = {
-			picture = GFX_Across_the_ocean
+			picture = GFX_idea_Across_the_ocean
 			modifier = {
 				trade_opinion_factor = 0.3
 				MODIFIER_CIC_TO_OVERLORD_FACTOR = -0.2
 			}
 		}
 		Corruption_and_welfare = {
-			picture = GFX_Corruption_and_welfare
+			picture = GFX_idea_Corruption_and_welfare
 			modifier = {
 				MODIFIER_POLITICAL_POWER_GAIN = -0.2
 				MODIFIER_CIC_TO_OVERLORD_FACTOR = -0.2
@@ -26,8 +26,8 @@ ideas = {
 				consumer_goods_factor = 0.03
 			}
 		}
-		5years_plan = {
-			picture = GFX_years5_plan
+		years5_plan = {
+			picture = GFX_idea_years5_plan
 			modifier = {
 				production_speed_buildings_factor = 0.2
 				industrial_capacity_factory = 0.15
@@ -37,7 +37,7 @@ ideas = {
 			}
 		}
 		red_amary = {
-			picture =GFX_red_amary
+			picture =GFX_idea_red_amary
 			modifier = {
 				army_org_factor = 0.08
 				MODIFIER_PLANNING_SPEED = 0.1
@@ -48,7 +48,7 @@ ideas = {
 			}
 		}
 		The_Big_Three = {
-			picture = GFX_The_Big_Three
+			picture = GFX_idea_The_Big_Three
 			
 			modifier = {
 				stability_factor = -0.15
