@@ -1,0 +1,16 @@
+defined_text = {
+    name = get_subideology
+	
+	text = {
+		trigger = { #殖民政府
+			has_country_leader_ideology = colonial_government_ideologies
+		}
+		localization_key = colonial_government_ideologies 
+    }
+	text = {
+		trigger = { #军官独裁制
+			has_country_leader_ideology = Military_dictatorship
+		}
+		localization_key = Military_dictatorship
+    }
+}
