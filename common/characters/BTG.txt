@@ -1,9 +1,9 @@
 characters = {
-	BTG_antuowan_3 = {
-		name =BTG_antuowan_3
+	BTG_Antoine_III = { #安托万三世
+		name = BTG_Antoine_III
 		portraits = {
 			civilian = {
-				large = GFX_portrait_BTG_antuowan_3
+				large = GFX_idea_BTG_Antoine_III
 			}
 		}
 		country_leader = {

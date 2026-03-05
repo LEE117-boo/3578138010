@@ -1171,7 +1171,10 @@ opinion_modifiers = {
 
 	
 	###
-	DOM_spanish_influence = {
+	DOM_spanish_influence = { #西班牙影响度
 		value = 30
+	}
+	BRB_argentine_militaryaid = { #阿根廷军事援助
+		value = 40
 	}
 }

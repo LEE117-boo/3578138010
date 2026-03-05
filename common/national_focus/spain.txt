@@ -147,6 +147,8 @@
 		x=12
 		y=6
 		prerequisite={focus=SPR_Rusty_gear}
+		prerequisite = {focus= SPR_Streamlining_administration}
+		prerequisite = {focus=SPR_have_to_face}
 		cost=10
 		ai_will_do={
 			factor=1

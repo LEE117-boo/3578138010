@@ -1,0 +1,6 @@
+leader_traits ={ 
+	ARG_honorary_king = { #名誉国王
+		war_support_factor = 0.05
+		stability_factor = 0.05
+	}
+}

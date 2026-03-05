@@ -12,12 +12,11 @@ set_technology = {
 	basic_train = 1
 }
 
-recruit_character = BTG_antuowan_3
-
-add_ideas = {
-	war_economy
-	service_by_requirement
-	closed_economy
+recruit_character = BTG_Antoine_III #安托万三世
+add_ideas = { 
+		CHL_Patagonia_Affairs_Bureau_3 #巴塔哥尼亚事务局
+		BTG_Deformed_fetuses_in_South_America  #南美的畸形胎儿
+		BTG_new_france #新法兰西
 }
 
 set_politics = {

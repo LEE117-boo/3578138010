@@ -1,15 +1,15 @@
 characters = {
-	URG_jiafuliefu_tela = {
-		name = URG_jiafuliefu_tela
+	URG_Gabriel_Tra = {
+		name = URG_Gabriel_Tra #加夫列尔·特拉
 		portraits = {
 			civilian = {
-				large = GFX_portrait_URG_jiafuliefu_tela
+				large = GFX_idea_URG_Gabriel_Tra
 			}
 		}
 		country_leader = {
 			ideology =  tttt_small
 			expire = "1950.1.1.1"
-			id = -1
+			id = -1 
 		}
 	}
 }

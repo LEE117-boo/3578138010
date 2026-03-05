@@ -37,10 +37,6 @@ idea_categories = {
 	内阁顾问 = {
 		character_slot = second_in_command
 		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
 
 		ledger = civilian
 		

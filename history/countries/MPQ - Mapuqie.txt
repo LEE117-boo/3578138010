@@ -14,9 +14,7 @@ set_technology = {
 
 
 add_ideas = {
-	war_economy
-	service_by_requirement
-	closed_economy
+	CHL_Patagonia_Affairs_Bureau_2
 }
 
 set_politics = {

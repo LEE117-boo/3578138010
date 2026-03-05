@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_BRB_Hottolio_Vargas" #热图里奥·瓦加斯
+		texturefile = "gfx/interface/ideas/BRB/BRB_Hottolio_Vargas.dds"
+	}
+}

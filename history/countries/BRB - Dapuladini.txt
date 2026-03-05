@@ -13,10 +13,13 @@ set_technology = {
 }
 
 
+
+
+recruit_character = BRB_Hottolio_Vargas
 add_ideas = {
-	war_economy
-	service_by_requirement
-	closed_economy
+	BRB_Republican_refuge
+	BRB_argentine_militaryaid
+	BRB_Vargas_Populism
 }
 
 set_politics = {
@@ -27,10 +30,26 @@ set_politics = {
 }
 
 set_popularities = {
-	Authoritarianism= 100
+	Socialism = 5
+	Progressivism = 5
+	Liberalism = 2
+	Democracy = 13
+	Conservatism = 7
+	Authoritarianism = 66
+	fascism = 2
 }
 
 
-### VARIANTS ###
-# 1936 Start #
+BRB = {
+	add_opinion_modifier = {
+	target = ARG
+	modifier = BRB_argentine_militaryaid
+}
+}
+BRB = {
+	add_opinion_modifier = {
+	target = ARG
+	modifier = BRB_argentine_militaryaid
+}
+}
 

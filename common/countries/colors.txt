@@ -142,8 +142,8 @@ AFG = {
 	color_ui = rgb { 83 208 217 }
 }
 ARG = {
-	color = rgb { 145 157 236 }
-	color_ui = rgb { 189 204 255 }
+	color = rgb { 35 50 81 }
+	color_ui = rgb { 22 33 51 }
 }
 AST = {
 	color = rgb { 57 143 97 }
@@ -154,7 +154,7 @@ BHU = {
 	color_ui = rgb { 172 122 88 }
 }
 BOL = {
-	color = hsv { 0.1 0.47 0.8 } #255 180 136
+	color = rgb { 186 130 27 }
 	color_ui = rgb { 255 234 177 }
 }
 BRA = {
@@ -170,11 +170,11 @@ CHI = {
 	color_ui = rgb { 55 64 130 }
 }
 CHL = {
-	color = rgb { 155 101 107 }
+	color = rgb { 99 73 58 }
 	color_ui = rgb { 202 131 139 }
 }
 COL = {
-	color = rgb { 222 187 91 }
+	color = rgb { 152 145 43}
 	color_ui = rgb { 255 243 118 }
 }
 COS = {
@@ -1211,5 +1211,37 @@ WLS = {
 }
 FRL = {
 	color = rgb{ 0 127 14 }
+	color_ui = rgb{ 0 127 14 }
+}
+URG = {
+	color = rgb{ 51 86 90 }
+	color_ui = rgb{ 0 127 14 }
+}
+AKL = {
+	color = rgb{ 69 99 65}
+	color_ui = rgb{ 0 127 14 }
+}
+BRB = {
+	color = rgb{ 113 113 113}
+	color_ui = rgb{ 0 127 14 }
+}
+MPQ = {
+	color = rgb{ 77 51 34}
+	color_ui = rgb{ 0 127 14 }
+}
+BTG = {
+	color = rgb{ 77 45 32}
+	color_ui = rgb{ 0 127 14 }
+}
+PWQ = {
+	color = rgb{ 95 67 45 }
+	color_ui = rgb{ 0 127 14 }
+}
+HDD = {
+	color = rgb{ 115 50 44}
+	color_ui = rgb{ 0 127 14 }
+}
+TWQ = {
+	color = rgb{ 105 60 55}
 	color_ui = rgb{ 0 127 14 }
 }

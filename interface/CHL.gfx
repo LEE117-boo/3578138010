@@ -17,8 +17,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/CHL/CHL_glimmer_of_democracy.dds"
 	}
 	###民族精神配图
-	spriteType = { #太平洋战争的失败配图
-		name = "CHL_glimmer_of_democracy"
+	spriteType = { #太平洋战争的失败配图 
+		name = "GFX_CHL_The_defeat_in_the_Pacific_War_Pictures" 
 		texturefile = "gfx/texticons/banners/CHL/CHL_The_defeat_in_the_Pacific_War_Pictures.dds"
 		legacy_lazy_load = no
 	}

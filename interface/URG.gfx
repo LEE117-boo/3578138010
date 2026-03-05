@@ -1,0 +1,6 @@
+spriteTypes = { 
+	spriteType = { #部落理事会
+		name = "GFX_idea_URG_Gabriel_Tra"
+		texturefile = "gfx/leaders/URG/URG_Gabriel_Tra.dds"
+	}
+}

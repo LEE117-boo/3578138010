@@ -1,27 +1,19 @@
 characters = {
-	ARG_maersailo = {
-		name = ARG_maersailo 
+	ARG_Amedeo_II = { #阿梅迪奥二世
+		name = ARG_Amedeo_II
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ARG_maersailo
+				large = "GFX_idea_ARG_Amedeo_II"
 			}
-		}
+		} 
+	 country_leader = {
+        ideology = liberalism_small 
+		desc = ARG_Amedeo_II_desc
+        traits = {
+			ARG_honorary_king
+        }
+    }
 	}
-
-	ARG_amadio_2 = {
-		name = ARG_amadio_2
-		portraits = {
-			civilian = {
-				large = GFX_portrait_ARG_amadio_2
-			}
-		}
-		country_leader = {
-			ideology = tttt_small
-			expire = "1965.1.1.1"
-			id = -1
-		}
-	}
-
-
+	
 }
 	

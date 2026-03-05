@@ -19,6 +19,20 @@ ideas = {
 				political_power_factor = 0.05
 			}
 		}
+		CHL_Patagonia_Affairs_Bureau_2 = { #巴塔哥尼亚事务局
+			on_add = {log = "[GetDateText]: [Root.GetName]: add CHL_Patagonia_Affairs_Bureau_2 "}
+			picture = "CHL_Patagonia_Affairs_Bureau"
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+		CHL_Patagonia_Affairs_Bureau_3 = { #巴塔哥尼亚事务局
+			on_add = {log = "[GetDateText]: [Root.GetName]: add CHL_Patagonia_Affairs_Bureau_3 "}
+			picture = "CHL_Patagonia_Affairs_Bureau"
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
 		CHL_glimmer_of_democracy = { #民主微光
 			on_add = {log = "[GetDateText]: [Root.GetName]: add CHL_glimmer_of_democracy "}
 			picture = "GFX_idea_CHL_glimmer_of_democracy"

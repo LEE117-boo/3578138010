@@ -180,3 +180,8 @@ POR_puppet_MZB = {
 	color = rgb { 39 116 70 }
 	color_ui = rgb { 51 151 91 }
 }
+#南美
+ARG_puppet_PAR = {
+	color = rgb { 50 64 90 }
+	color_ui = rgb { 189 204 255 }
+}
