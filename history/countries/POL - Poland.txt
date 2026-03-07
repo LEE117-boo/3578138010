@@ -50,7 +50,7 @@ add_ideas={
 	POL_5nian_jihua1 #五年计划
 	POL_zhanshu_zhengzhi #战术政治
 	POL_aidao_beike #哀悼约瑟夫贝克
-
+	POL_pulom_fire
 	#副手
 	POL_Walery_Slawek_sic
 }

@@ -524,15 +524,16 @@
 	NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 30.0 -- 30
 	NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 3	-- 2
 	
-	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_STATE_B = 1.00
-	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_STATE_R = 1.15
-	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_PROVINCE_R = 1.0
-	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_PROVINCE_G = 0.1
-	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_PROVINCE_B = 1.0
+	
+	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_STATE_R = 0.68
+	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_STATE_G = 2.05
+	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_STATE_B = 2.255
+	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_PROVINCE_R = 0
+	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_PROVINCE_G = 1.87
+	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_PROVINCE_B = 2.55
 	
 	NDefines_Graphics.NGraphics.COUNTRY_COLOR_HUE_MODIFIER = 0.0 -- 0.0
 	NDefines_Graphics.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.6 -- 0.6 
-	NDefines_Graphics.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.8 -- 0.8
 	NDefines_Graphics.NGraphics.COUNTRY_UI_COLOR_HUE_MODIFIER = 0.0 -- 0.0
 	NDefines_Graphics.NGraphics.COUNTRY_UI_COLOR_SATURATION_MODIFIER = 1.0 -- 1.0
 	NDefines_Graphics.NGraphics.COUNTRY_UI_COLOR_BRIGHTNESS_MODIFIER = 1.0 -- 1.0

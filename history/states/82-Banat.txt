@@ -13,7 +13,8 @@ state={
 		victory_points = {
 			9606 3
 		}
-		owner = TRA
+		owner = ROM
+		add_claim_by = HUN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

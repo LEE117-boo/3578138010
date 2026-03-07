@@ -1,6 +1,22 @@
 ideas = {
 
 	country = {
+		POL_pulom_fire= {
+			
+			allowed = {
+				
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
 
 		POL_5nian_jihua1= {
 			picture = POL_5nian_jihua1

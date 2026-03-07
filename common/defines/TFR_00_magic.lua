@@ -12,3 +12,7 @@
 	
 	NDefines.NFrontend.CAMERA_LOOKAT_SETTINGS_X = 2058.0
 	NDefines.NFrontend.CAMERA_MIN_HEIGHT = 30.0
+	NDefines.NGraphics.MAP_COLOR_LERP_FACTOR = 0.2
+	NDefines_Graphics.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.75
+	NDefines_Graphics.NGraphics.BORDER_WIDTH = 0.7
+	NDefines_Graphics.NGraphics.GRADIENT_BORDERS_COUNTRY_CENTER_THICKNESS = 0.95

@@ -12,6 +12,7 @@ create_faction = AUS_HUN_FAC
 add_to_faction = AUS
 add_to_faction = HUN
 add_ideas = {
+	reich_educate
 	Habsburg_glory
 	Irreparable_national_problems
 	Habsburg_ARMY

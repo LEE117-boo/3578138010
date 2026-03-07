@@ -1,4 +1,20 @@
 spriteTypes = {
+	#法案
+	spriteType = {
+		name = "GFX_idea_normal_industry"
+		texturefile = "gfx/interface/ideas/_industry.dds"
+	}spriteType = {
+		name = "GFX_idea_less_industry"
+		texturefile = "gfx/interface/ideas/_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_industry"
+		texturefile = "gfx/interface/ideas/_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_well_industry"
+		texturefile = "gfx/interface/ideas/_industry.dds"
+	}
 	#中国民族精神
 
 	#伦敦股殇余瘟
