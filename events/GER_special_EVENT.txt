@@ -15,16 +15,10 @@ country_event = {
 		}
 		GER ={
 			set_capital = {
-				state = 65
+				state = 1049
 			} 
 		}
-		BRE = {
-			transfer_state = 1049
-			transfer_state = 64
-			set_capital = {
-				state = 64
-			} 
-		}
+		
 		54 = { set_demilitarized_zone = yes }
 		52 = { set_demilitarized_zone = yes }
 		53 = { set_demilitarized_zone = yes }

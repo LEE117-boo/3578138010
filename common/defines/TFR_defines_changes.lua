@@ -533,7 +533,7 @@
 	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_PROVINCE_B = 2.55
 	
 	NDefines_Graphics.NGraphics.COUNTRY_COLOR_HUE_MODIFIER = 0.0 -- 0.0
-	NDefines_Graphics.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.6 -- 0.6 
+	NDefines_Graphics.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.3
 	NDefines_Graphics.NGraphics.COUNTRY_UI_COLOR_HUE_MODIFIER = 0.0 -- 0.0
 	NDefines_Graphics.NGraphics.COUNTRY_UI_COLOR_SATURATION_MODIFIER = 1.0 -- 1.0
 	NDefines_Graphics.NGraphics.COUNTRY_UI_COLOR_BRIGHTNESS_MODIFIER = 1.0 -- 1.0
