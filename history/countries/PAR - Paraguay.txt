@@ -3,6 +3,7 @@
 oob = "PAR_1936"
 
 set_cosmetic_tag = ARG_puppet_PAR
+recruit_character = PAR_Pedro_Pablo_Ramirez
 add_ideas = PAR_paraguayan_resistance #巴拉圭抵抗力度
 set_politics = {
 			ruling_party = tttt
