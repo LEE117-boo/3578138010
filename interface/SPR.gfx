@@ -43,4 +43,20 @@ spriteTypes = {
 		name = "GFX_focus_SPR_The_smoke_of_battle_dissipated_shine"
 		texturefile = "gfx/interface/goals/SPR/SPR_The_smoke_of_battle_dissipated.dds"
 	}
+	spriteType = { #萧条之国
+		name = "GFX_focus_SPR_Depressed_Country"
+		texturefile = "gfx/interface/goals/SPR/SPR_Depressed_Country.dds"
+	}
+	spriteType = { #萧条之国
+		name = "GFX_focus_SPR_Depressed_Country_shine"
+		texturefile = "gfx/interface/goals/SPR/SPR_Depressed_Country.dds"
+	}
+	spriteType = { #山中之敌 
+		name = "GFX_focus_SPR_Enemy_in_the_Mountains"
+		texturefile = "gfx/interface/goals/SPR/SPR_Enemy_in_the_Mountains.dds"
+	}
+	spriteType = { #山中之敌 
+		name = "GFX_focus_SPR_Enemy_in_the_Mountains_shine"
+		texturefile = "gfx/interface/goals/SPR/SPR_Enemy_in_the_Mountains.dds"
+	}
 }

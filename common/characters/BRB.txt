@@ -3,7 +3,7 @@ characters = {
     name = BRB_Hottolio_Vargas
     portraits = {
         civilian = {
-            large = GFX_idea_BRB_Hottolio_Vargas
+            large = GFX_leader_BRB_Hottolio_Vargas
         }
     }
     

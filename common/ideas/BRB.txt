@@ -2,6 +2,7 @@ ideas = {
 	country = {
 		BRB_Republican_refuge = { #共和派的避难所
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRB_Republican_refuge"}
+			picture = GFX_idea_BRB_Republican_refuge
 			modifier = {
 				stability_factor = 0.15
 				Authoritarianism_drift = 0.01
@@ -14,6 +15,7 @@ ideas = {
 		}
 		BRB_argentine_militaryaid = { #阿根廷军事援助
 			on_add = {log = "[GetDateText]: [Root.GetName]: add ideaBRB_argentine_militaryaid "}
+			picture = GFX_idea_BRB_argentine_militaryaid
 			on_add = {
 				BRB = {
 				add_opinion_modifier = {
@@ -54,6 +56,7 @@ ideas = {
 		}
 		BRB_Vargas_Populism = { #瓦加斯民众主义
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRB_argentine_militaryaid "}
+			picture = GFX_idea_BRB_Vargas_Populism
 			modifier = {
 				stability_factor = 0.05
 				political_power_factor = 0.05

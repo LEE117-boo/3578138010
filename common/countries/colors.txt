@@ -142,7 +142,7 @@ AFG = {
 	color_ui = rgb { 83 208 217 }
 }
 ARG = {
-	color = rgb { 35 50 81 }
+	color = rgb { 36 104 162 }
 	color_ui = rgb { 22 33 51 }
 }
 AST = {

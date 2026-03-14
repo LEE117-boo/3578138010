@@ -18,15 +18,28 @@
     SPR_Autonomy_Dilemma:0 "自治难题"
     SPR_Autonomy_Dilemma_desc:0 "在战后西班牙的灰烬中，没有哪个问题比巴斯克与加泰罗尼亚的自治命运更能象征那场内战的裂痕。这两个地区曾作为共和派的坚实堡垒奋战至最后一刻，如今，胜利的国民军政权决心彻底清算这份“背叛”。他们过去享有的自治权被无情废除，语言文化被公然打压，连最基本的民族象征也沦为非法。\n然而，独裁政府的强硬手段并未真正抹去两地人民的身份认同。在加泰罗尼亚，中产阶级与知识界虽在战后初期被迫沉默，但那份对共和岁月的记忆与自治的渴望，只是转入了地下悄然滋长。而在巴斯克，问题则更为严峻：连绵的青山成为反法西斯游击队出没的屏障，分离主义的情绪因镇压而愈发坚定，使得该地区始终是政权体内一根难以拔除的毒刺。"
 
-    SPR_tttt_party:0 "军事委员会"
-    SPR_tttt_party_long:0 "军事委员会"
+    SPR_Communism_party:0 "西班牙共产党"
+    SPR_Communism_party_long:0 "西班牙共产党"
+    SPR_Socialism_party:0 "西班牙社会工人党"
+    SPR_Socialism_party_long:0 "西班牙社会工人党"
+    SPR_Democracy_party:0 "加泰罗尼亚共和左派"
+    SPR_Democracy_party_long:0 "加泰罗尼亚共和左派"
+    SPR_tttt_party:0 "军事领导委员会"
+    SPR_tttt_party_long:0 "军事领导委员会"
     SPR_Conservatism_party:0 "西班牙自治右翼同盟"
     SPR_Conservatism_party_long:0 "西班牙自治右翼同盟"
+    SPR_Liberalism_party:0 "西班牙激进民主党"
+    SPR_Liberalism_party_long:0 "西班牙激进民主党"
+    SPR_fascism_party:0 "西班牙长枪党"
+    SPR_fascism_party_long:0 "西班牙长枪党"
+
 
     SPR_The_smoke_of_battle_dissipated:0 "硝烟散去"
     SPR_Pointed_at_with_a_gun:0 "被枪所指"
     SPR_Depressed_Country:0 "萧条之国"
+    SPR_Depressed_Country_desc:0 "在西班牙的土地上，硝烟散去后的寂静比战争本身更令人窒息。经济危机的浪潮尚未退去，内战的创伤又深深刻入国家的肌理，将往日的生机撕裂成碎片。走进曾经的工业区，景象触目惊心：工厂大门紧锁，锈迹斑斑的钢铁骨架在连绵阴雨中扭曲变形，破碎的窗户像无数只空洞的眼睛，绝望地凝视着灰蒙蒙的天空。流水线彻底停摆，机器上积满了厚厚的灰尘，油渍早已干涸，仿佛时间在这里彻底凝固，连空气都弥漫着衰败的气息。"
     SPR_Enemy_in_the_Mountains:0 "山中之敌"
+    SPR_Enemy_in_the_Mountains_desc:0 "内战结束后，胜利者书写历史，但山区里仍有笔尖之外的墨迹在流动。在西班牙北部和比利牛斯山脉的褶皱里，游击队像野草一样扎根。\n这些游击队被我方正式定性为“赤匪”、“红色匪帮”及“恐怖主义残余势力”。这些家伙由内战失败后流窜的武装分子与部分受国际颠覆思想煽动的本土极端分子构成，其成员藏匿于北部及比利牛斯地区的非法匪巢中，包括自行挖掘的洞穴、废弃矿道以及临时搭建的违章窝棚。我们确信其受到国外敌对势力的遥控指挥，企图颠覆国家合法政权，并持续对其进行必要的清剿与法律制裁，以保障国民安全与领土完整。"
     SPR_general_politics:0 "将军政治"
     SPR_Rusty_gear:0 "生锈齿轮"
     SPR_dirty_war:0 "肮脏之战"
@@ -50,3 +63,7 @@
     SPR_Like_father_like_son:0 "虎父无犬子(长枪党)"
     SPR_Order_returned_to_the_army:0 "秩序归于军队(军方)"
     SPR_God_Fatherland_and_His_Majesty:0"上帝，祖国与陛下(君主制)"
+
+    spain.eas.t:0 "围剿"
+    spain.status_quo.t:0 "现状"
+    

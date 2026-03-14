@@ -12,7 +12,7 @@
 		icon = GFX_focus_SPR_The_smoke_of_battle_dissipated
 		x=12
 		y=0
-		cost=10
+		cost=2
 		ai_will_do={
 			factor=1
 		}
@@ -23,11 +23,11 @@
 		}
 	}
 	focus={
-		id=SPR_Pointed_at_with_a_gun
+		id=SPR_Pointed_at_with_a_gun #被枪所指
 		x=6
 		y=2
 		prerequisite={focus=SPR_Depressed_Country}
-		cost=10
+		cost=2
 		ai_will_do={
 			factor=1
 		}
@@ -38,11 +38,12 @@
 		}
 	}
 	focus={
-		id=SPR_Depressed_Country
+		id=SPR_Depressed_Country #萧条之国
+		icon = GFX_focus_SPR_Depressed_Country
 		x=12
 		y=2
 		prerequisite={focus=SPR_The_smoke_of_battle_dissipated}
-		cost=10
+		cost = 2
 		ai_will_do={
 			factor=1
 		}
@@ -53,11 +54,12 @@
 		}
 	}
 	focus={
-		id=SPR_Enemy_in_the_Mountains
+		id=SPR_Enemy_in_the_Mountains #山中之敌
+		icon = GFX_focus_SPR_Enemy_in_the_Mountains
 		x=18
 		y=2
 		prerequisite={focus=SPR_Depressed_Country}
-		cost=10
+		cost = 2
 		ai_will_do={
 			factor=1
 		}
@@ -65,14 +67,25 @@
 		search_filters={
 		}
 		completion_reward={
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_Enemy_in_the_Mountains"
+			add_equipment_to_stockpile = {
+        	type = infantry_equipment
+        	amount = -250
+    }
+    		add_war_support = 0.03
+				
+			country_event = {
+				id = tfe_spain.1
+			}
 		}
-	}
+}
+
 	focus={
-		id=SPR_general_politics
+		id=SPR_general_politics #将军政治
 		x=6
 		y=4
 		prerequisite={focus=SPR_Pointed_at_with_a_gun}
-		cost=10
+		cost = 2 
 		ai_will_do={
 			factor=1
 		}
@@ -83,11 +96,11 @@
 		}
 	}
 	focus={
-		id=SPR_Streamlining_administration
+		id=SPR_Streamlining_administration #精兵简政
 		x=6
 		y=6
 		prerequisite={focus=SPR_general_politics}
-		cost=10
+		cost = 2
 		ai_will_do={
 			factor=1
 		}
@@ -98,11 +111,11 @@
 		}
 	}
 	focus={
-		id=SPR_dirty_war
+		id=SPR_dirty_war #肮脏之战
 		x=18
 		y=4
 		prerequisite={focus=SPR_Enemy_in_the_Mountains}
-		cost=10
+		cost = 2
 		ai_will_do={
 			factor=1
 		}
@@ -113,11 +126,11 @@
 		}
 	}
 	focus={
-		id=SPR_have_to_face
+		id=SPR_have_to_face #不得不面对的
 		x=18
 		y=6
 		prerequisite={focus=SPR_dirty_war}
-		cost=10
+		cost = 2
 		ai_will_do={
 			factor=1
 		}
@@ -128,11 +141,11 @@
 		}
 	}
 	focus={
-		id=SPR_Rusty_gear
+		id=SPR_Rusty_gear #生锈齿轮
 		x=12
 		y=4
 		prerequisite={focus=SPR_Depressed_Country}
-		cost=10
+		cost = 2
 		ai_will_do={
 			factor=1
 		}
@@ -143,13 +156,13 @@
 		}
 	}
 	focus={
-		id=SPR_An_inevitable_reform
+		id=SPR_An_inevitable_reform #势在必行的改革
 		x=12
 		y=6
 		prerequisite={focus=SPR_Rusty_gear}
 		prerequisite = {focus= SPR_Streamlining_administration}
 		prerequisite = {focus=SPR_have_to_face}
-		cost=10
+		cost = 2
 		ai_will_do={
 			factor=1
 		}
@@ -160,11 +173,11 @@
 		}
 	}
 	focus={
-		id=SPR_The_Lion_in_His_Twilight_Years
+		id=SPR_The_Lion_in_His_Twilight_Years #雄狮暮年
 		x=12
 		y=8
 		prerequisite={focus=SPR_An_inevitable_reform}
-		cost=10
+		cost = 1
 		ai_will_do={
 			factor=1
 		}

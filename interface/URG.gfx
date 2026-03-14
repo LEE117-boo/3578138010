@@ -1,6 +1,15 @@
 spriteTypes = { 
-	spriteType = { #部落理事会
+	spriteType = { #加夫列尔·特拉
 		name = "GFX_idea_URG_Gabriel_Tra"
 		texturefile = "gfx/leaders/URG/URG_Gabriel_Tra.dds"
+	}
+	###民族精神
+	spriteType = { #何塞·巴特列·奥多涅斯的遗产
+		name = "GFX_idea_URG_The_Legacy_of_Jose_Batlleri_Ordonez"
+		texturefile = "gfx/interface/ideas/URG/URG_The_Legacy_of_Jose_Batlleri_Ordonez.dds"
+	}
+	spriteType = { #国家福利制度
+		name = "GFX_idea_URG_state_welfare_system"
+		texturefile = "gfx/interface/ideas/URG/URG_state_welfare_system.dds"
 	}
 }
