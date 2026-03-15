@@ -61,6 +61,10 @@ AUS = {
 	color = rgb { 209 199 199 }
 	color_ui = rgb { 209 199 199 }
 }
+GAL = {
+	color = rgb { 209 199 199 }
+	color_ui = rgb { 209 199 199 }
+}
 LIT = {
 	color = rgb { 219 219 119 }
 	color_ui = rgb { 255 255 155 }

@@ -13,6 +13,12 @@ opinion_modifiers = {
 	cheat_opinion_modifier_good = {
 		value = 200
 	}
+	aus_badcountry = {
+		value = -80
+	}
+	aus_wellcountry = {
+		value = 40
+	}
 	YDYY = {
 		value = 75
 	}
