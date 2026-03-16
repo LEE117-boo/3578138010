@@ -1,5 +1,5 @@
 load_focus_tree = generic_focus
-
+capital = 91
 set_research_slots = 3
 
 # Starting tech
