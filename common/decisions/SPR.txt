@@ -1,6 +1,16 @@
 SPR_post_war_reconstruction = { #西班牙战后重建
 	SPR_Suppression_of_guerrilla_operations = { #镇压游击行动
-		cost = 25
+		cost = 0
+		complete_effect = {
+			165 = {
+				add_compliance = 100
+				add_resistance = -100
+			}
+			792 = {
+				add_compliance = 100
+				add_resistance = -100
+			}
+		}
 	}
 	SPR_Invest_in_industry = { #投资工业
 		cost = 25
@@ -24,7 +34,7 @@ SPR_post_war_reconstruction = { #西班牙战后重建
 		cost = 25
 	}
 }
-SPR_our_choice = {
+SPR_our_choice = { #继承人
 	SPR_Like_father_like_son = {
 
 	}

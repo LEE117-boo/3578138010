@@ -54,9 +54,14 @@ spriteTypes = {
 		texturefile = "gfx/texticons/banners/ARG/ARG_Argentine_National_Oil_Company_Pictures.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = { #巴拉圭指数：沸反盈天配图 
+	spriteType = { #巴拉圭指数：沸反盈天配图一
 		name = "GFX_ARG_Paraguay_Index_Pictures" 
 		texturefile = "gfx/texticons/banners/ARG/ARG_Paraguay_Index_Pictures.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = { #巴拉圭指数：沸反盈天配图二
+		name = "GFX_ARG_PAR_Pedro_Pablo_Ramirez_Pictures" 
+		texturefile = "gfx/texticons/banners/PAR/PAR_Pedro_Pablo_Ramirez_Pictures.dds"
 		legacy_lazy_load = no
 	}
 }

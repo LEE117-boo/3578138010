@@ -81,8 +81,3 @@ set_popularities = {
 		Liberalism = 12
 		fascism = 8
 }
-
-ROOT = { 
-	CAT = { enable_country_integration_50_compliance = yes }
-	NAV = { enable_country_integration_50_compliance = yes }
-}

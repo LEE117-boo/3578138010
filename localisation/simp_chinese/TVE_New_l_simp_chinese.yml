@@ -2,6 +2,8 @@
       #新增通用子意识形态
       colonial_government_ideologies:0 "殖民政府" 
       colonial_government_ideologies_desc:0 ""
-      #新增机制
+      #顺从度造核
       territorial_integration: "整合"
       territorial_integration_tt: "§H顺从度达到50%§!（所需的顺从度因地区而异）时获得地区核心。"
+      state_integration_alert_title: "地区整合完成"
+      state_integration_alert_message: "§Y[?integrated_state.GetName]§!现在是§Y[ROOT.GetNameWithFlag]§!的核心地区。"

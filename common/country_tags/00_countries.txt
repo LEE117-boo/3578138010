@@ -389,3 +389,6 @@ RAY = "countries/RED_Bavaria.txt"
 BRE = "countries/Brandenburg.txt"
 SPT = "countries/Spartakusbund.txt"
 FRE = "countries/Freikorps.txt"
+
+#### SYSTEM TAG - should be the first in the list
+AAA = "countries/00_system.txt"
