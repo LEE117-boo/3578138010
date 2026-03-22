@@ -317,7 +317,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-    			ideology = Avant_garde
+    			ideology = Progressivism
     			popularity = 0.05
 			}
 
@@ -544,7 +544,7 @@ focus_tree = {
 
 			custom_effect_tooltip=generic_skip_one_line_tt
 			add_popularity = {
-    			ideology = Avant_garde
+    			ideology = Progressivism
     			popularity = 0.03
 			}
 

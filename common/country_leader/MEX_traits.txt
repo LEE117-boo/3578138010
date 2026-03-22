@@ -23,12 +23,12 @@ leader_traits = {
 		}
 	}
 
-	mianju_yu_wutuobang = {
+	mianju_yu_wutuobang = { #面具与乌托邦
 		random = no
 
-		nazism_drift = 0.05
-		war_support_factor = 0.1
 		
+		war_support_factor = 0.05
+		stability_factor = 0.1
 
 		ai_will_do = {
 			factor = 1
@@ -61,7 +61,7 @@ leader_traits = {
 	heise_shizhe = {
 		random = no
 
-		Avant_garde_drift = 0.05
+		Progressivism_drift = 0.05
 		army_core_defence_factor  = 0.1
 		political_power_factor = 0.2
 
@@ -73,7 +73,7 @@ leader_traits = {
 	aer_tasuoer = {
 		random = no
 
-		Avant_garde_drift = 0.05
+		Progressivism_drift = 0.05
 		war_support_factor = 0.15
 		defensive_war_stability_factor = 0.1
 		offensive_war_stability_factor = 0.1
@@ -111,7 +111,6 @@ leader_traits = {
 	zuoyi_gonghui_lingxiu = {
 		random = no
 
-		Socialism_drift = 0.05
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		production_factory_efficiency_gain_factor  = 0.1
@@ -157,22 +156,22 @@ leader_traits = {
 		}
 	}
 
-	kaiensi_jingji_xuezhe = {
+	Between_Stone_and_Flower = { #石与花之间
 		random = no
 
-		consumer_goods_factor = -0.15
+		research_speed_factor = 0.1
+		improve_relations_maintain_cost_factor = -0.5
 
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
-	geming_jingjixue = {
+	geming_jingjixue = { #革命经济学
 		random = no
 
-		Socialism_drift = 0.05
-		consumer_goods_factor = -0.1
-		production_speed_buildings_factor = 0.05
+		consumer_goods_factor = -0.15
+		production_speed_buildings_factor = 0.1
 
 		ai_will_do = {
 			factor = 1
