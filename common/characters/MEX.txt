@@ -1,7 +1,7 @@
 characters={
 
 	############党派领导##############
-	MEX_afangsuo_leiyesi = {
+	MEX_afangsuo_leiyesi = { #阿方索·雷耶斯
 		name= MEX_afangsuo_leiyesi
 		portraits={
 			civilian={

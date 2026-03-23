@@ -1,7 +1,4 @@
 ﻿l_simp_chinese:
-      #新增通用子意识形态
-      colonial_government_ideologies:0 "殖民政府" 
-      colonial_government_ideologies_desc:0 ""
       #顺从度造核
       territorial_integration: "整合"
       territorial_integration_tt: "§H顺从度达到50%§!（所需的顺从度因地区而异）时获得地区核心。"

@@ -60,6 +60,7 @@ ideologies = {
 			socialism_small = {
 
 			}
+			
 		}
 
 		dynamic_faction_names = {
@@ -417,7 +418,7 @@ ideologies = {
 			Theocracy = {
 				can_be_randomly_selected = no
 			}
-			Spain_rivera_ideologies = { #米格尔·普里莫·德里维拉的意识形态
+			Spain_rivera_ideologies = { #里维拉式军队专制
 				can_be_randomly_selected = no
 			}
 			colonial_government_ideologies = { #殖民政府
@@ -481,6 +482,9 @@ ideologies = {
 			}
 			Confederate = {
 				can_be_randomly_selected = no
+			}
+			MEX_cosmic_racism = { #宇宙种族主义
+
 			}
 		}
 

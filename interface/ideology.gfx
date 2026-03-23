@@ -111,5 +111,8 @@ spriteTypes = {
 		name = "GFX_ideology_Military_dictatorship"
 		texturefile = "gfx/interface/ideologies/Military_dictatorship.png"
 	}
-	
+	spriteType = { #宇宙种族主义
+		name = "GFX_ideology_MEX_cosmic_racism"
+		texturefile = "gfx/interface/ideologies/MEX_cosmic_racism.dds"
+	}
 }

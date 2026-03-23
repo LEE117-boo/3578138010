@@ -145,17 +145,17 @@ guiTypes = {
 #				maxHeight = 20
 #			}
 			
-			instantTextboxType = {
-				name = "ideology"
-				position = { x = 85 y = 67 }
-				font = "hoi_18mbs"
-				text = "ideology"
-				maxWidth = 100
-				maxHeight = 300
-			}
+			#instantTextboxType = {
+			#	name = "ideology"
+			#	position = { x = 85 y = 70 }
+			#	font = "hoi_18mbs"
+			#	text = "ideology"
+			#	maxWidth = 100
+			#	maxHeight = 300
+			#}
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 85 y = 93 }
+				position = { x = 85 y = 90 }
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 100

@@ -190,7 +190,7 @@ ECU = {
 	color_ui = rgb { 255 190 127 }
 }
 ELS = {
-	color = rgb { 152 130 191 }
+	color = rgb { 135 206 235 }
 	color_ui = rgb { 198 169 248 }
 }
 ETH = {
