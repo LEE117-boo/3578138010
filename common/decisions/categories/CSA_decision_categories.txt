@@ -1,0 +1,5 @@
+CSA_balance_of_rights = { #联盟国发展
+	allowed = {
+		original_tag = CSA
+	}
+}

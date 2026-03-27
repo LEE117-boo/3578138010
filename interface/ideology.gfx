@@ -92,8 +92,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Chauvinism.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_Confederate"
-		texturefile = "gfx/interface/ideologies/Confederate.png"
+		name = "GFX_ideology_CSA_Confederate"
+		texturefile = "gfx/interface/ideologies/CSA_Confederate.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_XiLin"
@@ -114,5 +114,9 @@ spriteTypes = {
 	spriteType = { #宇宙种族主义
 		name = "GFX_ideology_MEX_cosmic_racism"
 		texturefile = "gfx/interface/ideologies/MEX_cosmic_racism.dds"
+	}
+	spriteType = { #宇宙种族主义
+		name = "GFX_ideology_CSA_Hueylon_Doctrine"
+		texturefile = "gfx/interface/ideologies/CSA_Hueylon_Doctrine.dds"
 	}
 }

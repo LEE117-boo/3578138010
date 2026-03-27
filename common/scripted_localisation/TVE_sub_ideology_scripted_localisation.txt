@@ -15,7 +15,10 @@ defined_text = {
 	#社会主义及其子意识形态
 	text = {
 		trigger = { #社会主义
-			has_country_leader_ideology = socialism_small
+			OR = {
+				has_country_leader_ideology = socialism_small
+			}
+			
 		}
 		localization_key = socialism_small
 	}
@@ -52,9 +55,11 @@ defined_text = {
 	#自由主义及其子意识形态
 	text = {
 		trigger = { #自由主义
-			has_country_leader_ideology = liberalism_small
-			has_country_leader_ideology = socialism
-			has_country_leader_ideology = Britain_republic
+			OR = {
+				has_country_leader_ideology = liberalism_small
+				has_country_leader_ideology = socialism
+				has_country_leader_ideology = Britain_republic
+			}
 		}
 		localization_key = liberalism_small
 	}
@@ -77,9 +82,12 @@ defined_text = {
 	#保守主义及其子意识形态
 	text = {
 		trigger = { #保守主义
-			has_country_leader_ideology = Conservatism_small
-			has_country_leader_ideology = Britain_Conservatism
-			has_country_leader_ideology = Austria_Hungary_ideologies_Conservatism
+			OR = {
+				has_country_leader_ideology = Conservatism_small
+				has_country_leader_ideology = Britain_Conservatism
+				has_country_leader_ideology = Austria_Hungary_ideologies_Conservatism
+			}
+			
 		}
 		localization_key = Conservatism_small
 	}
@@ -87,8 +95,11 @@ defined_text = {
 	#威权主义及其子意识形态
 	text = {
 		trigger = { #威权主义
-			has_country_leader_ideology = authoritarianism_small
-			has_country_leader_ideology = Manstein_ideologies
+			OR = {
+				has_country_leader_ideology = authoritarianism_small
+				has_country_leader_ideology = Manstein_ideologies
+			}
+			
 		}
 		localization_key = authoritarianism_small
 	}
@@ -97,6 +108,12 @@ defined_text = {
 			has_country_leader_ideology = Yuanism
 		}
 		localization_key = Yuanism
+	}
+	text = {
+		trigger = { #休伊朗主义
+			has_country_leader_ideology = CSA_Hueylon_Doctrine
+		}
+		localization_key = CSA_Hueylon_Doctrine
 	}
 
 	#专制主义及其子意识形态
@@ -109,7 +126,6 @@ defined_text = {
 				has_country_leader_ideology = Jacksonian_Democracy
 				has_country_leader_ideology = Absolute_monarchy
 				has_country_leader_ideology = Theocracy
-				has_country_leader_ideology = Spain_rivera_ideologies
 			}
 			
 		}
@@ -143,8 +159,11 @@ defined_text = {
 	#法西斯主义及其子意识形态
 	text = {
 		trigger = { #法西斯主义
-			has_country_leader_ideology = fascism_small
-			has_country_leader_ideology = works_on_constitution
+			OR = {
+				has_country_leader_ideology = fascism_small
+				has_country_leader_ideology = works_on_constitution
+			}
+			
 		}
 		localization_key = fascism_small
 	}
@@ -156,9 +175,9 @@ defined_text = {
     }
 	text = {
 		trigger = { #邦联国体制
-			has_country_leader_ideology = Confederate
+			has_country_leader_ideology = CSA_Confederate
 		}
-		localization_key = Confederate
+		localization_key = CSA_Confederate
     }
 		text = {
 		trigger = { #宇宙种族主义
@@ -170,7 +189,10 @@ defined_text = {
 	#民族社会主义及其子意识形态
 	text = {
 		trigger = { #民族社会主义
-			has_country_leader_ideology = nazism_small
+			OR = {
+				has_country_leader_ideology = nazism_small
+			}
+			
 		}
 		localization_key = nazism_small
 	}

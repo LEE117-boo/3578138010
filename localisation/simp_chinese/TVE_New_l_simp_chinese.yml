@@ -4,3 +4,6 @@
       territorial_integration_tt: "§H顺从度达到50%§!（所需的顺从度因地区而异）时获得地区核心。"
       state_integration_alert_title: "地区整合完成"
       state_integration_alert_message: "§Y[?integrated_state.GetName]§!现在是§Y[ROOT.GetNameWithFlag]§!的核心地区。"
+
+      #傀儡类型
+      Autonomous_state:0 "自治邦"

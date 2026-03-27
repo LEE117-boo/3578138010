@@ -1,16 +1,44 @@
 characters={
-	#领导人
 	#查尔斯·考夫林
 	CSA_Charles_Coughlin = {
 		name= CSA_Charles_Coughlin
-		portraits={
+		portraits={  
 			civilian={
-				large=GFX_CSA_Charles_Coughlin_large
+				large = GFX_leader_CSA_Charles_Coughlin_large
 			}
 		}
 		country_leader={
-			ideology= Confederate
+            desc = CSA_Charles_Coughlin_desc
+			ideology= CSA_Confederate
 			traits= { CSA_lianbang_shenfu  }
+		}
+	}
+    #休伊·朗
+	CSA_Hugh_Long = {
+		name= CSA_Hugh_Long
+		portraits={  
+			civilian={
+				large=GFX_leader_CSA_Hugh_Long
+			}
+		}
+		country_leader={
+            #desc = CSA_Charles_Coughlin_desc
+			ideology= CSA_Hueylon_Doctrine
+			traits= {   }
+		}
+	}
+    #新共和党占位
+    CSA_Placeholder = {
+		name= CSA_Placeholder
+		portraits={  
+			civilian={
+				#large=GFX_leader_CSA_Hugh_Long
+			}
+		}
+		country_leader={
+            #desc = CSA_Charles_Coughlin_desc
+			ideology= CSA_liberalism_small
+			traits= {   }
 		}
 	}
 
@@ -59,391 +87,521 @@ characters={
 		}
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	#OTL
-	CSA_georges_vereecken={
-		advisor={
-			slot = navy_chief
-			idea_token = CSA_georges_vereecken
-			allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					navy_chief_maneuver_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_europe_1"
+	CSA_Walton_Walker =  { #沃尔顿·沃克
+        name = CSA_Walton_Walker
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Walton_Walker
+            }
+        }
+        field_marshal = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 4
+            logistics_skill = 5
+            traits = {
+                engineer_officer
+				scavenger
+            }
+        
+        }
+    }
+	CSA_Leslie_James =  { #莱斯利·詹姆斯
+        name = CSA_Leslie_James
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Leslie_James
+            }
+        }
+        field_marshal = {
+            skill = 3
+            attack_skill = 2
+            defense_skill = 7
+            planning_skill = 7
+            logistics_skill = 3
+            traits = {
+				trait_reckless
+				offensive_doctrine
+				scavenger
+				panzer_leader
+            }
+        
+        }
+    }
+	CSA_Omar_Nelson_Bradley =  { #奥马尔·纳尔逊·布莱德雷
+        name = CSA_Omar_Nelson_Bradley
+        portraits = {
+            civilian = {
+                large = CSA_Omar_Nelson_Bradley
+            }
+        }
+        field_marshal = {
+            skill = 3
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 5
+            logistics_skill = 3
+            traits = {
+				defensive_doctrine
+				panzer_leader
+				war_hero
+				brilliant_strategist
+            }
+        
+        }
+    }
+	CSA_Frederick_Halsey =  { #弗雷德里克·哈尔西
+        name = CSA_Frederick_Halsey
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Frederick_Halsey
+            }
+        }
+        field_marshal = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 2
+            traits = {
+				trait_reckless
+				offensive_doctrine 
+            }
+        
+        }
+    }
+	CSA_Simon_Bolivar_Bachner =  { #西蒙·玻利瓦尔·巴克纳
+        name = CSA_Simon_Bolivar_Bachner
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Simon_Bolivar_Bachner
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 6
+            traits = {
+				infantry_leader
+				combined_arms_expert
+				jungle_rat
+				media_personality 
+            }
+        
+        }
+    }
+	CSA_William_Henry_Ruperts =  { #威廉·亨利·鲁珀特斯
+        name = CSA_William_Henry_Ruperts
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_William_Henry_Ruperts
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 4
+            traits = {
+				career_officer
+				trait_reckless
+				inflexible_strategist
+            }
+        
+        }
+    }
+	CSA_Clarence_Hubner =  { #克莱伦斯·许布纳
+        name = CSA_Clarence_Hubner
+        portraits = {
+            civilian = {
+                large = GFX_CSA_Clarence_Hubner
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 3
+            traits = {
+				panzer_leader
+				career_officer
+				media_personality
+				war_hero 
+            }
+        
+        }
+    }
+	CSA_Edward_Armand =  { #爱德华·阿尔芒德
+        name = CSA_Edward_Armand
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Edward_Armand
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 5
+            logistics_skill = 4
+            traits = {
+				militias_officer
+				career_officer
+				war_hero
+				career_officer
+            }
+        
+        }
+    }
+	CSA_William_Arnold =  { #威廉·阿诺德
+        name = CSA_William_Arnold
+        portraits = {
+            civilian = {
+                large = GFX_CSA_William_Arnold
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 4
+            traits = {
+				career_officer
+				cavalry_officer
+				trait_reckless
+            }
+        
+        }
+    }
+	CSA_Terry_Allen =  { #特里·艾伦
+        name = CSA_Terry_Allen
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Terry_Allen
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 2
+            traits = {
+				 infantry_leader
+				 career_officer
+				 media_personality
+            }
+        
+        }
+    }
+    CSA_Alexander_Anderson =  { #亚历山大·安德森
+        name = CSA_Alexander_Anderson
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Alexander_Anderson
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 5
+            planning_skill = 6
+            logistics_skill = 2
+            traits = {
+				 career_officer
+                 logistics_wizard
+                 trait_reckless
+                  militias_officer
+            }
+        
+        }
+    }
+    CSA_Henry_Orland =  { #亨利·奥兰德
+        name = CSA_Henry_Orland
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Henry_Orland
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 2
+            traits = {
+				infantry_leader
+                offensive_doctrine
+            }
+        
+        }
+    }
+     CSA_Levin_Allen =  { #莱文·艾伦
+        name = CSA_Levin_Allen
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Levin_Allen
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 5
+            traits = {
+				 defensive_doctrine
+                 trait_reckless
+                 media_personality
+            }
+        
+        }
+    }
+     CSA_William_Belkin=  { #威廉·贝尔金
+        name = CSA_William_Belkin
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_William_Belkin
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 4
+            traits = {
+			
+            }
+        
+        }
+    }
+    CSA_William_Butler =  { #威廉·贝尔金
+        name = CSA_William_Butler
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_William_Butler
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 5
+            traits = {
+                cavalry_leader
+                militias_officer
+            }
+        
+        }
+    }
+    CSA_Frank_Kulin =  { #弗兰克·库林
+        name = CSA_Frank_Kulin
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Frank_Kulin
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 6
+            traits = {
+               
+            }
+        
+        }
+    }
+     CSA_Louis_Craig =  { #路易斯·克莱格
+        name = CSA_Louis_Craig
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Louis_Craig
+        }
+    }
+        corps_commander = {
+            skill = 3
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 2
+            traits = {
+               infantry_leader
+            }
+        
+        }
+    }
+    CSA_Norman_Cotta =  { #诺曼·柯塔
+        name = CSA_Norman_Cotta
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Norman_Cotta
+        }
+    }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 2
+            traits = {
+               infantry_leader
+            }
+        
+        }
+    }
+    CSA_Douglas_MacArthur =  { #道格拉斯·麦克阿瑟
+        name = CSA_Douglas_MacArthur
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_Douglas_MacArthur
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 5
+            logistics_skill = 2
+            traits = {
+				brilliant_strategist
+                career_officer
+                media_personality
+                politically_connected
+                offensive_doctrine
+            }
+        
+        }
+    }
+     CSA_John_Joseph_Pershing =  { #约翰·约瑟夫·潘兴
+        name = CSA_John_Joseph_Pershing
+        portraits = {
+            civilian = {
+                large = GFX_general_CSA_John_Joseph_Pershing
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3
+            traits = {
+				media_personality
+                panzer_leader
+                organizer
+                logistics_wizard
+            }
+        
+        }
+    }
+    
+    CSA_Earl_Lang = { #厄尔·朗
+    name = CSA_Earl_Lang
+    portraits = {
+        army = {
+            small = GFX_idea_CSA_Earl_Lang
+        }
+       
+    }
+    advisor = {
+        can_be_fired = no
+        slot = second_in_command
+        idea_token = CSA_Earl_Lang
+        can_be_fired = no
+        traits = {
+            CSA_Reformers
+        }
+        cost = 0
+    }
+    }
+    CSA_Harold_Iks = { #哈罗德·伊克斯
+    name = CSA_Harold_Iks
+    portraits = {
+        army = {
+            small = GFX_idea_CSA_Harold_Iks
+        }
+       
+    }
+    advisor = {
+        can_be_fired = no
+        slot = political_advisor
+        idea_token = CSA_Harold_Iks
+        traits = {
+            CSA_civil_rights_ms
+        }
+        cost = 0
+    }
+    }
+    CSA_henry_ford = { #亨利·福特
+    name = CSA_henry_ford
+    portraits = {
+        
+        army = {
+            small = GFX_idea_CSA_henry_ford
+        }
+       
+    }
+    advisor = {
+          available = {
+			custom_trigger_tooltip = {
+				tooltip = minister_able_and_can_be_selected
+				always = no
 			}
 		}
-	}
-	CSA_raoul_overstraeten={
-		advisor={
-			slot = air_chief
-			idea_token = CSA_raoul_overstraeten
-			allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					air_chief_old_guard 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_europe_3"
-			}
-		}
-	}
-	CSA_rene_lagrou={
-		advisor={
-			slot = high_command
-			idea_token = CSA_rene_lagrou
-			ledger  = air 
-				allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					air_air_combat_training_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_europe_3"
-			}
-		}
-	}
-	CSA_paul_van_zeeland={
-		advisor={
-			slot = political_advisor
-			idea_token = CSA_paul_van_zeeland
-			allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					silent_workhorse 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_2"
-			}
-		}
-	}
-	CSA_victor_van_strydonck_de_burkel={
-		advisor={
-			slot = high_command
-			idea_token = CSA_victor_van_strydonck_de_burkel
-			ledger  = army 
-				allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					army_infantry_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_1"
-			}
-		}
-	}
-	CSA_fritz_conrad={
-		advisor={
-			slot = navy_chief
-			idea_token = CSA_fritz_conrad
-			allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					navy_chief_naval_aviation_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_europe_2"
-			}
-		}
-	}
-	CSA_fritz_lob={
-		advisor={
-			slot = theorist
-			idea_token = CSA_fritz_lob
-			ledger  = air 
-				allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					air_warfare_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_europe_1"
-			}
-		}
-	}
-	CSA_georges_deffontaine={
-		advisor={
-			slot = theorist
-			idea_token = CSA_georges_deffontaine
-			ledger  = navy 
-				allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					naval_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_europe_1"
-			}
-		}
-	}
-	CSA_victor_strydonck_burkel={
-		advisor={
-			slot = army_chief
-			idea_token = CSA_victor_strydonck_burkel
-			allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					army_chief_offensive_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_3"
-			}
-		}
-	}
-	CSA_charles_bastin={
-		advisor={
-			slot = army_chief
-			idea_token = CSA_charles_bastin
-			allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					army_chief_morale_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_4"
-			}
-		}
-	}
-	CSA_paul-henri_spaak={
-		advisor={
-			slot = political_advisor
-			idea_token = CSA_paul-henri_spaak
-			allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
-			}
-		}
-	}
-	CSA_gaston_eyskens={
-		advisor={
-			slot = political_advisor
-			idea_token = CSA_gaston_eyskens
-			allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					armaments_organizer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_3"
-			}
-		}
-	}
-	CSA_leon_degrelle={
-		advisor={
-			slot = army_chief
-			idea_token = CSA_leon_degrelle
-			allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					army_chief_defensive_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_2"
-			}
-		}
-	}
-	CSA_jules_iserentant={
-		advisor={
-			slot = air_chief
-			idea_token = CSA_jules_iserentant
-			allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					air_chief_ground_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_europe_3"
-			}
-		}
-	}
-	CSA_jules_pire={
-		advisor={
-			slot = theorist
-			idea_token = CSA_jules_pire
-			ledger  = army 
-				allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					military_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_6"
-			}
-		}
-	}
-	CSA_oscar_michiels={
-		advisor={
-			slot = high_command
-			idea_token = CSA_oscar_michiels
-			ledger  = army 
-				allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					army_logistics_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_5"
-			}
-		}
-	}
-	CSA_yvan_gerard={
-		advisor={
-			slot = high_command
-			idea_token = CSA_yvan_gerard
-			ledger  = navy 
-				allowed  = {
-					original_tag  = CSA
-				}
-				traits  = {
-					navy_naval_air_defense_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_europe_2"
-			}
-		}
-	}
+        can_be_fired = no
+        slot = political_advisor
+        idea_token = CSA_henry_ford
+        traits = {
+            CSA_industrial_giant
+        }
+        cost = 0
+    }
+    }
+    CSA_Lyndon_B_Johnson = { #林登·B·约翰逊
+    name = CSA_Lyndon_B_Johnson
+    portraits = {
+        army = {
+            small = GFX_idea_CSA_Lyndon_B_Johnson
+        }
+       
+    }
+    advisor = {
+        can_be_fired = no
+        slot = political_advisor
+        idea_token = CSA_Lyndon_B_Johnson
+        traits = {
+            CSA_minister_of_construction
+        }
+        cost = 0
+    }
+    }
+    CSA_Joseph_Raymond_McCarthy = { #约瑟夫·雷芒德·麦卡锡
+    name = CSA_Joseph_Raymond_McCarthy
+    portraits = {
+        army = {
+            small = GFX_idea_CSA_Joseph_Raymond_McCarthy
+        }
+       
+    }
+    advisor = {
+       can_be_fired = no
+        slot = political_advisor
+        idea_token = CSA_Joseph_Raymond_McCarthy
+        traits = {
+            CSA_Populist_agitators
+        }
+        cost = 0
+    }
+    }
 }
+      

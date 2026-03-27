@@ -2,12 +2,6 @@ defined_text = {
     name = TVE_title_loc
     text = {
         trigger = {
-            tag = DSB
-        }
-        localization_key = "TVE_title_loc_DSB"
-    }
-    text = {
-        trigger = {
             tag = AUS
         }
         localization_key = "TVE_title_loc_AUS"
@@ -30,15 +24,15 @@ defined_text = {
         }
         localization_key = "TVE_title_loc_SPR"
     }
+    text = {
+		trigger = {
+            tag = CSA
+        }
+        localization_key = "TFE_title_loc_CSA"
+    }
 }
 defined_text = {
     name = TVE_desc_loc
-    text = {
-        trigger = {
-            tag = DSB
-        }
-        localization_key = "TVE_desc_loc_DSB"
-    }
     text = {
         trigger = {
             tag = AUS
@@ -62,6 +56,12 @@ defined_text = {
             tag = SPR
         }
         localization_key = "TVE_desc_loc_SPR"
+    }
+    text = {
+		trigger = {
+            tag = CSA
+        }
+        localization_key = "TFE_desc_loc_CSA"
     }
 }
 defined_text = {

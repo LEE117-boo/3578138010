@@ -17,7 +17,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 
-		color = { 51 0 0 }
+		color = { 97 23 23 }
 
 		war_impact_on_world_tension = 0.20		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -71,7 +71,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 
-		color = { 153 0 0 }
+		color = { 145 39 39 }
 
 		war_impact_on_world_tension = 0.20		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -136,7 +136,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 
-		color = { 204 0 102 }
+		color = { 165 58 91 }
 
 		war_impact_on_world_tension = 0.20		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -179,6 +179,7 @@ ideologies = {
 		types = {
 
 			liberalism_small = {
+				
 			}
 			populism = {
 			}
@@ -186,6 +187,10 @@ ideologies = {
 			}
 			Britain_republic = {
 				can_be_randomly_selected = no
+			}
+			CSA_liberalism_small = {
+				can_be_randomly_selected = no
+				color = { 217 214 0 }
 			}
 
 		}
@@ -249,7 +254,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 0 102 204 }
+		color = { 151 172 205 }
 
 		rules = {
 			can_force_government = yes
@@ -306,7 +311,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 0 0 102 }
+		color = { 80 78 79 }
 
 		rules = {
 			can_force_government = yes
@@ -350,8 +355,12 @@ ideologies = {
 			Manstein_ideologies = {
 				can_be_randomly_selected = no
 			}
-			Yuanism = {
+			Yuanism = { #袁世凯主义
 				can_be_randomly_selected = no
+			}
+			CSA_Hueylon_Doctrine = { #休伊朗主义
+				can_be_randomly_selected = no
+				color = { 176 224 230 }
 			}
 		}
 
@@ -363,7 +372,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 96 96 96 }
+		color = { 56 56 56 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -437,7 +446,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 
-		color = { 32 32 32 }
+		color = { 24 24 24 }
 
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -480,7 +489,7 @@ ideologies = {
 			Chauvinism = {
 				can_be_randomly_selected = no
 			}
-			Confederate = {
+			CSA_Confederate = {
 				can_be_randomly_selected = no
 			}
 			MEX_cosmic_racism = { #宇宙种族主义

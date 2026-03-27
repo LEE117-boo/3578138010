@@ -1,8 +1,56 @@
 ﻿division_template = {
-	name = "Landsturmregiment"
-	is_locked = yes
-	template_counter = 3 # The Crossed Rifles
+	name = "里士满近卫师"
+	is_locked = no
+	#template_counter = 0 # The Crossed Rifles
 	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		maintenance_company = {x = 0 y = 1}
+	}
+}
+
+	units = {
+		division = {
+			name = "里士满第1近卫师"
+			location = 10412
+			division_template = "里士满近卫师"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "里士满第2近卫师"
+			location = 1506
+			division_template = "里士满近卫师"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "里士满第3近卫师"
+			location = 11841
+			division_template = "里士满近卫师"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+
+}
+division_template = {
+	name = "纽约“祖阿夫”步兵师"
+	regiments = { }
+		division_names_group = GER_Inf_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -14,302 +62,426 @@
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y =0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0}
+		field_hospital = {x = 0 y = 1}
+	}
+	
+}
+	units = {
+		division = {
+			name = "纽约第1“祖阿夫”步兵师"
+			location = 10029
+			division_template = "纽约“祖阿夫”步兵师"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "纽约第2“祖阿夫”步兵师"
+			location = 10047
+			division_template = "纽约“祖阿夫”步兵师"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "纽约第3“祖阿夫”步兵师"
+			location = 4653
+			division_template = "纽约“祖阿夫”步兵师"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "纽约第4“祖阿夫”步兵师"
+			location = 1485
+			division_template = "纽约“祖阿夫”步兵师"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "纽约第5“祖阿夫”步兵师"
+			location = 1547
+			division_template = "纽约“祖阿夫”步兵师"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+	}
+division_template = {
+	name = "弗吉尼亚骑兵团部队"
+	is_locked = no
+	#template_counter = 0 # The Crossed Rifles
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y =0 }
 	}
 }
 
-units = {
-	division = {
-		name = "1. Landsturmregiment"
-		location = 873
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
+	units = {
+		division = {
+			name = "弗吉尼亚第1骑兵团部队"
+			location = 3823
+			division_template = "弗吉尼亚骑兵团部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "弗吉尼亚第2骑兵团部队"
+			location = 11738
+			division_template = "弗吉尼亚骑兵团部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "弗吉尼亚第3骑兵团部队"
+			location = 6846
+			division_template = "弗吉尼亚骑兵团部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "弗吉尼亚第4骑兵团部队"
+			location = 788
+			division_template = "弗吉尼亚骑兵团部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "弗吉尼亚第5骑兵团部队"
+			location = 3925
+			division_template = "弗吉尼亚骑兵团部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "弗吉尼亚第6骑兵团部队"
+			location = 1506
+			division_template = "弗吉尼亚骑兵团部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "弗吉尼亚第7骑兵团部队"
+			location = 7558
+			division_template = "弗吉尼亚骑兵团部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "弗吉尼亚第8骑兵团部队"
+			location = 9779
+			division_template = "弗吉尼亚骑兵团部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "弗吉尼亚第9骑兵团部队"
+			location = 6846
+			division_template = "弗吉尼亚骑兵团部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "弗吉尼亚第10骑兵团部队"
+			location = 11738
+			division_template = "弗吉尼亚骑兵团部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+}
+division_template = {
+	name = "田纳西州立武装野战部队"
+	is_locked = no
+	#template_counter = 0 # The Crossed Rifles
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		 mountaineers = { x = 0 y = 0 }
+		 mountaineers = { x = 0 y = 1 }
+		 mountaineers = { x = 0 y = 2 }
 	}
-	division = {
-		name = "2. Landsturmregiment"
-		location = 951
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
+	
+}
+
+	units = {
+		division = {
+			name = "田纳西州第1立武装野战部队"
+			location = 10281
+			division_template = "田纳西州立武装野战部队"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+
+}
+division_template = {
+	name = "邦联民兵志愿兵团"
+	is_locked = no
+	#template_counter = 0 # The Crossed Rifles
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		 militia = { x = 0 y = 0 }
+		 militia = { x = 0 y = 1 }
+		 militia = { x = 0 y = 2 }
+		 militia = { x = 1 y = 0 }
+		 militia = { x = 1 y = 1 }
 	}
-	division = {
-		name = "3. Landsturmregiment"
-		location = 11873  
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
+	
+}
+
+	units = {
+		division = {
+			name = "邦联第1民兵志愿兵团"
+			location = 5103
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第2民兵志愿兵团"
+			location = 6803
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第3民兵志愿兵团"
+			location = 1806
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第4民兵志愿兵团"
+			location = 7762
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第5民兵志愿兵团"
+			location = 12624
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第6民兵志愿兵团"
+			location = 2043
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第7民兵志愿兵团"
+			location = 4597
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第8民兵志愿兵团"
+			location = 7834
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第9民兵志愿兵团"
+			location = 4625
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第10民兵志愿兵团"
+			location = 1753
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第11民兵志愿兵团"
+			location = 4814
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第12民兵志愿兵团"
+			location = 10532
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第13民兵志愿兵团"
+			location = 12458
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第14民兵志愿兵团"
+			location = 7543
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "邦联第15民兵志愿兵团"
+			location = 1646
+			division_template = "邦联民兵志愿兵团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+}
+division_template = {
+	name = "佐治亚炮兵机动团"
+	is_locked = no
+	#template_counter = 0 # The Crossed Rifles
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		 infantry = { x = 0 y = 0 }
+		 infantry = { x = 0 y = 1 }
+		 infantry = { x = 0 y = 2 }
+		 infantry = { x = 1 y = 0 }
+		 infantry = { x = 1 y = 1 }
+		 artillery_brigade = { x = 2 y = 0}
+		 artillery_brigade = { x = 2 y = 1}
+		 artillery_brigade = { x = 2 y = 2}
+		 artillery_brigade = { x = 3 y = 0}
+		 artillery_brigade = { x = 3 y = 1}
 	}
-	division = {
-		name = "4. Landsturmregiment"
-		location = 10343
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
 	}
-	division = {
-		name = "5. Landsturmregiment"
-		location = 1506
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
+}
+
+	units = {
+		division = {
+			name = "佐治亚第1炮兵机动团"
+			location = 7612
+			division_template = "佐治亚炮兵机动团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "佐治亚第2炮兵机动团"
+			location = 10437
+			division_template = "佐治亚炮兵机动团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "佐治亚第3炮兵机动团"
+			location = 12498
+			division_template = "佐治亚炮兵机动团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "佐治亚第4炮兵机动团"
+			location = 12470
+			division_template = "佐治亚炮兵机动团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "佐治亚第5炮兵机动团"
+			location = 9996
+			division_template = "佐治亚炮兵机动团"
+			start_experience_factor = 0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+
+}
+division_template = {
+	name = "联盟国海军陆战队"
+	is_locked = no
+	#template_counter = 0 # The Crossed Rifles
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		 marine = { x = 0 y = 0 }
+		 marine = { x = 0 y = 1 }
+		 marine = { x = 0 y = 2 }
+		 
 	}
-	division = {
-		name = "6. Landsturmregiment"
-		location = 7558
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "7. Landsturmregiment"
-		location = 9779
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "8. Landsturmregiment"
-		location = 12637
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "9. Landsturmregiment"
-		location = 7547  
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "10. Landsturmregiment"
-		location = 4452
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "11. Landsturmregiment"
-		location = 1445
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "12. Landsturmregiment"
-		location = 6696
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "13. Landsturmregiment"
-		location = 10727
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "14. Landsturmregiment"
-		location = 4402
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "15. Landsturmregiment"
-		location = 10586
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "16. Landsturmregiment"
-		location = 4540
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "17. Landsturmregiment"
-		location = 4449
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "18. Landsturmregiment"
-		location = 4569
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "19. Landsturmregiment"
-		location = 1621
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "20. Landsturmregiment"
-		location = 12361
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "21. Landsturmregiment"
-		location = 10717
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "22. Landsturmregiment"
-		location = 7834  
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "23. Landsturmregiment"
-		location = 1352  # Frankfurt
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "24. Landsturmregiment"
-		location = 7892 # Stuttgart
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "25. Landsturmregiment"
-		location = 4740
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "26. Landsturmregiment"
-		location = 10340
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "27. Landsturmregiment"
-		location = 4586  # Ulm
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "28. Landsturmregiment"
-		location = 1738
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "29. Landsturmregiment"
-		location = 12627
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "30. Landsturmregiment"
-		location = 868
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "31. Landsturmregiment"
-		location = 7684
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "32. Landsturmregiment"
-		location = 7764
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "33. Landsturmregiment"
-		location = 7818  # Frankfurt
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "34. Landsturmregiment"
-		location = 7821
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "35. Landsturmregiment"
-		location = 12765
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "36. Landsturmregiment"
-		location = 11814
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "37. Landsturmregiment"
-		location = 4799
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "38. Landsturmregiment"
-		location = 1651
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "39. Landsturmregiment"
-		location = 941
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "40. Landsturmregiment"
-		location = 9911
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "41. Landsturmregiment"
-		location = 3784
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
-	division = {
-		name = "42. Landsturmregiment"
-		location = 986
-		division_template = "Landsturmregiment"
-		start_equipment_factor = 1
-		start_experience_factor = 0.5
-	}
+	
+}
+
+	units = {
+		division = {
+			name = "联盟国第1海军陆战队"
+			location = 7552
+			division_template = "联盟国海军陆战队"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "联盟国第2海军陆战队"
+			location = 4464
+			division_template = "联盟国海军陆战队"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+		division = {
+			name = "联盟国第3海军陆战队"
+			location = 7480
+			division_template = "联盟国海军陆战队"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+			start_manpower_factor = 1.0
+		}
+
 }

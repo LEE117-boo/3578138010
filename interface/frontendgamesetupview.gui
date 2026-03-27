@@ -1020,11 +1020,11 @@ guiTypes = {
 				position = { x = 20 y = -3 }
 			}
 
-			iconType ={
-				name ="pol_view_bg"
-				spriteType = "GFX_small_pol_piechart_overlay"
-				position = { x= -5 y = -5 }
-			}
+			#iconType ={
+			#	name ="pol_view_bg"
+			#	spriteType = "GFX_small_pol_piechart_overlay"
+			#	position = { x= -5 y = -5 }
+			#}
 
 			iconType ={
 				name ="piechart_frame"

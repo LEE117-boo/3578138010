@@ -36,42 +36,7 @@ set_technology = {
 	basic_train = 1
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "By Blood Alone" }
-	}
-	set_technology = {
-		early_fighter = 1
-		cv_early_fighter = 1
-		cv_naval_bomber1 = 1
-		cv_CAS1 = 1
-		naval_bomber1 = 1
-		CAS1 = 1
-		early_bomber = 1
-		
-	}
-}
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_technology = {
-		gwtank = 1
-	}
-}
-if = {
-	limit = {
-		
-		has_dlc = "No Step Back"
-		
-	}
-	set_technology = {
-		gwtank_chassis = 1
-	}
-}
 
 ######傀儡国
 if = {
@@ -83,19 +48,45 @@ if = {
 	}
 	set_autonomy = {
 		target = TEX
-		autonomous_state = autonomy_dominion
+		autonomous_state = Autonomous_state
 		freedom_level = 0.5
 	}
 	set_autonomy = {
 		target = SCF
-		autonomous_state = autonomy_satellite
+		autonomous_state = Autonomous_state
 		freedom_level = 0.5
 	}
 	set_autonomy = {
 		target = NMX
-		autonomous_state = autonomy_dominion
+		autonomous_state = Autonomous_state
 		freedom_level = 0.5
 	}
+	set_autonomy = {
+		target = COO
+		autonomous_state = Autonomous_state
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = UTA
+		autonomous_state = Autonomous_state
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = ARI
+		autonomous_state = Autonomous_state
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = NEV
+		autonomous_state = Autonomous_state
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = SCF
+		autonomous_state = Autonomous_state
+		freedom_level = 0.5
+	}
+
 
 	else = {
 		puppet = TEX
@@ -106,33 +97,34 @@ if = {
 
 load_oob = "Second_Civil_War_CSA"
 
-#领导人
-recruit_character = CSA_Charles_Coughlin
+recruit_character = CSA_Charles_Coughlin #查尔斯·考夫林
+recruit_character = CSA_Hugh_Long #休伊·朗
+recruit_character = CSA_Placeholder #占位
 
-
-recruit_character = CSA_georges_vereecken
-recruit_character = CSA_raoul_overstraeten
-recruit_character = CSA_rene_lagrou
-recruit_character = CSA_paul_van_zeeland
-recruit_character = CSA_victor_van_strydonck_de_burkel
-recruit_character = CSA_fritz_conrad
-recruit_character = CSA_fritz_lob
-recruit_character = CSA_georges_deffontaine
-recruit_character = CSA_victor_strydonck_burkel
-recruit_character = CSA_charles_bastin
-recruit_character = CSA_paul-henri_spaak
-recruit_character = CSA_gaston_eyskens
-recruit_character = CSA_leon_degrelle
-recruit_character = CSA_jules_iserentant
-recruit_character = CSA_jules_pire
-recruit_character = CSA_oscar_michiels
-recruit_character = CSA_yvan_gerard
-recruit_character = CSA_William_Henry_Davis_Murray
-
-
-
-
-
+recruit_character = CSA_Walton_Walker #沃尔顿·沃克
+recruit_character = CSA_Leslie_James #莱斯利·詹姆斯
+recruit_character = CSA_Omar_Nelson_Bradley #奥马尔·纳尔逊·布莱德雷
+recruit_character = CSA_Frederick_Halsey #弗雷德里克·哈尔西
+recruit_character = CSA_Simon_Bolivar_Bachner #西蒙·玻利瓦尔·巴克纳
+recruit_character = CSA_William_Henry_Ruperts #威廉·亨利·鲁珀特斯
+recruit_character = CSA_Clarence_Hubner #克莱伦斯·许布纳
+recruit_character = CSA_Edward_Armand #爱德华·阿尔芒德
+recruit_character = CSA_William_Arnold  #威廉·阿诺德
+recruit_character = CSA_Terry_Allen #特里·艾伦
+recruit_character = CSA_Alexander_Anderson #亚历山大·安德森
+recruit_character = CSA_Henry_Orland #亨利·奥兰德
+recruit_character = CSA_Levin_Allen #莱文·艾伦
+recruit_character = CSA_William_Belkin #威廉·贝尔金
+recruit_character = CSA_William_Butler #威廉·巴特勒
+recruit_character = CSA_Frank_Kulin #弗兰克·库林
+recruit_character = CSA_Norman_Cotta #诺曼·柯塔
+recruit_character = CSA_Douglas_MacArthur #道格拉斯·麦克阿瑟
+recruit_character =	CSA_Earl_Lang # 厄尔·朗
+recruit_character =	CSA_Harold_Iks # 哈罗德·伊克斯
+recruit_character =	CSA_henry_ford # 亨利·福特
+recruit_character =	CSA_Lyndon_B_Johnson # 林登·B·约翰逊
+recruit_character =	CSA_Joseph_Raymond_McCarthy # 约瑟夫·雷芒德·麦卡锡
+recruit_character =	CSA_John_Joseph_Pershing # 约翰·约瑟夫·潘兴
 
 set_convoys = 100
 
@@ -144,106 +136,35 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	nazism = 12
-	Conservatism = 14
-	fascism = 61
-	Authoritarianism = 13
+	fascism = 32
+	Communism = 4
+	Conservatism = 11
+	Authoritarianism = 20
+	nazism = 10
+	Liberalism = 21
+	tttt = 2
 }
 
 add_ideas = {
 	CSA_slave_and_industry
 	CSA_west_slave_baodong
-	#CSA_fight_with_dixie#####已完成
 	CSA_victory_of_civ_war
 	CSA_jackson_stone_wall
 
-}
-add_timed_idea = {
-	idea = London_Financial_Crisis
-	days = 100
-}
-
-
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Barracuda Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-	obsolete = yes
+	#顾问
+	CSA_Earl_Lang
+	CSA_Harold_Iks
+	CSA_Joseph_Raymond_McCarthy
+	CSA_Lyndon_B_Johnson
 }
 
-create_equipment_variant = {
-	name = "Farragut Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 3
-		destroyer_engine_upgrade = 3
-		ship_ASW_upgrade = 3
-		ship_anti_air_upgrade = 3
-	}
+set_power_balance = {
+    id = CSA_Development_of_the_AP
+    left_side = CSA_traditionalist
+    right_side = CSA_industrialist
+    set_value = 0.15
 }
 
-create_equipment_variant = {
-	name = "Portland Class"
-	type = heavy_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_armor_upgrade = 2
-		ship_gun_upgrade = 2
-	}
-}
 
-create_equipment_variant = {
-	name = "Pennsylvania Class"
-	type = battleship_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_armor_upgrade = 1
-		ship_gun_upgrade = 1
-	}
-	obsolete = yes
-}
 
-create_equipment_variant = {
-	name = "New Mexico Class"
-	type = battleship_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_armor_upgrade = 2
-		ship_gun_upgrade = 2
-	}
-}
-
-create_equipment_variant = {
-	name = "Colorado Class"
-	type = battleship_1
-	upgrades = {
-		ship_reliability_upgrade = 3
-		ship_engine_upgrade = 3
-		ship_armor_upgrade = 3
-		ship_gun_upgrade = 4
-	}
-}
-
-create_equipment_variant = {
-	name = "Yorktown Class"
-	type = carrier_2
-	upgrades = {
-		ship_deckspace_upgrade = 1
-		carrier_armor_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_reliability_upgrade = 1
-	}
-
-}
 
