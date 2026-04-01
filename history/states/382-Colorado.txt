@@ -9,7 +9,7 @@ state={
 	state_category = town
 
 	history={
-		owner = COO
+		owner = BBR
 		add_core_of = COO
 		add_core_of = CSA
 		buildings = {

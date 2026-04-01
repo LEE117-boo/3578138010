@@ -1,16 +1,18 @@
 ideas = {
 	country = {
 		#开局
-		FRA_idea_startup_1 = { #黯淡无光的议会
-			picture = GFX_FRA_idea_startup_1
+		FRA_A_dim_and_lp = { #黯淡无光的议会
+			picture = GFX_idea_FRA_A_dim_and_lp
 			modifier = {
 				stability_factor = -0.1
 				political_power_cost = 0.05
 			}
 		}
-		FRA_idea_startup_2 = { #法兰西武装力量
-			picture = GFX_FRA_idea_startup_2
+		FRA_French_Armed_Forces = { #法兰西武装力量
+			picture = GFX_idea_FRA_French_Armed_Forces
 			modifier = {
+				army_attack_factor = -0.2
+				breakthrough_factor = -0.2
 				land_doctrine_cost_factor = 0.3
 				naval_doctrine_cost_factor = 0.3
 				air_doctrine_cost_factor = 0.3
@@ -47,22 +49,22 @@ ideas = {
 				}
 			}
 		}
-		FRA_idea_startup_3 = { #法兰西殖民总局
-			picture = GFX_FRA_idea_startup_3
+		FRA_French_Colonial_Office = { #法兰西殖民总局
+			picture = GFX_idea_FRA_French_Colonial_Office
 			modifier = {
 				consumer_goods_factor = 0.15
 				resistance_growth = 0.1	
-				compliance_gain = -0.002	
+				compliance_gain = -0.01	
 				resistance_damage_to_garrison = 0.2
 			}
 		}
-		FRA_idea_startup_4 = { #幕后的傀儡师
-			picture = GFX_FRA_idea_startup_4
+		FRA_Council_of_Ministers = { #幕后的傀儡师
+			picture = GFX_idea_FRA_Council_of_Ministers
 			modifier = {
 			}
 		}
-		FRA_idea_startup_5 = { #经济状况 - 前路迷茫
-			picture = GFX_FRA_idea_startup_5
+		FRA_economic_situation_1 = { #经济状况 - 前路迷茫
+			picture = GFX_idea_FRA_economic_situation_1
 			modifier = {
 				industrial_capacity_factory = -0.2
 				production_speed_industrial_complex_factor = -0.3
@@ -72,8 +74,8 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.25
 			}
 		}
-		FRA_idea_startup_5_1 = { #经济状况 - 光明甚微
-			#picture = GFX_FRA_idea_startup_5
+		FRA_economic_situation_2 = { #经济状况 - 光明甚微
+			picture = GFX_idea_FRA_economic_situation_2
 			modifier = {
 				industrial_capacity_factory = 0.05
 				production_speed_industrial_complex_factor = 0.1
@@ -85,32 +87,32 @@ ideas = {
 		}
 		
 		#国策
-		FRA_idea_startup_3_l = { #法兰西殖民总局，搜索
-			picture = GFX_FRA_idea_startup_3_l
+		FRA_French_Colonial_Office_l = { #法兰西殖民总局，搜索
+			picture = GFX_FRA_French_Colonial_Office_l
 			modifier = {
 				consumer_goods_factor = 0.15
 				resistance_growth = 0.1		
 				resistance_damage_to_garrison = 0.25
 			}
 		}
-		FRA_idea_startup_3_r_1 = { #法兰西殖民总局，小恩小惠
-			picture = GFX_FRA_idea_startup_3_r_1
+		FRA_French_Colonial_Office_r_1 = { #法兰西殖民总局，小恩小惠
+			picture = GFX_FRA_French_Colonial_Office_r_1
 			modifier = {
 				consumer_goods_factor = 0.1
 				resistance_growth = 0.1		
 				resistance_damage_to_garrison = 0.2
 			}
 		}
-		FRA_idea_startup_3_r_2 = { #法兰西殖民总局，动用
-			picture = GFX_FRA_idea_startup_3_r_2
+		FRA_French_Colonial_Office_r_2 = { #法兰西殖民总局，动用
+			picture = GFX_FRA_French_Colonial_Office_r_2
 			modifier = {
 				consumer_goods_factor = 0.1
 				resistance_growth = 0.1		
 				resistance_damage_to_garrison = 0.1
 			}
 		}
-		FRA_idea_startup_3_1 = { #法兰西殖民总局，团结之国
-			picture = GFX_FRA_idea_startup_3_r_1
+		FRA_French_Colonial_Office_1 = { #法兰西殖民总局，团结之国
+			picture = GFX_FRA_French_Colonial_Office_r_1
 			modifier = {
 				consumer_goods_factor = 0.1
 				resistance_growth = 0.05

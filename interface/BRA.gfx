@@ -1,0 +1,24 @@
+spriteTypes = { 
+	###领导人
+	spriteType = { #佩罗徳三世
+		name = "GFX_leader_BRA_Pedro_III" 
+		texturefile = "gfx/leaders/BRA/BRA_Pedro_III.dds"
+	}
+	###民族精神
+	spriteType = { #牛奶和咖啡的专制
+		name = "GFX_idea_BRA_The_tyranny_of_mac" 
+		texturefile = "gfx/interface/ideas/BRA/BRA_The_tyranny_of_mac.dds"
+	}
+	#spriteType = { #膨胀的州权
+	#	name = "GFX_idea_BRA_Inflated_states_rights" 
+	#	texturefile = "gfx/interface/ideas/BRA/BRA_Inflated_states_rights.dds"
+	#}
+	spriteType = { #嚣张的共和派
+		name = "GFX_idea_BRA_Arrogant_Republicans" 
+		texturefile = "gfx/interface/ideas/BRA/BRA_Arrogant_Republicans.dds"
+	}
+	spriteType = { #单一的经济
+		name = "GFX_idea_BRA_unitary_economy" 
+		texturefile = "gfx/interface/ideas/BRA/BRA_unitary_economy.dds"
+	}
+}

@@ -278,8 +278,8 @@ focus_tree = {
 		completion_reward = {
 			news_event = { id = FRA_TVE_EVENT.9 }
 			swap_ideas = {
-				remove_idea = FRA_idea_startup_3
-				add_idea = FRA_idea_startup_3_l
+				remove_idea = FRA_French_Colonial_Office
+				add_idea = FRA_French_Colonial_Office_l
 			}
 		}
 	}
@@ -397,8 +397,8 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -50
 			swap_ideas = {
-				remove_idea = FRA_idea_startup_3
-				add_idea = FRA_idea_startup_3_r_1
+				remove_idea = FRA_French_Colonial_Office
+				add_idea = FRA_French_Colonial_Office_r_1
 			}
 		}
 	}
@@ -425,8 +425,8 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = FRA_1_r2_tt
 			swap_ideas = {
-				remove_idea = FRA_idea_startup_3_r_1
-				add_idea = FRA_idea_startup_3_r_2
+				remove_idea = FRA_French_Colonial_Office_r_1
+				add_idea = FRA_French_Colonial_Office_r_2
 			}
 		}
 	}
@@ -587,13 +587,13 @@ focus_tree = {
 					has_completed_focus = FRA_1_r2_1
 				}
 				swap_ideas = {
-					remove_idea = FRA_idea_startup_3_r_2
-					add_idea = FRA_idea_startup_3_1
+					remove_idea = FRA_French_Colonial_Office_r_2
+					add_idea = FRA_French_Colonial_Office_1
 				}
 				else = {
 					swap_ideas = {
-						remove_idea = FRA_idea_startup_3_l
-						add_idea = FRA_idea_startup_3_1
+						remove_idea = FRA_French_Colonial_Office_l
+						add_idea = FRA_French_Colonial_Office_1
 					}
 				}
 			}

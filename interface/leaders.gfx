@@ -279,10 +279,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TUR/TUR_Mustafa_Kemal_Ataturk.dds"
 	}
 	spriteType = {
-		name = "GFX_CSA_William_Henry_Davis_Murray"
-		texturefile = "gfx/leaders/CSA/CSA_William_Henry_Davis_Murray.dds"
-	}
-	spriteType = {
 		name = "GFX_USA_George_William_Norris"
 		texturefile = "gfx/leaders/USA/USA_George_William_Norris.dds"
 	}

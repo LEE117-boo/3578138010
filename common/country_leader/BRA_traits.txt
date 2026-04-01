@@ -1,0 +1,6 @@
+leader_traits ={
+	BRA_young_king = { #年轻的国王
+		political_power_factor = -0.05
+		command_power_gain_mult = -0.1
+	}
+}

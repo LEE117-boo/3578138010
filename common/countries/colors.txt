@@ -1249,3 +1249,7 @@ TWQ = {
 	color = rgb{ 105 60 55}
 	color_ui = rgb{ 0 127 14 }
 }
+BBR = {
+	color = rgb{ 80 0 0 }
+	color_ui = rgb{ 0 127 14 }
+}

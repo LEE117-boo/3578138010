@@ -381,7 +381,7 @@ UTA = "countries/utah.txt"
 ARI = "countries/Arizona.txt"
 COO = "countries/Colorado.txt"
 IDA = "countries/Idaho.txt"
-
+BBR = "countries/Black Belt Republic.txt"
 
 
 #德国内战新tag

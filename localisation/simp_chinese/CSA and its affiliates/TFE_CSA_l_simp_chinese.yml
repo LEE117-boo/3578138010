@@ -6,9 +6,8 @@
     CSA_Charles_Coughlin_desc:0 "早年的考夫林先生作为一名神父信奉天主教，并且在佐治亚州和路易斯安那州拥有了很广泛的 民众基础，1932年时在教徒和部分被收买的奴隶主的支持下成功当选佐治亚州邦联议员，并在接下来的一年中取得多项政绩，并 通过著名的“迪克西电台”传播民粹思想和南方爱国主义精神，这种思想大受欢迎并拉拢了众多南方庄园主和农民，使其名声大   噪，后在被亨利提名并通过了邦联政府大选考验，成为美国南方最有名气的政治家兼宗教领袖。"
     CSA_Hugh_Long:0 "休伊·朗"
     CSA_Placeholder:0 "占位"
-    TEX_kelesi_xiusidun:0"克雷斯·休斯顿"
-    SCF_zizhi_weiyuanhui:0"南加利福尼亚自治委员会"
-    NMX_jierbote_aburuier:0"吉尔伯托·奥古斯托·阿布瑞尔"
+    
+    
     CSA_slave_and_industry:0"奴隶与工业化"
     CSA_slave_and_industry_desc:0"\n\n\n\n£GFX_CSA_slave_and_industry_Pictures\n\n\n\n\n\n在第一次美国内战之后  的日子里，奴隶制与现代工业化的冲突日益明显，在加州，许多旧庄园主和蓄奴人依旧在乡村和城市郊区从事着黑暗的奴隶买    卖；而在费城与里士满，工业化的浪潮正逐步吞没落后的田园区，而工业与农业的发展矛盾逐渐演变成了邦联大会上的政治问题    ……"
     CSA_west_slave_baodong:0"西部奴隶暴动"
@@ -21,38 +20,34 @@
     CSA_jackson_stone_wall_desc:0"\n\n\n\n£GFX_CSA_jackson_stone_wall_Pictures\n\n\n\n\n\n托马斯·乔纳森·杰克逊  （1824年1月21日－1869年5月10日），绰号“石墙”，是内战期间著名的邦联军将领。他曾在墨西哥-美国战争中担任美陆军军 官，包括在奇瓦瓦战役中表现出色。从1851年到1861年，杰克逊在弗吉尼亚军事学院任教。1851年曾在弗吉尼亚军事学院任教。 1861年，弗吉尼亚州脱离美国，杰克逊应征加入南军。1857年7月，他在邦克山战役中指挥一个旅，为南军提供关键增援，击退  了凶猛的北军攻势。因此，巴纳德将军将杰克逊与一块“石头墙”相提并论，这也成为了杰克逊的绰号。\n时过境迁，这种精神依  然被民间传颂，杰克逊精神不仅代表着为家乡而死为家乡而战的忠心，更象征着各州团结在一面旗帜下共同抗击北方压迫的决    心。"
     CSA_fight_with_dixie:0"与迪克西共进退"
     CSA_fight_with_dixie_desc:0"我们生在南方，作为一名南方人，无论男女老少，都誓要为邦联和祖国付出最后一滴血，为了  联盟国！为了罗伯特李将军！"
-    TEX_guxing:0"孤星共和国"
-    TEX_zizhi_heiren_xianfa:0"自治州与黑人奴隶宪法"
-    SCF_hunluan_weiyuanhui:0"混乱的委员会"
-    SCF_yiming_qingrao:0"移民侵扰"
-    SCF_yiming_qingrao_desc:0"因常年遭到墨西哥逃犯、美利坚联盟国的黑人流放者和外裔非法移民的侵扰，在街头地下走私和  器官贩卖等行业处处可见，腐败的警察和耀武扬威的黑帮成了莫大的讽刺，维持住这里的秩序已然是一件难事"
-    NMX_black_youxing:0"黑人游行"
-    
+
     
     CSA_lianbang_shenfu:0"联邦的神父"
-    NMX_mex_american:0"墨西哥裔美国人"
-    
+ 
     
     CSA_Communism_party:0 "§R非法§!"
+    CSA_Communism_party_long:0 "§R非法§!"
     CSA_Socialism_party:0 "§R非法§!"
+    CSA_Socialism_party_long:0 "§R非法§!"
     CSA_Progressivism_party:0 "§R非法§!"
+    CSA_Progressivism_party_long:0 "§R非法§!"
     CSA_Democracy_party:0 "§R非法§!"
+    CSA_Democracy_party_long:0 "§R非法§!"
     CSA_fascism_party:0"统一邦联党(考夫林派)"
+    CSA_fascism_party_long:0"统一邦联党(考夫林派)"
     CSA_Conservatism_party:0 "统一邦联党(左派)"
+    CSA_Conservatism_party_long:0 "统一邦联党(左派)"
     CSA_Authoritarianism_party:0 "统一邦联党(休伊·郎派)"
+    CSA_Authoritarianism_party_long:0 "统一邦联党(休伊·郎派)"
     CSA_nazism_party:0 "三K党运动"
+    CSA_nazism_party_long:0 "三K党运动"
     CSA_Liberalism_party:0"新共和党"
+    CSA_Liberalism_party_long:0"新共和党"
     CSA_tttt_party:0"联盟国军队"
+    CSA_tttt_party_long:0"联盟国军队"
     
-    TEX_Conservatism_party:0"德克萨斯共和党"
-    TEX_nazism_party:0"统一邦联党（德克萨斯分会）"
-    
-    NMX_nazism_party:0"统一邦联党（新墨西哥州分会）"
-    NMX_Conservatism_party:0"“圣菲”运动"
-    NMX_Authoritarianism_party:0"联盟国军队"
-    
-    SCF_Authoritarianism_party:0"南加利福尼亚自治委员会"
-    
+ 
+
     CSA_Development_of_the_AP:0 "联盟国发展"
     CSA_industrialist:0 "工业派"
     CSA_traditionalist:0 "传统派"

@@ -115,8 +115,20 @@ spriteTypes = {
 		name = "GFX_ideology_MEX_cosmic_racism"
 		texturefile = "gfx/interface/ideologies/MEX_cosmic_racism.dds"
 	}
-	spriteType = { #宇宙种族主义
+	spriteType = { #休伊朗主义
 		name = "GFX_ideology_CSA_Hueylon_Doctrine"
 		texturefile = "gfx/interface/ideologies/CSA_Hueylon_Doctrine.dds"
+	}
+	spriteType = { #激进左翼民粹主义
+		name = "GFX_ideology_Radical_left_wing_populism"
+		texturefile = "gfx/interface/ideologies/Radical_left_wing_populism.dds"
+	}
+	spriteType = { #温和左翼民粹主义
+		name = "GFX_ideology_moderate_left_wing_populism"
+		texturefile = "gfx/interface/ideologies/moderate_left_wing_populism.dds"
+	}
+	spriteType = { #无支配体制
+		name = "GFX_ideology_non_domination_system"
+		texturefile = "gfx/interface/ideologies/non_domination_system.dds"
 	}
 }

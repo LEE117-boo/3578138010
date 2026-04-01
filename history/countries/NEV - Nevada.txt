@@ -12,7 +12,7 @@ set_technology = {
 	basic_train = 1
 }
 
-recruit_character = SCF_zizhi_weiyuanhui
+recruit_character = SCF_Southern_California_AC 
 
 
 add_ideas = {

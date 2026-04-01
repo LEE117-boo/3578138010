@@ -22,6 +22,24 @@ defined_text = {
 		}
 		localization_key = socialism_small
 	}
+	text = {
+		trigger = { #激进左翼民粹主义
+			OR = {
+				has_country_leader_ideology = Radical_left_wing_populism
+			}
+			
+		}
+		localization_key = Radical_left_wing_populism
+	}
+	text = {
+		trigger = { #温和左翼民粹主义
+			OR = {
+				has_country_leader_ideology = moderate_left_wing_populism
+			}
+			
+		}
+		localization_key = moderate_left_wing_populism
+	}
 
 
 	#进步主义及其子意识形态
@@ -86,10 +104,18 @@ defined_text = {
 				has_country_leader_ideology = Conservatism_small
 				has_country_leader_ideology = Britain_Conservatism
 				has_country_leader_ideology = Austria_Hungary_ideologies_Conservatism
+				has_country_leader_ideology = FRA_blue
 			}
+			
 			
 		}
 		localization_key = Conservatism_small
+	}
+	text = {
+		trigger = { #右翼保守主义
+			has_country_leader_ideology = Right_wing_conservatism
+		}
+		localization_key = Right_wing_conservatism
 	}
 
 	#威权主义及其子意识形态
@@ -115,6 +141,18 @@ defined_text = {
 		}
 		localization_key = CSA_Hueylon_Doctrine
 	}
+	text = {
+		trigger = { #无支配体制
+			has_country_leader_ideology = non_domination_system
+		}
+		localization_key = non_domination_system
+	}
+	text = {
+		trigger = { #军政府
+			has_country_leader_ideology = Military_dictatorship
+		}
+		localization_key = Military_dictatorship
+    }
 
 	#专制主义及其子意识形态
 	text = {
@@ -123,7 +161,6 @@ defined_text = {
 				has_country_leader_ideology = tttt_small
 				has_country_leader_ideology = Wilhelm_II_ideologies
 				has_country_leader_ideology = Austria_Hungary_ideologies
-				has_country_leader_ideology = Jacksonian_Democracy
 				has_country_leader_ideology = Absolute_monarchy
 				has_country_leader_ideology = Theocracy
 			}
@@ -156,6 +193,7 @@ defined_text = {
 		localization_key = Military_dictatorship
     }
 	
+	
 	#法西斯主义及其子意识形态
 	text = {
 		trigger = { #法西斯主义
@@ -167,12 +205,6 @@ defined_text = {
 		}
 		localization_key = fascism_small
 	}
-	text = {
-		trigger = { #后民族沙文主义
-			has_country_leader_ideology = Chauvinism
-		}
-		localization_key = Chauvinism
-    }
 	text = {
 		trigger = { #邦联国体制
 			has_country_leader_ideology = CSA_Confederate

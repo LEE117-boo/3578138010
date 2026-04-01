@@ -60,7 +60,12 @@ ideologies = {
 			socialism_small = {
 
 			}
-			
+			Radical_left_wing_populism = { #激进左翼民粹主义
+
+			}
+			moderate_left_wing_populism = { #温和左翼民粹主义
+
+			}
 		}
 
 		dynamic_faction_names = {
@@ -300,6 +305,13 @@ ideologies = {
 			Austria_Hungary_ideologies_Conservatism = {
 				can_be_randomly_selected = no
 			}
+			Right_wing_conservatism = { #右翼保守主义
+				can_be_randomly_selected = no
+			}
+			FRA_blue = {
+				color = { 0 0 102 }
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -362,6 +374,12 @@ ideologies = {
 				can_be_randomly_selected = no
 				color = { 176 224 230 }
 			}
+			non_domination_system = { #无支配体制
+				can_be_randomly_selected = no
+			}
+			military_junta = { # 军政府
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -418,7 +436,7 @@ ideologies = {
 			Austria_Hungary_ideologies = {
 				can_be_randomly_selected = no
 			}
-			Jacksonian_Democracy = {
+			Jacksonian_Democracy = { #杰克逊民主
 				can_be_randomly_selected = no
 			}
 			Absolute_monarchy = {
@@ -434,8 +452,9 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			Military_dictatorship = { #军官独裁制
-				
+				can_be_randomly_selected = no
 			}
+		
 		}
 
 		dynamic_faction_names = {
@@ -484,9 +503,6 @@ ideologies = {
 			fascism_small = {
 			}
 			works_on_constitution = {
-				can_be_randomly_selected = no
-			}
-			Chauvinism = {
 				can_be_randomly_selected = no
 			}
 			CSA_Confederate = {

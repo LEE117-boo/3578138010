@@ -22,4 +22,5 @@ spriteTypes = {
 		name = "GFX_alert_progressbar"
 		texturefile = "gfx/interface/alert_progressbar.png"
 	}
+	
 }

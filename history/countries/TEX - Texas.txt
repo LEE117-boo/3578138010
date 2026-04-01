@@ -13,7 +13,7 @@ set_technology = {
 }
 
 
-recruit_character = TEX_kelesi_xiusidun
+recruit_character = TEX_Kress_Houston #克雷斯·休斯顿
 
 add_ideas = {
 	TEX_guxing

@@ -1,113 +1,25 @@
 ﻿capital = 554
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
-
-IF = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { camelry = 1 }
-}
-
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-	}
-}
 
 set_convoys = 5
 
-set_cosmetic_tag = SYR_mandate
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-	complete_special_project = {
-		project = sp:sp_air_radar
-	}
-}
-
-
+recruit_character = SYR_Ghazi_Ibn_Faisal #加齐·伊本·费萨尔
 set_politics = {
-	ruling_party = Liberalism
+	ruling_party = tttt
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	Liberalism = 50
-	fascism = 10
-	Communism = 10
-	Authoritarianism = 30
+	Communism = 5
+	Socialism = 10
+	Progressivism = 5
+	Liberalism = 6
+	Democracy = 5
+	Conservatism = 5
+	Authoritarianism = 8
+	tttt = 52
+	fascism = 4
 }
 
-recruit_character = SYR_mehemed_ali_abed
-recruit_character = SYR_hashim_al_atassi
 
-create_country_leader = {
-	name = "Antun Saadeh"
-	desc = ""
-	picture = GFX_portrait_Antun_Saadeh
-	ideology = fascism_small
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Khalid Bakdash"
-	desc = ""
-	picture = GFX_portrait_Khalid_Bakdash
-	ideology = communism_small
-	traits = {
-		#
-	}
-}

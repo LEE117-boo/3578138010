@@ -1,22 +1,9 @@
 ﻿l_simp_chinese:
 
-   CHL_nazism:"先锋党智利"
-   CHL_nazism_DEF:"先锋党智利"
-   CHL_Conservatism:"智利"
-   CHL_Conservatism_DEF:"智利"
-   CHL_tttt:"智利共和国"
-   CHL_tttt_DEF:"智利共和国"
-   CHL_tttt_ADJ:"智利"
-   CHL_Democracy:"智利共和国"
-   CHL_Democracy_DEF:"智利共和国"
-   CHL_Socialism:"智利社会主义共和国"
-   CHL_Socialism_DEF:"智利社会主义共和国"
-   CHL_nazism_ADJ:"智利"
-   CHL_Conservatism_ADJ:"智利"
-   CHL_Socialism_ADJ:"智利"
-   CHL:"智利"
-   CHL_DEF:"智利"
-   CHL_ADJ:"智利"
+   
+   CHL:"智利共和国"
+   CHL_DEF:"智利共和国"
+   CHL_ADJ:"智利共和国"
 
    CHL_Communism_party:0 "智利共产党"
    CHL_Communism_party_long:0 "智利共产党"

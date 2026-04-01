@@ -42,41 +42,41 @@ characters={
 		}
 	}
 
-	TEX_kelesi_xiusidun = {
-		name= TEX_kelesi_xiusidun
+	TEX_Kress_Houston = { #克雷斯·休斯顿
+		name= TEX_Kress_Houston
 		portraits={
 			civilian={
-				large=GFX_CSA_William_Henry_Davis_Murray
+				large=GFX_leader_TEX_Kress_Houston
 			}
 		}
 		country_leader={
-			ideology= Conservatism_small
+			ideology= Right_wing_conservatism
 			traits={  }
 			expire="1947.1.1.1"
 			id=-1
 		}
 	}
 
-	SCF_zizhi_weiyuanhui = {
-		name= SCF_zizhi_weiyuanhui
+	SCF_Southern_California_AC = {
+		name= SCF_Southern_California_AC
 		portraits={
 			civilian={
-				large=GFX_CSA_William_Henry_Davis_Murray
+				large=GFX_leader_SCF_Southern_California_AC
 			}
 		}
 		country_leader={
-			ideology= authoritarianism_small
+			ideology= military_junta
 			traits={  }
 			expire="1947.1.1.1"
 			id=-1
 		}
 	}
 
-	NMX_jierbote_aburuier = {
+	NMX_jierbote_aburuier = { #吉尔伯托·奥古斯托·阿布瑞尔
 		name= NMX_jierbote_aburuier
 		portraits={
 			civilian={
-				large=GFX_CSA_William_Henry_Davis_Murray
+				large=GFX_leader_NMX_jierbote_aburuier
 			}
 		}
 		country_leader={
