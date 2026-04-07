@@ -392,3 +392,9 @@ FRE = "countries/Freikorps.txt"
 
 #### SYSTEM TAG - should be the first in the list
 AAA = "countries/00_system.txt"
+FUJ = "countries/福建省.txt"
+JXI = "countries/江西省.txt"
+ZJG = "countries/浙江省.txt"
+GXI = "countries/广西省.txt"
+GAD = "countries/广东省.txt"
+HNA = "countries/湖南省.txt"

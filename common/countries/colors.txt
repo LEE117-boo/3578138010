@@ -1253,3 +1253,32 @@ BBR = {
 	color = rgb{ 80 0 0 }
 	color_ui = rgb{ 0 127 14 }
 }
+FUJ = {
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
+}
+
+JXI = {
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
+}
+
+ZJG = {
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
+}
+
+GXI = {
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
+}
+
+GAD = {
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
+}
+
+HNA = {
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
+}
