@@ -1,8 +1,7 @@
-
-state={
-	id=362
-	name="STATE_362"
-
+state = {
+	id=1423
+	name="STATE_1423"
+	
 	history={
 		owner = CSA
 		buildings = {
@@ -20,28 +19,15 @@ state={
 		add_core_of = CSA
 		add_core_of = USA
 		victory_points = {
-			788 10 
-		}
-		victory_points = {
-			10412 15 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-				dockyard = 5
-
-			}
-
+			10412 10
 		}
 
 	}
-
 	provinces={
-		 865 873 951 3823  6846 10343  11873 
+		10412
 	}
-
-	local_supplies=11.0
 	manpower=449816
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	local_supplies=0
 	state_category=large_city
 }
