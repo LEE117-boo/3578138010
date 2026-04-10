@@ -1,6 +1,6 @@
 state = {
-	id = 742
-	name = "STATE_742"
+	id = 1427
+	name = "STATE_1427"
 
 	resources = {
 		steel = 3.000
@@ -8,25 +8,20 @@ state = {
 
 	history = {
 
-		owner = TRS
-		add_core_of = TRS
-		victory_points = {
-			1384 1
-		}
+		owner = CHI
+		add_core_of = CHI
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = TAJ
-		add_core_of = BUK
 
 	}
 
 	provinces = {
-		1216 1384 1919 4542 7224 8027 10417 12218 12250 12430
+		12805 
 	}
 	
-	manpower = 223000
+	manpower = 7000
 	buildings_max_level_factor = 1.000
 	state_category = wasteland
 
