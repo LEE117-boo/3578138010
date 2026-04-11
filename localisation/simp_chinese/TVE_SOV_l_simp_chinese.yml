@@ -1,4 +1,7 @@
 ﻿l_simp_chinese:
+SOV:"俄罗斯共和国"
+SOV_DEF:"俄罗斯共和国"
+
 
 SOV_LOCK_TEM_TT:"§R无法解散，无法训练，无法编辑部队§!"
 #IDEA
@@ -122,14 +125,15 @@ SOV_liming_jingqiaoqiao:"这里的黎明静悄悄"
 SOV_strong_eu:"欧罗巴，强大而一统！"
 
 #克伦斯基的小宝贝们
-SOV_Communism_party_russian_long:0"布尔什维克"
+SOV_Communism_party:0"布尔什维克"
 SOV_Socialism_party:0"左翼社会革命党"
 SOV_Progressivism_party:0"社会革命党/社民工党联盟"
 SOV_Liberalism_party:0"立宪民主党"
+SOV_Democracy_party:0"立宪保守党"
 SOV_Conservatism_party:0"全俄罗斯青年联盟"
 SOV_Authoritarianism_party:0"全俄罗斯青年联盟"
 SOV_tttt_party:0"人民社会党"
-SOV_fascism_party_russian_long:0"新全军联盟"
+SOV_fascism_party:0"新全军联盟"
 SOV_nazism_party:0"全俄罗斯法西斯党"
 
 the_praisme_for_1919:0"1919年的承诺"
@@ -170,3 +174,9 @@ HOUYAOWEN:0"弹劾总统克伦斯基议案\n议案当前状态:[SOV_KLSJ_TG_JJ]"
 SOV_DD:0"§G通过§!"
 SOV_PP:0"§R失败§!"
 SOV_SHIT:0"§Y进行中§!"
+
+
+###
+SOV_aleksandr_kerensky:0 "亚历山大·克伦斯基"
+SOV_Viktor_Chernov:0 "维克托·切尔诺夫"
+SOV_Viktor_Chernov_desc:0 "\n\n\n§Y维克托·切尔诺夫§!\n\n\n\n\n\n\n\n£leader_SOV_Viktor_Chernov\n\n\n\n\n\n\n\n\n§Y§!"

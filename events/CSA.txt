@@ -1,0 +1,58 @@
+add_namespace = Confederate_State
+add_namespace = Confederate_State_news
+
+#国内情况
+country_event = {
+	immediate = {log = "[GetDateText]: [Root.GetName]: event Confederate_State.1"}
+	id = Confederate_State.1
+	title = Confederate_State.1.t
+	desc = Confederate_State.1.d
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = Confederate_State.1.a
+	}
+}
+#西部事宜
+country_event = {
+	immediate = {log = "[GetDateText]: [Root.GetName]: event Confederate_State.2"}
+	id = Confederate_State.2
+	title = Confederate_State.2.t 
+	desc = Confederate_State.2.d
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = Confederate_State.2.a
+		add_political_power = 25
+		CSA = {
+		add_equipment_to_stockpile = {
+        	type = infantry_equipment
+        	amount = 1000
+    	}
+		add_equipment_to_stockpile = {
+        	type = motorized_equipment
+        	amount = 800
+    	}
+		}
+		
+	}
+}
+
+#西部革命
+news_event = {
+	immediate = {log = "[GetDateText]: [Root.GetName]: event Confederate_State_news.1"}
+	id = Confederate_State_news.1
+	title = Confederate_State_news.1.t
+	desc = Confederate_State_news.1.d
+	picture = GFX_news_CSA_western_revolution
+	is_triggered_only = yes
+
+	option = {
+		name = Confederate_State_news.1.a
+		
+	}
+}

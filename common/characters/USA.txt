@@ -1,19 +1,17 @@
 characters={
-	#TVE
-	USA_George_William_Norris={
-		name=USA_George_William_Norris
+	#领导人
+	USA_John_Calvin_Coolidge={ #约翰·卡尔文·柯立芝
+		name=USA_John_Calvin_Coolidge
 		portraits={
 			civilian={
-				large=GFX_USA_George_William_Norris
+				large=GFX_leader_USA_John_Calvin_Coolidge
 			}
 		}
 		country_leader={
-			ideology=Georgism
+			ideology = isolationism
 			traits={  }
-			expire="1947.1.1.1"
-			id=-1
 		}
-	}
+}
 
 
 

@@ -17,7 +17,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_event_option_entry"
-		texturefile = "gfx/interface/event_option_entry.dds"
+		texturefile = "gfx/interface/event_option_entry.dds" 
+	}
+	spriteType = {
+		name = "GFX_news_option_entry"
+		texturefile = "gfx/interface/event_option_news_entry.dds"
 	}
 
 	corneredTileSpriteType = {

@@ -5,7 +5,7 @@ ideas = {
 			picture = GFX_idea_FRA_A_dim_and_lp
 			modifier = {
 				stability_factor = -0.1
-				political_power_cost = 0.05
+				political_power_cost = 0.25
 			}
 		}
 		FRA_French_Armed_Forces = { #法兰西武装力量
@@ -52,7 +52,8 @@ ideas = {
 		FRA_French_Colonial_Office = { #法兰西殖民总局
 			picture = GFX_idea_FRA_French_Colonial_Office
 			modifier = {
-				consumer_goods_factor = 0.15
+				conscription_factor = -0.1
+				consumer_goods_factor = -0.075
 				resistance_growth = 0.1	
 				compliance_gain = -0.01	
 				resistance_damage_to_garrison = 0.2

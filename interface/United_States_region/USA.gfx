@@ -1,0 +1,7 @@
+SpriteTypes = { 
+	#领导人
+	spriteType = { #约翰·卡尔文·柯立芝
+		name = "GFX_leader_USA_John_Calvin_Coolidge"
+		texturefile = "gfx/leaders/USA/USA_John_Calvin_Coolidge.dds"
+	}
+}

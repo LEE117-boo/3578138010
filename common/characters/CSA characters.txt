@@ -533,6 +533,12 @@ characters={
        
     }
     advisor = {
+         available = {
+			custom_trigger_tooltip = {
+				tooltip = minister_able_and_can_be_selected
+				always = no
+			}
+		}
         can_be_fired = no
         slot = political_advisor
         idea_token = CSA_Harold_Iks
@@ -552,12 +558,6 @@ characters={
        
     }
     advisor = {
-          available = {
-			custom_trigger_tooltip = {
-				tooltip = minister_able_and_can_be_selected
-				always = no
-			}
-		}
         can_be_fired = no
         slot = political_advisor
         idea_token = CSA_henry_ford

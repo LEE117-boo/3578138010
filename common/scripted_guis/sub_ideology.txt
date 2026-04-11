@@ -1,6 +1,6 @@
 scripted_gui = {
 
-	subideology_notice = {
+	subideology_notice = { #子意思形态显示
 		context_type = player_context
 		parent_window_token = politics_tab
 		window_name = "subideology_container"

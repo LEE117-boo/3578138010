@@ -1,0 +1,15 @@
+   scripted_gui = {
+	
+    diplo_hos_info = { #第二领导人gui
+        context_type = player_context
+        parent_window_name = countrypoliticsview
+        window_name = "diplosview_second_leader_window"
+
+        visible = {
+            THIS = {
+				has_country_flag = tfe_second_leader
+            }
+        }
+    }
+
+}

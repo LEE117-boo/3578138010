@@ -147,10 +147,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FRA_Laval.dds"
 	}
 	spriteType = {
-		name = "GFX_RUS_aleksandr_kerensky"
-		texturefile = "gfx/leaders/RUS/RUS_aleksandr_kerensky.dds"
-	}
-	spriteType = {
 		name = "GFX_RUS_Mikhail_Gordeevich_Drozdovsky"
 		texturefile = "gfx/leaders/RUS/RUS_Mikhail_Gordeevich_Drozdovsky.dds"
 	}

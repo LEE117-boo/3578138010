@@ -1,4 +1,4 @@
-﻿capital = 362
+﻿capital = 1423
 
 set_research_slots = 3
 set_stability = 0.75
@@ -83,7 +83,7 @@ if = {
 	}
 	set_autonomy = {
 		target = SCF
-		autonomous_state = Autonomous_state
+		autonomous_state = autonomy_satellite
 		freedom_level = 0.5
 	}
 
@@ -153,18 +153,10 @@ add_ideas = {
 
 	#顾问
 	CSA_Earl_Lang
-	CSA_Harold_Iks
+	CSA_henry_ford
 	CSA_Joseph_Raymond_McCarthy
 	CSA_Lyndon_B_Johnson
 }
-
-set_power_balance = {
-    id = CSA_Development_of_the_AP
-    left_side = CSA_traditionalist
-    right_side = CSA_industrialist
-    set_value = 0.15
-}
-
 
 
 

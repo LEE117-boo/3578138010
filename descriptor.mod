@@ -1,4 +1,4 @@
-version="1.16.10"
+version="1.0"
 tags={
 	"Alternative History"
 }
@@ -15,5 +15,5 @@ replace_path="gfx/FX"
 replace_path="map/supplyareas"
 replace_path="map/terrain"
 replace_path="history/countries"
-supported_version="1.16.10"
+supported_version="1.17.*"
 remote_file_id="3657771543"

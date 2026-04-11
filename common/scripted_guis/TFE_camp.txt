@@ -1,0 +1,103 @@
+scripted_gui = { #阵营系统
+	camp_system = { 
+		context_type = player_context
+        parent_window_token = politics_tab
+		window_name = "camp_system"
+		
+		ai_enabled = {
+			always = no
+		}
+		triggers = {
+			camp_button_visible = { #
+				is_in_faction_with = ARG
+			}
+		}
+		 effects = {
+            camp_button_click = {
+				for_each_scope_loop = {
+				array = global.majors
+				if = {
+					limit = {
+						THIS = {
+							is_faction_leader = yes
+						}
+					}
+					add_to_array = {
+						global.grid_main_country = THIS
+					}
+				}
+			}
+			for_each_scope_loop = {
+				array = global.grid_main_country
+				add_to_array = {
+					global.faction_menber_@THIS = THIS
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = PREV
+						NOT = {
+							tag = PREV
+						}
+					}
+					add_to_array = {
+						global.faction_menber_@PREV = THIS
+					}
+				}
+			}
+				Get_grid_Faction = yes
+                ROOT = {
+					if = {
+						limit = {
+							NOT = {
+								has_country_flag = nato_list_open
+							}
+						}
+						set_country_flag = nato_list_open
+					}
+					else = {
+						clr_country_flag = nato_list_open
+					}
+				}
+				
+            }
+        }
+		
+	}
+	nato_list = {
+        context_type = player_context
+        parent_window_token = top_bar
+        window_name = "nato_list_window"
+		dirty = nato_list_variable
+		ai_enabled = {
+			always = no
+		}
+        visible = {
+            has_country_flag = nato_list_open
+			
+        }
+		dynamic_lists = {
+			nato_tags_grid = {
+				array = grid_faction_array
+				change_scope = yes
+				entry_container = nato_member_entry
+			}
+		}
+		triggers = {
+			major_country_overlay_visible = {
+				THIS = {
+					is_major = yes
+				}
+			}
+		}
+        effects = {
+            button_close_click = {
+				clr_country_flag = nato_list_open
+            }
+        }
+		properties = {
+			country_flag = {
+				image = "[This.GetFlag]"
+			}
+		}
+    }
+}

@@ -1,0 +1,17 @@
+ideas = {
+	hidden_ideas = {  #用于第二领导人的隐藏ideas
+		ARG_Marcelo_Torquato_de_Alvial = { #马塞洛·托尔夸托·德·阿尔维亚尔
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = 0.15
+			}
+		}
+		SOV_Viktor_Chernov = { #维克托·切尔诺夫
+			modifier = {
+				
+			}
+		}
+	}
+
+
+}

@@ -38,6 +38,7 @@ scripted_gui = {
 
 				clear_variable = global.winning_country
 				clear_variable = global.losing_country
+
 			}
 		}
 	}

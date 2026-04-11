@@ -1,0 +1,15 @@
+defined_text = {
+    name = second_leader #第二领导人
+    text = {
+        trigger = { #马塞洛·托尔夸托·德·阿尔维亚尔
+            has_idea = ARG_Marcelo_Torquato_de_Alvial
+        }
+        localization_key = "ARG_Marcelo_Torquato_de_Alvial_desc"
+    }
+     text = {
+        trigger = { #维克托·切尔诺夫
+            has_idea = SOV_Viktor_Chernov
+        }
+        localization_key = "SOV_Viktor_Chernov_desc"
+    }
+}

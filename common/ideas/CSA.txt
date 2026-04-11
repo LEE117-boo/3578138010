@@ -1,141 +1,13 @@
 ideas = {
 
 	country = {
-		London_Financial_Crisis = {
-			picture = sour_loser
-			
-			allowed = {
-				always = no
-			}
+		
 
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = 0.45
-				min_export = -0.20
-				stability_factor = -0.20
-				war_support_factor = -0.15
-				production_speed_buildings_factor = -0.30
-				industrial_capacity_factory = -0.30
-				local_resources_factor = -0.20
-			}
-		}
-		fuck_usa = {
-			picture = sour_loser
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				drift_defence_factor = 0.5
-				weekly_manpower = 1000
-			}
-			rule = {
-				can_create_factions = yes
-			}
-			available ={
-				country_exists = GER
-			}
-			targeted_modifier = {
-				tag = USA
-				attack_bonus_against = 1.25
-				defense_bonus_against = 1.25
-			}
-		}
-		Full_scale_slave_riots = {
-			picture = sour_loser
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				political_power_factor = -0.10
-				stability_factor = -0.30
-				conscription_factor = -0.25
-				resistance_target = 0.10
-				non_core_manpower = -0.25
-			}
-		}
-		Isolationism_prevailed = {
-			picture = sour_loser
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				political_power_factor = 0.14
-				stability_factor = 0.40
-				war_support_factor = -0.20
-				production_factory_max_efficiency_factor = 0.10
-				mobilization_speed = -0.30
-				training_time_army_factor = 0.16
-			}
-		}
-		Fight_against_the_north = {
-			picture = sour_loser
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				war_support_factor = 0.03
-				production_speed_bunker_factor = 0.07
-			}
-		}
-		Liberian_colonial_income = {
-			picture = sour_loser
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				weekly_manpower = 120
-			}
-		}
 
 
 
 ###################new################################
-		CSA_slave_and_industry = {
+		CSA_slave_and_industry = { #奴隶与工业化
 			picture = CSA_slave_and_industry
 			
 			allowed = {
@@ -152,6 +24,28 @@ ideas = {
 				political_power_cost = 0.5
 				production_factory_efficiency_gain_factor = -0.25
 				min_export = -0.1
+			}
+		}
+		CSA_slave_and_industry_2 = { #奴隶与工业化
+			picture = CSA_slave_and_industry
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+				local_building_slots_factor = 0.05
+				political_power_cost = 0.5
+				production_factory_efficiency_gain_factor = -0.25
+				min_export = -0.1
+				industry_repair_factor = 0.1
 			}
 		}
 
@@ -172,6 +66,7 @@ ideas = {
 				stability_factor = -0.1
 				resistance_target = 0.25
 				industrial_capacity_factory = -0.1
+				consumer_goods_factor = -0.15
 				custom_modifier_tooltip = CSA_west_slave_baodong_tt
 			}
 		}
@@ -248,7 +143,21 @@ ideas = {
 				army_attack_factor = 0.05
 			}
 		}
+		CSA_Regional_farmer_support = { #地区农民支持
+			modifier = {
+				conscription_factor = 0.15
+				local_manpower = 0.5
+				weekly_manpower = 500
+			}
+		}
+		CSA_Impact_of_lem = { #扩地法影响
+			modifier = {
+				required_garrison_factor = -0.2
+				political_power_factor = 0.2
+				consumer_goods_factor = -0.15
+			}
 
+		}
 
 ################csa_puppet#############################
 		TEX_guxing = {
@@ -359,111 +268,5 @@ ideas = {
 
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	#OTL
-	aircraft_manufacturer = {
-	
-		designer = yes
-		
-		CSA_avions_fairey = {
-			picture = generic_air_manufacturer_2
-
-			
-			allowed = {
-				original_tag = CSA
-			}
-			
-			research_bonus = {
-				air_equipment = 0.15
-			}
-			
-			traits = { light_aircraft_manufacturer }
-			
-			equipment_bonus = {
-				# Tipsy B, firefly, fairey fox
-			}
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		CSA_renard = {
-			picture = generic_air_manufacturer_2
-
-			
-			allowed = {
-				original_tag = CSA
-			}
-			
-			research_bonus = {
-				air_equipment = 0.15
-			}
-			
-			traits = { medium_aircraft_manufacturer }
-			
-			equipment_bonus = {
-				# Tipsy B, firefly, fairey fox
-			}
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-
-
-	}
-	
 	
 }

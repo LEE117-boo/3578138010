@@ -131,6 +131,9 @@ ideologies = {
 			Austria_Hungary_ideologies_Progressivism = {
 				can_be_randomly_selected = no
 			}
+			Kerenskyism = { #克伦斯基主义
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -196,6 +199,12 @@ ideologies = {
 			CSA_liberalism_small = {
 				can_be_randomly_selected = no
 				color = { 217 214 0 }
+			}
+			liberal_radicalism = { #自由激进主义
+				can_be_randomly_selected = no
+			}
+			isolationism = { #孤立主义
+				can_be_randomly_selected = no
 			}
 
 		}

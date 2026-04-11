@@ -1,7 +1,5 @@
 ﻿capital = 16 # Paris/Ile de France
 
-create_faction = new_Civil_Law_System
-
 
 add_command_power = 20
 

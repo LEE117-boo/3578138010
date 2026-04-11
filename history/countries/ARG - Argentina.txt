@@ -4,6 +4,9 @@ oob = "ARG_1936"
 
 create_faction = ARG_Buenos_Aires_Organization
 add_to_faction = BRB
+#set_country_flag = tfe_Have_a_camp
+
+set_country_flag = tfe_second_leader
 
 set_autonomy = {
 		target = PAR
@@ -15,16 +18,40 @@ set_autonomy = {
 		autonomous_state = autonomy_satellite
 		freedom_level = 0.5
 }
-set_convoys = 120
-add_ideas = ARG_The_controversial_royal_family #饱受争议的王室
-add_ideas = ARG_lost_prosperity #失去的繁荣
-add_ideas = ARG_Military_political_rc #军政关系矛盾
-add_ideas = ARG_Roga_Saro_Agreement #罗加-萨罗协议
-add_ideas = ARG_Argentine_National_Oil_Company #阿根廷国立石油公司
-add_ideas = ARG_Paraguay_Index #巴拉圭指数：沸反盈天
-add_ideas = ARG_south_america_lighthouse #南美灯塔
 
-recruit_character = ARG_Amedeo_II
+set_convoys = 120
+
+
+add_ideas = {
+	ARG_The_controversial_royal_family #饱受争议的王室
+	ARG_lost_prosperity #失去的繁荣
+	ARG_Military_political_rc #军政关系矛盾
+	ARG_Roga_Saro_Agreement #罗加-萨罗协议
+	ARG_Argentine_National_Oil_Company #阿根廷国立石油公司
+	ARG_Paraguay_Index #巴拉圭指数：沸反盈天
+	ARG_south_america_lighthouse #南美灯塔
+
+	ARG_Marcelo_Torquato_de_Alvial #马塞洛·托尔夸托·德·阿尔维亚尔
+}
+
+recruit_character = ARG_Amedeo_II #阿梅迪奥二世
+recruit_character = ARG_Pedro_Eugenio_Aramburu #佩德罗·欧亨尼奥·阿兰布鲁
+recruit_character = ARG_Augustine_Pedro_Justo #奥古斯丁·佩德罗·胡斯托
+recruit_character = ARG_Edelmiro_Julian_Farrell_Proul #埃德尔米罗·胡利安·法雷尔·普劳尔
+recruit_character = ARG_Juan_Pistarini #胡安·皮斯塔里尼
+recruit_character = ARG_Arturo_Rosen #阿图罗·罗森
+recruit_character = ARG_Juan_Peron #胡安·庇隆
+recruit_character = ARG_Manuel_Savio #曼努埃尔·萨维奥
+recruit_character = ARG_Enrique_Mosconi #恩里克·莫斯科尼
+recruit_character = ARG_Jose_Sosa_Molina #何塞·索萨·莫利纳
+recruit_character = ARG_Benjamin_Andres_Menendez #本杰明·安德烈斯·梅内德斯
+recruit_character = ARG_Benjamin_Ratenbach #本杰明·拉滕巴赫
+recruit_character = ARG_Eduardo_Argentino_Senolans #爱德华多·阿根提诺·塞诺兰斯
+recruit_character = ARG_Raul_Alejandro_Poggio #劳尔·亚历杭德罗·波吉
+recruit_character = ARG_Manuel_Tomas_Domecq_Garcia #曼努埃尔·托马斯·多梅克·加西亚
+recruit_character = ARG_Isaac_Rojas #艾萨克·罗哈斯
+recruit_character = ARG_Eliasa_Vidila#艾莱亚撒·魏地拉
+
 set_politics = {
 	ruling_party = Liberalism
 	last_election = "1931.11.8"

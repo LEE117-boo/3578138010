@@ -102,46 +102,7 @@ KAZ_color = {
 	color = rgb { 14 115 229 }
 	color_ui = rgb { 14 115 229 }
 }
-DSB_RHI = {
-	color = rgb { 138 155 116 }
-	color_ui = rgb { 138 155 116 }
-}
-DSB_BAY = {
-	color = rgb { 138 155 116 }
-	color_ui = rgb { 138 155 116 }
-}
-DSB_HOL = {
-	color = rgb { 138 155 116 }
-	color_ui = rgb { 138 155 116 }
-}
-DSB_BEL = {
-	color = rgb { 138 155 116 }
-	color_ui = rgb { 138 155 116 }
-}
-DSB_BGD = {
-	color = rgb { 138 155 116 }
-	color_ui = rgb { 138 155 116 }
-}
-DSB_AUS = {
-	color = rgb { 138 155 116 }
-	color_ui = rgb { 138 155 116 }
-}
-DSB_CZE = {
-	color = rgb { 138 155 116 }
-	color_ui = rgb { 138 155 116 }
-}
-DSB_HUN = {
-	color = rgb { 138 155 116 }
-	color_ui = rgb { 138 155 116 }
-}
-DSB_SLO = {
-	color = rgb { 138 155 116 }
-	color_ui = rgb { 138 155 116 }
-}
-DSB_CRO = {
-	color = rgb { 138 155 116 }
-	color_ui = rgb { 138 155 116 }
-}
+
 YUG_CRO = {
 	color = rgb { 72 73 126 }
 	color_ui = rgb { 94 95 164 }

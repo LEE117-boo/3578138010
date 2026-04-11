@@ -37,3 +37,28 @@ convert_coalition_partner_var_into_index = {
 		}
 	}
 }
+
+remove_from_coalition = {
+	if = {
+		limit = { NOT = { has_variable = coalition_partner_var } }
+		log = "ERROR: remove_from_coalition - invalid coalition_partner_var"
+	}
+	else = {
+		custom_effect_tooltip = remove_from_coalition
+		convert_coalition_partner_var_into_index = yes
+		if = {
+			limit = { check_variable = { coalitions_array^coalition_partner_var = 2 } }
+			set_variable = { coalitions_array^coalition_partner_var = 0 }
+			set_temp_variable = { temp = global.ideology_groups^coalition_partner_var }
+			set_temp_variable = { temp = party_popularity@var:temp }
+			if = {
+				limit = { NOT = { check_variable = { coalition_stability_array^coalition_partner_var = 0 } } }
+				multiply_temp_variable = { temp = coalition_stability_array^coalition_partner_var }
+			}
+			else = {
+				multiply_temp_variable = { temp = coalition_stability?0.5 }
+			}
+			subtract_from_variable = { coalition_pp_gain = temp }
+		}
+	}
+}

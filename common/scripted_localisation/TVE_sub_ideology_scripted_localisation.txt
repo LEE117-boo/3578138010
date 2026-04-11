@@ -68,7 +68,13 @@ defined_text = {
 		localization_key = Georgism
 		
 	}
-
+	text = {
+		trigger = { #克伦斯基主义
+			has_country_leader_ideology = Kerenskyism
+		}
+		localization_key = Kerenskyism
+		
+	}
 
 	#自由主义及其子意识形态
 	text = {
@@ -87,7 +93,18 @@ defined_text = {
 		}
 		localization_key = populism
 	}
-
+		text = {
+		trigger = { #自由激进主义
+			has_country_leader_ideology = liberal_radicalism
+		}
+		localization_key = liberal_radicalism
+	}
+	text = {
+		trigger = { #孤立主义
+			has_country_leader_ideology = isolationism
+		}
+		localization_key = isolationism
+	}
 
 	#民主主义及其子意识形态
 	text = {

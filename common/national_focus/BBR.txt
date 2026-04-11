@@ -160,6 +160,9 @@ focus_tree={
 		}
 		completion_reward={
 			log = "[GetDateText]: [Root.GetName]: Focus BBR_Dawn_of_the_Black"
+			add_ideas = { 
+				BBR_for_ideal
+			}
 		}
 	}
 	focus={ #打倒压迫我们的枷锁
@@ -179,6 +182,9 @@ focus_tree={
 		}
 		completion_reward={
 			log = "[GetDateText]: [Root.GetName]: Focus BBR_Down_with_the_stou"
+			add_ideas = {
+				BRB_Deep_guerrilla_tactics
+			}
 		}
 	}
 }

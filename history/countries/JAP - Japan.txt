@@ -273,7 +273,7 @@ set_popularities = {
 	Socialism = 7
 }
 
-set_country_flag = STNG
+
 create_country_leader = {
 	name = JAP_emperor_hirohito
 	picture = GFX_JAP_Hirohito

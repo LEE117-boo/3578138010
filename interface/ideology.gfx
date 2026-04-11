@@ -131,4 +131,8 @@ spriteTypes = {
 		name = "GFX_ideology_non_domination_system"
 		texturefile = "gfx/interface/ideologies/non_domination_system.dds"
 	}
+	spriteType = { #自由激进主义
+		name = "GFX_ideology_liberal_radicalism"
+		texturefile = "gfx/interface/ideologies/liberal_radicalism.dds"
+	}
 }

@@ -1,22 +1,3 @@
-################
-#### SOVIET ####
-################
-
-####### NO STEP BACK! #######
-
-#TVE
-RUS_script = {
-
-	priority = 999
-
-	icon = SOV_paranoia
-
-	allowed = {
-		original_tag = SOV
-	}
-
-	visible_when_empty = yes
-}
 
 
 

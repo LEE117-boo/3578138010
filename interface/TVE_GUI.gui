@@ -20,12 +20,6 @@ guiTypes = {
 			pdx_tooltip = [GetSLName]
 			pdx_disabled_tooltip_delayed = [SLD]
 		}
-		buttonType = {
-			name = "change_leader"
-			position={ x= -3 y = 190 }
-			spriteType = "button_left"
-			clicksound = click_default
-		}
 		iconType = {
 			name = "leader_frame_tve"
 			spriteType = "GFX_pol_leader_frame"
