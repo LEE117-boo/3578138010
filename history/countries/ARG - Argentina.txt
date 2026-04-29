@@ -35,6 +35,8 @@ add_ideas = {
 }
 
 recruit_character = ARG_Amedeo_II #阿梅迪奥二世
+recruit_character = ARG_Marcelo_Torquato_de_Alvial #马塞洛·托尔夸托·德·阿尔维亚尔
+recruit_character = ARG_Enrique_Ma_rtinez
 recruit_character = ARG_Pedro_Eugenio_Aramburu #佩德罗·欧亨尼奥·阿兰布鲁
 recruit_character = ARG_Augustine_Pedro_Justo #奥古斯丁·佩德罗·胡斯托
 recruit_character = ARG_Edelmiro_Julian_Farrell_Proul #埃德尔米罗·胡利安·法雷尔·普劳尔
@@ -56,7 +58,7 @@ set_politics = {
 	ruling_party = Liberalism
 	last_election = "1931.11.8"
 	election_frequency = 72
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	Communism = 2

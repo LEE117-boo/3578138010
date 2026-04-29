@@ -160,44 +160,7 @@ ideas = {
 		}
 
 ################csa_puppet#############################
-		TEX_guxing = {
-			picture = sour_loser
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				surrender_limit = 0.6
-				training_time_army_factor = -0.1
-				production_speed_infrastructure_factor = 0.05
-			}
-		}
-
-		TEX_zizhi_heiren_xianfa = {
-			picture = sour_loser
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				stability_factor = 0.1
-				conscription_factor = -0.25
-			}
-		}
+		
 
 		SCF_hunluan_weiyuanhui = {
 			picture = sour_loser

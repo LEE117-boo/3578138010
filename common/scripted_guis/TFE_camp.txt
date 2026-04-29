@@ -1,4 +1,4 @@
-scripted_gui = { #阵营系统
+scripted_gui = { #阵营
 	camp_system = { 
 		context_type = player_context
         parent_window_token = politics_tab
@@ -12,51 +12,31 @@ scripted_gui = { #阵营系统
 				is_in_faction_with = ARG
 			}
 		}
-		 effects = {
+		effects = {
             camp_button_click = {
-				for_each_scope_loop = {
-				array = global.majors
 				if = {
 					limit = {
-						THIS = {
-							is_faction_leader = yes
-						}
+						has_country_flag = nato_list_open
 					}
-					add_to_array = {
-						global.grid_main_country = THIS
-					}
+					clr_country_flag = nato_list_open
 				}
-			}
-			for_each_scope_loop = {
-				array = global.grid_main_country
-				add_to_array = {
-					global.faction_menber_@THIS = THIS
+				else = {
+					set_country_flag = nato_list_open
 				}
-				every_country = {
-					limit = {
-						is_in_faction_with = PREV
-						NOT = {
-							tag = PREV
-						}
-					}
-					add_to_array = {
-						global.faction_menber_@PREV = THIS
-					}
+				clear_array = ROOT.grid_faction_array
+				add_to_variable = {
+					global.nato_list_variable = 0.01
 				}
-			}
-				Get_grid_Faction = yes
-                ROOT = {
+				for_each_scope_loop = {
+					array = global.countries
 					if = {
-						limit = {
-							NOT = {
-								has_country_flag = nato_list_open
-							}
-						}
-						set_country_flag = nato_list_open
+					limit = {
+						THIS = { is_in_faction_with = ARG }
 					}
-					else = {
-						clr_country_flag = nato_list_open
+					add_to_array = {
+						ROOT.grid_faction_array = THIS	 
 					}
+				}
 				}
 				
             }
@@ -65,7 +45,7 @@ scripted_gui = { #阵营系统
 	}
 	nato_list = {
         context_type = player_context
-        parent_window_token = top_bar
+        parent_window_token = politics_tab
         window_name = "nato_list_window"
 		dirty = nato_list_variable
 		ai_enabled = {

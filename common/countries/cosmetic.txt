@@ -111,8 +111,6 @@ YUG_BOS = {
 	color = rgb { 72 73 126 }
 	color_ui = rgb { 94 95 164 }
 }
-
-#伊比利亚及其附属国
 SPR_puppet_CUB = {
 	color = rgb { 213 164 15 }
 	color_ui = rgb { 213 164 15 }
@@ -141,7 +139,6 @@ POR_puppet_MZB = {
 	color = rgb { 39 116 70 }
 	color_ui = rgb { 51 151 91 }
 }
-#南美
 ARG_puppet_PAR = {
 	color = rgb { 50 64 90 }
 	color_ui = rgb { 189 204 255 }

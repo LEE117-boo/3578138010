@@ -11,6 +11,12 @@ ideas = {
 				
 			}
 		}
+		ARG_Amedeo_II = { # 阿梅迪奥二世
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
 	}
 
 

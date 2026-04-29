@@ -52,11 +52,6 @@ if = {
 		freedom_level = 0.5
 	}
 	set_autonomy = {
-		target = SCF
-		autonomous_state = Autonomous_state
-		freedom_level = 0.5
-	}
-	set_autonomy = {
 		target = NMX
 		autonomous_state = Autonomous_state
 		freedom_level = 0.5
@@ -79,11 +74,6 @@ if = {
 	set_autonomy = {
 		target = NEV
 		autonomous_state = Autonomous_state
-		freedom_level = 0.5
-	}
-	set_autonomy = {
-		target = SCF
-		autonomous_state = autonomy_satellite
 		freedom_level = 0.5
 	}
 

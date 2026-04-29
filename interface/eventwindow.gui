@@ -540,7 +540,7 @@ guiTypes = {
 
 				scrollbartype = "standardtext_slider"
 
-				fixedsize = no
+				fixedsize = yes
 			}	
 		}			
 

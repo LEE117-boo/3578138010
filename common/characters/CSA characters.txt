@@ -534,10 +534,7 @@ characters={
     }
     advisor = {
          available = {
-			custom_trigger_tooltip = {
-				tooltip = minister_able_and_can_be_selected
-				always = no
-			}
+			has_completed_focus = CSA_Gathering_loyal_cowboys
 		}
         can_be_fired = no
         slot = political_advisor

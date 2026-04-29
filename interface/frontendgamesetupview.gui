@@ -160,7 +160,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "country_name"
-			position = { x = 20 y = 247 }
+			position = { x = 10 y = 247 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 131

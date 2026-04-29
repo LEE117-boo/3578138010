@@ -1,5 +1,48 @@
 defined_text = {
-    name = get_subideology
+	name = GetIdeologySubtype
+	text = {
+		trigger = { has_government = Communism }
+		localization_key = "[GetSubIdeologyLocTotSoc]"
+	}
+	text = {
+		trigger = { has_government = Socialism }
+		localization_key = "[GetSubIdeologyLocAuthSoc]"
+	}
+	text = {
+		trigger = { has_government = Progressivism }
+		localization_key = "[GetSubIdeologyLocLibSoc]"
+	}
+	text = {
+		trigger = { has_government = Liberalism }
+		localization_key = "[GetSubIdeologyLocSocDem]"
+	}
+	text = {
+		trigger = { has_government = Democracy }
+		localization_key = "[GetSubIdeologyLocSocLib]"
+	}
+	text = {
+		trigger = { has_government = Conservatism }
+		localization_key = "[GetSubIdeologyLocMarLib]"
+	}
+	text = {
+		trigger = { has_government = Authoritarianism }
+		localization_key = "[GetSubIdeologyLocCon]"
+	}
+	text = {
+		trigger = { has_government = tttt }
+		localization_key = "[GetSubIdeologyLocAuthDem]"
+	}
+	text = {
+		trigger = { has_government = fascism  }
+		localization_key = "[GetSubIdeologyLocDespot]"
+	}
+	text = {
+		trigger = { has_government = nazism }
+		localization_key = "[GetSubIdeologyLocFascist]"
+	}
+}
+defined_text = {
+    name = GetSubIdeologyLocTotSoc
 	#共产主义及其子意识形态
 	text = { 
 		trigger = { #共产主义
@@ -11,8 +54,10 @@ defined_text = {
 		}
 		localization_key = communism_small
 	}
-
+}
+defined_text = {
 	#社会主义及其子意识形态
+	name = GetSubIdeologyLocAuthSoc
 	text = {
 		trigger = { #社会主义
 			OR = {
@@ -40,8 +85,9 @@ defined_text = {
 		}
 		localization_key = moderate_left_wing_populism
 	}
-
-
+}
+defined_text = {
+	name = GetSubIdeologyLocLibSoc
 	#进步主义及其子意识形态
 	text = {
 		trigger = { #进步主义
@@ -75,7 +121,9 @@ defined_text = {
 		localization_key = Kerenskyism
 		
 	}
-
+}
+defined_text = {
+	name = GetSubIdeologyLocSocDem
 	#自由主义及其子意识形态
 	text = {
 		trigger = { #自由主义
@@ -105,7 +153,9 @@ defined_text = {
 		}
 		localization_key = isolationism
 	}
-
+}
+defined_text = {
+	name = GetSubIdeologyLocSocLib
 	#民主主义及其子意识形态
 	text = {
 		trigger = { #民主主义
@@ -113,7 +163,9 @@ defined_text = {
 		}
 		localization_key = democracy_small
 	}
-
+}
+defined_text = {
+	name = GetSubIdeologyLocMarLib
 	#保守主义及其子意识形态
 	text = {
 		trigger = { #保守主义
@@ -134,7 +186,9 @@ defined_text = {
 		}
 		localization_key = Right_wing_conservatism
 	}
-
+}
+defined_text = {
+	name = GetSubIdeologyLocCon
 	#威权主义及其子意识形态
 	text = {
 		trigger = { #威权主义
@@ -170,7 +224,9 @@ defined_text = {
 		}
 		localization_key = Military_dictatorship
     }
-
+}
+defined_text = {
+	name = GetSubIdeologyLocAuthDem
 	#专制主义及其子意识形态
 	text = {
 		trigger = { #专制主义
@@ -209,8 +265,9 @@ defined_text = {
 		}
 		localization_key = Military_dictatorship
     }
-	
-	
+}
+defined_text = {
+	name = GetSubIdeologyLocDespot
 	#法西斯主义及其子意识形态
 	text = {
 		trigger = { #法西斯主义
@@ -234,7 +291,9 @@ defined_text = {
 		}
 		localization_key = MEX_cosmic_racism
     }
-
+}
+defined_text = {
+	name = GetSubIdeologyLocFascist
 	#民族社会主义及其子意识形态
 	text = {
 		trigger = { #民族社会主义
@@ -245,9 +304,6 @@ defined_text = {
 		}
 		localization_key = nazism_small
 	}
-	
-
-	
 	
 }
 	

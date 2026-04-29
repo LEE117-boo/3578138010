@@ -8,7 +8,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = isolationism
+			ideology = liberalism_small
 			traits={  }
 		}
 }

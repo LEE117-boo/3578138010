@@ -6,18 +6,18 @@ guiTypes = {
 			buttonType = {
 				name = "camp_button"
 				position = { x = 0 y = 0 }
-				quadTextureSprite = "GFX_camp_ARG_Buenos_Aires_Organization"
+				spriteType = "GFX_camp_ARG_Buenos_Aires_Organization"
 				pdx_tooltip = "TFE_CAMP_TT"
 			
 			}
 	}
 	containerWindowType = {
 		name = "nato_list_window"
-		position = { x = -249 y = -460 }
+		position = { x = 350 y = -500 }
 		size = { width = 565 height = 775 }
 		fade_time = 1500
 		fade_type = linear
-		moveable = no
+		moveable = yes
 		click_to_front = yes
 
 		orientation = center

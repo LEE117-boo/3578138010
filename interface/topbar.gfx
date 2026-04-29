@@ -212,7 +212,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_find_screen_button"
 		texturefile = "gfx/interface/mapmode/find_screen_button.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_second_leader_show"
+		texturefile = "gfx/interface/mapmode/second_leader_show.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_player_counters_toggle"

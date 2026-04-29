@@ -123,7 +123,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "leader_name"
 				position = { x = 245 y = 43 }
-				font = "hoi_16mbs"
+				font = "hoi_18mbs"
 				text = "Rudolf Kittler"
 				maxWidth = 173
 				maxHeight = 20
@@ -325,16 +325,16 @@ guiTypes = {
 						maxWidth = 245
 						maxHeight = 20
 					}
-
 					instantTextboxType = {
 						name = "elections"
 						position = { x = 5 y = 25 }
 						font = "hoi_16mbs"
 						text = "elections"
-						maxWidth = 245
+						maxWidth = 245 
 						maxHeight = 20
 					}
 				}
+
 
 				containerWindowType = {
 					name = "active_national_focus_info"

@@ -3,7 +3,7 @@ characters = {
     name = AKL_Louis_Gavian_de_Rodriguez
     portraits = {
         civilian = {
-            #large = GFX_leader_AKL_Louis_Gavian_de_Rodriguez
+            large = GFX_leader_AKL_Louis_Gavian_de_Rodriguez
         }
     }
     

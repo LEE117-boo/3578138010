@@ -50,7 +50,6 @@ focus_tree = {
 		completion_reward = {
 			1423 = { set_demilitarized_zone = yes }
 			unlock_decision_category_tooltip = CSA_Richmond_Confederation
-			set_country_flag = CSA_Richmond_Confederation
 				set_power_balance = {
     			id = CSA_Development_of_the_AP
     			left_side = CSA_traditionalist
@@ -129,7 +128,6 @@ focus_tree = {
 		completion_reward = {
 			378 = { add_manpower = 2000 }
 			add_war_support = 0.02
-			set_country_flag = CSA_Gathering_loyal_cowboys
 			unlock_decision_category_tooltip = CSA_Recruiting_Cowboys
 		}
 	}

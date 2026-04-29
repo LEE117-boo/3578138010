@@ -21,7 +21,11 @@ set_technology = {
 
 set_convoys = 40
 
-recruit_character = BRA_Pedro_III #佩罗徳三世
+recruit_character = BRA_Pedro_III #佩徳罗三世
+recruit_character = BRA_Merleau_Viana #梅洛·维亚纳
+recruit_character = BRA_Otavio_Mangabera #奥塔维奥·曼加贝拉
+recruit_character = BRA_Julio_Presters #儒利奥·普雷斯特斯
+recruit_character = BRA_Armando_de_Salles_Oliveira # 阿曼多·德·萨列斯·奥利维拉 
 add_ideas = {
 	BRA_The_tyranny_of_mac #牛奶和咖啡的专制
 	BRA_Inflated_states_rights #膨胀的州权

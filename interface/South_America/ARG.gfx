@@ -1,14 +1,19 @@
 spriteTypes = { 
 	###领导人及将领
 	spriteType = { #阿梅迪奥二世
-		name = "GFX_idea_ARG_Amedeo_II"
+		name = "GFX_leader_ARG_Amedeo_II"
 		texturefile = "gfx/leaders/ARG/ARG_Amedeo_II.dds"
+		legacy_lazy_load = no
 	}
 	spriteType = { #马塞洛·托尔夸托·德·阿尔维亚尔
 		name = "GFX_leader_ARG_Marcelo_Torquato_de_Alvial"
 		texturefile = "gfx/leaders/ARG/ARG_Marcelo_Torquato_de_Alvial.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = { #恩里克·马丁内斯
+        name = "GFX_leader_ARG_Enrique_Ma_rtinez"
+        textureFile = "gfx/leaders/ARG/ARG_Enrique_Ma_rtinez.dds"
+    }
 	spriteType = { #胡安·皮斯塔里尼
 		name = "GFX_general_ARG_Juan_Pistarini"
 		texturefile = "gfx/leaders/ARG/ARG_Juan_Pistarini.dds"
@@ -24,6 +29,23 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ARG/ARG_Edelmiro_Julian_Farrell_Proul.dds"
 		legacy_lazy_load = no
 	}
+	 #事件及世界新闻配图
+    spriteType = { #阿根廷的吹哨人
+        name = "GFX_news_AGR_Argentina_s_whistleblower"
+        textureFile = "gfx/interface/news/ARG/ARG_Argentina_s_whistleblowe.dds"
+    }
+	spriteType = { #恩里克·马丁内斯接任总统
+        name = "GFX_news_ARG_Enrique_Ma_rtinez_toap"
+        textureFile = "gfx/interface/news/ARG/ARG_Enrique_Ma_rtinez_toap.dds"
+    }
+	spriteType = { #大统领的胜利
+        name = "GFX_news_ARG_The_Presidents_Victory"
+        textureFile = "gfx/interface/news/ARG/ARG_The_Presidents_Victory.dds"
+    }
+	spriteType = { #奉天靖难
+        name = "GFX_news_ARG_Fengtian_Jingnan"
+        textureFile = "gfx/interface/news/ARG/ARG_Fengtian_Jingnan.dds"
+    }
 
 	###民族精神
 	spriteType = { #饱受争议的王室

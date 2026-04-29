@@ -1,14 +1,13 @@
 guiTypes = {
-    containerWindowType = {
-		name = "subideology_container"
+    containerWindowType = { #子意思形态显示-政治界面
+		name = "subideology_container_politics"
 		position = { x = 201 y = 271 }
-		
 		instantTextboxType = {
 			name = "subideology_name"
 			position = { x = 9 y = 10 }
-			font = "hoi_16mbs"
-			text = "[get_subideology]"
-			pdx_tooltip = "[get_subideology]"
+			font = "hoi_16mbs" 
+			text = "[GetIdeologySubtype]"
+			pdx_tooltip = "[GetIdeologySubtype]"
 			maxWidth = 155
 			maxHeight = 20
 			fixedsize = yes
@@ -16,4 +15,20 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
+	#containerWindowType = { #子意思形态显示-外交界面
+	#	name = "subideology_container_diplomacy"
+	#	position = { x = 203 y = 271 }
+	#	instantTextboxType = {
+	#		name = "subideology_name"
+	#		position = { x = 60 y = -126 }
+	#		font = "hoi_16mbs"
+	#		text = "[GetIdeologySubtype]"
+	#		pdx_tooltip = "[GetIdeologySubtype]"
+	#		maxWidth = 155
+	#		maxHeight = 20
+	#		fixedsize = yes
+	#		format = left
+	#		alwaystransparent = yes
+	#	}
+	#}
 }

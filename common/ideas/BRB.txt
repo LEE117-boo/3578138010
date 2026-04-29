@@ -60,7 +60,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				political_power_factor = 0.05
-				custom_modifier_tooltip = BRB_Vargas_Populism_tt
+				tttt_drift = 0.01
 			}
 
 		}

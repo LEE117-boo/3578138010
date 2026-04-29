@@ -8,7 +8,7 @@ CSA_Richmond_Confederation = { #里士满邦联大会
 		original_tag = CSA
 	}
 	visible = { 
-		has_country_flag = CSA_Richmond_Confederation
+		has_completed_focus = CSA_The_status_quo_atcc
 	}
 }
 CSA_western_affairs_decision = { #西部事宜
@@ -16,7 +16,7 @@ CSA_western_affairs_decision = { #西部事宜
 		original_tag = CSA
 	}
 	visible = { 
-		has_country_flag = CSA_western_affairs
+		has_completed_focus = CSA_western_affairs
 	}
 }
 CSA_Recruiting_Cowboys = { #招募牛仔
@@ -24,6 +24,6 @@ CSA_Recruiting_Cowboys = { #招募牛仔
 		original_tag = CSA
 	}
 	visible = { 
-		has_country_flag = CSA_Gathering_loyal_cowboys
+		has_completed_focus = CSA_Gathering_loyal_cowboys
 	}
 }

@@ -43,9 +43,9 @@ guiTypes = {
 
 		iconType = {
 			name ="GFX_diplo_faction_icon"
-			spriteType = "GFX_find_screen_button"
+			spriteType = "GFX_second_leader_show"
 			position = { x = 145 y = 246 }
-			pdx_tooltip = "second_leader_tt"
+			pdx_tooltip = "second_leader_tt" 
 			scale = 0.85
 		}
 	}
@@ -57,6 +57,7 @@ guiTypes = {
 		hide_animation_type = accelerated
 		animation_time = 300	
 		size = { width=725 height=100%% }
+		clipping = no
 		
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
@@ -159,14 +160,14 @@ guiTypes = {
 #				maxHeight = 20
 #			}
 			
-			#instantTextboxType = {
-			#	name = "ideology"
-			#	position = { x = 85 y = 70 }
-			#	font = "hoi_18mbs"
-			#	text = "ideology"
-			#	maxWidth = 100
-			#	maxHeight = 300
-			#}
+			instantTextboxType = {
+				name = "ideology"
+				position = { x = -1000 y = 70 }
+				font = "hoi_18mbs"
+				text = "ideology"
+				maxWidth = 100
+				maxHeight = 300
+			}
 			instantTextboxType = {
 				name = "elections"
 				position = { x = 85 y = 90 }

@@ -14,7 +14,10 @@ set_technology = {
 
 recruit_character = SCF_Southern_California_AC 
 
-
+declare_war_on = {
+	target = BBR
+	type = civil_war
+}
 add_ideas = {
 	SCF_hunluan_weiyuanhui
 	SCF_yiming_qingrao

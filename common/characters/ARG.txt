@@ -3,7 +3,7 @@ characters = {
 		name = ARG_Amedeo_II
 		portraits = {
 			civilian = {
-				large = "GFX_idea_ARG_Amedeo_II"
+				large = GFX_leader_ARG_Amedeo_II
 			}
 		} 
 	 country_leader = {
@@ -13,6 +13,22 @@ characters = {
 			ARG_honorary_king
         }
     }
+	}
+    ARG_Marcelo_Torquato_de_Alvial = { #马塞洛·托尔夸托·德·阿尔维亚尔
+		name = ARG_Marcelo_Torquato_de_Alvial
+		portraits = {
+			civilian = {
+				large = GFX_leader_ARG_Marcelo_Torquato_de_Alvial
+			}
+		} 
+	}
+    ARG_Enrique_Ma_rtinez = { #恩里克·马丁内斯
+		name = ARG_Enrique_Ma_rtinez
+		portraits = {
+			civilian = {
+				large = GFX_leader_ARG_Enrique_Ma_rtinez
+			}
+		} 
 	}
 	ARG_Pedro_Eugenio_Aramburu =  { #佩德罗·欧亨尼奥·阿兰布鲁
         name = ARG_Pedro_Eugenio_Aramburu

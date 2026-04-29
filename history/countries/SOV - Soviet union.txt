@@ -32,6 +32,10 @@ set_autonomy = {
 	target = FEM
 	autonomy_state = Governorate
 }
+set_autonomy = {
+	target = FIN
+	autonomy_state = Governorate
+}
 
 set_politics = {
 	ruling_party = Progressivism

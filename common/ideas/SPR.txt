@@ -18,6 +18,24 @@ ideas = {
 				war_support_factor = -0.15
 			}
 		}
+		SPR_Legacy_of_the_Civil_War_2 = { #内战的遗产
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SPR_Legacy_of_the_Civil_War_2"}
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = 0.02
+				line_change_production_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.05
+				war_support_factor = -0.15
+				local_resources_factor = 0.02
+			}
+		}
 		SPR_spanish_army = { #西班牙军队
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SPR_spanish_army "}
 			picture = GFX_idea_SPR_spanish_army

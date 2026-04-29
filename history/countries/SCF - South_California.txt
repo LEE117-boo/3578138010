@@ -14,7 +14,6 @@ set_technology = {
 
 recruit_character = SCF_Southern_California_AC 
 
-
 add_ideas = {
 	SCF_hunluan_weiyuanhui
 	SCF_yiming_qingrao

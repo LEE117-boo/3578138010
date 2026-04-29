@@ -10,6 +10,7 @@ state={
 
 	history={
 		owner = BBR
+		controller = COO
 		add_core_of = COO
 		add_core_of = CSA
 		buildings = {

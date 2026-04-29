@@ -23,22 +23,20 @@ add_ideas = {
 		SPR_Autonomy_Dilemma #自治难题
 	}
 	recruit_character = SPR_Miguel_Primo_Derivella #米格尔·普里莫·德里维拉
-	recruit_character = SPR_Serralo_Sunier #塞拉洛·苏涅尔
+	recruit_character = SPR_Jose_Antonio_Primo_de_la_Villa #何塞·安东尼奥·普里莫·德里维拉
+	recruit_character = SPR_Don_Carlos #唐·卡洛斯
 	recruit_character = SPR_Francisco_Franco #弗朗西斯科·佛朗哥
-	165 = {
-		add_dynamic_modifier = { modifier = autonomous_state }
-	}
-	171 = {
-		add_dynamic_modifier = { modifier = autonomous_state }
-	}
-	792 = {
-		add_dynamic_modifier = { modifier = autonomous_state }
-	}
-
-
+	recruit_character = SPR_Serralo_Sunier #塞拉洛·苏涅尔
+	recruit_character = SPR_Fidel_Davila_Arondo #菲德尔·达维拉·阿隆多
+	recruit_character = SPR_Francisco_Martin_Moreno #弗朗西斯科·马丁·莫雷诺
+	recruit_character = SPR_Emilio_Esteban_Infant #埃米利奥・埃斯特班・因凡特
+	recruit_character = SPR_Agustin_Munoz_Grandes #阿古斯丁·穆尼奥斯·格兰德斯
+	recruit_character = SPR_Juan_Vigon_Sueirodias #胡安·维贡·苏埃罗迪亚斯
+	recruit_character = SPR_Manuel_Dies_Allegria #曼努埃尔·迪耶斯·阿莱格里亚
+	recruit_character = SPR_Carlos_Asensio_Cabanillas #卡洛斯·阿森西奥·卡巴尼利亚斯
 set_autonomy = {
 		target = VEN
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_dominion 
 		freedom_level = 0.5
 	}
 set_autonomy = {

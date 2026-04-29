@@ -22,6 +22,14 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"BBR"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"MEX"={
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
 			ideology = Progressivism
@@ -43,14 +51,6 @@ bookmarks = {
 			ideology = Conservatism
 			ideas = {
 				
-			}
-			focuses = {
-			}
-		}
-		"BOL"={
-			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Authoritarianism
-			ideas = {
 			}
 			focuses = {
 			}

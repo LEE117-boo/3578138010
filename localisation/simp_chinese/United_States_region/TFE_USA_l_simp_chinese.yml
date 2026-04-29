@@ -3,3 +3,18 @@
     USA_DEF:0 "美利坚合众国"
 
     USA_John_Calvin_Coolidge:0 "约翰·卡尔文·柯立芝"
+
+    USA_Communism_party: "美国共产党"
+    USA_Socialism_party:0 "社会主义人民平等党"
+    USA_Progressivism_party:0 "自由意志党"
+    USA_Liberalism_party:0 "美国共和党"
+    USA_Democracy_party:0 "美国民主党"
+    USA_Conservatism_party:0 "“美国人”党"
+    USA_Authoritarianism_party:0 "公司寡头"
+    USA_fascism_party:0 "美国至上党"
+    USA_nazism_party:0 "洛克威尔派"
+    USA_The_aftermath_of_the_ec:0 "经济危机的余波"
+    USA_Ford_giant:0 "福特公司巨头"
+    USA_Ford_giant_tt:0 "§Y每月寡头影响力: +0.1§!"
+    USA_Southern_Enemy:0 "南方宿敌"
+    USA_political_openness:0 "政治开放" 

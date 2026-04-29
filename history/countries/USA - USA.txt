@@ -31,6 +31,12 @@ set_autonomy = {
 
 recruit_character = USA_John_Calvin_Coolidge #约翰·卡尔文·柯立芝
 
+add_ideas = {
+	USA_The_aftermath_of_the_ec #经济危机的余波
+    USA_Ford_giant #福特公司巨头
+    USA_Southern_Enemy #南方宿敌
+    USA_political_openness #政治开放
+}
 
 set_politics = {
 	ruling_party = Liberalism
@@ -39,19 +45,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	Progressivism = 27
-	nazism = 25
-	Conservatism = 23
-	liberalism = 15
-	fascism = 5
-	Socialism = 4
-	tttt = 1
+	Communism = 11
+	Socialism = 5
+	Progressivism = 10
+	Liberalism = 38
+	Democracy = 20
+	Conservatism = 5
+	Authoritarianism = 5
+	fascism = 4
+	nazism = 2
 }
 
 add_ideas = {
-	Steel_Belt_Industrial_Zone
-	Extremism_is_on_the_rise
-	The_two_party_politics_are_about_to_end
-	High_military_alert
-	An_almost_paranoid_trend_of_nationalist_unification
+	
 }
