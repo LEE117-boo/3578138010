@@ -9,11 +9,10 @@ state={
 	state_category = town
 
 	history={
-		owner = BBR
-		controller = COO
+		owner = COO
 		add_core_of = COO
 		add_core_of = CSA
-		buildings = {
+		buildings = { 
 			infrastructure = 2
 			industrial_complex = 1
 		}

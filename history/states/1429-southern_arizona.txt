@@ -13,7 +13,8 @@ state={
 	}
 
 	history={
-		owner = ARI
+		owner = BBR
+		controller = ARI
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
