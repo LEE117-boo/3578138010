@@ -24,31 +24,39 @@ idea_categories = {
 	}
 	
 	government = {
+		character_slot = second_in_command
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+	acts = {
+		slot = education
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		
+		slot = military_principle
+		slot = welfare
+
 		ledger = civilian
 		
 		cost = 150
 		removal_cost = 0
 	}
 	indicator = {
-		slot = education
+		slot = agriculture
 		slot = industry
+		slot = administrative_efficiency
 		slot = military
 		slot = society
-		ledger = civilian
-		
-		cost = 150
-		removal_cost = 0
-	}
+		slot = poverty
 
-	内阁顾问 = {
-		character_slot = second_in_command
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
 		ledger = civilian
 		
 		cost = 150

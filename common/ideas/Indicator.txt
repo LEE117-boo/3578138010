@@ -1,81 +1,4 @@
 ideas = {
-	education = {
-		law = yes
-		use_list_view = yes
-
-		no_educate = {
-
-
-			allowed = {
-				always = yes
-			}
-			cost = 150
-			modifier = {
-				#consumer_goods_expected_value = 0.50
-				production_speed_industrial_complex_factor = -0.1
-				production_speed_arms_factory_factor = -0.1
-				production_speed_dockyard_factor = -0.1
-				conversion_cost_civ_to_mil_factor = 0.5
-			}
-
-
-			cancel_if_invalid = no
-		}
-
-		less_educate = {
-
-
-			allowed = {
-				always = yes
-			}
-			cost = 150
-			modifier = {
-				#consumer_goods_expected_value = 0.50
-				conversion_cost_civ_to_mil_factor = 0.3
-			}
-
-
-			cancel_if_invalid = no
-		}
-		normal_educate = {
-
-			default = yes
-			allowed = {
-				always = yes
-			}
-			cost = 150
-			modifier = {
-				consumer_goods_expected_value = 0.05
-				production_speed_industrial_complex_factor = 0.2
-				stability_factor = 0.2
-				command_power_gain = 0.3
-			}
-
-
-			cancel_if_invalid = no
-		}
-		reich_educate = {
-
-
-			allowed = {
-				always = yes
-			}
-			cost = 150
-			modifier = {
-				consumer_goods_expected_value = 0.1
-				production_speed_industrial_complex_factor = 0.3
-				stability_factor = 0.3
-				command_power_gain = 0.4
-				compliance_gain = 0.05
-				conscription = 0.5
-				industrial_capacity_factory = -0.05
-			}
-
-
-			cancel_if_invalid = no
-		}
-
-	}
 	industry = {
 		law = yes
 		use_list_view = yes
@@ -97,7 +20,6 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-
 		less_industry = {
 
 
@@ -152,7 +74,6 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-
 	}
 	military = {
 		law = yes
@@ -176,7 +97,6 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-
 		less_military = {
 
 
@@ -231,15 +151,12 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-
 	}
 	society = {
 		law = yes
 		use_list_view = yes
 
 		no_society = {
-
-
 			allowed = {
 				always = yes
 			}
@@ -254,10 +171,7 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-
 		less_society = {
-
-
 			allowed = {
 				always = yes
 			}
@@ -273,7 +187,6 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		normal_society = {
-
 			default = yes
 			allowed = {
 				always = yes
@@ -292,8 +205,6 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		reich_society = {
-
-
 			allowed = {
 				always = yes
 			}
@@ -310,6 +221,178 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+	}
 
+	agriculture = {
+		law = yes
+		use_list_view = yes
+
+		primitive_agriculture = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				consumer_goods_factor = 0.1
+				monthly_population = -0.1
+				stability_factor = -0.15
+				industrial_capacity_factory = -0.20
+			}
+			cancel_if_invalid = no
+		}
+		feudal_agriculture = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				consumer_goods_factor = 0.05
+				monthly_population = -0.05
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.10
+			}
+			cancel_if_invalid = no
+		}
+		modern_agriculture = {
+			default = yes
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				consumer_goods_factor = -0.05
+				monthly_population = 0.10
+				stability_factor = 0.075
+				industrial_capacity_factory = 0.075
+			}
+			cancel_if_invalid = no
+		}
+		fully_mechanized_agriculture = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				consumer_goods_factor = -0.1
+				monthly_population = 0.15
+				stability_factor = 0.15
+				industrial_capacity_factory = 0.1
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	administrative_efficiency = {
+		law = yes
+		use_list_view = yes
+
+		corrupt_state = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				political_power_factor = -0.5
+				production_speed_buildings_factor = -0.2
+				political_advisor_cost_factor = 0.25
+			}
+			cancel_if_invalid = no
+		}
+		severe_bureaucracy = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				political_power_factor = -0.25
+				production_speed_buildings_factor = -0.1
+				political_advisor_cost_factor = 0.1
+			}
+			cancel_if_invalid = no
+		}
+		normal_government = {
+			default = yes
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				political_power_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+			cancel_if_invalid = no
+		}
+		efficient_government = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.15
+				political_advisor_cost_factor = -0.1
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	poverty = {
+		law = yes
+		use_list_view = yes
+
+		high_poverty = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_start_efficiency_factor = -0.15
+				monthly_population = 0.15
+			}
+			cancel_if_invalid = no
+		}
+		common_poverty = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.05
+				production_factory_start_efficiency_factor = -0.05
+				monthly_population = 0.05
+			}
+			cancel_if_invalid = no
+		}
+		less_poverty = {
+			default = yes
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				stability_factor = -0.025
+				political_power_factor = -0.05
+			}
+			cancel_if_invalid = no
+		}
+		no_poverty = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_start_efficiency_factor = 0.10
+				monthly_population = -0.025
+			}
+			cancel_if_invalid = no
+		}
 	}
 }

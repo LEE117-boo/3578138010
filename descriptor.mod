@@ -4,6 +4,7 @@ tags={
 }
 name="终焉回响"
 replace_path="common/bookmarks"
+replace_path="common/modifier_definitions"
 replace_path="common/characters"
 replace_path="common/ideologies"
 replace_path="map/bulidings.txt"

@@ -1430,4 +1430,202 @@ ideas = {
 
 		}
 	}
+
+	military_principle = {
+		law = yes
+		use_list_view = yes
+
+		traditional_limitations = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				political_power_factor = 0.10
+				army_org_factor = -0.075
+				attrition = 0.05
+				supply_consumption_factor = -0.05
+			}
+			cancel_if_invalid = no
+		}
+		bandit_warfare = {
+			default = yes
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				equipment_capture = 0.05
+				supply_consumption_factor = -0.1
+				resistance_growth = 0.15
+				resistance_target = 0.2
+				army_attack_factor = 0.05
+			}
+			cancel_if_invalid = no
+		}
+		shield_of_democracy = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				army_attack_factor = 0.025
+				army_defence_factor = 0.025
+				Progressivism_drift = 0.05
+				Liberalism_drift = 0.05
+				Democracy_drift = 0.05
+			}
+			cancel_if_invalid = no
+		}
+		revolutionary_principles = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_org_factor = 0.075
+				Communism_drift = 0.05
+				Socialism_drift = 0.05
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	welfare = {
+		law = yes
+		use_list_view = yes
+
+		no_welfare = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.05
+			}
+			cancel_if_invalid = no
+		}
+		basic_welfare = {
+			default = yes
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.025
+				production_speed_buildings_factor = 0.025
+			}
+			cancel_if_invalid = no
+		}
+		high_welfare = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = 0.075
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+			cancel_if_invalid = no
+		}
+		social_state = {
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				consumer_goods_factor = 0.2
+				stability_factor = 0.1
+				industrial_capacity_factory = 0.15
+				production_speed_buildings_factor = 0.15
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	education = {
+		law = yes
+		use_list_view = yes
+
+		no_educate = {
+
+
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				#consumer_goods_expected_value = 0.50
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
+				conversion_cost_civ_to_mil_factor = 0.5
+			}
+
+
+			cancel_if_invalid = no
+		}
+
+		less_educate = {
+
+
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				#consumer_goods_expected_value = 0.50
+				conversion_cost_civ_to_mil_factor = 0.3
+			}
+
+
+			cancel_if_invalid = no
+		}
+		normal_educate = {
+
+			default = yes
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				consumer_goods_expected_value = 0.05
+				production_speed_industrial_complex_factor = 0.2
+				stability_factor = 0.2
+				command_power_gain = 0.3
+			}
+
+
+			cancel_if_invalid = no
+		}
+		reich_educate = {
+
+
+			allowed = {
+				always = yes
+			}
+			cost = 150
+			modifier = {
+				consumer_goods_expected_value = 0.1
+				production_speed_industrial_complex_factor = 0.3
+				stability_factor = 0.3
+				command_power_gain = 0.4
+				compliance_gain = 0.05
+				conscription = 0.5
+				industrial_capacity_factory = -0.05
+			}
+
+
+			cancel_if_invalid = no
+		}
+
+	}
 }
