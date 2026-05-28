@@ -27,7 +27,11 @@ set_autonomy = {
 		autonomous_state = Autonomous_state
 		freedom_level = 0.5
 }
-
+set_party_name = {
+	ideology = tttt
+	name = illegal
+	long_name = illegal_long
+}
 
 recruit_character = USA_John_Calvin_Coolidge #约翰·卡尔文·柯立芝
 
@@ -35,9 +39,10 @@ add_ideas = {
 	USA_The_aftermath_of_the_ec #经济危机的余波
     USA_Ford_giant #福特公司巨头
     USA_Southern_Enemy #南方宿敌
-    USA_political_openness #政治开放
+    USA_political_openness #开放的社会风气
+	USA_divided_house #分裂之家
 }
-
+send_embargo = CSA
 set_politics = {
 	ruling_party = Liberalism
 	last_election = "1932.11.8"
@@ -54,8 +59,4 @@ set_popularities = {
 	Authoritarianism = 5
 	fascism = 4
 	nazism = 2
-}
-
-add_ideas = {
-	
 }

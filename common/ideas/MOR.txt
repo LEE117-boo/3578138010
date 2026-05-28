@@ -2,7 +2,6 @@ ideas = {
 	country = { 
 		MOR_Afrika_Korps = { #非洲军团
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MOR_Afrika_Korps"}
-			picture = GFX_idea_MOR_Afrika_Korps
 			modifier = {
 				army_org_factor = 0.005
 				army_speed_factor = 0.07

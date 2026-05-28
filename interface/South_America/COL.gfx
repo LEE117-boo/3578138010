@@ -1,0 +1,71 @@
+spriteTypes = { 
+	###领导人
+	spriteType = { #豪尔赫·埃利塞尔·盖坦
+		name = "GFX_leader_COL_Jorge_Elisel_Gaitan" 
+		texturefile = "gfx/leaders/COL/COL_Jorge_Elisel_Gaitan.dds" 
+	}
+	spriteType = { #国民议会
+		name = "GFX_leader_COL_National_Assembly" 
+		texturefile = "gfx/leaders/COL/COL_National_Assembly.dds" 
+	}
+	spriteType = { #普利尼奥·门多萨·内拉
+		name = "GFX_leader_COL_Plinio_Mendoza_Neran" 
+		texturefile = "gfx/leaders/COL/COL_Plinio_Mendoza_Nera.dds" 
+	}
+	###民族精神
+	spriteType = { #盖坦运动的遗产和遗波
+		name = "GFX_idea_COL_The_legacy_and_aotgm" 
+		texturefile = "gfx/interface/ideas/COL/COL_The_legacy_and_aotgm.dds"
+	}
+	spriteType = { #完成玻利瓦尔的遗愿
+		name = "GFX_idea_COL_Fulfilling_Bolivars_last_wish" 
+		texturefile = "gfx/interface/ideas/COL/COL_Fulfilling_Bolivars_last_wish.dds"
+	}
+	spriteType = { #嚣张的共和派
+		name = "GFX_idea_COL_Cooperation_between_baa" 
+		texturefile = "gfx/interface/ideas/COL/COL_Cooperation_between_baa.dds"
+	}
+	spriteType = { #分裂之家
+		name = "GFX_idea_COL_divided_house" 
+		texturefile = "gfx/interface/ideas/COL/COL_divided_house.dds"
+	}
+	spriteType = { #不驯边境
+		name = "GFX_idea_COL_Do_not_train_the_border" 
+		texturefile = "gfx/interface/ideas/COL/COL_Do_not_train_the_border.dds"
+	}
+	#配图
+	spriteType = { #盖坦运动的遗产和遗波配图
+		name = "GFX_idea_COL_The_legacy_and_aotgm_Pictures" 
+		texturefile = "gfx/texticons/banners/COL/COL_The_legacy_and_aotgm_Pictures.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = { #完成玻利瓦尔的遗愿配图
+		name = "GFX_idea_COL_Fulfilling_Bolivars_last_wish_Pictures" 
+		texturefile = "gfx/texticons/banners/COL/COL_Fulfilling_Bolivars_last_wish_Pictures.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = { #哥阿合作配图
+		name = "GFX_idea_COL_Cooperation_between_baa_Pictures" 
+		texturefile = "gfx/texticons/banners/COL/COL_Cooperation_between_baa_Pictures.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = { #不驯边境
+		name = "GFX_idea_COL_Do_not_train_the_border_Pictures" 
+		texturefile = "gfx/interface/ideas/COL/COL_Do_not_train_the_border_Pictures.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = { #分裂之家配图
+		name = "GFX_idea_COL_divided_house_Pictures"
+		texturefile = "gfx/texticons/banners/COL/COL_divided_house_Pictures.dds" 
+		legacy_lazy_load = no
+	}
+	#新闻及事件图
+	 spriteType = { #盖坦遇刺
+        name = "GFX_events_COL_Gaitan_assassinated"
+        textureFile = "gfx/interface/events/COL/COL_Gaitan_assassinated.dds"
+    }
+	spriteType = { #哥伦比亚内战
+        name = "GFX_events_COL_Colombian_Civil_War"
+        textureFile = "gfx/interface/events/COL/COL_Colombian_Civil_War.dds"
+    }
+}
