@@ -533,26 +533,26 @@
 	NDefines_Graphics.NGraphics.BORDER_COLOR_SELECTION_PROVINCE_B = 2.55
 	
 	NDefines_Graphics.NGraphics.COUNTRY_COLOR_HUE_MODIFIER = 0.0 -- 0.0
-	NDefines_Graphics.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.3
+	NDefines_Graphics.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.6
 	NDefines_Graphics.NGraphics.COUNTRY_UI_COLOR_HUE_MODIFIER = 0.0 -- 0.0
 	NDefines_Graphics.NGraphics.COUNTRY_UI_COLOR_SATURATION_MODIFIER = 1.0 -- 1.0
 	NDefines_Graphics.NGraphics.COUNTRY_UI_COLOR_BRIGHTNESS_MODIFIER = 1.0 -- 1.0
 	
 	NDefines_Graphics.NGraphics.MOON_HEIGHT = 100 -- 600 higher means softer shadows and more intense light
-	NDefines_Graphics.NGraphics.SUN_HEIGHT  = 500  -- 600 higher means softer shadows and more intense light
+	NDefines_Graphics.NGraphics.SUN_HEIGHT  = 1200  -- 600 higher means softer shadows and more intense light
 	NDefines_Graphics.NGraphics.MOON_HEIGHT_WATER = 100   -- 550 higher means softer shadows and more intense light
 	NDefines_Graphics.NGraphics.SUN_HEIGHT_WATER  = 500  -- 5000 higher means softer shadows and more intense light
 	NDefines_Graphics.NGraphics.SUN_LATITUDE  = 777 -- 848
 	
 	NDefines_Graphics.NGraphics.SUN_DIFFUSE_COLOR = {0.14, 0.0, 1.0}
-	NDefines_Graphics.NGraphics.SUN_INTENSITY = 0.7 -- 1.0
+	NDefines_Graphics.NGraphics.SUN_INTENSITY = 0.9 -- 1.0
 	NDefines_Graphics.NGraphics.SUN_SPECULAR_INTENSITY = 1.0
 	NDefines_Graphics.NGraphics.MOON_DIFFUSE_COLOR = {0.58, 0.5, 1.0}
 	NDefines_Graphics.NGraphics.MOON_INTENSITY = 2.5 -- 2.5
 	
 	NDefines_Graphics.NGraphics.MIN_HDR_ADJUSTMENT = 0.5   --0.5
 	NDefines_Graphics.NGraphics.MAX_HDR_ADJUSTMENT = 1.0     --1.0
-
+    GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_COUNTRY = 0.08
 	-- Peace Conferences
 	NDefines.NDiplomacy.PEACE_SCORE_SCALE_FACTOR = 2.15							-- Vanilla is 1.35
 	NDefines.NDiplomacy.PEACE_SCORE_DISTRIBUTION = { 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 } -- Vanilla is 0.2 in the first five turns
